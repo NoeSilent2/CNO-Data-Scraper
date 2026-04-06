@@ -1,0 +1,140 @@
+{
+  "implemented": true,
+  "name": "flintlet",
+  "nationalPokedexNumber": 1077,
+  "primaryType": "rock",
+  "secondaryType": "dark",
+  "abilities": [
+    "sharpness",
+    "h:hugepower"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 90,
+    "defence": 49,
+    "special_attack": 56,
+    "special_defence": 32,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": false,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "mineral",
+    "monster"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:flint",
+        "quantityRange": "1-1",
+        "percentage": 100
+      },
+      {
+        "item": "minecraft:cobblestone",
+        "quantityRange": "1-3",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:sandattack",
+    "1:rocktomb",
+    "7:feintattack",
+    "10:lowsweep",
+    "12:spite",
+    "14:brutalswing",
+    "17:sandstorm",
+    "21:smackdown",
+    "26:headbutt",
+    "28:slash",
+    "31:nightslash",
+    "36:sharpen",
+    "37:stoneedge",
+    "39:hammerarm",
+    "45:throatchop",
+    "48:drillrun",
+    "52:headsmash",
+    "tm:guillotine",
+    "tm:beatup",
+    "tm:swordsdance",
+    "tm:swagger",
+    "tm:xscissor",
+    "tm:sacredsword",
+    "tm:rockpolish",
+    "tm:closecombat",
+    "tm:icehammer",
+    "tm:ironhead",
+    "tm:accelerock"
+  ],
+  "labels": [
+    "frontiermon"
+  ],
+  "pokedex": [
+    "cobblemon.species.flintlet.desc"
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.8,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 200,
+  "evolutions": [
+    {
+      "id": "flintlet_cragahuitl",
+      "variant": "level_up",
+      "result": "cragahuitl",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "ceaselessedge"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ]
+    }
+  ]
+}

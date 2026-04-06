@@ -1,0 +1,114 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1151,
+  "name": "bunger",
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.bunger.desc1",
+    "cobblemon.species.bunger.desc2"
+  ],
+  "height": 5,
+  "weight": 408,
+  "shoulderMountable": false,
+  "primaryType": "bug",
+  "secondaryType": "fighting",
+  "baseStats": {
+    "hp": 70,
+    "attack": 67,
+    "defence": 80,
+    "special_attack": 90,
+    "special_defence": 70,
+    "speed": 85
+  },
+  "catchRate": 43,
+  "maleRatio": -1,
+  "baseExperienceYield": 100,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 27,
+  "eggGroups": [
+    "bug",
+    "monster"
+  ],
+  "baseFriendship": 38,
+  "evYield": {
+    "hp": 1,
+    "defence": 1,
+    "special_attack": 1
+  },
+  "moves": [
+    "egg:ragingfury",
+    "1:tackle",
+    "3:headbutt",
+    "5:hornattack",
+    "7:megahorn",
+    "9:fling",
+    "10:swagger",
+    "12:bodyslam",
+    "18:zenheadbutt",
+    "24:uturn",
+    "34:takedown",
+    "40:bulldoze",
+    "50:bungerblast",
+    "tm:facade",
+    "tm:closecombat",
+    "tm:bulkup",
+    "tm:thief",
+    "tm:protect",
+    "tm:gigaimpact",
+    "tm:circlethrow",
+    "tm:leer",
+    "tm:lunge",
+    "tm:bugbite",
+    "tm:skittersmack",
+    "tm:strugglebug",
+    "tm:sleeptalk",
+    "tm:reversal",
+    "tm:xscissor",
+    "tm:pounce",
+    "tm:bugbite",
+    "tm:trailblaze",
+    "tm:swift",
+    "tm:taunt",
+    "tm:frustration",
+    "tm:mefirst",
+    "tm:block"
+  ],
+  "abilities": [
+    "eartheater",
+    "steadfast",
+    "h:merciless"
+  ],
+  "evolutions": [],
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 1,
+    "height": 0.9,
+    "fixed": false
+  },
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "farmersdelight:hamburger",
+        "quantityRange": "1",
+        "percentage": 100
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "nationalPokedexNumber": 1169
+}

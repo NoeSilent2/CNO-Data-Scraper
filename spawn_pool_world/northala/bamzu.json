@@ -1,0 +1,40 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bamzu-1",
+      "pokemon": "bamzu",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "5-16",
+      "weight": 1.0,
+      "condition": {
+        "biomes": [
+          "minecraft:bamboo_jungle"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "bamzu-2",
+      "pokemon": "bamzu",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "8-16",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "timeRange": "day",
+        "neededNearbyBlocks": [
+          "minecraft:bamboo"
+        ]
+      }
+    }
+  ]
+}

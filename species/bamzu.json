@@ -1,0 +1,126 @@
+{
+  "implemented": true,
+  "name": "bamzu",
+  "nationalPokedexNumber": 1026,
+  "primaryType": "grass",
+  "abilities": [
+    "overgrow",
+    "h:bulletproof"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 55,
+    "defence": 65,
+    "special_attack": 50,
+    "special_defence": 55,
+    "speed": 40
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "depth": "normal",
+      "light": "0-4"
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "monster",
+    "grass"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:bamboo",
+        "quantityRange": "1-3",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "4:leafage",
+    "7:defensecurl",
+    "10:bulletseed",
+    "13:rollout",
+    "16:razorleaf",
+    "19:protect",
+    "22:synthesis",
+    "25:pinmissile",
+    "28:seedbomb",
+    "31:ingrain",
+    "34:leafblade",
+    "egg:leechseed",
+    "egg:grassyterrain",
+    "egg:worryseed",
+    "egg:curse",
+    "tm:energyball",
+    "tm:solarbeam",
+    "tm:grassknot",
+    "tm:protect",
+    "tm:swordsdance",
+    "tm:facade",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure"
+  ],
+  "labels": [
+    "starter",
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.bamzu.desc1"
+  ],
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.5,
+    "height": 1.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 90,
+  "evolutions": [
+    {
+      "id": "bamzu-bambud",
+      "variant": "level_up",
+      "result": "bambud",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "lymming-1",
+            "pokemon": "lymming",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "11-28",
+            "weight": 7.2,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "minecraft:stony_peaks"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "minecraft:dripstone_caves"
+                ]
+            }
+        },
+        {
+            "id": "lymming-2",
+            "pokemon": "lymming",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "8-26",
+            "weight": 4.1,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "byg:fragment_forest"
+                ]
+            }
+        }
+    ]
+}

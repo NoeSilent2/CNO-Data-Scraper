@@ -1,0 +1,1125 @@
+{
+  "target": "cobblemon:frillish",
+  "forms": [
+    {
+      "name": "Ghast",
+      "primaryType": "flying",
+      "maleRatio": 0.5,
+      "height": 12,
+      "weight": 330,
+      "pokedex": [
+        "cobblemon.species.frillish-ghast.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "ghast"
+      ],
+      "abilities": [
+        "dryskin",
+        "clearbody",
+        "h:flareboost"
+      ],
+      "eggGroups": [
+        "amorphous"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 20,
+        "defence": 50,
+        "special_attack": 75,
+        "special_defence": 85,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "baseScale": 1,
+      "hitbox": {
+        "width": 0.65,
+        "height": 1.45,
+        "fixed": false
+      },
+       "behaviour": {
+         "herd": {
+           "maxSize": "5",
+           "toleratedLeaders": [
+             {
+               "pokemon": "jellicent happy_ghast",
+               "tier": 1
+             },
+             {
+               "pokemon": "jellicent grumpy_ghast",
+               "tier": 1
+             },
+             {
+               "pokemon": "jellicent apathy_ghast",
+               "tier": 1
+             }
+           ]
+         },
+         "moving": {
+           "fly": {
+             "canFly": true
+           },
+           "swim": {
+             "avoidsWater": false
+           },
+           "walk": {
+             "canWalk": false
+           }
+         },
+         "resting": {
+           "canSleep": true,
+           "light": "0-4",
+           "times": [
+             "any"
+           ],
+           "drowsyChance": 0.0033,
+           "rouseChance": 0.0042
+         },
+         "combat": {
+           "willDefendSelf": false,
+           "willDefendOwner": true,
+           "willFlee": true
+         }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:ghast_tear",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "minecraft:gunpowder",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "cobblemon:wacan_berry",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "moves": [
+        "1:gust",
+        "1:barrage",
+        "1:defog",
+        "1:absorb",
+        "1:rockblast",
+        "4:clearsmog",
+        "8:ancientpower",
+        "12:aircutter",
+        "16:tailwind",
+        "20:skydrop",
+        "22:selfdestruct",
+        "24:flamecharge",
+        "28:recover",
+        "32:weatherball",
+        "34:airslash",
+        "36:mudbomb",
+        "38:sunnyday",
+        "38:raindance",
+        "41:explosion",
+        "44:destinybond",
+        "48:hurricane",
+        "egg:acidarmor",
+        "egg:confuseray",
+        "egg:constrict",
+        "egg:mist",
+        "egg:painsplit",
+        "egg:strengthsap",
+        "egg:wringout",
+        "tm:acrobatics",
+        "tm:aircutter",
+        "tm:airslash",
+        "tm:ancientpower",
+        "tm:bind",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:dreameater",
+        "tm:endure",
+        "tm:energyball",
+        "tm:explosion",
+        "tm:facade",
+        "tm:flamecharge",
+        "tm:flash",
+        "tm:fly",
+        "tm:gigadrain",
+        "tm:hex",
+        "tm:hurricane",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:magiccoat",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:painsplit",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:roost",
+        "tm:safeguard",
+        "tm:scald",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:skydrop",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:spite",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:terablast",
+        "tm:trick",
+        "tm:trickroom",
+        "tm:weatherball",
+        "tm:willowisp",
+        "tutor:bind",
+        "tutor:darkpulse",
+        "tutor:dazzlinggleam",
+        "tutor:energyball",
+        "tutor:gigadrain",
+        "tutor:icywind",
+        "tutor:magiccoat",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:sleeptalk",
+        "tutor:sludgebomb",
+        "tutor:spite",
+        "tutor:trick"
+      ],
+      "evolutions": [
+        {
+          "id": "frillish_jellicent_grumpy_ghast",
+          "variant": "level_up",
+          "result": "jellicent grumpy_ghast",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "flameburst"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 40
+            },
+            {
+              "variant": "biome",
+              "biomeAnticondition": "#cobblemon:is_overworld"
+            },
+            {
+              "variant": "biome",
+              "biomeAnticondition": "#cobblemon:is_end"
+            },
+            {
+              "variant": "biome",
+              "biomeCondition": "#minecraft:is_nether"
+            }
+          ]
+        },
+        {
+          "id": "frillish_jellicent_happy_ghast",
+          "variant": "level_up",
+          "result": "jellicent happy_ghast",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "bubblebeam"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 40
+            },
+            {
+              "variant": "biome",
+              "biomeAnticondition": "#minecraft:is_nether"
+            },
+            {
+              "variant": "biome",
+              "biomeAnticondition": "#cobblemon:is_end"
+            },
+            {
+              "variant": "biome",
+              "biomeCondition": "#cobblemon:is_overworld"
+            }
+          ]
+        },
+        {
+          "id": "frillish_jellicent_apathy_ghast",
+          "variant": "level_up",
+          "result": "jellicent apathy_ghast",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "electroball"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 40
+            },
+            {
+              "variant": "biome",
+              "biomeAnticondition": "#minecraft:is_nether"
+            },
+            {
+              "variant": "biome",
+              "biomeAnticondition": "#cobblemon:is_overworld"
+            },
+            {
+              "variant": "biome",
+              "biomeCondition": "#cobblemon:is_end"
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Grumpy-Ghast",
+      "primaryType": "flying",
+      "maleRatio": 0.5,
+      "height": 12,
+      "weight": 330,
+      "pokedex": [
+        "cobblemon.species.frillish-ghast.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "grumpy_ghast"
+      ],
+      "abilities": [
+        "dryskin",
+        "clearbody",
+        "h:flareboost"
+      ],
+      "eggGroups": [
+        "amorphous"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 20,
+        "defence": 50,
+        "special_attack": 75,
+        "special_defence": 85,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "baseScale": 1,
+      "hitbox": {
+        "width": 0.65,
+        "height": 1.45,
+        "fixed": false
+      },
+       "behaviour": {
+         "herd": {
+           "maxSize": "5",
+           "toleratedLeaders": [
+             {
+               "pokemon": "jellicent happy_ghast",
+               "tier": 1
+             },
+             {
+               "pokemon": "jellicent grumpy_ghast",
+               "tier": 2
+             },
+             {
+               "pokemon": "jellicent apathy_ghast",
+               "tier": 1
+             }
+           ]
+         },
+         "moving": {
+           "fly": {
+             "canFly": true
+           },
+           "swim": {
+             "avoidsWater": false
+           },
+           "walk": {
+             "canWalk": false
+           }
+         },
+         "resting": {
+           "canSleep": true,
+           "light": "0-4",
+           "times": [
+             "any"
+           ],
+           "drowsyChance": 0.0033,
+           "rouseChance": 0.0042
+         },
+         "combat": {
+           "willDefendSelf": false,
+           "willDefendOwner": true,
+           "willFlee": true
+         }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:ghast_tear",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "minecraft:gunpowder",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "cobblemon:wacan_berry",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "moves": [
+        "1:gust",
+        "1:barrage",
+        "1:defog",
+        "1:absorb",
+        "1:rockblast",
+        "4:clearsmog",
+        "8:ancientpower",
+        "12:aircutter",
+        "16:tailwind",
+        "20:skydrop",
+        "22:selfdestruct",
+        "24:flamecharge",
+        "28:recover",
+        "32:weatherball",
+        "34:airslash",
+        "36:mudbomb",
+        "38:sunnyday",
+        "38:raindance",
+        "41:explosion",
+        "44:destinybond",
+        "48:hurricane",
+        "egg:acidarmor",
+        "egg:confuseray",
+        "egg:constrict",
+        "egg:mist",
+        "egg:painsplit",
+        "egg:strengthsap",
+        "egg:wringout",
+        "tm:acrobatics",
+        "tm:aircutter",
+        "tm:airslash",
+        "tm:ancientpower",
+        "tm:bind",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:dreameater",
+        "tm:endure",
+        "tm:energyball",
+        "tm:explosion",
+        "tm:facade",
+        "tm:flamecharge",
+        "tm:flash",
+        "tm:fly",
+        "tm:gigadrain",
+        "tm:hex",
+        "tm:hurricane",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:magiccoat",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:painsplit",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:roost",
+        "tm:safeguard",
+        "tm:scald",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:skydrop",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:spite",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:terablast",
+        "tm:trick",
+        "tm:trickroom",
+        "tm:weatherball",
+        "tm:willowisp",
+        "tutor:bind",
+        "tutor:darkpulse",
+        "tutor:dazzlinggleam",
+        "tutor:energyball",
+        "tutor:gigadrain",
+        "tutor:icywind",
+        "tutor:magiccoat",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:sleeptalk",
+        "tutor:sludgebomb",
+        "tutor:spite",
+        "tutor:trick"
+      ],
+      "evolutions": [
+        {
+          "id": "frillish_jellicent_grumpy_ghast_anywhere",
+          "variant": "level_up",
+          "result": "jellicent grumpy_ghast",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "flameburst"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 40
+            }
+          ]
+        },
+        {
+          "id": "grumpy_frillish_jellicent_happy_ghast",
+          "variant": "level_up",
+          "result": "jellicent happy_ghast grumpy_ghast=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "bubblebeam"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 40
+            },
+            {
+              "variant": "biome",
+              "biomeAnticondition": "#minecraft:is_nether"
+            },
+            {
+              "variant": "biome",
+              "biomeAnticondition": "#cobblemon:is_end"
+            },
+            {
+              "variant": "biome",
+              "biomeCondition": "#cobblemon:is_overworld"
+            }
+          ]
+        },
+        {
+          "id": "grumpy_frillish_jellicent_apathy_ghast",
+          "variant": "level_up",
+          "result": "jellicent apathy_ghast grumpy_ghast=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "electroball"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 40
+            },
+            {
+              "variant": "biome",
+              "biomeAnticondition": "#minecraft:is_nether"
+            },
+            {
+              "variant": "biome",
+              "biomeAnticondition": "#cobblemon:is_overworld"
+            },
+            {
+              "variant": "biome",
+              "biomeCondition": "#cobblemon:is_end"
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Happy-Ghast",
+      "primaryType": "flying",
+      "maleRatio": 0.5,
+      "height": 12,
+      "weight": 330,
+      "pokedex": [
+        "cobblemon.species.frillish-ghast.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "happy_ghast"
+      ],
+      "abilities": [
+        "dryskin",
+        "clearbody",
+        "h:flareboost"
+      ],
+      "eggGroups": [
+        "amorphous"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 20,
+        "defence": 50,
+        "special_attack": 75,
+        "special_defence": 85,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "baseScale": 1,
+      "hitbox": {
+        "width": 0.65,
+        "height": 1.45,
+        "fixed": false
+      },
+       "behaviour": {
+         "herd": {
+           "maxSize": "5",
+           "toleratedLeaders": [
+             {
+               "pokemon": "jellicent happy_ghast",
+               "tier": 2
+             },
+             {
+               "pokemon": "jellicent grumpy_ghast",
+               "tier": 1
+             },
+             {
+               "pokemon": "jellicent apathy_ghast",
+               "tier": 1
+             }
+           ]
+         },
+         "moving": {
+           "fly": {
+             "canFly": true
+           },
+           "swim": {
+             "avoidsWater": false
+           },
+           "walk": {
+             "canWalk": false
+           }
+         },
+         "resting": {
+           "canSleep": true,
+           "light": "0-4",
+           "times": [
+             "any"
+           ],
+           "drowsyChance": 0.0033,
+           "rouseChance": 0.0042
+         },
+         "combat": {
+           "willDefendSelf": false,
+           "willDefendOwner": true,
+           "willFlee": true
+         }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:ghast_tear",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "minecraft:gunpowder",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "cobblemon:wacan_berry",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "moves": [
+        "1:gust",
+        "1:barrage",
+        "1:defog",
+        "1:absorb",
+        "1:rockblast",
+        "4:clearsmog",
+        "8:ancientpower",
+        "12:aircutter",
+        "16:tailwind",
+        "20:skydrop",
+        "22:selfdestruct",
+        "24:flamecharge",
+        "28:recover",
+        "32:weatherball",
+        "34:airslash",
+        "36:mudbomb",
+        "38:sunnyday",
+        "38:raindance",
+        "41:explosion",
+        "44:destinybond",
+        "48:hurricane",
+        "egg:acidarmor",
+        "egg:confuseray",
+        "egg:constrict",
+        "egg:mist",
+        "egg:painsplit",
+        "egg:strengthsap",
+        "egg:wringout",
+        "tm:acrobatics",
+        "tm:aircutter",
+        "tm:airslash",
+        "tm:ancientpower",
+        "tm:bind",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:dreameater",
+        "tm:endure",
+        "tm:energyball",
+        "tm:explosion",
+        "tm:facade",
+        "tm:flamecharge",
+        "tm:flash",
+        "tm:fly",
+        "tm:gigadrain",
+        "tm:hex",
+        "tm:hurricane",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:magiccoat",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:painsplit",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:roost",
+        "tm:safeguard",
+        "tm:scald",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:skydrop",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:spite",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:terablast",
+        "tm:trick",
+        "tm:trickroom",
+        "tm:weatherball",
+        "tm:willowisp",
+        "tutor:bind",
+        "tutor:darkpulse",
+        "tutor:dazzlinggleam",
+        "tutor:energyball",
+        "tutor:gigadrain",
+        "tutor:icywind",
+        "tutor:magiccoat",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:sleeptalk",
+        "tutor:sludgebomb",
+        "tutor:spite",
+        "tutor:trick"
+      ],
+      "evolutions": [
+        {
+          "id": "happy_frillish_jellicent_grumpy_ghast",
+          "variant": "level_up",
+          "result": "jellicent grumpy_ghast happy_ghast=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "flameburst"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 40
+            },
+            {
+              "variant": "biome",
+              "biomeAnticondition": "#cobblemon:is_overworld"
+            },
+            {
+              "variant": "biome",
+              "biomeAnticondition": "#cobblemon:is_end"
+            },
+            {
+              "variant": "biome",
+              "biomeCondition": "#minecraft:is_nether"
+            }
+          ]
+        },
+        {
+          "id": "frillish_jellicent_happy_ghast_anywhere",
+          "variant": "level_up",
+          "result": "jellicent happy_ghast",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "bubblebeam"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 40
+            }
+          ]
+        },
+        {
+          "id": "happy_frillish_jellicent_apathy_ghast",
+          "variant": "level_up",
+          "result": "jellicent apathy_ghast happy_ghast=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "electroball"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 40
+            },
+            {
+              "variant": "biome",
+              "biomeAnticondition": "#minecraft:is_nether"
+            },
+            {
+              "variant": "biome",
+              "biomeAnticondition": "#cobblemon:is_overworld"
+            },
+            {
+              "variant": "biome",
+              "biomeCondition": "#cobblemon:is_end"
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Apathy-Ghast",
+      "primaryType": "flying",
+      "maleRatio": 0.5,
+      "height": 12,
+      "weight": 330,
+      "pokedex": [
+        "cobblemon.species.frillish-ghast.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "apathy_ghast"
+      ],
+      "abilities": [
+        "dryskin",
+        "clearbody",
+        "h:flareboost"
+      ],
+      "eggGroups": [
+        "amorphous"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 20,
+        "defence": 50,
+        "special_attack": 75,
+        "special_defence": 85,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "baseScale": 1,
+      "hitbox": {
+        "width": 0.65,
+        "height": 1.45,
+        "fixed": false
+      },
+       "behaviour": {
+         "herd": {
+           "maxSize": "5",
+           "toleratedLeaders": [
+             {
+               "pokemon": "jellicent happy_ghast",
+               "tier": 1
+             },
+             {
+               "pokemon": "jellicent grumpy_ghast",
+               "tier": 1
+             },
+             {
+               "pokemon": "jellicent apathy_ghast",
+               "tier": 2
+             }
+           ]
+         },
+         "moving": {
+           "fly": {
+             "canFly": true
+           },
+           "swim": {
+             "avoidsWater": false
+           },
+           "walk": {
+             "canWalk": false
+           }
+         },
+         "resting": {
+           "canSleep": true,
+           "light": "0-4",
+           "times": [
+             "any"
+           ],
+           "drowsyChance": 0.0033,
+           "rouseChance": 0.0042
+         },
+         "combat": {
+           "willDefendSelf": false,
+           "willDefendOwner": true,
+           "willFlee": true
+         }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:ghast_tear",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "minecraft:gunpowder",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "cobblemon:nomel_berry",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "moves": [
+        "1:gust",
+        "1:barrage",
+        "1:defog",
+        "1:absorb",
+        "1:rockblast",
+        "4:clearsmog",
+        "8:ancientpower",
+        "12:aircutter",
+        "16:tailwind",
+        "20:skydrop",
+        "22:selfdestruct",
+        "24:flamecharge",
+        "28:recover",
+        "32:weatherball",
+        "34:airslash",
+        "36:mudbomb",
+        "38:sunnyday",
+        "38:raindance",
+        "41:explosion",
+        "44:destinybond",
+        "48:hurricane",
+        "egg:acidarmor",
+        "egg:confuseray",
+        "egg:constrict",
+        "egg:mist",
+        "egg:painsplit",
+        "egg:strengthsap",
+        "egg:wringout",
+        "tm:acrobatics",
+        "tm:aircutter",
+        "tm:airslash",
+        "tm:ancientpower",
+        "tm:bind",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:dreameater",
+        "tm:endure",
+        "tm:energyball",
+        "tm:explosion",
+        "tm:facade",
+        "tm:flamecharge",
+        "tm:flash",
+        "tm:fly",
+        "tm:gigadrain",
+        "tm:hex",
+        "tm:hurricane",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:magiccoat",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:painsplit",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:roost",
+        "tm:safeguard",
+        "tm:scald",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:skydrop",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:spite",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:terablast",
+        "tm:trick",
+        "tm:trickroom",
+        "tm:weatherball",
+        "tm:willowisp",
+        "tutor:bind",
+        "tutor:darkpulse",
+        "tutor:dazzlinggleam",
+        "tutor:energyball",
+        "tutor:gigadrain",
+        "tutor:icywind",
+        "tutor:magiccoat",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:sleeptalk",
+        "tutor:sludgebomb",
+        "tutor:spite",
+        "tutor:trick"
+      ],
+      "evolutions": [
+        {
+          "id": "apathy_frillish_jellicent_grumpy_ghast",
+          "variant": "level_up",
+          "result": "jellicent grumpy_ghast apathy_ghast=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "flameburst"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 40
+            },
+            {
+              "variant": "biome",
+              "biomeAnticondition": "#cobblemon:is_overworld"
+            },
+            {
+              "variant": "biome",
+              "biomeAnticondition": "#cobblemon:is_end"
+            },
+            {
+              "variant": "biome",
+              "biomeCondition": "#minecraft:is_nether"
+            }
+          ]
+        },
+        {
+          "id": "apathy_frillish_jellicent_happy_ghast",
+          "variant": "level_up",
+          "result": "jellicent happy_ghast apathy_ghast=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "bubblebeam"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 40
+            },
+            {
+              "variant": "biome",
+              "biomeAnticondition": "#minecraft:is_nether"
+            },
+            {
+              "variant": "biome",
+              "biomeAnticondition": "#cobblemon:is_end"
+            },
+            {
+              "variant": "biome",
+              "biomeCondition": "#cobblemon:is_overworld"
+            }
+          ]
+        },
+        {
+          "id": "frillish_jellicent_apathy_ghast_anywhere",
+          "variant": "level_up",
+          "result": "jellicent apathy_ghast",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "electroball"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 40
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    }
+  ]
+}

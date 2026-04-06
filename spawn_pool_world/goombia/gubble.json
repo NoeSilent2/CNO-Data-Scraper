@@ -1,0 +1,63 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gubble-1",
+            "pokemon": "gubble",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-25",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_sandy"
+                ],
+                "isRaining": false,
+				"neededNearbyBlocks": [
+                    "minecraft:lava", "minecraft:flowing_lava"
+                ]
+            }
+        },
+        {
+            "id": "gubble-2",
+            "pokemon": "gubble",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-25",
+            "weight": 1.8,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_sandy"
+                ],
+                "isRaining": false
+            }
+        },
+        {
+            "id": "gubble-3",
+            "pokemon": "gubble",
+            "presets": [
+                "natural",
+                "nether_fossil"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "15-35",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "minecraft:soul_sand_valley"
+                ]
+            }
+        }
+    ]
+}

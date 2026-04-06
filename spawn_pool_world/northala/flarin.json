@@ -1,0 +1,57 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "flarin-1",
+      "pokemon": "flarin",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "5-16",
+      "weight": 1.0,
+      "condition": {
+        "biomes": [
+          "minecraft:flower_forest",
+          "minecraft:cherry_grove"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "flarin-2",
+      "pokemon": "flarin",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "5-16",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "minecraft:meadow",
+          "#cobblemon:is_floral"
+        ],
+        "timeRange": "day",
+        "neededNearbyBlocks": [
+          "#minecraft:flowers"
+        ]
+      }
+    },
+    {
+      "id": "flarin-3",
+      "pokemon": "flarin",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "8-16",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "moonPhase": "0"
+      }
+    }
+  ]
+}

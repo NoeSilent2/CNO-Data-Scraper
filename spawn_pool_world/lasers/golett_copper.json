@@ -1,0 +1,279 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "golett-copper-1",
+            "pokemon": "golett copper",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 7.5,
+            "weightMultiplier": {
+                "multiplier": 10.0,
+                "condition": {
+                    "isThundering": true,
+                    "neededNearbyBlocks": [
+                        "minecraft:copper_block",
+                        "minecraft:waxed_copper_block",
+                        "minecraft:cut_copper",
+                        "minecraft:waxed_cut_copper"
+                    ]
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:copper_block",
+                    "minecraft:waxed_copper_block",
+                    "minecraft:cut_copper",
+                    "minecraft:waxed_cut_copper",
+                    "minecraft:oxidized_copper",
+                    "minecraft:waxed_oxidized_copper",
+                    "minecraft:oxidized_cut_copper",
+                    "minecraft:waxed_oxidized_cut_copper",
+                    "minecraft:weathered_copper",
+                    "minecraft:waxed_weathered_copper",
+                    "minecraft:weathered_cut_copper",
+                    "minecraft:waxed_weathered_cut_copper",
+                    "minecraft:exposed_copper",
+                    "minecraft:waxed_exposed_copper",
+                    "minecraft:exposed_cut_copper",
+                    "minecraft:waxed_exposed_cut_copper",
+                    "minecraft:lightning_rod",
+                    "#minecraft:buttons"
+                ]
+            }
+        },
+        {
+            "id": "golett-copper-2",
+            "pokemon": "golett exposed_copper",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 7.5,
+            "weightMultiplier": {
+                "multiplier": 10.0,
+                "condition": {
+                    "isThundering": true,
+                    "neededNearbyBlocks": [
+                        "minecraft:exposed_copper",
+                        "minecraft:waxed_exposed_copper",
+                        "minecraft:exposed_cut_copper",
+                        "minecraft:waxed_exposed_cut_copper"
+                    ]
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:copper_block",
+                    "minecraft:waxed_copper_block",
+                    "minecraft:cut_copper",
+                    "minecraft:waxed_cut_copper",
+                    "minecraft:oxidized_copper",
+                    "minecraft:waxed_oxidized_copper",
+                    "minecraft:oxidized_cut_copper",
+                    "minecraft:waxed_oxidized_cut_copper",
+                    "minecraft:weathered_copper",
+                    "minecraft:waxed_weathered_copper",
+                    "minecraft:weathered_cut_copper",
+                    "minecraft:waxed_weathered_cut_copper",
+                    "minecraft:exposed_copper",
+                    "minecraft:waxed_exposed_copper",
+                    "minecraft:exposed_cut_copper",
+                    "minecraft:waxed_exposed_cut_copper",
+                    "minecraft:lightning_rod",
+                    "#minecraft:buttons"
+                ]
+            }
+        },
+        {
+            "id": "golett-copper-3",
+            "pokemon": "golett weathered_copper",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 7.5,
+            "weightMultiplier": {
+                "multiplier": 10.0,
+                "condition": {
+                    "isThundering": true,
+                    "neededNearbyBlocks": [
+                        "minecraft:weathered_copper",
+                        "minecraft:waxed_weathered_copper",
+                        "minecraft:weathered_cut_copper",
+                        "minecraft:waxed_weathered_cut_copper"
+                    ]
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:copper_block",
+                    "minecraft:waxed_copper_block",
+                    "minecraft:cut_copper",
+                    "minecraft:waxed_cut_copper",
+                    "minecraft:oxidized_copper",
+                    "minecraft:waxed_oxidized_copper",
+                    "minecraft:oxidized_cut_copper",
+                    "minecraft:waxed_oxidized_cut_copper",
+                    "minecraft:weathered_copper",
+                    "minecraft:waxed_weathered_copper",
+                    "minecraft:weathered_cut_copper",
+                    "minecraft:waxed_weathered_cut_copper",
+                    "minecraft:exposed_copper",
+                    "minecraft:waxed_exposed_copper",
+                    "minecraft:exposed_cut_copper",
+                    "minecraft:waxed_exposed_cut_copper",
+                    "minecraft:lightning_rod",
+                    "#minecraft:buttons"
+                ]
+            }
+        },
+        {
+            "id": "golett-copper-4",
+            "pokemon": "golett oxidized_copper",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 7.5,
+            "weightMultiplier": {
+                "multiplier": 10.0,
+                "condition": {
+                    "isThundering": true,
+                    "neededNearbyBlocks": [
+                        "minecraft:oxidized_copper",
+                        "minecraft:waxed_oxidized_copper",
+                        "minecraft:oxidized_cut_copper",
+                        "minecraft:waxed_oxidized_cut_copper"
+                    ]
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:copper_block",
+                    "minecraft:waxed_copper_block",
+                    "minecraft:cut_copper",
+                    "minecraft:waxed_cut_copper",
+                    "minecraft:oxidized_copper",
+                    "minecraft:waxed_oxidized_copper",
+                    "minecraft:oxidized_cut_copper",
+                    "minecraft:waxed_oxidized_cut_copper",
+                    "minecraft:weathered_copper",
+                    "minecraft:waxed_weathered_copper",
+                    "minecraft:weathered_cut_copper",
+                    "minecraft:waxed_weathered_cut_copper",
+                    "minecraft:exposed_copper",
+                    "minecraft:waxed_exposed_copper",
+                    "minecraft:exposed_cut_copper",
+                    "minecraft:waxed_exposed_cut_copper",
+                    "minecraft:lightning_rod",
+                    "#minecraft:buttons"
+                ]
+            }
+        },
+        {
+            "id": "golett-copper-5",
+            "pokemon": "golett copper",
+            "presets": [
+                "trial_chambers"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 25.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#minecraft:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "golett-copper-6",
+            "pokemon": "golett exposed_copper",
+            "presets": [
+                "trial_chambers"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 25.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#minecraft:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "golett-copper-7",
+            "pokemon": "golett weathered_copper",
+            "presets": [
+                "trial_chambers"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 25.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#minecraft:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "golett-copper-8",
+            "pokemon": "golett oxidized_copper",
+            "presets": [
+                "trial_chambers"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 25.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#minecraft:is_overworld"
+                ]
+            }
+        }
+    ]
+}

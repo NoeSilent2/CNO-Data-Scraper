@@ -1,0 +1,111 @@
+{
+  "implemented": true,
+  "name": "toombie",
+  "nationalPokedexNumber": 1041,
+  "primaryType": "ghost",
+  "abilities": [
+    "rattled",
+    "h:limber"
+  ],
+  "baseStats": {
+    "hp": 53,
+    "attack": 70,
+    "defence": 45,
+    "special_attack": 70,
+    "special_defence": 20,
+    "speed": 27
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": true,
+  "forms": [],
+  "baseExperienceYield": 45,
+  "experienceGroup": "fast",
+  "eggCycles": 40,
+  "eggGroups": [
+    "amorphous",
+    "mineral"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:flint",
+        "quantityRange": "1-2",
+        "percentage": 60
+      }
+    ]
+  },
+  "moves": [
+    "1:astonish",
+    "1:tackle",
+    "1:faketears",
+    "4:flail",
+    "7:confuseray",
+    "10:nightshade",
+    "15:takedown",
+    "tm:rest",
+    "tm:substitute",
+    "tm:taunt",
+    "tm:protect",
+    "tm:endure",
+    "tm:snore",
+    "tm:shadowball",
+    "tm:encore",
+    "tm:bodyslam",
+    "tm:willowisp",
+    "tm:faketears",
+    "tm:takedown",
+    "tm:trick",
+    "tm:facade",
+    "tm:attract",
+    "tm:gigaimpact",
+    "tm:batonpass",
+    "tm:fling",
+    "tm:thief",
+    "tm:confuseray",
+    "tm:swagger",
+    "tutor:painsplit",
+    "tutor:endeavor"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.tauros.desc1",
+    "cobblemon.species.tauros.desc2"
+  ],
+  "evolutions": [
+    {
+      "id": "toombie_funerun_lvl",
+      "variant": "level_up",
+      "result": "funerun",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "rockpolish"
+      ],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 140
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ]
+    }
+  ],
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "attack": 1
+  },
+  "height": 5,
+  "weight": 54
+}

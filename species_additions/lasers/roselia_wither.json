@@ -1,0 +1,226 @@
+{
+  "target": "cobblemon:roselia",
+  "forms": [
+    {
+      "name": "Wither-Rose",
+      "primaryType": "dark",
+      "secondaryType": "poison",
+      "maleRatio": 0.5,
+      "height": 3,
+      "weight": 20,
+      "pokedex": [
+        "cobblemon.species.roselia-wither-rose.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "wither"
+      ],
+      "abilities": [
+        "poisontouch",
+        "ironbarbs",
+        "h:toxicdebris"
+      ],
+      "eggGroups": [
+      "fairy",
+      "grass"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 60,
+        "defence": 90,
+        "special_attack": 40,
+        "special_defence": 90,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseScale": 0.5,
+      "hitbox": {
+        "width": 0.65,
+        "height": 1.3,
+        "fixed": false
+      },
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "willSleepOnBed": true,
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.12
+          },
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "herd": {
+          "maxSize": "5",
+          "toleratedLeaders": [
+            {
+              "pokemon": "roselia wither",
+              "tier": 1
+            },
+            {
+              "pokemon": "roserade wither",
+              "tier": 2
+            }
+          ]
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:wither_rose",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "cobblemon:poison_barb",
+            "percentage": 5.0
+          },
+          {
+            "item": "cobblemon:pecha_berry",
+            "percentage": 5.0
+          }
+        ]
+      },
+      "moves": [
+        "1:absorb",
+        "1:growth",
+        "1:poisonsting",
+        "1:stunspore",
+        "1:grasswhistle",
+        "1:worryseed",
+        "1:watersport",
+        "1:torment",
+        "1:poisonpowder",
+        "5:assurance",
+        "10:leechseed",
+        "15:knockoff",
+        "20:toxicspikes",
+        "25:hex",
+        "30:needlearm",
+        "35:barbbarrage",
+        "40:toxic",
+        "45:petalblizzard",
+        "50:infestation",
+        "55:throatchop",
+        "60:poisonjab",
+        "egg:cottonspore",
+        "egg:extrasensory",
+        "egg:grasswhistle",
+        "egg:lifedew",
+        "egg:mindreader",
+        "egg:naturalgift",
+        "egg:razorleaf",
+        "egg:sleeppowder",
+        "egg:synthesis",
+        "tm:assurance",
+        "tm:bodyslam",
+        "tm:bulletseed",
+        "tm:brutalswing",
+        "tm:covet",
+        "tm:crosspoison",
+        "tm:cut",
+        "tm:darkpulse",
+        "tm:embargo",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:faketears",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:furycutter",
+        "tm:gigadrain",
+        "tm:grassknot",
+        "tm:grassyglide",
+        "tm:gunkshot",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leafstorm",
+        "tm:magicalleaf",
+        "tm:naturalgift",
+        "tm:naturepower",
+        "tm:payback",
+        "tm:petalblizzard",
+        "tm:pinmissile",
+        "tm:poisonjab",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:seedbomb",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:solarbeam",
+        "tm:spikes",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:terablast",
+        "tm:throatchop",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:uproar",
+        "tm:venoshock",
+        "tm:weatherball",
+        "tm:worryseed",
+        "tutor:covet",
+        "tutor:energyball",
+        "tutor:foulplay",
+        "tutor:furycutter",
+        "tutor:gigadrain",
+        "tutor:grassyglide",
+        "tutor:gunkshot",
+        "tutor:knockoff",
+        "tutor:lashout",
+        "tutor:magicalleaf",
+        "tutor:poisonjab",
+        "tutor:rest",
+        "tutor:seedbomb",
+        "tutor:shadowball",
+        "tutor:sleeptalk",
+        "tutor:sludgebomb",
+        "tutor:spikes",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:throatchop",
+        "tutor:uproar",
+        "tutor:worryseed"
+      ],
+      "preEvolution": "budew",
+      "evolutions": [
+        {
+          "id": "roselia_roserade_wither",
+          "variant": "item_interact",
+          "result": "roserade wither",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:dusk_stone"
+        }
+      ],
+      "battleOnly": false
+    }
+  ]
+}

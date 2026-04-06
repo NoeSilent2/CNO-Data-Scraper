@@ -1,0 +1,7 @@
+{
+  "target": "cobblemon:grubbin",
+  "abilities": [
+    "swarm",
+    "h:sapsipper"
+  ]
+}

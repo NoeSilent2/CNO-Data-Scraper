@@ -1,0 +1,43 @@
+{
+	"enabled": true,
+	"neededInstalledMods": [],
+	"neededUninstalledMods": [],
+	"spawns": [
+		{
+			"id": "amphizoom-1",
+			"pokemon": "amphizoom",
+			"presets": [
+				"natural"
+			],
+			"type": "pokemon",
+			"spawnablePositionType": "grounded",
+			"bucket": "uncommon",
+			"level": "40-50",
+			"weight": 0.6,
+			"condition": {
+				"canSeeSky": true,
+				"biomes": [
+					"#cobblemon:is_coast"
+				]
+			}
+		},
+		{
+			"id": "amphizoom-2",
+			"pokemon": "amphizoom",
+			"type": "pokemon",
+			"spawnablePositionType": "grounded",
+			"bucket": "uncommon",
+			"level": "40-50",
+			"weight": 0.6,
+			"condition": {
+				"canSeeSky": true,
+				"biomes": [
+					"#cobblemon:is_overworld"
+				],
+				"neededBaseBlocks": [
+					"#cobblemon:concrete_blocks"
+				]
+			}
+		}
+	]
+}

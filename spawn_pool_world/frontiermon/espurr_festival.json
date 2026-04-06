@@ -1,0 +1,26 @@
+{
+	"enabled": true,
+	"neededInstalledMods": [],
+	"neededUninstalledMods": [],
+	"spawns": [
+		{
+			"id": "espurr-festival-1",
+			"pokemon": "espurr festival",
+			"presets": [
+				"natural"
+			],
+			"type": "pokemon",
+			"spawnablePositionType": "grounded",
+			"bucket": "uncommon",
+			"level": "9-34",
+			"weight": 20.0,
+			"condition": {
+				"minSkyLight": 8,
+				"maxSkyLight": 15,
+				"biomes": [
+					"minecraft:cherry_grove"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gourgrenade-1",
+            "pokemon": "gourgrenade",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "29-49",
+            "weight": 0.3,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "timeRange": "night",
+                "neededNearbyBlocks": [
+                    "minecraft:jack_o_lantern"
+                ]
+            }
+        },
+        {
+            "id": "gourgrenade-2",
+            "pokemon": "gourgrenade",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "29-49",
+            "weight": 0.8,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_soul_fire"
+                ]
+            }
+        }
+    ]
+}

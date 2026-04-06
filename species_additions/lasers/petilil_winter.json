@@ -1,0 +1,209 @@
+{
+  "target": "cobblemon:petilil",
+  "forms": [
+    {
+      "name": "Winter",
+      "primaryType": "grass",
+      "secondaryType": "ice",
+      "maleRatio": 0,
+      "height": 5,
+      "weight": 66,
+      "pokedex": [
+        "cobblemon.species.petilil-winter.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "winter"
+      ],
+      "aspects": [
+        "winter"
+      ],
+      "abilities": [
+        "slushrush",
+        "oblivious",
+        "h:snowguard"
+      ],
+      "eggGroups": [
+      "grass"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 25,
+        "defence": 45,
+        "special_attack": 70,
+        "special_defence": 60,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "shoulderMountable": true,
+      "baseScale": 0.5,
+      "hitbox": {
+        "width": 0.7,
+        "height": 1,
+        "fixed": false
+      },
+      "behaviour": {
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.14
+          },
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": true,
+          "light": "0-4",
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        },
+        "herd": {
+          "maxSize": "4",
+          "toleratedLeaders": [
+            {
+              "pokemon": "petilil winter",
+              "tier": 1
+            },
+            {
+              "pokemon": "lilligant winter",
+              "tier": 2
+            }
+          ]
+        },
+        "combat": {
+          "willDefendOwner": true,
+          "willFlee": true
+        }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "cobblemon:revival_herb",
+            "percentage": 2.5
+          },
+          {
+            "item": "cobblemon:power_herb",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "moves": [
+        "1:absorb",
+        "1:aromatherapy",
+        "3:helpinghand",
+        "6:stunspore",
+        "9:megadrain",
+        "9:powdersnow",
+        "12:charm",
+        "15:magicalleaf",
+        "18:sleeppowder",
+        "21:gigadrain",
+        "21:icywind",
+        "24:leechseed",
+        "27:afteryou",
+        "27:aurorabeam",
+        "30:energyball",
+        "30:icebeam",
+        "33:synthesis",
+        "36:snowscape",
+        "39:entrainment",
+        "42:leafstorm",
+        "42:blizzard",
+        "egg:bide",
+        "egg:grasswhistle",
+        "egg:healingwish",
+        "egg:ingrain",
+        "egg:naturalgift",
+        "egg:sweetscent",
+        "egg:worryseed",
+        "tm:afteryou",
+        "tm:auroraveil",
+        "tm:blizzard",
+        "tm:babydolleyes",
+        "tm:bulletseed",
+        "tm:charm",
+        "tm:covet",
+        "tm:cut",
+        "tm:dreameater",
+        "tm:encore",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:flash",
+        "tm:frostbreath",
+        "tm:gigadrain",
+        "tm:grassknot",
+        "tm:grassyglide",
+        "tm:healbell",
+        "tm:helpinghand",
+        "tm:icebeam",
+        "tm:icywind",
+        "tm:laserfocus",
+        "tm:leafstorm",
+        "tm:magicalleaf",
+        "tm:naturalgift",
+        "tm:naturepower",
+        "tm:pollenpuff",
+        "tm:protect",
+        "tm:rest",
+        "tm:safeguard",
+        "tm:seedbomb",
+        "tm:sleeptalk",
+        "tm:snowscape",
+        "tm:substitute",
+        "tm:synthesis",
+        "tm:terablast",
+        "tm:trailblaze",
+        "tm:worryseed",
+        "tutor:afteryou",
+        "tutor:babydolleyes",
+        "tutor:covet",
+        "tutor:energyball",
+        "tutor:gigadrain",
+        "tutor:grassyglide",
+        "tutor:healbell",
+        "tutor:helpinghand",
+        "tutor:laserfocus",
+        "tutor:magicalleaf",
+        "tutor:rest",
+        "tutor:seedbomb",
+        "tutor:sleeptalk",
+        "tutor:synthesis",
+        "tutor:worryseed",
+        "legacy:attract",
+        "legacy:confide",
+        "legacy:doubleteam",
+        "legacy:frustration",
+        "legacy:hiddenpower",
+        "legacy:return",
+        "legacy:round",
+        "legacy:secretpower",
+        "legacy:snore",
+        "legacy:swagger",
+        "legacy:toxic"
+      ],
+      "evolutions": [
+        {
+          "id": "petilil_lilligant_winter",
+          "variant": "item_interact",
+          "result": "lilligant winter",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "petaldance"
+          ],
+          "requiredContext": "cobblemon:ice_stone"
+        }
+      ],
+      "battleOnly": false
+    }
+  ]
+}

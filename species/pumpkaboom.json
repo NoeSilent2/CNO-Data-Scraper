@@ -1,0 +1,353 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1103,
+  "name": "pumpkaboom",
+  "primaryType": "fire",
+  "secondaryType": "grass",
+  "maleRatio": 0.5,
+  "height": 4,
+  "weight": 50,
+  "pokedex": [
+    "cobblemon.species.pumpkaboom.desc"
+  ],
+  "labels": [
+    "laserdex"
+  ],
+  "aspects": [
+    "pumpkin-size-average"
+  ],
+  "abilities": [
+    "drought",
+    "bombard",
+    "h:reckless"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 49,
+    "attack": 66,
+    "defence": 70,
+    "special_attack": 24,
+    "special_defence": 55,
+    "speed": 71
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 67,
+  "experienceGroup": "medium_fast",
+  "catchRate": 120,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.8,
+    "height": 0.9,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "swim": {
+        "avoidsWater": true
+      },
+      "walk": {
+        "canWalk": false
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "11-15",
+      "willSleepOnBed": true,
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0033,
+      "rouseChance": 0.0042
+    },
+    "herd": {
+      "maxSize": "6",
+      "toleratedLeaders": [
+        {
+          "pokemon": "pumpkaboom",
+          "tier": 1
+        },
+        {
+          "pokemon": "gourgrenade",
+          "tier": 2
+        }
+      ]
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+  },
+  "lightingData": {
+    "lightLevel": 6,
+    "liquidGlowMode": "BOTH"
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:pumpkin_seeds",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:kebia_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:leafage",
+    "1:ember",
+    "4:flamecharge",
+    "8:willowisp",
+    "12:razorleaf",
+    "16:leechseed",
+    "20:bulletseed",
+    "24:scaryface",
+    "28:worryseed",
+    "32:seedbomb",
+    "36:firebomb",
+    "40:trick",
+    "44:selfdestruct",
+    "48:pumpkinbomb",
+    "egg:bestow",
+    "egg:curse",
+    "egg:destinybond",
+    "egg:disable",
+    "egg:trickortreat",
+    "egg:woodhammer",
+    "tm:allyswitch",
+    "tm:bulletseed",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dreameater",
+    "tm:doubleedge",
+    "tm:takedown",
+    "tm:endure",
+    "tm:energyball",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:temperflare",
+    "tm:flash",
+    "tm:foulplay",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:gyroball",
+    "tm:hex",
+    "tm:heatcrash",
+    "tm:imprison",
+    "tm:incinerate",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:mysticalfire",
+    "tm:naturepower",
+    "tm:painsplit",
+    "tm:protect",
+    "tm:psychic",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:scaryface",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:worryseed",
+    "tm:woodhammer",
+    "tm:wildcharge",
+    "tm:explosion",
+    "tm:selfdestruct",
+    "tutor:allyswitch",
+    "tutor:chargebeam",
+    "tutor:darkpulse",
+    "tutor:energyball",
+    "tutor:flamethrower",
+    "tutor:foulplay",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:magiccoat",
+    "tutor:mysticalfire",
+    "tutor:painsplit",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spite",
+    "tutor:synthesis",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:worryseed"
+  ],
+  "evolutions": [
+    {
+      "id": "pumpkaboom_gourgrenade",
+      "variant": "trade",
+      "result": "gourgrenade",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": []
+    }
+  ],
+  "forms": [
+    {
+      "name": "Small",
+      "primaryType": "fire",
+      "secondaryType": "grass",
+      "maleRatio": 0.5,
+      "height": 3,
+      "weight": 35,
+      "pokedex": [
+        "cobblemon.species.pumpkaboom.desc"
+      ],
+      "labels": [
+        "laserdex"
+      ],
+      "aspects": [
+        "pumpkin-size-small"
+      ],
+      "baseStats": {
+        "hp": 44,
+        "attack": 66,
+        "defence": 70,
+        "special_attack": 24,
+        "special_defence": 55,
+        "speed": 76
+      },
+      "baseScale": 0.6,
+      "evolutions": [
+        {
+          "id": "pumpkaboom_gourgrenade",
+          "variant": "trade",
+          "result": "gourgrenade",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": []
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Large",
+      "primaryType": "fire",
+      "secondaryType": "grass",
+      "maleRatio": 0.5,
+      "height": 5,
+      "weight": 75,
+      "pokedex": [
+        "cobblemon.species.pumpkaboom.desc"
+      ],
+      "labels": [
+        "laserdex"
+      ],
+      "aspects": [
+        "pumpkin-size-large"
+      ],
+      "baseStats": {
+        "hp": 54,
+        "attack": 66,
+        "defence": 70,
+        "special_attack": 24,
+        "special_defence": 55,
+        "speed": 66
+      },
+      "baseScale": 1,
+      "evolutions": [
+        {
+          "id": "pumpkaboo_gourgrenade",
+          "variant": "trade",
+          "result": "gourgrenade",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": []
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Super",
+      "primaryType": "fire",
+      "secondaryType": "grass",
+      "maleRatio": 0.5,
+      "height": 8,
+      "weight": 150,
+      "pokedex": [
+        "cobblemon.species.pumpkaboom.desc"
+      ],
+      "labels": [
+        "laserdex"
+      ],
+      "aspects": [
+        "pumpkin-size-super"
+      ],
+      "baseStats": {
+        "hp": 59,
+        "attack": 66,
+        "defence": 70,
+        "special_attack": 24,
+        "special_defence": 55,
+        "speed": 61
+      },
+      "baseScale": 1.4,
+      "evolutions": [
+        {
+          "id": "pumpkaboo_gourgrenade",
+          "variant": "trade",
+          "result": "gourgrenade",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": []
+        }
+      ],
+      "battleOnly": false
+    }
+  ]
+}

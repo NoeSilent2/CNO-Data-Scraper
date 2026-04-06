@@ -1,0 +1,2948 @@
+{
+  "target": "cobblemon:golurk",
+  "features": [
+    "mega_evolution"
+  ],
+  "forms": [
+    {
+      "name": "Copper",
+      "primaryType": "steel",
+      "secondaryType": "electric",
+      "maleRatio": -1,
+      "height": 28,
+      "weight": 3300,
+      "pokedex": [
+        "cobblemon.species.golurk-copper.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "copper"
+      ],
+      "features": [
+        "mega_evolution"
+      ],
+      "abilities": [
+        "lightningrod",
+        "motordrive",
+        "h:technician"
+      ],
+      "eggGroups": [
+      "mineral"
+      ],
+      "baseStats": {
+        "hp": 69,
+        "attack": 25,
+        "defence": 80,
+        "special_attack": 124,
+        "special_defence": 80,
+        "speed": 105
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseScale": 1.0,
+      "hitbox": {
+        "width": 2.5,
+        "height": 5.1,
+        "fixed": false
+      },
+      "riding": {
+        "behaviours": {
+          "AIR": {
+            "key": "cobblemon:air/rocket",
+            "rideSounds": [
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                "playForNonPassengers": true,
+                "soundLocation": "cobblemon:ride.loop.wind",
+                "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+              },
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.driver_input() / 1.5, 1.0),2))",
+                "playForNonPassengers": true,
+                "soundLocation": "cobblemon:ride.loop.rocket",
+                "volumeExpr": "math.pow(math.min((q.driver_input() / 1.5) + (q.ride_velocity() / 1.5), 1.0),2)"
+              }
+            ],
+            "stats": {
+              "ACCELERATION": "10-35",
+              "JUMP": "25-40",
+              "SKILL": "15-30",
+              "SPEED": "45-75",
+              "STAMINA": "30-50"
+            }
+          },
+          "LAND": {
+            "key": "cobblemon:land/horse",
+            "rideSounds": [],
+            "canJump": true,
+            "stats": {
+              "ACCELERATION": "65-80",
+              "JUMP": "40-60",
+              "SKILL": "40-65",
+              "SPEED": "35-50",
+              "STAMINA": "60-85"
+            }
+          }
+        },
+        "seats": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": 0.0069884723,
+                  "y": -4.8332925,
+                  "z": 0.713007
+                },
+                "poseTypes": [
+                  "STAND"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.009686413,
+                  "y": -4.746398,
+                  "z": 0.38281527
+                },
+                "poseTypes": [
+                  "WALK"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0034906503,
+                  "y": -4.624994,
+                  "z": 0.62499994
+                },
+                "poseTypes": [
+                  "HOVER"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0069812573,
+                  "y": -4.6249757,
+                  "z": 0.625
+                },
+                "poseTypes": [
+                  "FLY"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -4.85,
+                  "z": 0.61875
+                },
+                "poseTypes": [
+                  "FLOAT"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -4.85,
+                  "z": 0.61875
+                },
+                "poseTypes": [
+                  "SWIM"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -4.85,
+                  "z": 0.61875
+                },
+                "poseTypes": [
+                  "GLIDE"
+                ]
+              }
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": -0.8680348,
+                  "y": -4.8281674,
+                  "z": 0.9003285
+                },
+                "poseTypes": [
+                  "STAND"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.8579975,
+                  "y": -4.7733426,
+                  "z": 0.60002506
+                },
+                "poseTypes": [
+                  "WALK"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.871504,
+                  "y": -4.628048,
+                  "z": 0.81249994
+                },
+                "poseTypes": [
+                  "HOVER"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.86799747,
+                  "y": -4.6310844,
+                  "z": 0.8125
+                },
+                "poseTypes": [
+                  "FLY"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "FLOAT"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "SWIM"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "GLIDE"
+                ]
+              }
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": 0.8819546,
+                  "y": -4.822059,
+                  "z": 0.9003285
+                },
+                "poseTypes": [
+                  "STAND"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.89080614,
+                  "y": -4.7519755,
+                  "z": 0.5389509
+                },
+                "poseTypes": [
+                  "WALK"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.87848526,
+                  "y": -4.6219397,
+                  "z": 0.81249994
+                },
+                "poseTypes": [
+                  "HOVER"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.88196,
+                  "y": -4.618867,
+                  "z": 0.8125
+                },
+                "poseTypes": [
+                  "FLY"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "FLOAT"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "SWIM"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "GLIDE"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "behaviour": {
+        "herd": {
+          "maxSize": "3"
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInWater": false
+          },
+          "walk": {
+            "walkSpeed": 0.35
+          },
+          "fly": {
+            "canFly": true
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:copper_ingot",
+            "quantityRange": "0-4"
+          },
+          {
+            "item": "cobblemon:electirizer",
+            "percentage": 5.0
+          },
+          {
+            "item": "cobblemon:eject_button",
+            "percentage": 10.0
+          },
+          {
+            "item": "cobblemon:shuca_berry",
+            "percentage": 5.0
+          }
+        ]
+      },
+      "moves": [
+        "1:magnetrise",
+        "1:thundershock",
+        "1:bulletpunch",
+        "4:defensecurl",
+        "8:pound",
+        "12:thunderpunch",
+        "16:charge",
+        "20:chargebeam",
+        "20:spark",
+        "24:mirrorshot",
+        "28:irondefense",
+        "28:armorpress",
+        "32:megapunch",
+        "36:discharge",
+        "40:heavyslam",
+        "44:flashcannon",
+        "44:bulletbarrage",
+        "48:hammerarm",
+        "52:thunderbolt",
+        "56:meteormash",
+        "60:thunder",
+        "64:supercellslam",
+        "68:steelbeam",
+        "tm:allyswitch",
+        "tm:block",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:bulldoze",
+        "tm:chargebeam",
+        "tm:closecombat",
+        "tm:curse",
+        "tm:darkestlariat",
+        "tm:discharge",
+        "tm:doubleedge",
+        "tm:drainpunch",
+        "tm:earthquake",
+        "tm:electroball",
+        "tm:electricterrain",
+        "tm:endure",
+        "tm:facade",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flash",
+        "tm:flashcannon",
+        "tm:fling",
+        "tm:fly",
+        "tm:focusblast",
+        "tm:focuspunch",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:gravity",
+        "tm:armorpress",
+        "tm:gyroball",
+        "tm:hardpress",
+        "tm:heatcrash",
+        "tm:heavyslam",
+        "tm:helpinghand",
+        "tm:highhorsepower",
+        "tm:hyperbeam",
+        "tm:icebeam",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:irondefense",
+        "tm:knockoff",
+        "tm:ironhead",
+        "tm:lowkick",
+        "tm:lowsweep",
+        "tm:magiccoat",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:metalburst",
+        "tm:metalsound",
+        "tm:mudslap",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:rockpolish",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:rollout",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:smackdown",
+        "tm:stealthrock",
+        "tm:steelbeam",
+        "tm:stompingtantrum",
+        "tm:stoneedge",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:supercellslam",
+        "tm:superpower",
+        "tm:takedown",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:wildcharge",
+        "tm:zenheadbutt",
+        "tutor:allyswitch",
+        "tutor:block",
+        "tutor:bulldoze",
+        "tutor:chargebeam",
+        "tutor:drainpunch",
+        "tutor:firepunch",
+        "tutor:flashcannon",
+        "tutor:focuspunch",
+        "tutor:gigaimpact",
+        "tutor:gravity",
+        "tutor:helpinghand",
+        "tutor:highhorsepower",
+        "tutor:hyperbeam",
+        "tutor:icebeam",
+        "tutor:icepunch",
+        "tutor:icywind",
+        "tutor:irondefense",
+        "tutor:knockoff",
+        "tutor:lowkick",
+        "tutor:magiccoat",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:rocksmash",
+        "tutor:rollout",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:stealthrock",
+        "tutor:steelroller",
+        "tutor:stompingtantrum",
+        "tutor:superpower",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:thunderpunch",
+        "tutor:zenheadbutt"
+      ],
+      "preEvolution": "golett copper",
+      "evolutions": [],
+      "battleOnly": false
+    },
+    {
+      "name": "Exposed-Copper",
+      "primaryType": "steel",
+      "secondaryType": "electric",
+      "maleRatio": -1,
+      "height": 28,
+      "weight": 3300,
+      "pokedex": [
+        "cobblemon.species.golurk-copper.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "exposed_copper"
+      ],
+      "features": [
+        "mega_evolution"
+      ],
+      "abilities": [
+        "lightningrod",
+        "motordrive",
+        "h:technician"
+      ],
+      "eggGroups": [
+      "mineral"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 25,
+        "defence": 69,
+        "special_attack": 105,
+        "special_defence": 124,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 2,
+        "speed": 0
+      },
+      "baseScale": 1.0,
+      "hitbox": {
+        "width": 2.5,
+        "height": 5.1,
+        "fixed": false
+      },
+      "riding": {
+        "behaviours": {
+          "AIR": {
+            "key": "cobblemon:air/rocket",
+            "rideSounds": [
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                "playForNonPassengers": true,
+                "soundLocation": "cobblemon:ride.loop.wind",
+                "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+              },
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.driver_input() / 1.5, 1.0),2))",
+                "playForNonPassengers": true,
+                "soundLocation": "cobblemon:ride.loop.rocket",
+                "volumeExpr": "math.pow(math.min((q.driver_input() / 1.5) + (q.ride_velocity() / 1.5), 1.0),2)"
+              }
+            ],
+            "stats": {
+              "ACCELERATION": "10-35",
+              "JUMP": "25-40",
+              "SKILL": "15-30",
+              "SPEED": "45-75",
+              "STAMINA": "30-50"
+            }
+          },
+          "LAND": {
+            "key": "cobblemon:land/horse",
+            "rideSounds": [],
+            "canJump": true,
+            "stats": {
+              "ACCELERATION": "65-80",
+              "JUMP": "40-60",
+              "SKILL": "40-65",
+              "SPEED": "35-50",
+              "STAMINA": "60-85"
+            }
+          }
+        },
+        "seats": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": 0.0069884723,
+                  "y": -4.8332925,
+                  "z": 0.713007
+                },
+                "poseTypes": [
+                  "STAND"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.009686413,
+                  "y": -4.746398,
+                  "z": 0.38281527
+                },
+                "poseTypes": [
+                  "WALK"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0034906503,
+                  "y": -4.624994,
+                  "z": 0.62499994
+                },
+                "poseTypes": [
+                  "HOVER"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0069812573,
+                  "y": -4.6249757,
+                  "z": 0.625
+                },
+                "poseTypes": [
+                  "FLY"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -4.85,
+                  "z": 0.61875
+                },
+                "poseTypes": [
+                  "FLOAT"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -4.85,
+                  "z": 0.61875
+                },
+                "poseTypes": [
+                  "SWIM"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -4.85,
+                  "z": 0.61875
+                },
+                "poseTypes": [
+                  "GLIDE"
+                ]
+              }
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": -0.8680348,
+                  "y": -4.8281674,
+                  "z": 0.9003285
+                },
+                "poseTypes": [
+                  "STAND"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.8579975,
+                  "y": -4.7733426,
+                  "z": 0.60002506
+                },
+                "poseTypes": [
+                  "WALK"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.871504,
+                  "y": -4.628048,
+                  "z": 0.81249994
+                },
+                "poseTypes": [
+                  "HOVER"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.86799747,
+                  "y": -4.6310844,
+                  "z": 0.8125
+                },
+                "poseTypes": [
+                  "FLY"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "FLOAT"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "SWIM"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "GLIDE"
+                ]
+              }
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": 0.8819546,
+                  "y": -4.822059,
+                  "z": 0.9003285
+                },
+                "poseTypes": [
+                  "STAND"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.89080614,
+                  "y": -4.7519755,
+                  "z": 0.5389509
+                },
+                "poseTypes": [
+                  "WALK"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.87848526,
+                  "y": -4.6219397,
+                  "z": 0.81249994
+                },
+                "poseTypes": [
+                  "HOVER"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.88196,
+                  "y": -4.618867,
+                  "z": 0.8125
+                },
+                "poseTypes": [
+                  "FLY"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "FLOAT"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "SWIM"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "GLIDE"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "behaviour": {
+        "herd": {
+          "maxSize": "3"
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInWater": false
+          },
+          "walk": {
+            "walkSpeed": 0.3
+          },
+          "fly": {
+            "canFly": true
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:copper_ingot",
+            "quantityRange": "0-4"
+          },
+          {
+            "item": "cobblemon:electirizer",
+            "percentage": 5.0
+          },
+          {
+            "item": "cobblemon:eject_button",
+            "percentage": 10.0
+          },
+          {
+            "item": "cobblemon:shuca_berry",
+            "percentage": 5.0
+          }
+        ]
+      },
+      "moves": [
+        "1:magnetrise",
+        "1:thundershock",
+        "1:bulletpunch",
+        "4:defensecurl",
+        "8:pound",
+        "12:thunderpunch",
+        "16:charge",
+        "20:chargebeam",
+        "20:spark",
+        "24:mirrorshot",
+        "28:irondefense",
+        "28:armorpress",
+        "32:megapunch",
+        "36:discharge",
+        "40:heavyslam",
+        "44:flashcannon",
+        "44:bulletbarrage",
+        "48:hammerarm",
+        "52:thunderbolt",
+        "56:meteormash",
+        "60:thunder",
+        "64:supercellslam",
+        "68:steelbeam",
+        "tm:allyswitch",
+        "tm:block",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:bulldoze",
+        "tm:chargebeam",
+        "tm:closecombat",
+        "tm:curse",
+        "tm:darkestlariat",
+        "tm:discharge",
+        "tm:doubleedge",
+        "tm:drainpunch",
+        "tm:earthquake",
+        "tm:electroball",
+        "tm:electricterrain",
+        "tm:endure",
+        "tm:facade",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flash",
+        "tm:flashcannon",
+        "tm:fling",
+        "tm:fly",
+        "tm:focusblast",
+        "tm:focuspunch",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:gravity",
+        "tm:armorpress",
+        "tm:gyroball",
+        "tm:hardpress",
+        "tm:heatcrash",
+        "tm:heavyslam",
+        "tm:helpinghand",
+        "tm:highhorsepower",
+        "tm:hyperbeam",
+        "tm:icebeam",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:irondefense",
+        "tm:knockoff",
+        "tm:ironhead",
+        "tm:lowkick",
+        "tm:lowsweep",
+        "tm:magiccoat",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:metalburst",
+        "tm:metalsound",
+        "tm:mudslap",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:rockpolish",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:rollout",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:smackdown",
+        "tm:stealthrock",
+        "tm:steelbeam",
+        "tm:stompingtantrum",
+        "tm:stoneedge",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:supercellslam",
+        "tm:superpower",
+        "tm:takedown",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:wildcharge",
+        "tm:zenheadbutt",
+        "tutor:allyswitch",
+        "tutor:block",
+        "tutor:bulldoze",
+        "tutor:chargebeam",
+        "tutor:drainpunch",
+        "tutor:firepunch",
+        "tutor:flashcannon",
+        "tutor:focuspunch",
+        "tutor:gigaimpact",
+        "tutor:gravity",
+        "tutor:helpinghand",
+        "tutor:highhorsepower",
+        "tutor:hyperbeam",
+        "tutor:icebeam",
+        "tutor:icepunch",
+        "tutor:icywind",
+        "tutor:irondefense",
+        "tutor:knockoff",
+        "tutor:lowkick",
+        "tutor:magiccoat",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:rocksmash",
+        "tutor:rollout",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:stealthrock",
+        "tutor:steelroller",
+        "tutor:stompingtantrum",
+        "tutor:superpower",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:thunderpunch",
+        "tutor:zenheadbutt"
+      ],
+      "preEvolution": "golett exposed_copper",
+      "evolutions": [],
+      "battleOnly": false
+    },
+    {
+      "name": "Weathered-Copper",
+      "primaryType": "steel",
+      "secondaryType": "electric",
+      "maleRatio": -1,
+      "height": 28,
+      "weight": 3300,
+      "pokedex": [
+        "cobblemon.species.golurk-copper.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "weathered_copper"
+      ],
+      "features": [
+        "mega_evolution"
+      ],
+      "abilities": [
+        "lightningrod",
+        "motordrive",
+        "h:technician"
+      ],
+      "eggGroups": [
+      "mineral"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 105,
+        "defence": 124,
+        "special_attack": 25,
+        "special_defence": 80,
+        "speed": 69
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseScale": 1.0,
+      "hitbox": {
+        "width": 2.5,
+        "height": 5.1,
+        "fixed": false
+      },
+      "riding": {
+        "behaviours": {
+          "AIR": {
+            "key": "cobblemon:air/rocket",
+            "rideSounds": [
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                "playForNonPassengers": true,
+                "soundLocation": "cobblemon:ride.loop.wind",
+                "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+              },
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.driver_input() / 1.5, 1.0),2))",
+                "playForNonPassengers": true,
+                "soundLocation": "cobblemon:ride.loop.rocket",
+                "volumeExpr": "math.pow(math.min((q.driver_input() / 1.5) + (q.ride_velocity() / 1.5), 1.0),2)"
+              }
+            ],
+            "stats": {
+              "ACCELERATION": "10-35",
+              "JUMP": "25-40",
+              "SKILL": "15-30",
+              "SPEED": "45-75",
+              "STAMINA": "30-50"
+            }
+          },
+          "LAND": {
+            "key": "cobblemon:land/horse",
+            "rideSounds": [],
+            "canJump": true,
+            "stats": {
+              "ACCELERATION": "65-80",
+              "JUMP": "40-60",
+              "SKILL": "40-65",
+              "SPEED": "35-50",
+              "STAMINA": "60-85"
+            }
+          }
+        },
+        "seats": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": 0.0069884723,
+                  "y": -4.8332925,
+                  "z": 0.713007
+                },
+                "poseTypes": [
+                  "STAND"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.009686413,
+                  "y": -4.746398,
+                  "z": 0.38281527
+                },
+                "poseTypes": [
+                  "WALK"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0034906503,
+                  "y": -4.624994,
+                  "z": 0.62499994
+                },
+                "poseTypes": [
+                  "HOVER"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0069812573,
+                  "y": -4.6249757,
+                  "z": 0.625
+                },
+                "poseTypes": [
+                  "FLY"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -4.85,
+                  "z": 0.61875
+                },
+                "poseTypes": [
+                  "FLOAT"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -4.85,
+                  "z": 0.61875
+                },
+                "poseTypes": [
+                  "SWIM"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -4.85,
+                  "z": 0.61875
+                },
+                "poseTypes": [
+                  "GLIDE"
+                ]
+              }
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": -0.8680348,
+                  "y": -4.8281674,
+                  "z": 0.9003285
+                },
+                "poseTypes": [
+                  "STAND"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.8579975,
+                  "y": -4.7733426,
+                  "z": 0.60002506
+                },
+                "poseTypes": [
+                  "WALK"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.871504,
+                  "y": -4.628048,
+                  "z": 0.81249994
+                },
+                "poseTypes": [
+                  "HOVER"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.86799747,
+                  "y": -4.6310844,
+                  "z": 0.8125
+                },
+                "poseTypes": [
+                  "FLY"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "FLOAT"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "SWIM"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "GLIDE"
+                ]
+              }
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": 0.8819546,
+                  "y": -4.822059,
+                  "z": 0.9003285
+                },
+                "poseTypes": [
+                  "STAND"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.89080614,
+                  "y": -4.7519755,
+                  "z": 0.5389509
+                },
+                "poseTypes": [
+                  "WALK"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.87848526,
+                  "y": -4.6219397,
+                  "z": 0.81249994
+                },
+                "poseTypes": [
+                  "HOVER"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.88196,
+                  "y": -4.618867,
+                  "z": 0.8125
+                },
+                "poseTypes": [
+                  "FLY"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "FLOAT"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "SWIM"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "GLIDE"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "behaviour": {
+        "herd": {
+          "maxSize": "3"
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInWater": false
+          },
+          "walk": {
+            "walkSpeed": 0.2
+          },
+          "fly": {
+            "canFly": true
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:copper_ingot",
+            "quantityRange": "0-4"
+          },
+          {
+            "item": "cobblemon:electirizer",
+            "percentage": 5.0
+          },
+          {
+            "item": "cobblemon:eject_button",
+            "percentage": 10.0
+          },
+          {
+            "item": "cobblemon:shuca_berry",
+            "percentage": 5.0
+          }
+        ]
+      },
+      "moves": [
+        "1:magnetrise",
+        "1:thundershock",
+        "1:bulletpunch",
+        "4:defensecurl",
+        "8:pound",
+        "12:thunderpunch",
+        "16:charge",
+        "20:chargebeam",
+        "20:spark",
+        "24:mirrorshot",
+        "28:irondefense",
+        "28:armorpress",
+        "32:megapunch",
+        "36:discharge",
+        "40:heavyslam",
+        "44:flashcannon",
+        "44:bulletbarrage",
+        "48:hammerarm",
+        "52:thunderbolt",
+        "56:meteormash",
+        "60:thunder",
+        "64:supercellslam",
+        "68:steelbeam",
+        "tm:allyswitch",
+        "tm:block",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:bulldoze",
+        "tm:chargebeam",
+        "tm:closecombat",
+        "tm:curse",
+        "tm:darkestlariat",
+        "tm:discharge",
+        "tm:doubleedge",
+        "tm:drainpunch",
+        "tm:earthquake",
+        "tm:electroball",
+        "tm:electricterrain",
+        "tm:endure",
+        "tm:facade",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flash",
+        "tm:flashcannon",
+        "tm:fling",
+        "tm:fly",
+        "tm:focusblast",
+        "tm:focuspunch",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:gravity",
+        "tm:armorpress",
+        "tm:gyroball",
+        "tm:hardpress",
+        "tm:heatcrash",
+        "tm:heavyslam",
+        "tm:helpinghand",
+        "tm:highhorsepower",
+        "tm:hyperbeam",
+        "tm:icebeam",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:irondefense",
+        "tm:knockoff",
+        "tm:ironhead",
+        "tm:lowkick",
+        "tm:lowsweep",
+        "tm:magiccoat",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:metalburst",
+        "tm:metalsound",
+        "tm:mudslap",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:rockpolish",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:rollout",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:smackdown",
+        "tm:stealthrock",
+        "tm:steelbeam",
+        "tm:stompingtantrum",
+        "tm:stoneedge",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:supercellslam",
+        "tm:superpower",
+        "tm:takedown",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:wildcharge",
+        "tm:zenheadbutt",
+        "tutor:allyswitch",
+        "tutor:block",
+        "tutor:bulldoze",
+        "tutor:chargebeam",
+        "tutor:drainpunch",
+        "tutor:firepunch",
+        "tutor:flashcannon",
+        "tutor:focuspunch",
+        "tutor:gigaimpact",
+        "tutor:gravity",
+        "tutor:helpinghand",
+        "tutor:highhorsepower",
+        "tutor:hyperbeam",
+        "tutor:icebeam",
+        "tutor:icepunch",
+        "tutor:icywind",
+        "tutor:irondefense",
+        "tutor:knockoff",
+        "tutor:lowkick",
+        "tutor:magiccoat",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:rocksmash",
+        "tutor:rollout",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:stealthrock",
+        "tutor:steelroller",
+        "tutor:stompingtantrum",
+        "tutor:superpower",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:thunderpunch",
+        "tutor:zenheadbutt"
+      ],
+      "preEvolution": "golett weathered_copper",
+      "evolutions": [],
+      "battleOnly": false
+    },
+    {
+      "name": "Oxidized-Copper",
+      "primaryType": "steel",
+      "secondaryType": "electric",
+      "maleRatio": -1,
+      "height": 28,
+      "weight": 3300,
+      "pokedex": [
+        "cobblemon.species.golurk-copper.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "oxidized_copper"
+      ],
+      "features": [
+        "mega_evolution"
+      ],
+      "abilities": [
+        "lightningrod",
+        "motordrive",
+        "h:technician"
+      ],
+      "eggGroups": [
+      "mineral"
+      ],
+      "baseStats": {
+        "hp": 105,
+        "attack": 124,
+        "defence": 80,
+        "special_attack": 69,
+        "special_defence": 80,
+        "speed": 25
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseScale": 1.0,
+      "hitbox": {
+        "width": 2.5,
+        "height": 5.1,
+        "fixed": false
+      },
+      "riding": {
+        "behaviours": {
+          "AIR": {
+            "key": "cobblemon:air/rocket",
+            "rideSounds": [
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                "playForNonPassengers": true,
+                "soundLocation": "cobblemon:ride.loop.wind",
+                "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+              },
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.driver_input() / 1.5, 1.0),2))",
+                "playForNonPassengers": true,
+                "soundLocation": "cobblemon:ride.loop.rocket",
+                "volumeExpr": "math.pow(math.min((q.driver_input() / 1.5) + (q.ride_velocity() / 1.5), 1.0),2)"
+              }
+            ],
+            "stats": {
+              "ACCELERATION": "10-35",
+              "JUMP": "25-40",
+              "SKILL": "15-30",
+              "SPEED": "45-75",
+              "STAMINA": "30-50"
+            }
+          },
+          "LAND": {
+            "key": "cobblemon:land/horse",
+            "rideSounds": [],
+            "canJump": true,
+            "stats": {
+              "ACCELERATION": "65-80",
+              "JUMP": "40-60",
+              "SKILL": "40-65",
+              "SPEED": "35-50",
+              "STAMINA": "60-85"
+            }
+          }
+        },
+        "seats": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": 0.0069884723,
+                  "y": -4.8332925,
+                  "z": 0.713007
+                },
+                "poseTypes": [
+                  "STAND"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.009686413,
+                  "y": -4.746398,
+                  "z": 0.38281527
+                },
+                "poseTypes": [
+                  "WALK"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0034906503,
+                  "y": -4.624994,
+                  "z": 0.62499994
+                },
+                "poseTypes": [
+                  "HOVER"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0069812573,
+                  "y": -4.6249757,
+                  "z": 0.625
+                },
+                "poseTypes": [
+                  "FLY"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -4.85,
+                  "z": 0.61875
+                },
+                "poseTypes": [
+                  "FLOAT"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -4.85,
+                  "z": 0.61875
+                },
+                "poseTypes": [
+                  "SWIM"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -4.85,
+                  "z": 0.61875
+                },
+                "poseTypes": [
+                  "GLIDE"
+                ]
+              }
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": -0.8680348,
+                  "y": -4.8281674,
+                  "z": 0.9003285
+                },
+                "poseTypes": [
+                  "STAND"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.8579975,
+                  "y": -4.7733426,
+                  "z": 0.60002506
+                },
+                "poseTypes": [
+                  "WALK"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.871504,
+                  "y": -4.628048,
+                  "z": 0.81249994
+                },
+                "poseTypes": [
+                  "HOVER"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.86799747,
+                  "y": -4.6310844,
+                  "z": 0.8125
+                },
+                "poseTypes": [
+                  "FLY"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "FLOAT"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "SWIM"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "GLIDE"
+                ]
+              }
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": 0.8819546,
+                  "y": -4.822059,
+                  "z": 0.9003285
+                },
+                "poseTypes": [
+                  "STAND"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.89080614,
+                  "y": -4.7519755,
+                  "z": 0.5389509
+                },
+                "poseTypes": [
+                  "WALK"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.87848526,
+                  "y": -4.6219397,
+                  "z": 0.81249994
+                },
+                "poseTypes": [
+                  "HOVER"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.88196,
+                  "y": -4.618867,
+                  "z": 0.8125
+                },
+                "poseTypes": [
+                  "FLY"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "FLOAT"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "SWIM"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": [
+                  "GLIDE"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "behaviour": {
+        "herd": {
+          "maxSize": "3"
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInWater": false
+          },
+          "walk": {
+            "walkSpeed": 0.125
+          },
+          "fly": {
+            "canFly": true
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:copper_ingot",
+            "quantityRange": "0-4"
+          },
+          {
+            "item": "cobblemon:electirizer",
+            "percentage": 5.0
+          },
+          {
+            "item": "cobblemon:eject_button",
+            "percentage": 10.0
+          },
+          {
+            "item": "cobblemon:shuca_berry",
+            "percentage": 5.0
+          }
+        ]
+      },
+      "moves": [
+        "1:magnetrise",
+        "1:thundershock",
+        "1:bulletpunch",
+        "4:defensecurl",
+        "8:pound",
+        "12:thunderpunch",
+        "16:charge",
+        "20:chargebeam",
+        "20:spark",
+        "24:mirrorshot",
+        "28:irondefense",
+        "28:armorpress",
+        "32:megapunch",
+        "36:discharge",
+        "40:heavyslam",
+        "44:flashcannon",
+        "44:bulletbarrage",
+        "48:hammerarm",
+        "52:thunderbolt",
+        "56:meteormash",
+        "60:thunder",
+        "64:supercellslam",
+        "68:steelbeam",
+        "tm:allyswitch",
+        "tm:block",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:bulldoze",
+        "tm:chargebeam",
+        "tm:closecombat",
+        "tm:curse",
+        "tm:darkestlariat",
+        "tm:discharge",
+        "tm:doubleedge",
+        "tm:drainpunch",
+        "tm:earthquake",
+        "tm:electroball",
+        "tm:electricterrain",
+        "tm:endure",
+        "tm:facade",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flash",
+        "tm:flashcannon",
+        "tm:fling",
+        "tm:fly",
+        "tm:focusblast",
+        "tm:focuspunch",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:gravity",
+        "tm:armorpress",
+        "tm:gyroball",
+        "tm:hardpress",
+        "tm:heatcrash",
+        "tm:heavyslam",
+        "tm:helpinghand",
+        "tm:highhorsepower",
+        "tm:hyperbeam",
+        "tm:icebeam",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:irondefense",
+        "tm:knockoff",
+        "tm:ironhead",
+        "tm:lowkick",
+        "tm:lowsweep",
+        "tm:magiccoat",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:metalburst",
+        "tm:metalsound",
+        "tm:mudslap",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:rockpolish",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:rollout",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:smackdown",
+        "tm:stealthrock",
+        "tm:steelbeam",
+        "tm:stompingtantrum",
+        "tm:stoneedge",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:supercellslam",
+        "tm:superpower",
+        "tm:takedown",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:wildcharge",
+        "tm:zenheadbutt",
+        "tutor:allyswitch",
+        "tutor:block",
+        "tutor:bulldoze",
+        "tutor:chargebeam",
+        "tutor:drainpunch",
+        "tutor:firepunch",
+        "tutor:flashcannon",
+        "tutor:focuspunch",
+        "tutor:gigaimpact",
+        "tutor:gravity",
+        "tutor:helpinghand",
+        "tutor:highhorsepower",
+        "tutor:hyperbeam",
+        "tutor:icebeam",
+        "tutor:icepunch",
+        "tutor:icywind",
+        "tutor:irondefense",
+        "tutor:knockoff",
+        "tutor:lowkick",
+        "tutor:magiccoat",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:rocksmash",
+        "tutor:rollout",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:stealthrock",
+        "tutor:steelroller",
+        "tutor:stompingtantrum",
+        "tutor:superpower",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:thunderpunch",
+        "tutor:zenheadbutt"
+      ],
+      "preEvolution": "golett oxidized_copper",
+      "evolutions": [],
+      "battleOnly": false
+    },
+    {
+      "name": "Mega-Copper",
+      "primaryType": "steel",
+      "secondaryType": "electric",
+      "maleRatio": -1,
+      "height": 28,
+      "weight": 9999,
+      "pokedex": [
+        "cobblemon.species.golurk-copper-mega.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian",
+        "mega"
+      ],
+      "aspects": [
+        "mega_y",
+        "copper"
+      ],
+      "abilities": [
+        "battery",
+        "h:battery"
+      ],
+      "baseStats": {
+        "hp": 69,
+        "attack": 25,
+        "defence": 105,
+        "special_attack": 159,
+        "special_defence": 105,
+        "speed": 120
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "moves": [
+        "1:magnetrise",
+        "1:thundershock",
+        "1:bulletpunch",
+        "4:defensecurl",
+        "8:pound",
+        "12:thunderpunch",
+        "16:charge",
+        "20:chargebeam",
+        "20:spark",
+        "24:mirrorshot",
+        "28:irondefense",
+        "28:armorpress",
+        "32:megapunch",
+        "36:discharge",
+        "40:heavyslam",
+        "44:flashcannon",
+        "44:bulletbarrage",
+        "48:hammerarm",
+        "52:thunderbolt",
+        "56:meteormash",
+        "60:thunder",
+        "64:supercellslam",
+        "68:steelbeam",
+        "tm:allyswitch",
+        "tm:block",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:bulldoze",
+        "tm:chargebeam",
+        "tm:closecombat",
+        "tm:curse",
+        "tm:darkestlariat",
+        "tm:discharge",
+        "tm:doubleedge",
+        "tm:drainpunch",
+        "tm:earthquake",
+        "tm:electroball",
+        "tm:electricterrain",
+        "tm:endure",
+        "tm:facade",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flash",
+        "tm:flashcannon",
+        "tm:fling",
+        "tm:fly",
+        "tm:focusblast",
+        "tm:focuspunch",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:gravity",
+        "tm:armorpress",
+        "tm:gyroball",
+        "tm:hardpress",
+        "tm:heatcrash",
+        "tm:heavyslam",
+        "tm:helpinghand",
+        "tm:highhorsepower",
+        "tm:hyperbeam",
+        "tm:icebeam",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:irondefense",
+        "tm:knockoff",
+        "tm:ironhead",
+        "tm:lowkick",
+        "tm:lowsweep",
+        "tm:magiccoat",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:metalburst",
+        "tm:metalsound",
+        "tm:mudslap",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:rockpolish",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:rollout",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:smackdown",
+        "tm:stealthrock",
+        "tm:steelbeam",
+        "tm:stompingtantrum",
+        "tm:stoneedge",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:supercellslam",
+        "tm:superpower",
+        "tm:takedown",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:wildcharge",
+        "tm:zenheadbutt",
+        "tutor:allyswitch",
+        "tutor:block",
+        "tutor:bulldoze",
+        "tutor:chargebeam",
+        "tutor:drainpunch",
+        "tutor:firepunch",
+        "tutor:flashcannon",
+        "tutor:focuspunch",
+        "tutor:gigaimpact",
+        "tutor:gravity",
+        "tutor:helpinghand",
+        "tutor:highhorsepower",
+        "tutor:hyperbeam",
+        "tutor:icebeam",
+        "tutor:icepunch",
+        "tutor:icywind",
+        "tutor:irondefense",
+        "tutor:knockoff",
+        "tutor:lowkick",
+        "tutor:magiccoat",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:rocksmash",
+        "tutor:rollout",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:stealthrock",
+        "tutor:steelroller",
+        "tutor:stompingtantrum",
+        "tutor:superpower",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:thunderpunch",
+        "tutor:zenheadbutt"
+      ],
+      "baseExperienceYield": 253,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    },
+    {
+      "name": "Mega-Exposed-Copper",
+      "primaryType": "steel",
+      "secondaryType": "electric",
+      "maleRatio": -1,
+      "height": 28,
+      "weight": 9999,
+      "pokedex": [
+        "cobblemon.species.golurk-copper-mega.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian",
+        "mega"
+      ],
+      "aspects": [
+        "mega_y",
+        "exposed_copper"
+      ],
+      "abilities": [
+        "battery",
+        "h:battery"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 25,
+        "defence": 94,
+        "special_attack": 130,
+        "special_defence": 159,
+        "speed": 95
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 3,
+        "speed": 0
+      },
+      "moves": [
+        "1:magnetrise",
+        "1:thundershock",
+        "1:bulletpunch",
+        "4:defensecurl",
+        "8:pound",
+        "12:thunderpunch",
+        "16:charge",
+        "20:chargebeam",
+        "20:spark",
+        "24:mirrorshot",
+        "28:irondefense",
+        "28:armorpress",
+        "32:megapunch",
+        "36:discharge",
+        "40:heavyslam",
+        "44:flashcannon",
+        "44:bulletbarrage",
+        "48:hammerarm",
+        "52:thunderbolt",
+        "56:meteormash",
+        "60:thunder",
+        "64:supercellslam",
+        "68:steelbeam",
+        "tm:allyswitch",
+        "tm:block",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:bulldoze",
+        "tm:chargebeam",
+        "tm:closecombat",
+        "tm:curse",
+        "tm:darkestlariat",
+        "tm:discharge",
+        "tm:doubleedge",
+        "tm:drainpunch",
+        "tm:earthquake",
+        "tm:electroball",
+        "tm:electricterrain",
+        "tm:endure",
+        "tm:facade",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flash",
+        "tm:flashcannon",
+        "tm:fling",
+        "tm:fly",
+        "tm:focusblast",
+        "tm:focuspunch",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:gravity",
+        "tm:armorpress",
+        "tm:gyroball",
+        "tm:hardpress",
+        "tm:heatcrash",
+        "tm:heavyslam",
+        "tm:helpinghand",
+        "tm:highhorsepower",
+        "tm:hyperbeam",
+        "tm:icebeam",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:irondefense",
+        "tm:knockoff",
+        "tm:ironhead",
+        "tm:lowkick",
+        "tm:lowsweep",
+        "tm:magiccoat",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:metalburst",
+        "tm:metalsound",
+        "tm:mudslap",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:rockpolish",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:rollout",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:smackdown",
+        "tm:stealthrock",
+        "tm:steelbeam",
+        "tm:stompingtantrum",
+        "tm:stoneedge",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:supercellslam",
+        "tm:superpower",
+        "tm:takedown",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:wildcharge",
+        "tm:zenheadbutt",
+        "tutor:allyswitch",
+        "tutor:block",
+        "tutor:bulldoze",
+        "tutor:chargebeam",
+        "tutor:drainpunch",
+        "tutor:firepunch",
+        "tutor:flashcannon",
+        "tutor:focuspunch",
+        "tutor:gigaimpact",
+        "tutor:gravity",
+        "tutor:helpinghand",
+        "tutor:highhorsepower",
+        "tutor:hyperbeam",
+        "tutor:icebeam",
+        "tutor:icepunch",
+        "tutor:icywind",
+        "tutor:irondefense",
+        "tutor:knockoff",
+        "tutor:lowkick",
+        "tutor:magiccoat",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:rocksmash",
+        "tutor:rollout",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:stealthrock",
+        "tutor:steelroller",
+        "tutor:stompingtantrum",
+        "tutor:superpower",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:thunderpunch",
+        "tutor:zenheadbutt"
+      ],
+      "baseExperienceYield": 253,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    },
+    {
+      "name": "Mega-Weathered-Copper",
+      "primaryType": "steel",
+      "secondaryType": "electric",
+      "maleRatio": -1,
+      "height": 28,
+      "weight": 9999,
+      "pokedex": [
+        "cobblemon.species.golurk-copper-mega.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian",
+        "mega"
+      ],
+      "aspects": [
+        "mega_y",
+        "weathered_copper"
+      ],
+      "abilities": [
+        "battery",
+        "h:battery"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 130,
+        "defence": 159,
+        "special_attack": 25,
+        "special_defence": 105,
+        "speed": 84
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 3,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "moves": [
+        "1:magnetrise",
+        "1:thundershock",
+        "1:bulletpunch",
+        "4:defensecurl",
+        "8:pound",
+        "12:thunderpunch",
+        "16:charge",
+        "20:chargebeam",
+        "20:spark",
+        "24:mirrorshot",
+        "28:irondefense",
+        "28:armorpress",
+        "32:megapunch",
+        "36:discharge",
+        "40:heavyslam",
+        "44:flashcannon",
+        "44:bulletbarrage",
+        "48:hammerarm",
+        "52:thunderbolt",
+        "56:meteormash",
+        "60:thunder",
+        "64:supercellslam",
+        "68:steelbeam",
+        "tm:allyswitch",
+        "tm:block",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:bulldoze",
+        "tm:chargebeam",
+        "tm:closecombat",
+        "tm:curse",
+        "tm:darkestlariat",
+        "tm:discharge",
+        "tm:doubleedge",
+        "tm:drainpunch",
+        "tm:earthquake",
+        "tm:electroball",
+        "tm:electricterrain",
+        "tm:endure",
+        "tm:facade",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flash",
+        "tm:flashcannon",
+        "tm:fling",
+        "tm:fly",
+        "tm:focusblast",
+        "tm:focuspunch",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:gravity",
+        "tm:armorpress",
+        "tm:gyroball",
+        "tm:hardpress",
+        "tm:heatcrash",
+        "tm:heavyslam",
+        "tm:helpinghand",
+        "tm:highhorsepower",
+        "tm:hyperbeam",
+        "tm:icebeam",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:irondefense",
+        "tm:knockoff",
+        "tm:ironhead",
+        "tm:lowkick",
+        "tm:lowsweep",
+        "tm:magiccoat",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:metalburst",
+        "tm:metalsound",
+        "tm:mudslap",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:rockpolish",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:rollout",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:smackdown",
+        "tm:stealthrock",
+        "tm:steelbeam",
+        "tm:stompingtantrum",
+        "tm:stoneedge",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:supercellslam",
+        "tm:superpower",
+        "tm:takedown",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:wildcharge",
+        "tm:zenheadbutt",
+        "tutor:allyswitch",
+        "tutor:block",
+        "tutor:bulldoze",
+        "tutor:chargebeam",
+        "tutor:drainpunch",
+        "tutor:firepunch",
+        "tutor:flashcannon",
+        "tutor:focuspunch",
+        "tutor:gigaimpact",
+        "tutor:gravity",
+        "tutor:helpinghand",
+        "tutor:highhorsepower",
+        "tutor:hyperbeam",
+        "tutor:icebeam",
+        "tutor:icepunch",
+        "tutor:icywind",
+        "tutor:irondefense",
+        "tutor:knockoff",
+        "tutor:lowkick",
+        "tutor:magiccoat",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:rocksmash",
+        "tutor:rollout",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:stealthrock",
+        "tutor:steelroller",
+        "tutor:stompingtantrum",
+        "tutor:superpower",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:thunderpunch",
+        "tutor:zenheadbutt"
+      ],
+      "baseExperienceYield": 253,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    },
+    {
+      "name": "Mega-Oxidized-Copper",
+      "primaryType": "steel",
+      "secondaryType": "electric",
+      "maleRatio": -1,
+      "height": 28,
+      "weight": 9999,
+      "pokedex": [
+        "cobblemon.species.golurk-copper-mega.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian",
+        "mega"
+      ],
+      "aspects": [
+        "mega_y",
+        "oxidized_copper"
+      ],
+      "abilities": [
+        "battery",
+        "h:battery"
+      ],
+      "baseStats": {
+        "hp": 105,
+        "attack": 159,
+        "defence": 105,
+        "special_attack": 84,
+        "special_defence": 105,
+        "speed": 25
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "moves": [
+        "1:magnetrise",
+        "1:thundershock",
+        "1:bulletpunch",
+        "4:defensecurl",
+        "8:pound",
+        "12:thunderpunch",
+        "16:charge",
+        "20:chargebeam",
+        "20:spark",
+        "24:mirrorshot",
+        "28:irondefense",
+        "28:armorpress",
+        "32:megapunch",
+        "36:discharge",
+        "40:heavyslam",
+        "44:flashcannon",
+        "44:bulletbarrage",
+        "48:hammerarm",
+        "52:thunderbolt",
+        "56:meteormash",
+        "60:thunder",
+        "64:supercellslam",
+        "68:steelbeam",
+        "tm:allyswitch",
+        "tm:block",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:bulldoze",
+        "tm:chargebeam",
+        "tm:closecombat",
+        "tm:curse",
+        "tm:darkestlariat",
+        "tm:discharge",
+        "tm:doubleedge",
+        "tm:drainpunch",
+        "tm:earthquake",
+        "tm:electroball",
+        "tm:electricterrain",
+        "tm:endure",
+        "tm:facade",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flash",
+        "tm:flashcannon",
+        "tm:fling",
+        "tm:fly",
+        "tm:focusblast",
+        "tm:focuspunch",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:gravity",
+        "tm:armorpress",
+        "tm:gyroball",
+        "tm:hardpress",
+        "tm:heatcrash",
+        "tm:heavyslam",
+        "tm:helpinghand",
+        "tm:highhorsepower",
+        "tm:hyperbeam",
+        "tm:icebeam",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:irondefense",
+        "tm:knockoff",
+        "tm:ironhead",
+        "tm:lowkick",
+        "tm:lowsweep",
+        "tm:magiccoat",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:metalburst",
+        "tm:metalsound",
+        "tm:mudslap",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:rockpolish",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:rollout",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:smackdown",
+        "tm:stealthrock",
+        "tm:steelbeam",
+        "tm:stompingtantrum",
+        "tm:stoneedge",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:supercellslam",
+        "tm:superpower",
+        "tm:takedown",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:wildcharge",
+        "tm:zenheadbutt",
+        "tutor:allyswitch",
+        "tutor:block",
+        "tutor:bulldoze",
+        "tutor:chargebeam",
+        "tutor:drainpunch",
+        "tutor:firepunch",
+        "tutor:flashcannon",
+        "tutor:focuspunch",
+        "tutor:gigaimpact",
+        "tutor:gravity",
+        "tutor:helpinghand",
+        "tutor:highhorsepower",
+        "tutor:hyperbeam",
+        "tutor:icebeam",
+        "tutor:icepunch",
+        "tutor:icywind",
+        "tutor:irondefense",
+        "tutor:knockoff",
+        "tutor:lowkick",
+        "tutor:magiccoat",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:rocksmash",
+        "tutor:rollout",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:stealthrock",
+        "tutor:steelroller",
+        "tutor:stompingtantrum",
+        "tutor:superpower",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:thunderpunch",
+        "tutor:zenheadbutt"
+      ],
+      "baseExperienceYield": 253,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
+}

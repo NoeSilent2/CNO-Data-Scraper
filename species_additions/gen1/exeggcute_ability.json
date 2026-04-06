@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:exeggcute",
+  "abilities": [
+    "chlorophyll",
+    "telepathy",
+    "h:harvest"
+  ]
+}

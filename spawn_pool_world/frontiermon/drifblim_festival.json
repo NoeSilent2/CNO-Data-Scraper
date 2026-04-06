@@ -1,0 +1,27 @@
+{
+	"enabled": true,
+	"neededInstalledMods": [],
+	"neededUninstalledMods": [],
+	"spawns": [
+		{
+			"id": "drifblim-festival-1",
+			"pokemon": "drifblim festival",
+			"presets": [
+				"natural"
+			],
+			"type": "pokemon",
+			"spawnablePositionType": "grounded",
+			"bucket": "uncommon",
+			"level": "28-50",
+			"weight": 4.0,
+			"condition": {
+				"minSkyLight": 8,
+				"maxSkyLight": 15,
+				"biomes": [
+					"minecraft:cherry_grove"
+				],
+				"timeRange": "night"
+			}
+		}
+	]
+}

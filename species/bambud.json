@@ -1,0 +1,144 @@
+{
+  "implemented": true,
+  "name": "bambud",
+  "nationalPokedexNumber": 1027,
+  "primaryType": "grass",
+  "secondaryType": "steel",
+  "abilities": [
+    "overgrow",
+    "h:bulletproof"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defence": 85,
+    "special_attack": 65,
+    "special_defence": 70,
+    "speed": 50
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-4"
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "monster",
+    "grass"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:bamboo",
+        "quantityRange": "2-4",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:copper_ingot",
+        "quantityRange": "1-2",
+        "percentage": 35
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "1:leafage",
+    "1:defensecurl",
+    "4:bulletseed",
+    "7:rollout",
+    "10:razorleaf",
+    "13:metalclaw",
+    "16:protect",
+    "20:synthesis",
+    "24:irondefense",
+    "28:pinmissile",
+    "32:seedbomb",
+    "36:gyroball",
+    "40:ingrain",
+    "44:leafblade",
+    "48:heavyslam",
+    "egg:leechseed",
+    "egg:grassyterrain",
+    "egg:worryseed",
+    "egg:curse",
+    "egg:stealthrock",
+    "tm:energyball",
+    "tm:solarbeam",
+    "tm:grassknot",
+    "tm:protect",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:ironhead",
+    "tm:flashcannon",
+    "tm:bulldoze",
+    "tm:swordsdance",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure"
+  ],
+  "labels": [
+    "starter",
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.bambud.desc1"
+  ],
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.7,
+    "height": 2.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 265,
+  "evolutions": [
+    {
+      "id": "bambud-bamnon",
+      "variant": "level_up",
+      "result": "bamnon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

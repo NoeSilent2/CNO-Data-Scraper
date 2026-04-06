@@ -1,0 +1,129 @@
+{
+  "implemented": true,
+  "name": "karstory",
+  "nationalPokedexNumber": 1052,
+  "primaryType": "rock",
+  "secondaryType": "grass",
+  "abilities": [
+    "sturdy",
+    "grasspelt",
+    "h:solidrock"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 80,
+    "defence": 90,
+    "special_attack": 55,
+    "special_defence": 125,
+    "speed": 50
+  },
+  "catchRate": 55,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 210,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "mineral"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:calcite",
+        "percentage": 80,
+        "quantityRange": "5-18"
+      }
+    ]
+  },
+  "moves": [
+    "1:rockthrow",
+    "1:harden",
+    "1:rockpolish",
+    "1:rollout",
+    "1:snatch",
+    "1:rocktomb",
+    "1:ancientpower",
+    "5:absorb",
+    "9:mudshot",
+    "16:grassyterrain",
+    "19:stealthrock",
+    "23:ingrain",
+    "26:megadrain",
+    "30:instruct",
+    "35:smackdown",
+    "39:calmmind",
+    "42:gigadrain",
+    "46:entrainment",
+    "52:powerwhip",
+    "64:stoneedge",
+    "tm:takedown",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:waterpulse",
+    "tm:trailblaze",
+    "tm:facade",
+    "tm:swift",
+    "tm:magicalleaf",
+    "tm:mudshot",
+    "tm:rocktomb",
+    "tm:endure",
+    "tm:raindance",
+    "tm:sandstorm",
+    "tm:bulletseed",
+    "tm:bodyslam",
+    "tm:sleeptalk",
+    "tm:seedbomb",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:rockblast",
+    "tm:grassknot",
+    "tm:stompingtantrum",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:taunt",
+    "tm:powerwhip",
+    "tm:powergem",
+    "tm:substitute",
+    "tm:irondefense",
+    "tm:gigadrain",
+    "tm:stealthrock",
+    "tm:energyball",
+    "tm:psychic",
+    "tm:encore",
+    "tm:calmmind",
+    "tm:helpinghand",
+    "tm:earthpower",
+    "tm:grassyterrain",
+    "tm:stoneedge",
+    "tm:frenzyplant",
+    "tm:leafstorm",
+    "tm:trickroom",
+    "tm:solarbeam",
+    "tm:amnesia",
+    "tutor:synthesis",
+    "tutor:wonderroom"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.karstory.desc1",
+    "cobblemon.species.karstory.desc2"
+  ],
+  "preEvolution": "lymming",
+  "evolutions": [],
+  "baseScale": 1.6,
+  "hitbox": {
+    "width": 1.2,
+    "height": 2.4,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "defence": 2
+  },
+  "height": 41,
+  "weight": 3075
+}

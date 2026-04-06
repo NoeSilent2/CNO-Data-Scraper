@@ -1,0 +1,132 @@
+{
+  "implemented": true,
+  "name": "fubber",
+  "nationalPokedexNumber": 1049,
+  "primaryType": "water",
+  "abilities": [
+    "aftermath",
+    "limber",
+    "h:hydration"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 30,
+    "defence": 50,
+    "special_attack": 55,
+    "special_defence": 50,
+    "speed": 90
+  },
+  "catchRate": 160,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": [
+    "water_2"
+  ],
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true,
+        "canWalkOnWater": false
+      },
+      "wanderChance": 120
+    }
+  },
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:pufferfish",
+        "quantityRange": "1",
+        "percentage": 85
+      }
+    ]
+  },
+  "moves": [
+    "1:watergun",
+    "1:protect",
+    "4:poisonsting",
+    "7:acidarmor",
+    "10:poisontail",
+    "13:bubblebeam",
+    "15:watersport",
+    "18:meanlook",
+    "21:headbutt",
+    "22:aguagatcha",
+    "24:waterpulse",
+    "30:surf",
+    "40:hydropump",
+    "tm:takedown",
+    "tm:agility",
+    "tm:mudslap",
+    "tm:scaryface",
+    "tm:protect",
+    "tm:waterpulse",
+    "tm:acidspray",
+    "tm:facade",
+    "tm:poisontail",
+    "tm:swift",
+    "tm:mudshot",
+    "tm:drainingkiss",
+    "tm:endure",
+    "tm:raindance",
+    "tm:zenheadbutt",
+    "tm:sleeptalk",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:waterfall",
+    "tm:poisonjab",
+    "tm:rest",
+    "tm:taunt",
+    "tm:ironhead",
+    "tm:substitute",
+    "tm:crunch",
+    "tm:liquidation",
+    "tm:surf",
+    "tm:amnesia",
+    "tm:hydropump",
+    "tutor:toxic",
+    "tutor:venoshock",
+    "tutor:gastroacid"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.puffoon.desc1",
+    "cobblemon.species.puffoon.desc2"
+  ],
+  "evolutions": [
+    {
+      "id": "fubber_puffoon_lvl",
+      "variant": "level_up",
+      "result": "puffoon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "fly"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 29
+        }
+      ]
+    }
+  ],
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 1.4,
+    "height": 1.4,
+    "fixed": false
+  },
+  "baseFriendship": 80,
+  "evYield": {
+    "defence": 1
+  },
+  "height": 6,
+  "weight": 106
+}

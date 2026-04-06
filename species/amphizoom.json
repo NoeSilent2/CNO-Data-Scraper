@@ -1,0 +1,132 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1086,
+  "name": "amphizoom",
+  "primaryType": "steel",
+  "secondaryType": "water",
+  "maleRatio": 0.5,
+  "height": 20,
+  "weight": 1100,
+  "pokedex": [
+    "cobblemon.species.amphizoom.desc"
+  ],
+  "labels": [
+    "frontiermon"
+  ],
+  "aspects": [],
+  "abilities": [
+    "overcoat",
+    "frigidfrenzy",
+    "h:waterabsorb"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 110,
+    "defence": 80,
+    "special_attack": 65,
+    "special_defence": 96,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 1,
+    "height": 1.2,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "light": "0-4"
+    },
+    "moving": {
+      "swim": {
+        "swimSpeed": 0.17,
+        "avoidsWater": false,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:iron_nugget",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:shuca_berry",
+        "percentage": 5
+      }
+    ]
+  },
+  "moves": [
+    "1:spark",
+    "1:watergun",
+    "4:soak",
+    "7:aquajet",
+    "10:withdraw",
+    "13:lock-on",
+    "17:autotomize",
+    "21:magnetbomb",
+    "25:scald",
+    "28:ironhead",
+    "32:scald",
+    "36:wavecrash",
+    "46:wildcharge",
+    "52:spinout",
+    "58:steelroller",
+    "tm:icespinner",
+    "tm:flamewheel",
+    "tm:flareblitz",
+    "tm:bounce",
+    "tm:protect",
+    "tm:terablast",
+    "tm:iceball",
+    "tm:flipturn",
+    "tm:waterfall",
+    "tm:rockclimb",
+    "tm:rollout",
+    "tm:whirlwind",
+    "tm:slam",
+    "tm:bodyslam",
+    "tm:extremespeed",
+    "tm:substitute",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:sleeptalk",
+    "tm:rest",
+    "tm:gyroball",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:sandstorm",
+    "tm:electricterrain",
+    "tm:electrify",
+    "tm:wideguard",
+    "tm:steamroller",
+    "tm:takedown",
+    "tm:doubleedge"
+  ],
+  "preEvolution": "kazoom",
+  "evolutions": []
+}

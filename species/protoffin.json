@@ -1,0 +1,129 @@
+{
+  "implemented": true,
+  "name": "protoffin",
+  "nationalPokedexNumber": 1069,
+  "primaryType": "rock",
+  "secondaryType": "fighting",
+  "abilities": [
+    "toughclaws",
+    "sturdy",
+    "h:sandstream"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 115,
+    "defence": 50,
+    "special_attack": 75,
+    "special_defence": 80,
+    "speed": 110
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 30,
+  "eggGroups": [
+    "monster",
+    "flying"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "2-3",
+        "percentage": 80
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "1:quickguard",
+    "1:bide",
+    "1:sandattack",
+    "1:rockthrow",
+    "5:armthrust",
+    "10:rocksmash",
+    "15:headbutt",
+    "17:brickbreak",
+    "22:rocktomb",
+    "25:detect",
+    "27:doubleedge",
+    "29:taunt",
+    "34:poweruppunch",
+    "37:submission",
+    "40:wingattack",
+    "42:ancientpower",
+    "45:rockslide",
+    "49:machpunch",
+    "51:mightyslash",
+    "53:counter",
+    "57:dynamicpunch",
+    "60:acrobatics",
+    "63:stoneedge",
+    "67:hammerarm",
+    "70:headsmash",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:dig",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:snore",
+    "tm:protect",
+    "tm:scaryface",
+    "tm:attract",
+    "tm:sandstorm",
+    "tm:powergem",
+    "tm:sunnyday",
+    "tm:facade",
+    "tm:brickbreak",
+    "tm:rocktomb",
+    "tm:rockblast",
+    "tm:assurance",
+    "tm:brutalswing",
+    "tm:bodyslam",
+    "tm:endure",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:crunch",
+    "tm:dragonclaw",
+    "tm:closecombat",
+    "tm:zenheadbutt",
+    "tm:firepunch",
+    "tm:thunderpunch",
+    "tm:icepunch",
+    "tm:megapunch",
+    "tm:thief",
+    "tm:revenge",
+    "tm:lowsweep",
+    "tm:reversal",
+    "tm:metronome",
+    "tm:bulkup",
+    "tutor:encore",
+    "tutor:fling"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.protoffin.desc1",
+    "cobblemon.species.protoffin.desc2"
+  ],
+  "evolutions": [],
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 1.2,
+    "height": 1.9,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "speed": 1,
+    "attack": 1
+  },
+  "height": 10,
+  "weight": 100
+}

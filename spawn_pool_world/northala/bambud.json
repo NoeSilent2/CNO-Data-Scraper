@@ -1,0 +1,40 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bambud-1",
+      "pokemon": "bambud",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-32",
+      "weight": 0.2,
+      "condition": {
+        "biomes": [
+          "minecraft:bamboo_jungle"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "bambud-2",
+      "pokemon": "bambud",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "18-32",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "timeRange": "day",
+        "neededNearbyBlocks": [
+          "minecraft:bamboo"
+        ]
+      }
+    }
+  ]
+}

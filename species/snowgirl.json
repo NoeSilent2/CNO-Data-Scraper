@@ -1,0 +1,122 @@
+{
+  "implemented": true,
+  "name": "snowgirl",
+  "nationalPokedexNumber": 1040,
+  "primaryType": "ice",
+  "secondaryType": "flying",
+  "abilities": [
+    "fluffy",
+    "bigpecks",
+    "h:snowcloak"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defence": 105,
+    "special_attack": 70,
+    "special_defence": 105,
+    "speed": 90
+  },
+  "catchRate": 90,
+  "maleRatio": 0.125,
+  "shoulderMountable": true,
+  "shoulderEffects": [
+    "slow_fall"
+  ],
+  "forms": [],
+  "baseExperienceYield": 155,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 15,
+  "eggGroups": [
+    "flying"
+  ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:snow",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:chicken"
+      }
+    ]
+  },
+  "moves": [
+    "1:peck",
+    "1:powdersnow",
+    "1:growl",
+    "4:charm",
+    "6:furyattack",
+    "8:gust",
+    "11:taunt",
+    "14:avalanche",
+    "18:mist",
+    "20:iceshard",
+    "22:featherdance",
+    "25:pursuit",
+    "30:roost",
+    "32:pluck",
+    "35:mirrormove",
+    "39:drillpeck",
+    "41:endeavor",
+    "44:hail",
+    "48:blizzard",
+    "50:bravebird",
+    "55:cottonguard",
+    "60:auroraveil",
+    "73:bluemoonedict",
+    "egg:counter",
+    "egg:feint",
+    "egg:lastresort",
+    "egg:nightslash",
+    "tm:acrobatics",
+    "tm:swagger",
+    "tm:confide",
+    "tm:substitute",
+    "tm:sleeptalk",
+    "tm:gigaimpact",
+    "tm:attract",
+    "tm:thief",
+    "tm:facade",
+    "tm:rest",
+    "tm:aerialace",
+    "tm:roost",
+    "tm:doubleteam",
+    "tm:return",
+    "tm:frustration",
+    "tm:protect",
+    "tm:hyperbeam",
+    "tm:taunt",
+    "tm:hail",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:avalanche",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:payback",
+    "tutor:mefirst"
+  ],
+  "labels": [
+    "gen8"
+  ],
+  "pokedex": [
+    "cobblemon.species.snowgirl.desc1",
+    "cobblemon.species.snowgirl.desc2"
+  ],
+  "preEvolution": "snowkie",
+  "evolutions": [],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.7,
+    "height": 0.7,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "defence": 1,
+    "special_defence": 1
+  },
+  "height": 3,
+  "weight": 26
+}

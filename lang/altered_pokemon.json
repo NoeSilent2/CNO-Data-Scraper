@@ -1,0 +1,56 @@
+{
+    "cobblemon.ui.pokedex.info.form.altered": "Altered",
+    "cobblemon.ui.pokedex.info.form.altered a": "Altered A",
+    "cobblemon.ui.pokedex.info.form.altered b": "Altered B",
+    "cobblemon.ui.pokedex.info.form.altered mega": "Altered Mega",
+
+    "spawn_notification.label.altered": "Altered",
+
+    "cobblemon.species.ralts_altered.desc": "These Ralts have the appearance of a lost soul. They come out at night and will roam around. If it's seen by a human, it will run away an watch them from afar.",
+    "cobblemon.species.kirlia_altered.desc": "Being able to read the feelings or other living beings, these Kirlia will dance to try and cheer up those it sees as sad, no matter if they are human or Pokemon.",
+    "cobblemon.species.gardevoir_altered.desc": "These Gardevoir are able to connect to the souls of those who has passed away. It takes in any lost souls it can find and will try help them move to the afterlife. If one of its loved ones were to die, it will contiune to guard and protect their soul, even at the cost of it's own life.",
+    "cobblemon.species.gallade_altered.desc": "Using their own soul as power, this Pokemon covers its body in ice and uses it for attacks. The more power it uses, the colder the ice on its body becomes. As long as they have the energy, they will fight to protect those they care about.",
+
+    "cobblemon.species.gardevoir_altered-mega.desc": "Through Mega Evolution, this Pokemon's connection with the afterlife gets even stronger. They're able to see the memories of the souls it guards and will give those souls a breif chance to say goodbye to their loved ones. If the Gardevoir has a strong enough connetion with a soul, it will be able to create of manifestation of them.",
+    "cobblemon.species.gallade_altered-mega.desc": "Upon Mega Evolving, this Pokemon is able to draw out more power it could before, using that power and its ice to repair and fortify its body. It's able to directly attack ones soul and will go out of its way to hunt and attack those whose souls have been corrupted in some way.",
+    "cobblemon.species.flygon-mega.desc": "Upon Mega Evolving, this Pokemon has become more intune with the earth, beening able to control the ground at will. It's gained spikes on it's tail and arms which it uses to help it dig through tougher rocks and minerals.",
+
+    "cobblemon.species.eevee_altered_a.desc": "A recently discovered Altered Variant of Eevee. It shares a lot of similarities with the original to the point its only known difference is its appearance and stats. It is unknown if its evolutions are the same or if it even has any to begin with.",
+    "cobblemon.species.eevee_altered_b.desc": "A recently discovered Altered Variant of Eevee. Due to it being confused with a regular Eevee when discovered, its true capabilities and possible evolutions are still being researched.",
+    "cobblemon.species.umbreon_altered.desc": "A newly discovered Altered Form of Umbreon. This Pokemon draws its power from the light around it. When it becomes night, the markings on it will glow, drawing in more power from the Moon and stars. While the origin of the mist around it is currently unknown, it suppcted to be direct stardust from stars that have died.",
+    "cobblemon.species.espeon_altered.desc": "A newly discovered Altered Form of Espeon. This Pokemon flames burn with immense power and psychic pressure. It gains power from direct sunlight and its flames and psychic abilities grow more intense from it. Despite this, it's currently believed to contain an energy far greater than our Sun.",
+
+    "advancements.cobblemon.moon_veevee":"Moon Marked Eevee",
+    "advancements.cobblemon.moon_veevee.description":"Find and catch Altered Eevee A.",
+
+    "advancements.cobblemon.sun_veevee":"Sun Marked Eevee",
+    "advancements.cobblemon.sun_veevee.description":"Find and catch Altered Eevee B.",
+
+    "cobblemon.move.soulblaze": "Soul Blaze",
+    "cobblemon.move.soulblaze.desc": "The user fires a wisp that burns the target's soul. The move deals both Ghost and Fire type damage.",
+    "cobblemon.move.soulblade": "Soul Blade",
+    "cobblemon.move.soulblade.desc": "The user channels their soul into their blade and slashs at the opponent. This move ignores protection.",
+    "cobblemon.move.twilightveil": "Twilight Veil",
+    "cobblemon.move.twilightveil.desc": "The user calls upon the Moon for help, using 1/5 of their Max HP to reduce damage from physical and special moves for five turns. Has no recoil when used under Misty Terrian.",
+    "cobblemon.move.daybreakcannon": "Daybreak Cannon",
+    "cobblemon.move.daybreakcannon.desc": "The user calls upon the Sun for help, making the user launch a powerful blast from their body that has a high chance to burn foes. The user can't move on the next turn unless used in harsh Sunlight.",
+    "cobblemon.move.rupture": "Rupture",
+    "cobblemon.move.rupture.desc": "The user causes the ground underneath the opponent to repture, causing debris and jagged rocks to launch upwards at the target, hitting Flying types and causing Super Effective Damage to them.",
+
+    "cobblemon.ability.burningsoul": "Burning Soul",
+    "cobblemon.ability.burningsoul.desc": "This Pokemon gets stronger every time it fights, boosts its Sp. Atk stat every time a Pokemon faints.",
+    "cobblemon.ability.chillingglare": "Chilling Glare",
+    "cobblemon.ability.chillingglare.desc": "The Pokemon glares at the opponent's soul, causing a shiver to run through their body, lowering their Special Attack stat.",
+    "cobblemon.ability.lunarforce": "Lunar Force",
+    "cobblemon.ability.lunarforce.desc": "This Pokemon calls upon the Moon for power, increasing the power its Dark & Fairy type moves while Misty Terrian is active.",
+    "cobblemon.ability.solarflare": "Solar Flare",
+    "cobblemon.ability.solarflare.desc": "This Pokemon calls upon the Sun for power, increasing the power its Psychic & Fire type moves while Harsh Sunlight is active.",
+    "cobblemon.ability.trojinhorse": "Trojin Horse",
+    "cobblemon.ability.trojinhorse.desc": "Falinks will hide inside Mudsdale and be unable to be damaged from attacks. Mudsdale can no longer switch out. Falinks's Attack and Speed raise by 3 stages.",
+    "cobblemon.ability.articforce": "Artic Force",
+    "cobblemon.ability.articforce.desc": "This Pokemon gets stronger from the cold, summoning the Snow and increasing its Special Attack while Aurora Veil is active.",
+
+    "cobblemon.battle.activate.articforce": "The Aurora Veil activated %1$s's Artic Force!",
+    "cobblemon.battle.sidestart.twilightveil": "Twilight Veil made %1$s team stronger against physical and special moves!",
+    "cobblemon.battle.sideend.twilightveil": "%1$s team's Twilight Veil wore off!"
+}

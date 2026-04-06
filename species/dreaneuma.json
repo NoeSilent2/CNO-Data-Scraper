@@ -1,0 +1,220 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1030,
+  "name": "Dreaneuma",
+  "primaryType": "ghost",
+  "secondaryType": "psychic",
+  "maleRatio": 0.5,
+  "height": 15,
+  "weight": 12,
+  "pokedex": [
+    "cobblemon.species.dreaneuma.desc"
+  ],
+  "labels": [
+    "laserdex"
+  ],
+  "aspects": [],
+  "abilities": [
+    "sweetdreams",
+    "h:sweetdreams"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 50,
+    "defence": 95,
+    "special_attack": 135,
+    "special_defence": 115,
+    "speed": 45
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 186,
+  "experienceGroup": "medium_slow",
+  "catchRate": 65,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 2.6,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "swim": {
+        "avoidsWater": true
+      },
+      "walk": {
+        "canWalk": false
+      }
+    },
+    "entityInteract": {
+      "avoidedByPhantom": true
+    },
+    "herd": {
+      "maxSize": "5",
+      "toleratedLeaders": [
+        {
+          "pokemon": "cresselia",
+          "tier": 3
+        }
+      ]
+    },
+    "resting": {
+      "depth": "comatose",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0033,
+      "rouseChance": 0.0042
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+  },
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:sand",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:mental_herb",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:sleepcharm",
+    "1:rest",
+    "1:snore",
+    "1:defensecurl",
+    "1:sleeptalk",
+    "1:astonish",
+    "1:confusion",
+    "1:dreameater",
+    "1:moonblast",
+    "1:hypnosis",
+    "1:psychicsnap",
+    "1:mindbend",
+    "4:sleeppowder",
+    "4:entrainment",
+    "8:psybeam",
+    "12:calmmind",
+    "16:yawn",
+    "18:encore",
+    "20:echoedvoice",
+    "24:cottonguard",
+    "26:hex",
+    "28:dazzlinggleam",
+    "32:psyshock",
+    "36:futuresight",
+    "40:shadowball",
+    "44:healingwish",
+    "50:psychic",
+    "egg:drainingkiss",
+    "egg:clearsmog",
+    "egg:disable",
+    "egg:destinybond",
+    "egg:haze",
+    "egg:nightmare",
+    "egg:perishsong",
+    "egg:psywave",
+    "egg:followme",
+    "tm:alluringvoice",
+    "tm:allyswitch",
+    "tm:confuseray",
+    "tm:amnesia",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:dreameater",
+    "tm:embargo",
+    "tm:expandingforce",
+    "tm:energyball",
+    "tm:extrasensory",
+    "tm:facade",
+    "tm:gigadrain",
+    "tm:haze",
+    "tm:hex",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:infestation",
+    "tm:mindbend",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:ominouswind",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicsnap",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:spite",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:torment",
+    "tm:toxic",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:venoshock",
+    "tm:willowisp",
+    "tm:wonderroom",
+    "tutor:allyswitch",
+    "tutor:darkpulse",
+    "tutor:dazzlinggleam",
+    "tutor:energyball",
+    "tutor:foulplay",
+    "tutor:gigadrain",
+    "tutor:icywind",
+    "tutor:ominouswind",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:telekinesis",
+    "tutor:thunderbolt",
+    "tutor:trick",
+    "tutor:wonderroom"
+  ],
+  "preEvolution": "pillowisp",
+  "evolutions": [],
+  "forms": []
+}

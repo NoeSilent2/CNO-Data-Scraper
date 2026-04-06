@@ -1,0 +1,109 @@
+{
+  "implemented": true,
+  "name": "hanyabi",
+  "nationalPokedexNumber": 1076,
+  "primaryType": "fire",
+  "secondaryType": "dark",
+  "abilities": [
+    "contrary"
+  ],
+  "baseStats": {
+    "hp": 94,
+    "attack": 77,
+    "defence": 78,
+    "special_attack": 122,
+    "special_defence": 107,
+    "speed": 122
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      }
+    }
+  },
+  "catchRate": 30,
+  "maleRatio": 0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:scratch",
+    "1:tailwhip",
+    "5:snarl",
+    "1:heartswap",
+    "6:ember",
+    "8:bite",
+    "13:flamecharge",
+    "14:firespin",
+    "15:decorate",
+    "20:incinerate",
+    "24:willowisp",
+    "30:sunnyday",
+    "31:taunt",
+    "33:darkpulse",
+    "38:flamethrower",
+    "40:nastyplot",
+    "42:moonblast",
+    "45:bloodcall",
+    "48:wish",
+    "49:shadowball",
+    "53:psyshock",
+    "58:overheat",
+    "60:destinybond",
+    "44:torchsong",
+    "1:ominouswind",
+    "35:fierydance",
+    "22:trickroom"
+  ],
+  "labels": [
+    "frontiermon"
+  ],
+  "pokedex": [
+    "cobblemon.species.hanyabi.desc"
+  ],
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 1,
+    "height": 3.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 1,
+  "weight": 1,
+  "evolutions": []
+}

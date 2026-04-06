@@ -1,0 +1,54 @@
+{
+  "target": "cobblemon:flygon",
+  "features": ["mega_evolution", "disguise_form"],
+  "forms": [
+    {
+      "name": "Mega-X",
+      "primaryType": "ground",
+      "secondaryType": "dragon",
+      "maleRatio": 0.5,
+      "height": 20,
+      "weight": 820,
+      "pokedex": ["cobblemon.species.flygon-megax.desc"],
+      "abilities": ["disguise", "h:disguise"],
+      "labels": ["gen6", "mega"],
+      "aspects": ["disguised-form", "mega_x"],
+      "baseStats": {
+        "hp": 80,
+        "attack": 130,
+        "defence": 120,
+        "special_attack": 80,
+        "special_defence": 104,
+        "speed": 106
+      },
+      "baseExperienceYield": 260,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    },
+    {
+      "name": "Mega-X-Busted",
+      "primaryType": "ground",
+      "secondaryType": "dragon",
+      "maleRatio": 0.5,
+      "height": 20,
+      "weight": 820,
+      "pokedex": ["cobblemon.species.flygon-megax.desc"],
+      "abilities": ["disguise", "h:disguise"],
+      "labels": ["gen6", "mega"],
+      "aspects": ["busted-form", "mega_x"],
+      "baseStats": {
+        "hp": 80,
+        "attack": 130,
+        "defence": 120,
+        "special_attack": 80,
+        "special_defence": 104,
+        "speed": 106
+      },
+      "baseExperienceYield": 260,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
+}

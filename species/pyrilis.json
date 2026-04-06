@@ -1,0 +1,155 @@
+{
+  "implemented": true,
+  "name": "pyrilis",
+  "nationalPokedexNumber": 1030,
+  "primaryType": "fire",
+  "secondaryType": "fairy",
+  "abilities": [
+    "blaze",
+    "h:magicguard"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 65,
+    "defence": 60,
+    "special_attack": 85,
+    "special_defence": 65,
+    "speed": 80
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-4"
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "fairy",
+    "field"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:blaze_powder",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:pink_petals",
+        "quantityRange": "1-3",
+        "percentage": 40
+      },
+      {
+        "item": "minecraft:amethyst_shard",
+        "quantityRange": "1-2",
+        "percentage": 30
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "1:ember",
+    "1:sweetkiss",
+    "4:fairywind",
+    "7:flamecharge",
+    "10:drainingkiss",
+    "13:firespin",
+    "16:willowisp",
+    "20:incinerate",
+    "24:dazzlinggleam",
+    "28:flamethrower",
+    "32:charm",
+    "36:calmmind",
+    "40:mysticalfire",
+    "44:moonblast",
+    "48:fireblast",
+    "egg:morningsun",
+    "egg:hypnosis",
+    "egg:captivate",
+    "egg:wish",
+    "egg:aromatherapy",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:mysticalfire",
+    "tm:heatwave",
+    "tm:willowisp",
+    "tm:overheat",
+    "tm:calmmind",
+    "tm:moonblast",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:energyball",
+    "tm:solarbeam",
+    "tm:protect",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:sunnyday",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure",
+    "tm:facade"
+  ],
+  "labels": [
+    "starter",
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.pyrilis.desc1"
+  ],
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.7,
+    "height": 2.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 185,
+  "evolutions": [
+    {
+      "id": "pyrilis-solafae",
+      "variant": "level_up",
+      "result": "solafae",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

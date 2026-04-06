@@ -1,0 +1,210 @@
+{
+  "target": "cobblemon:dhelmise",
+  "forms": [
+    {
+      "name": "Sculk",
+      "primaryType": "ghost",
+      "secondaryType": "dark",
+      "maleRatio": -1,
+      "height": 42,
+      "weight": 2100,
+      "pokedex": [
+        "cobblemon.species.dhelmise-sculk.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "sculk"
+      ],
+      "abilities": [
+        "steelworker",
+        "h:steelyspirit"
+      ],
+      "eggGroups": [
+      "mineral"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 118,
+        "defence": 90,
+        "special_attack": 118,
+        "special_defence": 100,
+        "speed": 21
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseScale": 0.9,
+      "hitbox": {
+        "width": 2.5,
+        "height": 4,
+        "fixed": false
+      },
+      "behaviour": {
+        "moving": {
+          "swim": {
+            "canBreatheUnderwater": true,
+            "swimSpeed": 0.2
+          },
+          "walk": {
+            "canWalk": false
+          },
+          "fly": {
+            "canFly": true
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        }
+      },
+      "drops": {
+        "amount": 4,
+        "entries": [
+          {
+            "item": "minecraft:sculk_vein",
+            "quantityRange": "0-2"
+          },
+          {
+            "item": "minecraft:raw_iron",
+            "quantityRange": "0-2"
+          },
+          {
+            "item": "minecraft:echo_shard",
+            "percentage": 5.0
+          }
+        ]
+      },
+      "moves": [
+        "1:trickroom",
+        "1:pursuit",
+        "1:rapidspin",
+        "1:metalclaw",
+        "1:dig",
+        "4:astonish",
+        "8:wrap",
+        "12:megadrain",
+        "16:payback",
+        "20:gyroball",
+        "24:brutalswing",
+        "28:gigadrain",
+        "32:darkpulse",
+        "36:heavyslam",
+        "40:knockoff",
+        "44:shadowball",
+        "46:shadowclaw",
+        "48:metalsound",
+        "50:recover",
+        "52:flashcannon",
+        "56:digdeep",
+        "60:phantomforce",
+        "62:powergem",
+        "64:nightdaze",
+        "68:suckerpunch",
+        "72:poltergeist",
+        "tm:aerialace",
+        "tm:allyswitch",
+        "tm:assurance",
+        "tm:block",
+        "tm:bodypress",
+        "tm:brickbreak",
+        "tm:brine",
+        "tm:brutalswing",
+        "tm:bulldoze",
+        "tm:darkpulse",
+        "tm:dig",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:embargo",
+        "tm:endure",
+        "tm:facade",
+        "tm:flashcannon",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:gyroball",
+        "tm:heavyslam",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hyperbeam",
+        "tm:infestation",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:leechlife",
+        "tm:liquidation",
+        "tm:metalsound",
+        "tm:painsplit",
+        "tm:payback",
+        "tm:phantomforce",
+        "tm:poltergeist",
+        "tm:powergem",
+        "tm:protect",
+        "tm:pursuit",
+        "tm:raindance",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:roleplay",
+        "tm:shadowball",
+        "tm:shadowclaw",
+        "tm:sleeptalk",
+        "tm:sludgewave",
+        "tm:solarbeam",
+        "tm:solarblade",
+        "tm:spite",
+        "tm:steelroller",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swordsdance",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tutor:aerialace",
+        "tutor:allyswitch",
+        "tutor:block",
+        "tutor:bulldoze",
+        "tutor:flashcannon",
+        "tutor:gigadrain",
+        "tutor:gigaimpact",
+        "tutor:helpinghand",
+        "tutor:hyperbeam",
+        "tutor:irondefense",
+        "tutor:ironhead",
+        "tutor:knockoff",
+        "tutor:liquidation",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:roleplay",
+        "tutor:shadowball",
+        "tutor:shadowclaw",
+        "tutor:sleeptalk",
+        "tutor:spite",
+        "tutor:steelroller",
+        "tutor:telekinesis"
+      ],
+      "battleOnly": false
+    }
+  ]
+}

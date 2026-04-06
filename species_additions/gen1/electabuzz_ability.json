@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:electabuzz",
+  "abilities": [
+    "static",
+    "vitalspirit",
+    "h:ironfist"
+  ]
+}

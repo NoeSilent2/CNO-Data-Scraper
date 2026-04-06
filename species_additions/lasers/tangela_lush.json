@@ -1,0 +1,226 @@
+{
+  "target": "cobblemon:tangela",
+  "forms": [
+    {
+      "name": "Lush-Cave",
+      "primaryType": "grass",
+      "secondaryType": "dark",
+      "maleRatio": 0.5,
+      "height": 10,
+      "weight": 350,
+      "pokedex": [
+        "cobblemon.species.tangela-lush.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "lush"
+      ],
+      "abilities": [
+        "grasspelt",
+        "rattled",
+        "h:grassysurge"
+      ],
+      "eggGroups": [
+      "grass"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 100,
+        "defence": 68,
+        "special_attack": 45,
+        "special_defence": 115,
+        "speed": 82
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "baseScale": 1.3,
+      "hitbox": {
+        "width": 0.8,
+        "height": 0.6,
+        "fixed": false
+      },
+      "behaviour": {
+        "herd": {
+          "maxSize": "2",
+          "toleratedLeaders": [
+            {
+              "pokemon": "tangela lush",
+              "tier": 1
+            },
+            {
+              "pokemon": "tanglare",
+              "tier": 2
+            }
+          ]
+        },
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "combat": {
+          "willDefendSelf": false,
+          "willDefendOwner": true,
+          "willFlee": true
+        }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:glow_berries",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "cobblemon:galarica_nuts",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "cobblemon:tanga_berry",
+            "percentage": 2.5
+          },
+          {
+            "item": "cobblemon:big_root",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "moves": [
+        "1:faketears",
+        "1:constrict",
+        "1:astonish",
+        "1:absorb",
+        "1:payback",
+        "1:bind",
+        "4:stunspore",
+        "8:growth",
+        "10:flail",
+        "12:megadrain",
+        "16:vinewhip",
+        "18:strugglebug",
+        "20:snarl",
+        "24:ancientpower",
+        "28:knockoff",
+        "32:gigadrain",
+        "36:sleeppowder",
+        "40:suckerpunch",
+        "44:tickle",
+        "48:powerwhip",
+        "52:ingrain",
+        "54:falsesurrender",
+        "56:grassyterrain",
+        "egg:confusion",
+        "egg:endeavor",
+        "egg:flail",
+        "egg:leechseed",
+        "egg:naturalgift",
+        "egg:naturepower",
+        "egg:ragepowder",
+        "egg:wakeupslap",
+        "egg:wringout",
+        "tm:amnesia",
+        "tm:ancientpower",
+        "tm:bind",
+        "tm:bodyslam",
+        "tm:bulletseed",
+        "tm:cut",
+        "tm:darkpulse",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:faketears",
+        "tm:flail",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:grassyglide",
+        "tm:grassyterrain",
+        "tm:headbutt",
+        "tm:hyperbeam",
+        "tm:infestation",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leafstorm",
+        "tm:nastyplot",
+        "tm:naturalgift",
+        "tm:naturepower",
+        "tm:painsplit",
+        "tm:payback",
+        "tm:powerswap",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:psychup",
+        "tm:reflect",
+        "tm:rest",
+        "tm:rocksmash",
+        "tm:seedbomb",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:snarl",
+        "tm:solarbeam",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swordsdance",
+        "tm:synthesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:worryseed",
+        "tutor:ancientpower",
+        "tutor:bind",
+        "tutor:endeavor",
+        "tutor:energyball",
+        "tutor:gigadrain",
+        "tutor:gigaimpact",
+        "tutor:grassyglide",
+        "tutor:hyperbeam",
+        "tutor:knockoff",
+        "tutor:painsplit",
+        "tutor:rest",
+        "tutor:rocksmash",
+        "tutor:seedbomb",
+        "tutor:shockwave",
+        "tutor:sleeptalk",
+        "tutor:sludgebomb",
+        "tutor:synthesis",
+        "tutor:worryseed"
+      ],
+      "evolutions": [
+        {
+          "id": "tangela_tanglare",
+          "variant": "item_interact",
+          "result": "tanglare lush",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "spore"
+          ],
+          "requirements": [],
+           "requiredContext": "cobblemon:galarica_wreath"
+        }
+      ],
+      "battleOnly": false
+    }
+  ]
+}

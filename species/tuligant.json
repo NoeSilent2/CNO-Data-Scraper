@@ -1,0 +1,203 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1095,
+  "name": "tuligant",
+  "primaryType": "grass",
+  "secondaryType": "ghost",
+  "maleRatio": 0,
+  "height": 11,
+  "weight": 153,
+  "pokedex": [
+    "cobblemon.species.tuligant.desc"
+  ],
+  "labels": [
+    "laserdex"
+  ],
+  "aspects": [],
+  "abilities": [
+    "serenegrace",
+    "recluse",
+    "h:aftermath"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 40,
+    "defence": 85,
+    "special_attack": 125,
+    "special_defence": 110,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "features": [],
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 1.1,
+    "height": 2.3,
+    "fixed": false
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "5"
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "combat": {
+      "willDefendOwner": true
+    },
+    "resting": {
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    }
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:revival_herb",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:cyan_mint_leaf",
+        "percentage": 5.0,
+        "quantityRange": "1-4"
+      },
+      {
+        "item": "cobblemon:mental_herb",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:eeriedance",
+    "1:trickroom",
+    "1:growth",
+    "1:leechseed",
+    "1:megadrain",
+    "1:synthesis",
+    "1:teeterdance",
+    "1:calmmind",
+    "1:petaldance",
+    "1:gigadrain",
+    "1:sunnyday",
+    "1:moonlight",
+    "1:helpinghand",
+    "1:energyball",
+    "1:afteryou",
+    "1:petalblizzard",
+    "1:aromatherapy",
+    "1:sleeppowder",
+    "1:entrainment",
+    "1:leafstorm",
+    "1:absorb",
+    "1:stunspore",
+    "1:poisonpowder",
+    "1:charm",
+    "1:curse",
+    "1:confuseray",
+    "5:magicalleaf",
+    "5:faketears",
+    "8:leaftornado",
+    "12:nightshade",
+    "18:ominouswind",
+    "26:shadowball",
+    "30:energyball",
+    "42:darkpulse",
+    "50:moonblast",
+    "egg:bide",
+    "egg:grasswhistle",
+    "egg:healingwish",
+    "egg:ingrain",
+    "egg:naturalgift",
+    "egg:sweetscent",
+    "egg:worryseed",
+    "tm:afteryou",
+    "tm:alluringvoice",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:covet",
+    "tm:cut",
+    "tm:dreameater",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:laserfocus",
+    "tm:leafblade",
+    "tm:leafstorm",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:petalblizzard",
+    "tm:pollenpuff",
+    "tm:protect",
+    "tm:psychup",
+    "tm:rest",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:trickroom",
+    "tm:weatherball",
+    "tm:worryseed",
+    "tm:calmmind",
+    "tutor:afteryou",
+    "tutor:covet",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassyglide",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:laserfocus",
+    "tutor:magicalleaf",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:synthesis",
+    "tutor:worryseed"
+  ],
+  "preEvolution": "petilil",
+  "evolutions": [],
+  "forms": []
+}

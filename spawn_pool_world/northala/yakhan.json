@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "yakhan-1",
+      "pokemon": "yakhan",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-50",
+      "weight": 0.05,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_tropical_island"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:water"
+        ]
+      }
+    },
+    {
+      "id": "yakhan-2",
+      "pokemon": "yakhan",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "40-55",
+      "weight": 0.03,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river"
+        ],
+        "timeRange": "day",
+        "neededNearbyBlocks": [
+          "#minecraft:water"
+        ]
+      }
+    }
+  ]
+}

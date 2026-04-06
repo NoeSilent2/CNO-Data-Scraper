@@ -1,0 +1,255 @@
+{
+  "implemented": true,
+  "name": "flapestry",
+  "nationalPokedexNumber": 1057,
+  "primaryType": "ground",
+  "secondaryType": "flying",
+  "abilities": [
+    "sandstream",
+    "h:windrider"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defence": 90,
+    "special_attack": 105,
+    "special_defence": 90,
+    "speed": 102
+  },
+  "catchRate": 95,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [],
+  "features": [
+    "carpet"
+  ],
+  "baseExperienceYield": 165,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 30,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "riding": {
+    "behaviours": {
+      "AIR": {
+        "key": "cobblemon:air/hover",
+        "stats": {
+          "ACCELERATION": "60-75",
+          "JUMP": "10-15",
+          "SKILL": "10-30",
+          "SPEED": "50-70",
+          "STAMINA": "10-35"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.019022975,
+              "y": -1.2183496,
+              "z": 0.24997671
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.023236014,
+              "y": -1.2679962,
+              "z": 0.12823626
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.019022975,
+              "y": -1.2183496,
+              "z": 0.24997671
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.023236014,
+              "y": -1.2679962,
+              "z": 0.12823626
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          }
+        ]
+      },
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.019022975,
+              "y": -1.2183496,
+              "z": 0.24997671
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.023236014,
+              "y": -1.2679962,
+              "z": 0.12823626
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.019022975,
+              "y": -1.2183496,
+              "z": 0.24997671
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.023236014,
+              "y": -1.2679962,
+              "z": 0.12823626
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "fly": {
+        "canFly": true
+      },
+      "walk": {
+        "canWalk": false
+      }
+    }
+  },
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-5",
+        "percentage": 50
+      },
+      {
+        "item": "cobblemon:colbur_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:wrap",
+    "1:playnice",
+    "1:gust",
+    "5:helpinghand",
+    "8:sandattack",
+    "12:mudslap",
+    "18:ancientpower",
+    "24:sandtomb",
+    "28:entrainment",
+    "30:aircutter",
+    "32:bulldoze",
+    "35:defog",
+    "38:airslash",
+    "41:earthpower",
+    "44:fly",
+    "46:coil",
+    "48:tailwind",
+    "50:acrobatics",
+    "53:heatwave",
+    "55:sandstorm",
+    "58:whirlwind",
+    "60:hurricane",
+    "62:batonpass",
+    "65:skydrop",
+    "70:wideguard",
+    "tm:fly",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:solarbeam",
+    "tm:firespin",
+    "tm:dig",
+    "tm:rest",
+    "tm:snore",
+    "tm:protect",
+    "tm:sandstorm",
+    "tm:sunnyday",
+    "tm:facade",
+    "tm:swift",
+    "tm:sandtomb",
+    "tm:mudshot",
+    "tm:uturn",
+    "tm:bulldoze",
+    "tm:airslash",
+    "tm:bodyslam",
+    "tm:earthquake",
+    "tm:focusenergy",
+    "tm:substitute",
+    "tm:endure",
+    "tm:sleeptalk",
+    "tm:heatwave",
+    "tm:earthpower",
+    "tm:batonpass",
+    "tm:workup",
+    "tm:encore",
+    "tm:safeguard",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:attract",
+    "tutor:afteryou",
+    "tutor:lastresort",
+    "tutor:painsplit"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.flapestry.desc1",
+    "cobblemon.species.flapestry.desc2"
+  ],
+  "evolutions": [],
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 1.6,
+    "height": 0.7,
+    "fixed": false
+  },
+  "baseFriendship": 100,
+  "evYield": {
+    "speed": 1,
+    "special_attack": 1
+  },
+  "height": 30,
+  "weight": 600
+}

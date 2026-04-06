@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:maractus",
+   "evolutions": [
+    {
+      "id": "maractus_maractaya",
+      "variant": "item_interact",
+      "result": "maractaya",
+      "consumeHeldItem": false,
+      "learnableMoves": [ "dragondance" ],
+      "requirements": [],
+      "requiredContext": "cobblemon:sun_stone"
+    }
+  ]
+}

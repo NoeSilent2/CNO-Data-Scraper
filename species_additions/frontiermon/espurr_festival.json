@@ -1,0 +1,26 @@
+{
+	"target": "cobblemon:espurr",   
+	"forms": [
+		{
+			"name": "Festival",
+			"aspects": [
+				"festival"
+			],
+			"evolutions": [
+				{
+					"id": "espurr_meowstic_festival",
+					"variant": "level_up",
+					"result": "meowstic festival",
+					"consumeHeldItem": false,
+					"learnableMoves": [],
+					"requirements": [
+						{
+							"variant": "level",
+							"minLevel": 25
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"enabled": true,
+	"neededInstalledMods": [],
+	"neededUninstalledMods": [],
+	"spawns": [
+		{
+			"id": "vaniterror-1",
+			"pokemon": "cobblemon:vaniterror",
+			"presets": [],
+			"type": "pokemon",
+			"spawnablePositionType": "grounded",
+			"bucket": "uncommon",
+			"level": "28-42",
+			"weight": 0.1,
+			"condition": {
+				"biomes": [
+					"#cobblemon:is_spooky"
+				],
+				"timeRange": "night"
+			}
+		},
+		{
+			"id": "vaniterror-2",
+			"pokemon": "cobblemon:vaniterror",
+			"presets": [
+				"mansion"
+			],
+			"type": "pokemon",
+			"spawnablePositionType": "grounded",
+			"bucket": "common",
+			"level": "28-42",
+			"weight": 0.2,
+			"condition": {
+				"canSeeSky": false,
+				"biomes": [
+					"#cobblemon:is_overworld"
+				]
+			}
+		}
+	]
+}

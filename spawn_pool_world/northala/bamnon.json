@@ -1,0 +1,39 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bamnon-1",
+      "pokemon": "bamnon",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-50",
+      "weight": 0.05,
+      "condition": {
+        "biomes": [
+          "minecraft:bamboo_jungle"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "bamnon-2",
+      "pokemon": "bamnon",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "40-55",
+      "weight": 0.03,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:bamboo"
+        ]
+      }
+    }
+  ]
+}

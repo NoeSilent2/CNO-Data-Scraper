@@ -1,0 +1,1029 @@
+{
+  "target": "cobblemon:golett",
+  "forms": [
+    {
+      "name": "Copper",
+      "primaryType": "steel",
+      "secondaryType": "electric",
+      "maleRatio": -1,
+      "height": 10,
+      "weight": 920,
+      "pokedex": [
+        "cobblemon.species.golett-copper.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "copper"
+      ],
+      "abilities": [
+        "lightningrod",
+        "motordrive",
+        "h:technician"
+      ],
+      "eggGroups": [
+      "mineral"
+      ],
+      "baseStats": {
+        "hp": 45,
+        "attack": 25,
+        "defence": 50,
+        "special_attack": 74,
+        "special_defence": 50,
+        "speed": 59
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseScale": 0.9,
+      "hitbox": {
+        "width": 0.7,
+        "height": 1.3,
+        "fixed": false
+      },
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.3
+          },
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInWater": false
+          }
+        },
+        "herd": {
+          "maxSize": "2",
+          "toleratedLeaders": [
+            {
+              "pokemon": "golurk oxidized_copper",
+              "tier": 1
+            },
+            {
+              "pokemon": "golurk weathered_copper",
+              "tier": 1
+            },
+            {
+              "pokemon": "golurk exposed_copper",
+              "tier": 1
+            },
+            {
+              "pokemon": "golurk copper",
+              "tier": 2
+            }
+          ]
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:copper_ingot",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "cobblemon:electirizer",
+            "percentage": 2.5
+          },
+          {
+            "item": "cobblemon:eject_button",
+            "percentage": 2.5
+          },
+          {
+            "item": "cobblemon:shuca_berry",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "moves": [
+        "1:magnetrise",
+        "1:thundershock",
+        "1:bulletpunch",
+        "4:defensecurl",
+        "8:pound",
+        "12:thunderpunch",
+        "16:charge",
+        "20:chargebeam",
+        "20:spark",
+        "24:mirrorshot",
+        "28:irondefense",
+        "32:megapunch",
+        "36:discharge",
+        "40:heavyslam",
+        "44:flashcannon",
+        "48:hammerarm",
+        "52:thunderbolt",
+        "56:meteormash",
+        "60:thunder",
+        "tm:allyswitch",
+        "tm:block",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:bulldoze",
+        "tm:chargebeam",
+        "tm:curse",
+        "tm:discharge",
+        "tm:doubleedge",
+        "tm:drainpunch",
+        "tm:earthquake",
+        "tm:electroball",
+        "tm:electricterrain",
+        "tm:endure",
+        "tm:facade",
+        "tm:firepunch",
+        "tm:flash",
+        "tm:flashcannon",
+        "tm:fling",
+        "tm:focusblast",
+        "tm:focuspunch",
+        "tm:grassknot",
+        "tm:gravity",
+        "tm:gyroball",
+        "tm:hardpress",
+        "tm:heavyslam",
+        "tm:helpinghand",
+        "tm:icebeam",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lowkick",
+        "tm:lowsweep",
+        "tm:magiccoat",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:metalburst",
+        "tm:metalsound",
+        "tm:mudslap",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:rockpolish",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:rollout",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:smackdown",
+        "tm:stealthrock",
+        "tm:steelbeam",
+        "tm:stompingtantrum",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:supercellslam",
+        "tm:superpower",
+        "tm:takedown",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:wildcharge",
+        "tutor:allyswitch",
+        "tutor:block",
+        "tutor:bulldoze",
+        "tutor:drainpunch",
+        "tutor:firepunch",
+        "tutor:focuspunch",
+        "tutor:gravity",
+        "tutor:helpinghand",
+        "tutor:icebeam",
+        "tutor:icepunch",
+        "tutor:icywind",
+        "tutor:irondefense",
+        "tutor:knockoff",
+        "tutor:lowkick",
+        "tutor:magiccoat",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:rocksmash",
+        "tutor:rollout",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:stealthrock",
+        "tutor:steelroller",
+        "tutor:stompingtantrum",
+        "tutor:superpower",
+        "tutor:telekinesis",
+        "tutor:thunderpunch"
+      ],
+      "evolutions": [
+        {
+          "id": "golett_golurk_copper",
+          "variant": "item_interact",
+          "result": "golurk copper",
+          "consumeHeldItem": true,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:electirizer"
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Exposed-Copper",
+      "primaryType": "steel",
+      "secondaryType": "electric",
+      "maleRatio": -1,
+      "height": 10,
+      "weight": 920,
+      "pokedex": [
+        "cobblemon.species.golett-copper.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "exposed_copper"
+      ],
+      "abilities": [
+        "lightningrod",
+        "motordrive",
+        "h:technician"
+      ],
+      "eggGroups": [
+      "mineral"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 25,
+        "defence": 45,
+        "special_attack": 59,
+        "special_defence": 74,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "baseScale": 0.9,
+      "hitbox": {
+        "width": 0.7,
+        "height": 1.3,
+        "fixed": false
+      },
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.25
+          },
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInWater": false
+          }
+        },
+        "herd": {
+          "maxSize": "2",
+          "toleratedLeaders": [
+            {
+              "pokemon": "golurk oxidized_copper",
+              "tier": 1
+            },
+            {
+              "pokemon": "golurk weathered_copper",
+              "tier": 1
+            },
+            {
+              "pokemon": "golurk exposed_copper",
+              "tier": 2
+            },
+            {
+              "pokemon": "golurk copper",
+              "tier": 1
+            }
+          ]
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:copper_ingot",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "cobblemon:electirizer",
+            "percentage": 2.5
+          },
+          {
+            "item": "cobblemon:eject_button",
+            "percentage": 2.5
+          },
+          {
+            "item": "cobblemon:shuca_berry",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "moves": [
+        "1:magnetrise",
+        "1:thundershock",
+        "1:bulletpunch",
+        "4:defensecurl",
+        "8:pound",
+        "12:thunderpunch",
+        "16:charge",
+        "20:chargebeam",
+        "20:spark",
+        "24:mirrorshot",
+        "28:irondefense",
+        "32:megapunch",
+        "36:discharge",
+        "40:heavyslam",
+        "44:flashcannon",
+        "48:hammerarm",
+        "52:thunderbolt",
+        "56:meteormash",
+        "60:thunder",
+        "tm:allyswitch",
+        "tm:block",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:bulldoze",
+        "tm:chargebeam",
+        "tm:curse",
+        "tm:discharge",
+        "tm:doubleedge",
+        "tm:drainpunch",
+        "tm:earthquake",
+        "tm:electroball",
+        "tm:electricterrain",
+        "tm:endure",
+        "tm:facade",
+        "tm:firepunch",
+        "tm:flash",
+        "tm:flashcannon",
+        "tm:fling",
+        "tm:focusblast",
+        "tm:focuspunch",
+        "tm:grassknot",
+        "tm:gravity",
+        "tm:gyroball",
+        "tm:hardpress",
+        "tm:heavyslam",
+        "tm:helpinghand",
+        "tm:icebeam",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lowkick",
+        "tm:lowsweep",
+        "tm:magiccoat",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:metalburst",
+        "tm:metalsound",
+        "tm:mudslap",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:rockpolish",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:rollout",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:smackdown",
+        "tm:stealthrock",
+        "tm:steelbeam",
+        "tm:stompingtantrum",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:supercellslam",
+        "tm:superpower",
+        "tm:takedown",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:wildcharge",
+        "tutor:allyswitch",
+        "tutor:block",
+        "tutor:bulldoze",
+        "tutor:drainpunch",
+        "tutor:firepunch",
+        "tutor:focuspunch",
+        "tutor:gravity",
+        "tutor:helpinghand",
+        "tutor:icebeam",
+        "tutor:icepunch",
+        "tutor:icywind",
+        "tutor:irondefense",
+        "tutor:knockoff",
+        "tutor:lowkick",
+        "tutor:magiccoat",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:rocksmash",
+        "tutor:rollout",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:stealthrock",
+        "tutor:steelroller",
+        "tutor:stompingtantrum",
+        "tutor:superpower",
+        "tutor:telekinesis",
+        "tutor:thunderpunch"
+      ],
+      "evolutions": [
+        {
+          "id": "golett_golurk_exposed_copper",
+          "variant": "item_interact",
+          "result": "golurk exposed_copper",
+          "consumeHeldItem": true,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:electirizer"
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Weathered-Copper",
+      "primaryType": "steel",
+      "secondaryType": "electric",
+      "maleRatio": -1,
+      "height": 10,
+      "weight": 920,
+      "pokedex": [
+        "cobblemon.species.golett-copper.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "weathered_copper"
+      ],
+      "abilities": [
+        "lightningrod",
+        "motordrive",
+        "h:technician"
+      ],
+      "eggGroups": [
+      "mineral"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 59,
+        "defence": 74,
+        "special_attack": 25,
+        "special_defence": 50,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseScale": 0.9,
+      "hitbox": {
+        "width": 0.7,
+        "height": 1.3,
+        "fixed": false
+      },
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.2
+          },
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInWater": false
+          }
+        },
+        "herd": {
+          "maxSize": "2",
+          "toleratedLeaders": [
+            {
+              "pokemon": "golurk oxidized_copper",
+              "tier": 1
+            },
+            {
+              "pokemon": "golurk weathered_copper",
+              "tier": 2
+            },
+            {
+              "pokemon": "golurk exposed_copper",
+              "tier": 1
+            },
+            {
+              "pokemon": "golurk copper",
+              "tier": 1
+            }
+          ]
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:copper_ingot",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "cobblemon:electirizer",
+            "percentage": 2.5
+          },
+          {
+            "item": "cobblemon:eject_button",
+            "percentage": 2.5
+          },
+          {
+            "item": "cobblemon:shuca_berry",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "moves": [
+        "1:magnetrise",
+        "1:thundershock",
+        "1:bulletpunch",
+        "4:defensecurl",
+        "8:pound",
+        "12:thunderpunch",
+        "16:charge",
+        "20:chargebeam",
+        "20:spark",
+        "24:mirrorshot",
+        "28:irondefense",
+        "32:megapunch",
+        "36:discharge",
+        "40:heavyslam",
+        "44:flashcannon",
+        "48:hammerarm",
+        "52:thunderbolt",
+        "56:meteormash",
+        "60:thunder",
+        "tm:allyswitch",
+        "tm:block",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:bulldoze",
+        "tm:chargebeam",
+        "tm:curse",
+        "tm:discharge",
+        "tm:doubleedge",
+        "tm:drainpunch",
+        "tm:earthquake",
+        "tm:electroball",
+        "tm:electricterrain",
+        "tm:endure",
+        "tm:facade",
+        "tm:firepunch",
+        "tm:flash",
+        "tm:flashcannon",
+        "tm:fling",
+        "tm:focusblast",
+        "tm:focuspunch",
+        "tm:grassknot",
+        "tm:gravity",
+        "tm:gyroball",
+        "tm:hardpress",
+        "tm:heavyslam",
+        "tm:helpinghand",
+        "tm:icebeam",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lowkick",
+        "tm:lowsweep",
+        "tm:magiccoat",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:metalburst",
+        "tm:metalsound",
+        "tm:mudslap",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:rockpolish",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:rollout",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:smackdown",
+        "tm:stealthrock",
+        "tm:steelbeam",
+        "tm:stompingtantrum",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:supercellslam",
+        "tm:superpower",
+        "tm:takedown",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:wildcharge",
+        "tutor:allyswitch",
+        "tutor:block",
+        "tutor:bulldoze",
+        "tutor:drainpunch",
+        "tutor:firepunch",
+        "tutor:focuspunch",
+        "tutor:gravity",
+        "tutor:helpinghand",
+        "tutor:icebeam",
+        "tutor:icepunch",
+        "tutor:icywind",
+        "tutor:irondefense",
+        "tutor:knockoff",
+        "tutor:lowkick",
+        "tutor:magiccoat",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:rocksmash",
+        "tutor:rollout",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:stealthrock",
+        "tutor:steelroller",
+        "tutor:stompingtantrum",
+        "tutor:superpower",
+        "tutor:telekinesis",
+        "tutor:thunderpunch"
+      ],
+      "evolutions": [
+        {
+          "id": "golett_golurk_weathered_copper",
+          "variant": "item_interact",
+          "result": "golurk weathered_copper",
+          "consumeHeldItem": true,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:electirizer"
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Oxidized-Copper",
+      "primaryType": "steel",
+      "secondaryType": "electric",
+      "maleRatio": -1,
+      "height": 10,
+      "weight": 920,
+      "pokedex": [
+        "cobblemon.species.golett-copper.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "oxidized_copper"
+      ],
+      "abilities": [
+        "lightningrod",
+        "motordrive",
+        "h:technician"
+      ],
+      "eggGroups": [
+      "mineral"
+      ],
+      "baseStats": {
+        "hp": 59,
+        "attack": 74,
+        "defence": 50,
+        "special_attack": 45,
+        "special_defence": 50,
+        "speed": 25
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseScale": 0.9,
+      "hitbox": {
+        "width": 0.7,
+        "height": 1.3,
+        "fixed": false
+      },
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.125
+          },
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInWater": false
+          }
+        },
+        "herd": {
+          "maxSize": "2",
+          "toleratedLeaders": [
+            {
+              "pokemon": "golurk oxidized_copper",
+              "tier": 2
+            },
+            {
+              "pokemon": "golurk weathered_copper",
+              "tier": 1
+            },
+            {
+              "pokemon": "golurk exposed_copper",
+              "tier": 1
+            },
+            {
+              "pokemon": "golurk copper",
+              "tier": 1
+            }
+          ]
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:copper_ingot",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "cobblemon:electirizer",
+            "percentage": 2.5
+          },
+          {
+            "item": "cobblemon:eject_button",
+            "percentage": 2.5
+          },
+          {
+            "item": "cobblemon:shuca_berry",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "moves": [
+        "1:magnetrise",
+        "1:thundershock",
+        "1:bulletpunch",
+        "4:defensecurl",
+        "8:pound",
+        "12:thunderpunch",
+        "16:charge",
+        "20:chargebeam",
+        "20:spark",
+        "24:mirrorshot",
+        "28:irondefense",
+        "32:megapunch",
+        "36:discharge",
+        "40:heavyslam",
+        "44:flashcannon",
+        "48:hammerarm",
+        "52:thunderbolt",
+        "56:meteormash",
+        "60:thunder",
+        "tm:allyswitch",
+        "tm:block",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:bulldoze",
+        "tm:chargebeam",
+        "tm:curse",
+        "tm:discharge",
+        "tm:doubleedge",
+        "tm:drainpunch",
+        "tm:earthquake",
+        "tm:electroball",
+        "tm:electricterrain",
+        "tm:endure",
+        "tm:facade",
+        "tm:firepunch",
+        "tm:flash",
+        "tm:flashcannon",
+        "tm:fling",
+        "tm:focusblast",
+        "tm:focuspunch",
+        "tm:grassknot",
+        "tm:gravity",
+        "tm:gyroball",
+        "tm:hardpress",
+        "tm:heavyslam",
+        "tm:helpinghand",
+        "tm:icebeam",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lowkick",
+        "tm:lowsweep",
+        "tm:magiccoat",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:metalburst",
+        "tm:metalsound",
+        "tm:mudslap",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:rockpolish",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:rollout",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:smackdown",
+        "tm:stealthrock",
+        "tm:steelbeam",
+        "tm:stompingtantrum",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:supercellslam",
+        "tm:superpower",
+        "tm:takedown",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:wildcharge",
+        "tutor:allyswitch",
+        "tutor:block",
+        "tutor:bulldoze",
+        "tutor:drainpunch",
+        "tutor:firepunch",
+        "tutor:focuspunch",
+        "tutor:gravity",
+        "tutor:helpinghand",
+        "tutor:icebeam",
+        "tutor:icepunch",
+        "tutor:icywind",
+        "tutor:irondefense",
+        "tutor:knockoff",
+        "tutor:lowkick",
+        "tutor:magiccoat",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:rocksmash",
+        "tutor:rollout",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:stealthrock",
+        "tutor:steelroller",
+        "tutor:stompingtantrum",
+        "tutor:superpower",
+        "tutor:telekinesis",
+        "tutor:thunderpunch"
+      ],
+      "evolutions": [
+        {
+          "id": "golett_golurk_oxidized_copper",
+          "variant": "item_interact",
+          "result": "golurk oxidized_copper",
+          "consumeHeldItem": true,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:electirizer"
+        }
+      ],
+      "battleOnly": false
+    }
+  ]
+}

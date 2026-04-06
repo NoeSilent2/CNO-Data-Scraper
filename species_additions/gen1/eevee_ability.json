@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:eevee",
+  "abilities": [
+    "adaptability",
+    "runaway",
+    "h:normalmastery"
+  ]
+}

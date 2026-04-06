@@ -1,0 +1,31 @@
+{
+  "target": "cobblemon:mimikyu",
+  "features": ["mega_evolution"],
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "ghost",
+      "secondaryType": "fairy",
+      "maleRatio": 0.5,
+      "height": 2,
+      "weight": 7,
+      "pokedex": ["cobblemon.species.mimikyu-mega.desc"],
+      "abilities": ["chillingglare", "h:chillingglare"],
+      "labels": ["gen6", "mega"],
+      "aspects": ["mega"],
+      "baseStats": {
+        "hp": 55,
+        "attack": 140,
+        "defence": 80,
+        "special_attack": 65,
+        "special_defence": 105,
+        "speed": 131
+      },
+      "shoulderMountable": false,
+      "baseExperienceYield": 167,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
+}

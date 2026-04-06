@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:lilligant",
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:revival_herb",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:green_mint_leaf",
+        "percentage": 5.0,
+        "quantityRange": "1-4"
+      },
+      {
+        "item": "cobblemon:absorb_bulb",
+        "percentage": 5.0
+      }
+    ]
+  }
+}

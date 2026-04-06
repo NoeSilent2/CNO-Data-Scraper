@@ -1,0 +1,152 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1132,
+  "name": "tetoeon",
+  "primaryType": "normal",
+  "maleRatio": 0.875,
+  "height": 1,
+  "weight": 56,
+  "pokedex": [
+    "cobblemon.species.tetoeon.desc"
+  ],
+  "labels": [
+    "genbaka"
+  ],
+  "aspects": [],
+  "abilities": [
+    "owntempo",
+    "h:costar"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 110,
+    "defence": 65,
+    "special_attack": 130,
+    "special_defence": 65,
+    "speed": 95
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "eggCycles": 35,
+  "baseFriendship": 50,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.2,
+    "fixed": false
+  },
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:music_disc",
+        "percentage": 10.0
+      },
+      {
+        "item": "minecraft:bread",
+        "percentage": 35.0
+      },
+      {
+        "item": "cobblemon:dragon_fang",
+        "percentage": 20.0
+      }
+    ]
+  },
+  "moves": [
+    "1:batonpass",
+    "1:bite",
+    "1:charm",
+    "1:copycat",
+    "1:covet",
+    "1:doubleedge",
+    "1:growl",
+    "1:helpinghand",
+    "1:swift",
+    "1:tailwhip",
+    "1:takedown",
+    "5:sandattack",
+    "10:quickattack",
+    "15:babydolleyes",
+    "20:machpunch",
+    "25:supersonic",
+    "30:dragonbreath",
+    "35:firefang",
+    "40:healbell",
+    "45:hypervoice",
+    "50:boomburst",
+    "55:lastresort",
+    "tm:attract",
+    "tm:confide",
+    "tm:doubleteam",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:toxic",
+    "tm:workup",
+    "tm:metalsound",
+    "tm:terablast",
+    "tm:roar",
+    "tm:sing",
+    "tm:dig",
+    "tm:snore",
+    "tm:encore",
+    "tm:alluringvoice",
+    "tm:bulkup",
+    "tm:flamethrower",
+    "tm:trailblaze",
+    "tm:temperflare",
+    "tm:burningjealousy",
+    "tm:fireblast",
+    "tm:knockoff",
+    "tm:drillrun",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragoncheer",
+    "tm:dragontail",
+    "tm:dualwingbeat",
+    "tm:uproar",
+    "tm:solarbeam",
+    "tm:psyshock",
+    "tm:agility",
+    "tm:endure",
+    "tm:metronome",
+    "tm:defog",
+    "tm:snarl",
+    "tm:lowsweep",
+    "tm:flanecharge",
+    "egg:curse",
+    "egg:detect",
+    "egg:doublekick",
+    "egg:flail",
+    "egg:mudslap",
+    "egg:tickle",
+    "egg:wish",
+    "egg:yawn"
+  ],
+  "preEvolution": "eevee",
+  "evolutions": []
+}

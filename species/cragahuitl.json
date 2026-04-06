@@ -1,0 +1,124 @@
+{
+  "implemented": true,
+  "name": "cragahuitl",
+  "nationalPokedexNumber": 1078,
+  "primaryType": "rock",
+  "secondaryType": "dark",
+  "abilities": [
+    "sharpness",
+    "h:sturdy"
+  ],
+  "baseStats": {
+    "hp": 83,
+    "attack": 120,
+    "defence": 97,
+    "special_attack": 56,
+    "special_defence": 64,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": false,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 65,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "mineral",
+    "monster"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:flint",
+        "quantityRange": "1-4",
+        "percentage": 100
+      },
+      {
+        "item": "minecraft:cobblestone",
+        "quantityRange": "1-3",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:sandattack",
+    "1:rocktomb",
+    "7:feintattack",
+    "10:lowsweep",
+    "12:spite",
+    "14:brutalswing",
+    "17:sandstorm",
+    "21:smackdown",
+    "26:headbutt",
+    "28:slash",
+    "31:nightslash",
+    "36:sharpen",
+    "37:stoneedge",
+    "42:hammerarm",
+    "48:throatchop",
+    "51:drillrun",
+    "58:headsmash",
+    "tm:guillotine",
+    "tm:beatup",
+    "tm:swordsdance",
+    "tm:swagger",
+    "tm:xscissor",
+    "tm:sacredsword",
+    "tm:rockpolish",
+    "tm:closecombat",
+    "tm:icehammer",
+    "tm:ironhead",
+    "tm:accelerock"
+  ],
+  "labels": [
+    "frontiermon"
+  ],
+  "pokedex": [
+    "cobblemon.species.cragahuitl.desc"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1.4,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 1200,
+  "preEvolution": "flintlet"
+}

@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:salandit",
+  "abilities": [
+    "corrosion",
+    "merciless",
+    "h:oblivious"
+  ]
+}

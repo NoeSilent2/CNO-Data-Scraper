@@ -1,0 +1,197 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1110,
+  "name": "galecadet",
+  "primaryType": "flying",
+  "maleRatio": 0.5,
+  "height": 6,
+  "weight": 105,
+  "pokedex": [
+    "cobblemon.species.galecadet.desc"
+  ],
+  "labels": [
+    "laserdex",
+    "minecraftian"
+  ],
+  "aspects": [],
+  "abilities": [
+    "windrider",
+    "technician",
+    "h:aerilate"
+  ],
+  "eggGroups": [
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 50,
+    "defence": 30,
+    "special_attack": 50,
+    "special_defence": 30,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "baseExperienceYield": 51,
+  "experienceGroup": "slow",
+  "catchRate": 90,
+  "eggCycles": 35,
+  "baseFriendship": 50,
+  "shoulderMountable": true,
+  "standingEyeHeight": 0.67,
+  "baseScale": 0.55,
+  "hitbox": {
+    "width": 0.6,
+    "height": 1.3,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "light": "0-4",
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.25
+      },
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "galecadet",
+          "tier": 1
+        },
+        {
+          "pokemon": "breezior",
+          "tier": 1
+        },
+        {
+          "pokemon": "zephyrouge",
+          "tier": 2
+        },
+        {
+          "pokemon": "ceruclone",
+          "tier": 2
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:wind_charge",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:protective_pads",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:leer",
+    "1:barrage",
+    "1:gust",
+    "1:defog",
+    "4:bide",
+    "8:aerialace",
+    "12:acrobatics",
+    "16:thunderwave",
+    "20:swift",
+    "24:shockwave",
+    "28:aircutter",
+    "32:mirrorshot",
+    "36:airslash",
+    "40:weatherball",
+    "44:autotomize",
+    "44:breezeball",
+    "49:bodyslam",
+    "52:hurricane",
+    "egg:disable",
+    "egg:spite",
+    "egg:bulletpunch",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:airslash",
+    "tm:bide",
+    "tm:bodyslam",
+    "tm:confuseray",
+    "tm:defog",
+    "tm:endure",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hurricane",
+    "tm:protect",
+    "tm:razorwind",
+    "tm:rest",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:spite",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:terrainpulse",
+    "tm:thunderwave",
+    "tm:triattack",
+    "tm:weatherball",
+    "tm:whirlwind",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:spite"
+  ],
+  "evolutions": [
+    {
+      "id": "galecadet_zephyrouge",
+      "variant": "item_interact",
+      "result": "zephyrouge",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "heavyslam"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:auspicious_armor"
+    },
+    {
+      "id": "galecadet_ceruclone",
+      "variant": "item_interact",
+      "result": "ceruclone",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "thunderbolt"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:malicious_armor"
+    }
+  ]
+}

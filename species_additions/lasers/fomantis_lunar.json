@@ -1,0 +1,211 @@
+{
+  "target": "cobblemon:fomantis",
+  "forms": [
+    {
+      "name": "Lunar",
+      "primaryType": "grass",
+      "secondaryType": "psychic",
+      "maleRatio": 0.5,
+      "height": 3,
+      "weight": 15,
+      "pokedex": [
+        "cobblemon.species.fomantis_lunar.desc"
+      ],
+      "labels": [
+        "laserdex"
+      ],
+      "aspects": [
+        "lunar"
+      ],
+      "abilities": [
+        "mimicry",
+        "serenegrace",
+        "h:contrary"
+      ],
+      "eggGroups": [
+      "grass"
+      ],
+      "baseStats": {
+        "hp": 40,
+        "attack": 50,
+        "defence": 30,
+        "special_attack": 50,
+        "special_defence": 35,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "shoulderMountable": true,
+      "baseScale": 0.6,
+      "hitbox": {
+        "width": 0.55,
+        "height": 1,
+        "fixed": false
+      },
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "willSleepOnBed": true,
+          "depth": "comatose",
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        },
+        "herd": {
+          "maxSize": "4",
+          "toleratedLeaders": [
+            {
+              "pokemon": "fomantis lunar",
+              "tier": 1
+            },
+            {
+              "pokemon": "lurantis lunar",
+              "tier": 2
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "cobblemon:psychic_seed",
+            "percentage": 2.5
+          },
+          {
+            "item": "cobblemon:colbur_berry",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "moves": [
+        "1:furycutter",
+        "1:leafage",
+        "1:confusion",
+        "5:growth",
+        "10:ingrain",
+        "15:razorleaf",
+        "20:sweetscent",
+        "25:psychocut",
+        "30:xscissor",
+        "35:moonlight",
+        "40:leafblade",
+        "45:psychicterrain",
+        "50:psychic",
+        "egg:aromatherapy",
+        "egg:defog",
+        "egg:superpower",
+        "egg:hammerarm",
+        "egg:worryseed",
+        "egg:electroweb",
+        "egg:nuzzle",
+        "egg:drainingkiss",
+        "tm:bugbite",
+        "tm:bulletseed",
+        "tm:defog",
+        "tm:drainingkiss",
+        "tm:dualchop",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:falseswipe",
+        "tm:fling",
+        "tm:furycutter",
+        "tm:gigadrain",
+        "tm:grassknot",
+        "tm:grassyglide",
+        "tm:grassyterrain",
+        "tm:leafblade",
+        "tm:leafstorm",
+        "tm:leechlife",
+        "tm:magicalleaf",
+        "tm:mistyterrain",
+        "tm:naturepower",
+        "tm:payback",
+        "tm:petalblizzard",
+        "tm:playrough",
+        "tm:protect",
+        "tm:psybeam",
+        "tm:psychic",
+        "tm:psychicterrain",
+        "tm:psychocut",
+        "tm:rest",
+        "tm:safeguard",
+        "tm:seedbomb",
+        "tm:signalbeam",
+        "tm:skittersmack",
+        "tm:sleeptalk",
+        "tm:solarbeam",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:swordsdance",
+        "tm:synthesis",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:terrainpulse",
+        "tm:trailblaze",
+        "tm:weatherball",
+        "tm:worryseed",
+        "tm:zenheadbutt",
+        "tm:xscissor",
+        "tutor:bugbite",
+        "tutor:defog",
+        "tutor:dualchop",
+        "tutor:energyball",
+        "tutor:falseswipe",
+        "tutor:furycutter",
+        "tutor:gigadrain",
+        "tutor:grassyglide",
+        "tutor:leechlife",
+        "tutor:magicalleaf",
+        "tutor:rest",
+        "tutor:seedbomb",
+        "tutor:signalbeam",
+        "tutor:skittersmack",
+        "tutor:sleeptalk",
+        "tutor:superpower",
+        "tutor:synthesis",
+        "tutor:worryseed",
+        "tutor:zenheadbutt",
+        "tutor:xscissor"
+      ],
+      "evolutions": [
+        {
+          "id": "fomantis_lurantis_lunar",
+          "variant": "level_up",
+          "result": "lurantis lunar",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "petalblizzard"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 34
+            },
+            {
+              "variant": "time_range",
+              "range": "night"
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    }
+  ]
+}

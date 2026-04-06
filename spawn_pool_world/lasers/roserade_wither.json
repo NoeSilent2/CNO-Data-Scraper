@@ -1,0 +1,41 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "roserade-wither-1",
+            "pokemon": "roserade wither",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-52",
+            "weight": 0.25,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_soul_sand"
+                ]
+            }
+        },
+        {
+            "id": "roserade-wither-2",
+            "pokemon": "roserade wither",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-52",
+            "weight": 1.0,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:wither_rose"
+                ]
+            }
+        }
+    ]
+}

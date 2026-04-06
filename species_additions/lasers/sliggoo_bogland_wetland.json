@@ -1,0 +1,85 @@
+{
+  "target": "cobblemon:sliggoo",
+  "evolutions": [
+    {
+      "id": "sliggoo_goodra_boglands",
+      "variant": "level_up",
+      "result": "goodra bogland",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 50
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_swamp"
+        }
+      ]
+    },
+    {
+      "id": "sliggoo_goodra_boglands",
+      "variant": "level_up",
+      "result": "goodra bogland",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "toxic"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 50
+        },
+        {
+          "variant": "weather",
+          "isRaining": true
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_swamp"
+        }
+      ]
+    },
+    {
+      "id": "sliggoo_goodra_wetlands",
+      "variant": "level_up",
+      "result": "goodra wetland",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 50
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_river"
+        }
+      ]
+    },
+    {
+      "id": "sliggoo_goodra_wetlands",
+      "variant": "level_up",
+      "result": "goodra wetland",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "aquatail"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 50
+        },
+        {
+          "variant": "weather",
+          "isRaining": true
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_river"
+        }
+      ]
+    }
+  ]
+}

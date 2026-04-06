@@ -1,0 +1,140 @@
+{
+  "implemented": true,
+  "name": "amperox",
+  "nationalPokedexNumber": 1038,
+  "primaryType": "electric",
+  "secondaryType": "fighting",
+  "abilities": [
+    "magnetpull",
+    "levetric",
+    "h:motordrive"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 105,
+    "defence": 65,
+    "special_attack": 70,
+    "special_defence": 55,
+    "speed": 120
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "forms": [],
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 15,
+  "eggGroups": [
+    "field",
+    "human_like"
+  ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:glowstone_dust",
+        "quantityRange": "1-3",
+        "percentage": 75
+      },
+      {
+        "item": "minecraft:yellow_wool",
+        "percentage": 50
+      },
+      {
+        "item": "cobblemon:shuca_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:magnet",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:tailwhip",
+    "3:quickattack",
+    "7:furyswipes",
+    "9:flash",
+    "12:thundershock",
+    "14:honeclaws",
+    "17:triplekick",
+    "21:agility",
+    "25:spark",
+    "30:brickbreak",
+    "33:thunderfang",
+    "36:charge",
+    "38:electrodrain",
+    "40:voltswitch",
+    "44:magnetrise",
+    "47:quickguard",
+    "54:skyuppercut",
+    "58:iondeluge",
+    "64:wildcharge",
+    "74:closecombat",
+    "80:volttackle",
+    "tm:agility",
+    "tm:scaryface",
+    "tm:protect",
+    "tm:firefang",
+    "tm:thunderfang",
+    "tm:icefang",
+    "tm:lowkick",
+    "tm:acrobatics",
+    "tm:thief",
+    "tm:pounce",
+    "tm:chargebeam",
+    "tm:facade",
+    "tm:metalclaw",
+    "tm:swift",
+    "tm:lowsweep",
+    "tm:endure",
+    "tm:voltswitch",
+    "tm:falseswipe",
+    "tm:brickbreak",
+    "tm:uturn",
+    "tm:shadowclaw",
+    "tm:psychicfangs",
+    "tm:bulkup",
+    "tm:sleeptalk",
+    "tm:electroball",
+    "tm:drainpunch",
+    "tm:thunderwave",
+    "tm:rest",
+    "tm:eerieimpulse",
+    "tm:substitute",
+    "tm:crunch",
+    "tm:aurasphere",
+    "tm:encore",
+    "tm:thunderbolt",
+    "tm:reversal",
+    "tm:electricterrain",
+    "tm:nastyplot",
+    "tm:wildcharge",
+    "tm:focusblast",
+    "tm:thunder",
+    "tm:closecombat",
+    "tutor:fakeout",
+    "tutor:risingvoltage"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.amperox.desc1",
+    "cobblemon.species.amperox.desc2"
+  ],
+  "evolutions": [],
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 1.0,
+    "height": 1.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "speed": 1,
+    "attack": 1
+  },
+  "height": 13,
+  "weight": 260
+}

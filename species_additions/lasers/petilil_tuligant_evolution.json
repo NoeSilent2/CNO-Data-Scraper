@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:petilil",
+  "evolutions": [
+    {
+      "id": "petilil_tuligant",
+      "variant": "item_interact",
+      "result": "tuligant",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:moon_stone"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "implemented": true,
+  "name": "chewshire",
+  "nationalPokedexNumber": 1055,
+  "primaryType": "dark",
+  "secondaryType": "ghost",
+  "abilities": [
+    "strongjaw",
+    "h:startle"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 94,
+    "defence": 47,
+    "special_attack": 68,
+    "special_defence": 85,
+    "speed": 106
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 180,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "amorphous",
+    "field"
+  ],
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "walk": {
+        "canWalk": false
+      }
+    }
+  },
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:red_mushroom",
+        "quantityRange": "3-5",
+        "percentage": 80
+      },
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:bite",
+    "1:honeclaws",
+    "1:teatime",
+    "4:lick",
+    "7:confuseray",
+    "10:meanlook",
+    "13:pursuit",
+    "17:shadowsneak",
+    "22:fakeout",
+    "25:assist",
+    "31:crunch",
+    "35:phantomforce",
+    "39:switcheroo",
+    "42:superfang",
+    "45:camouflage",
+    "50:jawlock",
+    "62:poltergeist",
+    "tm:takedown",
+    "tm:charm",
+    "tm:faketears",
+    "tm:scaryface",
+    "tm:protect",
+    "tm:firefang",
+    "tm:thunderfang",
+    "tm:icefang",
+    "tm:acrobatics",
+    "tm:confuseray",
+    "tm:thief",
+    "tm:pounce",
+    "tm:facade",
+    "tm:poisontail",
+    "tm:hex",
+    "tm:snarl",
+    "tm:nightshade",
+    "tm:fling",
+    "tm:endure",
+    "tm:falseswipe",
+    "tm:shadowclaw",
+    "tm:foulplay",
+    "tm:psychicfangs",
+    "tm:sleeptalk",
+    "tm:metronome",
+    "tm:rest",
+    "tm:taunt",
+    "tm:darkpulse",
+    "tm:substitute",
+    "tm:willowisp",
+    "tm:crunch",
+    "tm:trickroom",
+    "tm:shadowball",
+    "tm:encore",
+    "tm:playrough",
+    "tm:batonpass",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tutor:poisonfang",
+    "tutor:curse"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.masticat.desc1",
+    "cobblemon.species.masticat.desc2"
+  ],
+  "evolutions": [],
+  "baseScale": 1.2,
+  "hitbox": {
+    "width": 1.2,
+    "height": 1.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "attack": 1,
+    "special_defence": 1
+  },
+  "height": 14,
+  "weight": 894
+}

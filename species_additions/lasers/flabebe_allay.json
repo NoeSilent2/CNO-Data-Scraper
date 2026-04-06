@@ -1,0 +1,260 @@
+{
+  "target": "cobblemon:flabebe",
+  "forms": [
+    {
+      "name": "Allay",
+      "primaryType": "flying",
+      "secondaryType": "fairy",
+      "maleRatio": 0,
+      "height": 1,
+      "weight": 1,
+      "pokedex": [
+        "cobblemon.species.flabebe-allay.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "allay"
+      ],
+      "abilities": [
+        "pickup",
+        "symbiosis",
+        "h:dancer"
+      ],
+      "eggGroups": [
+      "fairy"
+      ],
+      "baseStats": {
+        "hp": 54,
+        "attack": 35,
+        "defence": 47,
+        "special_attack": 75,
+        "special_defence": 58,
+        "speed": 82
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "shoulderMountable": true,
+      "baseScale": 0.6,
+      "hitbox": {
+        "width": 0.9,
+        "height": 1.15,
+        "fixed": false
+      },
+      "behaviour": {
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "willSleepOnBed": true,
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        },
+        "herd": {
+          "maxSize": "3",
+          "toleratedLeaders": [
+            {
+              "pokemon": "jigglypuff",
+              "tier": 1
+            },
+            {
+              "pokemon": "chimecho",
+              "tier": 1
+            },
+            {
+              "pokemon": "kricketune",
+              "tier": 1
+            },
+            {
+              "pokemon": "carbink gem_type=amethyst",
+              "tier": 1
+            },
+            {
+              "pokemon": "primarina",
+              "tier": 2
+            },
+            {
+              "pokemon": "alloette vex=false",
+              "tier": 2
+            },
+            {
+              "pokemon": "alloette mega vex=false",
+              "tier": 3
+            },
+            {
+              "pokemon": "meloetta song_forme=aria",
+              "tier": 3
+            },
+            {
+              "pokemon": "meloetta song_forme=pirouette",
+              "tier": 3
+            },
+            {
+              "pokemon": "meloetta song_forme=soprano",
+              "tier": 3
+            },
+            {
+              "pokemon": "meloetta song_forme=acoustic",
+              "tier": 3
+            },
+            {
+              "pokemon": "chimecho mega",
+              "tier": 3
+            }
+          ]
+        },
+        "combat": {
+          "willDefendOwner": true,
+          "willFlee": true
+        }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:amethyst_shard",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "cobblemon:dawn_stone",
+            "percentage": 2.5
+          },
+          {
+            "item": "cobblemon:kebia_berry",
+            "percentage": 2.5
+          },
+          {
+            "item": "cobblemon:fairy_feather",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "moves": [
+        "1:echoedvoice",
+        "1:gust",
+        "1:sing",
+        "1:safeguard",
+        "5:fairywind",
+        "5:disarmingvoice",
+        "7:round",
+        "10:covet",
+        "15:acrobatics",
+        "20:wish",
+        "22:aircutter",
+        "24:tailwind",
+        "28:airslash",
+        "34:alluringvoice",
+        "37:featherdance",
+        "43:hypervoice",
+        "47:mistyterrain",
+        "49:fleurdance",
+        "51:moonblast",
+        "58:hurricane",
+        "egg:camouflage",
+        "egg:captivate",
+        "egg:copycat",
+        "egg:endeavor",
+        "egg:tearfullook",
+        "egg:quiverdance",
+        "egg:sparklingaria",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:afteryou",
+        "tm:aircutter",
+        "tm:airslash",
+        "tm:alluringvoice",
+        "tm:allyswitch",
+        "tm:batonpass",
+        "tm:calmmind",
+        "tm:captivate",
+        "tm:charm",
+        "tm:chillingwater",
+        "tm:confide",
+        "tm:covet",
+        "tm:dazzlinggleam",
+        "tm:disarmingvoice",
+        "tm:drainingkiss",
+        "tm:echoedvoice",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:featherdance",
+        "tm:flash",
+        "tm:grassknot",
+        "tm:healbell",
+        "tm:helpinghand",
+        "tm:hurricane",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:magicalleaf",
+        "tm:magiccoat",
+        "tm:mistyterrain",
+        "tm:naturepower",
+        "tm:pollenpuff",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicnoise",
+        "tm:raindance",
+        "tm:rest",
+        "tm:round",
+        "tm:safeguard",
+        "tm:sleeptalk",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:tailwind",
+        "tm:terablast",
+        "tutor:afteryou",
+        "tutor:allyswitch",
+        "tutor:calmmind",
+        "tutor:covet",
+        "tutor:dazzlinggleam",
+        "tutor:endeavor",
+        "tutor:energyball",
+        "tutor:healbell",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:magicalleaf",
+        "tutor:magiccoat",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:sleeptalk",
+        "tutor:swift"
+      ],
+      "evolutions": [
+        {
+          "id": "flabebe_alloette",
+          "variant": "item_interact",
+          "result": "alloette allay",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "revelationdance"
+          ],
+          "requirements": [],
+           "requiredContext": "cobblemon:dawn_stone"
+        }
+      ],
+      "battleOnly": false
+    }
+  ]
+}

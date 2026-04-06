@@ -1,0 +1,124 @@
+{
+  "implemented": true,
+  "name": "ascrolyte",
+  "nationalPokedexNumber": 1056,
+  "primaryType": "ground",
+  "abilities": [
+    "sandstream",
+    "h:levitate"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 50,
+    "defence": 45,
+    "special_attack": 70,
+    "special_defence": 45,
+    "speed": 82
+  },
+  "catchRate": 135,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [],
+  "features": [],
+  "baseExperienceYield": 65,
+  "experienceGroup": "fast",
+  "eggCycles": 30,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "fly": {
+        "canFly": false
+      }
+    }
+  },
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:paper",
+        "quantityRange": "1-5",
+        "percentage": 50
+      },
+      {
+        "item": "cobblemon:colbur_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:wrap",
+    "1:playnice",
+    "5:helpinghand",
+    "8:sandattack",
+    "10:mudslap",
+    "14:ancientpower",
+    "16:sandtomb",
+    "21:entrainment",
+    "30:earthpower",
+    "32:coil",
+    "35:sandstorm",
+    "37:batonpass",
+    "40:wideguard",
+    "tm:dig",
+    "tm:snore",
+    "tm:protect",
+    "tm:sandstorm",
+    "tm:sunnyday",
+    "tm:facade",
+    "tm:swift",
+    "tm:sandtomb",
+    "tm:mudshot",
+    "tm:airslash",
+    "tm:bodyslam",
+    "tm:focusenergy",
+    "tm:substitute",
+    "tm:endure",
+    "tm:sleeptalk",
+    "tm:earthpower",
+    "tm:batonpass",
+    "tm:encore",
+    "tm:safeguard",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:attract",
+    "tutor:afteryou",
+    "tutor:lastresort",
+    "tutor:painsplit"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.ascrolyte.desc1",
+    "cobblemon.species.ascrolyte.desc2"
+  ],
+  "evolutions": [
+    {
+      "id": "ascrolyte_flapestry_lvl",
+      "variant": "level_up",
+      "result": "flapestry",
+      "consumeHeldItem": false,
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ]
+    }
+  ],
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 0.6,
+    "height": 1.1,
+    "fixed": false
+  },
+  "baseFriendship": 100,
+  "evYield": {
+    "speed": 1
+  },
+  "height": 6,
+  "weight": 3
+}

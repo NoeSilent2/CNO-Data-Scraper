@@ -1,0 +1,148 @@
+{
+  "implemented": true,
+  "name": "gyweld",
+  "nationalPokedexNumber": 1048,
+  "primaryType": "normal",
+  "secondaryType": "steel",
+  "abilities": [
+    "steelworker",
+    "h:heatproof"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 70,
+    "defence": 120,
+    "special_attack": 50,
+    "special_defence": 60,
+    "speed": 90
+  },
+  "catchRate": 35,
+  "maleRatio": 0,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 288,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "field",
+    "mineral"
+  ],
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "5-20",
+          "JUMP": "15-25",
+          "SKILL": "5-15",
+          "SPEED": "45-75",
+          "STAMINA": "35-55"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      }
+    ]
+  },
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:copper_ingot",
+        "quantityRange": "3-6",
+        "percentage": 75
+      }
+    ]
+  },
+  "moves": [
+    "1:rollout",
+    "1:defensecurl",
+    "4:protect",
+    "8:rapidspin",
+    "11:autotomize",
+    "14:selfdestruct",
+    "18:steamroller",
+    "20:magnetrise",
+    "23:flamewheel",
+    "25:assist",
+    "28:babydolleyes",
+    "32:geargrind",
+    "35:doublehit",
+    "37:clearcoat",
+    "39:lockon",
+    "41:gyroball",
+    "43:bulldoze",
+    "46:takedown",
+    "48:steelroller",
+    "50:irondefense",
+    "52:beatup",
+    "55:wildcharge",
+    "58:heavyslam",
+    "61:shiftgear",
+    "64:explosion",
+    "tm:takedown",
+    "tm:charm",
+    "tm:faketears",
+    "tm:mudslap",
+    "tm:scaryface",
+    "tm:protect",
+    "tm:trailblaze",
+    "tm:chargebeam",
+    "tm:firespin",
+    "tm:facade",
+    "tm:bulldoze",
+    "tm:flamecharge",
+    "tm:fling",
+    "tm:endure",
+    "tm:smartstrike",
+    "tm:zenheadbutt",
+    "tm:foulplay",
+    "tm:bodyslam",
+    "tm:sleeptalk",
+    "tm:electroball",
+    "tm:thunderwave",
+    "tm:stompingtantrum",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:bodypress",
+    "tm:flashcannon",
+    "tm:ironhead",
+    "tm:substitute",
+    "tm:irondefense",
+    "tm:stealthrock",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:nastyplot",
+    "tm:wildcharge",
+    "tm:gigaimpact",
+    "tm:hyperbeam",
+    "tutor:iceball"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.gyweld.desc1",
+    "cobblemon.species.gyweld.desc2"
+  ],
+  "evolutions": [],
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 1.3,
+    "height": 1.1,
+    "fixed": false
+  },
+  "baseFriendship": 20,
+  "evYield": {
+    "defence": 2
+  },
+  "height": 15,
+  "weight": 1200
+}

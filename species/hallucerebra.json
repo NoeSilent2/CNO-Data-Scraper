@@ -1,0 +1,170 @@
+{
+  "implemented": true,
+  "name": "hallucerebra",
+  "nationalPokedexNumber": 1071,
+  "primaryType": "rock",
+  "secondaryType": "psychic",
+  "abilities": [
+    "neuroforce",
+    "stupefy",
+    "h:telepathy"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 50,
+    "defence": 106,
+    "special_attack": 122,
+    "special_defence": 122,
+    "speed": 25
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 30,
+  "eggGroups": [
+    "water_3"
+  ],
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "30-55",
+          "JUMP": "0-5",
+          "SKILL": "10-25",
+          "SPEED": "15-30",
+          "STAMINA": "50-80"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "walkSpeed": 0.3
+      },
+      "swim": {
+        "canSwimInWater": false,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:experience_bottle",
+        "percentage": 20
+      }
+    ]
+  },
+  "moves": [
+    "1:ancientpower",
+    "1:confusion",
+    "1:harden",
+    "1:sandattack",
+    "4:mudslap",
+    "7:bind",
+    "12:spikes",
+    "15:hypnosis",
+    "18:rocktomb",
+    "22:imprison",
+    "27:psywave",
+    "31:powergem",
+    "34:coil",
+    "37:brine",
+    "40:extrasensory",
+    "43:stealthrock",
+    "45:acupressure",
+    "50:rest",
+    "50:sleeptalk",
+    "53:psychic",
+    "56:calmmind",
+    "60:meteorbeam",
+    "64:storedpower",
+    "68:futuresight",
+    "70:healblock",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:confuseray",
+    "tm:facade",
+    "tm:swift",
+    "tm:storedpower",
+    "tm:nightshade",
+    "tm:endure",
+    "tm:raindance",
+    "tm:snowscape",
+    "tm:sandstorm",
+    "tm:psyshock",
+    "tm:zenheadbutt",
+    "tm:bodyslam",
+    "tm:sleeptalk",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:dazzlinggleam",
+    "tm:thunderwave",
+    "tm:rest",
+    "tm:taunt",
+    "tm:imprison",
+    "tm:skillswap",
+    "tm:substitute",
+    "tm:willowisp",
+    "tm:trick",
+    "tm:shadowball",
+    "tm:energyball",
+    "tm:psychic",
+    "tm:encore",
+    "tm:calmmind",
+    "tm:amnesia",
+    "tm:psychicterrain",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:focusblast",
+    "tm:safeguard",
+    "tm:whirlpool",
+    "tm:dive",
+    "tm:brine",
+    "tm:mudshot",
+    "tm:rocktomb",
+    "tm:rockblast",
+    "tm:surf",
+    "tm:hydropump",
+    "tm:rockslide",
+    "tutor:toxicspikes"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.hallucerebra.desc1",
+    "cobblemon.species.hallucerebra.desc2"
+  ],
+  "evolutions": [],
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 1.5,
+    "height": 1.4,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "special_defence": 1,
+    "special_attack": 1
+  },
+  "height": 30,
+  "weight": 960
+}

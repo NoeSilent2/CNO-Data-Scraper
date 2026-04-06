@@ -1,0 +1,46 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ascrolyte-1",
+            "pokemon": "ascrolyte",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ],
+                "structures": [
+                    "#cobblemon:ruin",
+                    "minecraft:desert_well"
+                ]
+            }
+        },
+        {
+            "id": "ascrolyte-2",
+            "pokemon": "ascrolyte",
+            "presets": [
+                "natural",
+                "desert_pyramid"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 50.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ]
+            }
+        }
+    ]
+}

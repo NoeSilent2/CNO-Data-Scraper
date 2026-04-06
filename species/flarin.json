@@ -1,0 +1,132 @@
+{
+  "implemented": true,
+  "name": "flarin",
+  "nationalPokedexNumber": 1029,
+  "primaryType": "fire",
+  "abilities": [
+    "blaze",
+    "h:magicguard"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 50,
+    "defence": 40,
+    "special_attack": 65,
+    "special_defence": 50,
+    "speed": 60
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "depth": "normal",
+      "light": "0-4"
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "fairy",
+    "field"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:blaze_powder",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:poppy",
+        "quantityRange": "1-2",
+        "percentage": 35
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "4:ember",
+    "7:sweetkiss",
+    "10:fairywind",
+    "13:flamecharge",
+    "16:drainingkiss",
+    "19:firespin",
+    "22:willowisp",
+    "25:incinerate",
+    "28:dazzlinggleam",
+    "31:flamethrower",
+    "34:charm",
+    "egg:morningsun",
+    "egg:hypnosis",
+    "egg:captivate",
+    "egg:wish",
+    "egg:aromatherapy",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:willowisp",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure",
+    "tm:facade",
+    "tm:sunnyday"
+  ],
+  "labels": [
+    "starter",
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.flarin.desc1"
+  ],
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 0.5,
+    "height": 1.2,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 65,
+  "evolutions": [
+    {
+      "id": "flarin-pyrilis",
+      "variant": "level_up",
+      "result": "pyrilis",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1111,
+  "name": "zephyrouge",
+  "primaryType": "flying",
+  "secondaryType": "steel",
+  "maleRatio": 0.5,
+  "height": 15,
+  "weight": 9999,
+  "pokedex": [
+    "cobblemon.species.zephyrouge.desc"
+  ],
+  "labels": [
+    "laserdex",
+    "minecraftian"
+  ],
+  "aspects": [],
+  "abilities": [
+    "windrider",
+    "technician",
+    "h:aerilate"
+  ],
+  "eggGroups": [
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 125,
+    "defence": 110,
+    "special_attack": 60,
+    "special_defence": 90,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 263,
+  "experienceGroup": "slow",
+  "catchRate": 25,
+  "eggCycles": 35,
+  "baseFriendship": 20,
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 1.2,
+    "height": 2.75,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.23
+      },
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "herd": {
+      "maxSize": "9"
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:wind_charge",
+        "quantityRange": "0-4"
+      },
+      {
+        "item": "cobblemon:protective_pads",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:auspicious_armor",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:heavy_core",
+        "percentage": 0.05
+      }
+    ]
+  },
+  "moves": [
+    "1:heavyslam",
+    "1:barrage",
+    "1:leer",
+    "1:gust",
+    "1:defog",
+    "1:bide",
+    "1:aerialace",
+    "1:acrobatics",
+    "1:thunderwave",
+    "1:swift",
+    "1:shockwave",
+    "1:aircutter",
+    "1:mirrorshot",
+    "1:airslash",
+    "1:rapidspin",
+    "1:armorpress",
+    "8:holdback",
+    "12:irondefense",
+    "16:gyroball",
+    "20:dizzypunch",
+    "24:metalburst",
+    "28:ironhead",
+    "32:bounce",
+    "40:weatherball",
+    "44:flyingpress",
+    "48:autotomize",
+    "48:breezeball",
+    "52:bodyslam",
+    "56:hurricane",
+    "68:meteormash",
+    "70:gigaimpact",
+    "egg:disable",
+    "egg:spite",
+    "egg:bulletpunch",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:airslash",
+    "tm:allyswitch",
+    "tm:armorpress",
+    "tm:bide",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:confuseray",
+    "tm:counter",
+    "tm:defog",
+    "tm:doubleedge",
+    "tm:drainpunch",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:gigaimpact",
+    "tm:hammerarm",
+    "tm:heatcrash",
+    "tm:heatwave",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lightscreen",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychup",
+    "tm:razorwind",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:shockwave",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:spite",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:supercellslam",
+    "tm:superpower",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:terrainpulse",
+    "tm:thunderwave",
+    "tm:triattack",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:weatherball",
+    "tm:whirlwind",
+    "tutor:allyswitch",
+    "tutor:counter",
+    "tutor:energyball",
+    "tutor:flashcannon",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:trick"
+  ],
+  "preEvolution": "galecadet",
+  "evolutions": []
+}

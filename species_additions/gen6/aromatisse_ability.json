@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:aromatisse",
+  "abilities": [
+    "healer",
+    "aromaveil",
+    "h:mistysurge"
+  ]
+}

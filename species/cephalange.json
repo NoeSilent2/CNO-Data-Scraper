@@ -1,0 +1,152 @@
+{
+  "implemented": true,
+  "name": "cephalange",
+  "nationalPokedexNumber": 1066,
+  "primaryType": "dark",
+  "secondaryType": "water",
+  "abilities": [
+    "trace",
+    "pickpocket",
+    "h:prankster"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 100,
+    "defence": 40,
+    "special_attack": 70,
+    "special_defence": 85,
+    "speed": 90
+  },
+  "catchRate": 60,
+  "maleRatio": 0.8,
+  "shoulderMountable": false,
+  "forms": [],
+  "behaviour": {
+    "walk": {
+      "avoidsLand": true
+    },
+    "moving": {
+      "swim": {
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
+  "features": [
+    "puppet"
+  ],
+  "baseExperienceYield": 80,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 40,
+  "eggGroups": [
+    "water_2",
+    "water_3"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:ink_sac",
+        "percentage": 75
+      }
+    ]
+  },
+  "moves": [
+    "1:roleplay",
+    "1:disable",
+    "4:wrap",
+    "8:meanlook",
+    "10:whirlpool",
+    "12:astonish",
+    "15:pursuit",
+    "17:taunt",
+    "17:torment",
+    "20:assurance",
+    "22:encore",
+    "23:waterpulse",
+    "25:swagger",
+    "27:knockoff",
+    "30:dive",
+    "32:foulplay",
+    "34:afteryou",
+    "34:followme",
+    "40:snatch",
+    "44:nastyplot",
+    "48:suckerpunch",
+    "50:embargo",
+    "55:quash",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:rest",
+    "tm:thief",
+    "tm:snore",
+    "tm:protect",
+    "tm:scaryface",
+    "tm:attract",
+    "tm:raindance",
+    "tm:facade",
+    "tm:faketears",
+    "tm:payback",
+    "tm:fling",
+    "tm:trickroom",
+    "tm:endure",
+    "tm:sleeptalk",
+    "tm:taunt",
+    "tm:nastyplot",
+    "tm:foulplay",
+    "tm:throatchop",
+    "tm:waterpulse",
+    "tm:icywind",
+    "tm:grassknot",
+    "tm:substitute",
+    "tm:encore",
+    "tm:helpinghand",
+    "tm:snarl",
+    "tm:hex",
+    "tm:metronome",
+    "tm:dive",
+    "tutor:flatter",
+    "tutor:imprison",
+    "tutor:memento",
+    "tutor:snarl",
+    "egg:haze",
+    "egg:confuseray",
+    "tutor:spite",
+    "egg:switcheroo",
+    "egg:wideguard",
+    "egg:partingshot"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.cephalange.desc1",
+    "cobblemon.species.cephalange.desc2"
+  ],
+  "evolutions": [
+    {
+      "id": "cephalange_magnipulo",
+      "variant": "level_up",
+      "result": "magnipulo",
+      "consumeHeldItem": false,
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 49
+        }
+      ]
+    }
+  ],
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 0.9,
+    "height": 0.3,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "attack": 1
+  },
+  "height": 12,
+  "weight": 180
+}

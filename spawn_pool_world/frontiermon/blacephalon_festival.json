@@ -1,0 +1,26 @@
+{
+	"enabled": true,
+	"neededInstalledMods": [],
+	"neededUninstalledMods": [],
+	"spawns": [
+		{
+			"id": "blacephalon-festival-1",
+			"pokemon": "blacephalon festival",
+			"presets": [
+				"natural"
+			],
+			"type": "pokemon",
+			"spawnablePositionType": "grounded",
+			"bucket": "ultra-rare",
+			"level": "50-65",
+			"weight": 0.5,
+			"condition": {
+				"minSkyLight": 8,
+				"maxSkyLight": 15,
+				"biomes": [
+					"minecraft:cherry_grove"
+				]
+			}
+		}
+	]
+}

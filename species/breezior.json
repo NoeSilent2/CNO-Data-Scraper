@@ -1,0 +1,212 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1113,
+  "name": "breezior",
+  "primaryType": "flying",
+  "maleRatio": -1,
+  "height": 3,
+  "weight": 1,
+  "pokedex": [
+    "cobblemon.species.breezior.desc"
+  ],
+  "labels": [
+    "laserdex",
+    "minecraftian"
+  ],
+  "aspects": [],
+  "abilities": [
+    "windrider",
+    "windcharge",
+    "h:aerilate"
+  ],
+  "eggGroups": [
+    "mineral",
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 100,
+    "defence": 50,
+    "special_attack": 100,
+    "special_defence": 50,
+    "speed": 140
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_slow",
+  "catchRate": 255,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.75,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      },
+      "fly": {
+        "canFly": true
+      },
+      "walk": {
+        "canWalk": false
+      }
+    },
+    "herd": {
+      "maxSize": "4",
+      "toleratedLeaders": [
+        {
+          "pokemon": "breezior",
+          "tier": 1
+        },
+        {
+          "pokemon": "zephyrouge",
+          "tier": 2
+        },
+        {
+          "pokemon": "ceruclone",
+          "tier": 2
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true
+    },
+    "resting": {
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    }
+  },
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:wind_charge",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:float_stone",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:wacan_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:barrage",
+    "1:twister",
+    "1:gust",
+    "3:quickattack",
+    "8:rapidspin",
+    "10:confuseray",
+    "15:swift",
+    "17:icywind",
+    "22:selfdestruct",
+    "24:tailwind",
+    "29:airslash",
+    "31:whirlwind",
+    "36:defog",
+    "39:electroball",
+    "39:breezeball",
+    "43:raindance",
+    "43:sunnyday",
+    "43:snowscape",
+    "43:weatherball",
+    "45:hurricane",
+    "50:explosion",
+    "egg:fairywind",
+    "egg:afteryou",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:acrobatics",
+    "tm:blizzard",
+    "tm:bounce",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:doubleedge",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:gigaimpact",
+    "tm:gravity",
+    "tm:gyroball",
+    "tm:hail",
+    "tm:haze",
+    "tm:heatwave",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:icywind",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:razorwind",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:selfdestruct",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:triattack",
+    "tm:weatherball",
+    "tm:whirlwind",
+    "tm:zenheadbutt",
+    "tutor:aircutter",
+    "tutor:bounce",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:dazzlinggleam",
+    "tutor:defog",
+    "tutor:endeavor",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:icywind",
+    "tutor:lastresort",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:telekinesis",
+    "tutor:triattack",
+    "tutor:twister",
+    "tutor:zenheadbutt"
+  ],
+  "evolutions": [],
+  "battleOnly": false,
+  "forms": []
+}

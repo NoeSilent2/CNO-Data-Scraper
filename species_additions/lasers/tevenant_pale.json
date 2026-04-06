@@ -1,0 +1,246 @@
+{
+  "target": "cobblemon:trevenant",
+  "forms": [
+    {
+      "name": "Pale",
+      "primaryType": "ghost",
+      "maleRatio": 0.5,
+      "height": 15,
+      "weight": 710,
+      "pokedex": [
+        "cobblemon.species.trevenant-pale.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "pale"
+      ],
+      "abilities": [
+        "forestspirit",
+        "stakeout",
+        "h:shadowtag"
+      ],
+      "eggGroups": [
+      "grass",
+      "amorphous"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "attack": 116,
+        "defence": 110,
+        "special_attack": 55,
+        "special_defence": 103,
+        "speed": 5
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseScale": 1.3,
+      "hitbox": {
+        "width": 1,
+        "height": 2.75,
+        "fixed": false
+      },
+      "behaviour": {
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.2
+          },
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "times": [
+            "day"
+          ],
+          "drowsyChance": 0.0033,
+          "rouseChance": 0.0042
+        },
+        "herd": {
+          "maxSize": "7",
+          "toleratedLeaders": [
+            {
+              "pokemon": "trevenant pale",
+              "tier": 1
+            }
+          ]
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:dark_oak_log"
+          },
+          {
+            "item": "cobblemon:peat_block",
+            "percentage": 5.0
+          },
+          {
+            "item": "cobblemon:enigma_berry",
+            "percentage": 5.0
+          }
+        ]
+      },
+      "moves": [
+        "1:tackle",
+        "1:astonish",
+        "1:feintattack",
+        "1:grudge",
+        "1:shadowclaw",
+        "1:branchpoke",
+        "4:assurance",
+        "8:shadowsneak",
+        "12:confuseray",
+        "16:willowisp",
+        "20:shadowpunch",
+        "24:endure",
+        "28:hornleech",
+        "32:comeuppance",
+        "36:phantomforce",
+        "40:moonlight",
+        "44:woodhammer",
+        "48:destinybond",
+        "52:forestscurse",
+        "56:spiritshackle",
+        "egg:allyswitch",
+        "egg:bestow",
+        "egg:disable",
+        "egg:feintattack",
+        "egg:grudge",
+        "egg:suckerpunch",
+        "tm:allyswitch",
+        "tm:assurance",
+        "tm:block",
+        "tm:brutalswing",
+        "tm:bulldoze",
+        "tm:burningjealousy",
+        "tm:calmmind",
+        "tm:confuseray",
+        "tm:curse",
+        "tm:cut",
+        "tm:darkpulse",
+        "tm:dig",
+        "tm:drainpunch",
+        "tm:dreameater",
+        "tm:earthquake",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:focusblast",
+        "tm:foulplay",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:grassyglide",
+        "tm:grassyterrain",
+        "tm:guardpress",
+        "tm:haze",
+        "tm:hex",
+        "tm:honeclaws",
+        "tm:hyperbeam",
+        "tm:imprison",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leafstorm",
+        "tm:magiccoat",
+        "tm:naturepower",
+        "tm:nightshade",
+        "tm:painsplit",
+        "tm:phantomforce",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicnoise",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:roleplay",
+        "tm:safeguard",
+        "tm:scaryface",
+        "tm:seedbomb",
+        "tm:shadowball",
+        "tm:shadowclaw",
+        "tm:skillswap",
+        "tm:skittersmack",
+        "tm:sleeptalk",
+        "tm:spite",
+        "tm:strength",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:takedown",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:throatchop",
+        "tm:trailblaze",
+        "tm:trick",
+        "tm:venomdrench",
+        "tm:willowisp",
+        "tm:worryseed",
+        "tm:xscissor",
+        "tutor:allyswitch",
+        "tutor:block",
+        "tutor:bulldoze",
+        "tutor:burningjealousy",
+        "tutor:calmmind",
+        "tutor:darkpulse",
+        "tutor:drainpunch",
+        "tutor:energyball",
+        "tutor:foulplay",
+        "tutor:gigadrain",
+        "tutor:gigaimpact",
+        "tutor:grassyglide",
+        "tutor:hyperbeam",
+        "tutor:knockoff",
+        "tutor:lashout",
+        "tutor:magiccoat",
+        "tutor:painsplit",
+        "tutor:poisonjab",
+        "tutor:poltergeist",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:rocksmash",
+        "tutor:roleplay",
+        "tutor:seedbomb",
+        "tutor:shadowball",
+        "tutor:shadowclaw",
+        "tutor:skillswap",
+        "tutor:skittersmack",
+        "tutor:sleeptalk",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:telekinesis",
+        "tutor:trick",
+        "tutor:worryseed",
+        "tutor:xscissor"
+      ],
+      "preEvolution": "phantump pale",
+      "evolutions": [],
+      "battleOnly": false
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "implemented": true,
+  "name": "yakru",
+  "nationalPokedexNumber": 1033,
+  "primaryType": "water",
+  "secondaryType": "fighting",
+  "abilities": [
+    "torrent",
+    "h:ironfist"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 85,
+    "defence": 70,
+    "special_attack": 55,
+    "special_defence": 60,
+    "speed": 65
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "swimSpeed": 0.6,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-4"
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:prismarine_shard",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:gold_nugget",
+        "quantityRange": "1-3",
+        "percentage": 35
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:growl",
+    "1:watergun",
+    "1:focusenergy",
+    "4:quickattack",
+    "7:waterpulse",
+    "10:machpunch",
+    "13:detect",
+    "16:rocksmash",
+    "20:aquajet",
+    "24:poweruppunch",
+    "28:bulkup",
+    "32:liquidation",
+    "36:drainpunch",
+    "40:brickbreak",
+    "44:closecombat",
+    "48:hydropump",
+    "egg:mist",
+    "egg:helpinghand",
+    "egg:aquaring",
+    "egg:counter",
+    "egg:bulletpunch",
+    "tm:waterfall",
+    "tm:surf",
+    "tm:scald",
+    "tm:icepunch",
+    "tm:thunderpunch",
+    "tm:firepunch",
+    "tm:protect",
+    "tm:bulkup",
+    "tm:brickbreak",
+    "tm:lowsweep",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:raindance",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure",
+    "tm:facade",
+    "tm:workup",
+    "tm:taunt"
+  ],
+  "labels": [
+    "starter",
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.yakru.desc1"
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.5,
+    "height": 1.5,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 215,
+  "evolutions": [
+    {
+      "id": "yakru-yakhan",
+      "variant": "level_up",
+      "result": "yakhan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

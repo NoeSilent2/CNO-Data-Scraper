@@ -1,0 +1,39 @@
+{
+  "target": "cobblemon:budew",
+  "evolutions": [
+    {
+      "id": "budew_roselia",
+      "variant": "level_up",
+      "result": "roselia",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "poisonsting"
+      ],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ]
+    },
+    {
+      "id": "budew_roselia_wither",
+      "variant": "level_up",
+      "result": "roselia wither",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "poisonsting"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:wither_rose"
+        }
+      ]
+    }
+  ]
+}

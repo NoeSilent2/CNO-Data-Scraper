@@ -1,0 +1,217 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1124,
+  "name": "porytron2",
+  "primaryType": "electric",
+  "maleRatio": -1,
+  "height": 6,
+  "weight": 325,
+  "pokedex": [
+    "cobblemon.species.porytron2.desc"
+  ],
+  "labels": [
+    "laserdex"
+  ],
+  "aspects": [],
+  "abilities": [
+    "voltabsorb",
+    "download",
+    "h:levitate"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 85,
+    "defence": 80,
+    "special_attack": 90,
+    "special_defence": 85,
+    "speed": 90
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 180,
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.4,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "swim": {
+        "avoidsWater": true
+      },
+      "walk": {
+        "canWalk": false
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    },
+    "herd": {
+      "maxSize": "3",
+      "toleratedLeaders": [
+        {
+          "pokemon": "porytron2",
+          "tier": 1
+        },
+        {
+          "pokemon": "porytronz",
+          "tier": 2
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:upgrade",
+        "percentage": 25.0
+      }
+    ]
+  },
+  "moves": [
+    "1:cut",
+    "1:conversion",
+    "1:sharpen",
+    "1:recycle",
+    "5:doublehit",
+    "10:iondeluge",
+    "15:thundershock",
+    "20:psyshock",
+    "25:conversion2",
+    "30:autotomize",
+    "35:paraboliccharge",
+    "40:discharge",
+    "45:flashcannon",
+    "50:technoblast",
+    "55:electricterrain",
+    "60:risingvoltage",
+    "65:hyperbeam",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:doubleedge",
+    "tm:dreameater",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:gravity",
+    "tm:guardswap",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:lastresort",
+    "tm:magiccoat",
+    "tm:magnetrise",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:speedswap",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:supercellslam",
+    "tm:takedown",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:triattack",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:voltswitch",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:chargebeam",
+    "tutor:electroweb",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:irontail",
+    "tutor:lastresort",
+    "tutor:magiccoat",
+    "tutor:magnetrise",
+    "tutor:psyshock",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:thunderbolt",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt"
+  ],
+  "evolutions": [
+    {
+      "id": "porytron2_porytronz",
+      "variant": "trade",
+      "result": "porytronz",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:dubious_disc"
+        }
+      ]
+    }
+  ]
+}

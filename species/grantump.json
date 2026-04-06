@@ -1,0 +1,131 @@
+{
+  "implemented": true,
+  "name": "grantump",
+  "nationalPokedexNumber": 1081,
+  "primaryType": "grass",
+  "secondaryType": "fairy",
+  "abilities": [
+    "grassysurge",
+    "mistysurge",
+    "h:healer"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 40,
+    "defence": 60,
+    "special_attack": 90,
+    "special_defence": 65,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": false,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "grass",
+    "amorphous"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:oak_log",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "natures_spirit:wisteria_log",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:fairywind",
+    "1:ingrain",
+    "5:absorb",
+    "8:ingrain",
+    "10:leechseed",
+    "15:grasswhistle",
+    "15:stunspore",
+    "13:mistyterrain",
+    "19:worryseed",
+    "22:forestscurse",
+    "26:craftyshield",
+    "26:flowershield",
+    "28:megadrain",
+    "34:moonlight",
+    "37:dazzlinggleam",
+    "39:gigadrain",
+    "45:aromatherapy",
+    "50:instruct"
+  ],
+  "labels": [
+    "frontiermon"
+  ],
+  "pokedex": [
+    "cobblemon.species.grantump.desc"
+  ],
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 0.5,
+    "height": 0.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 75,
+  "evolutions": [
+    {
+      "id": "grantump_wystenent",
+      "variant": "trade",
+      "result": "wystenent",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "floralhealing"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:shiny_stone"
+        }
+      ]
+    }
+  ]
+}

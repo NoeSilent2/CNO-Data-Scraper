@@ -1,0 +1,303 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1125,
+  "name": "porytronz",
+  "primaryType": "electric",
+  "maleRatio": -1,
+  "height": 9,
+  "weight": 340,
+  "pokedex": [
+    "cobblemon.species.porytronz.desc"
+  ],
+  "labels": [
+    "laserdex"
+  ],
+  "aspects": [],
+  "abilities": [
+    "motordrive",
+    "derivative",
+    "h:surgesurfer"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 125,
+    "defence": 55,
+    "special_attack": 125,
+    "special_defence": 45,
+    "speed": 130
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "baseExperienceYield": 268,
+  "experienceGroup": "medium_fast",
+  "catchRate": 30,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.85,
+    "fixed": false
+  },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/vehicle",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "30-50",
+          "JUMP": "15-25",
+          "SKILL": "25-50",
+          "SPEED": "45-65",
+          "STAMINA": "35-60"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canWalkOnWater": true
+      },
+      "walk": {
+        "canWalk": true,
+        "walkSpeed": 0.9
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    },
+    "herd": {
+      "maxSize": "4"
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:dubious_disc",
+        "percentage": 25.0
+      }
+    ]
+  },
+  "moves": [
+    "1:cut",
+    "1:conversion",
+    "1:sharpen",
+    "1:recycle",
+    "1:doublehit",
+    "1:iondeluge",
+    "1:thundershock",
+    "1:psyshock",
+    "1:conversion2",
+    "1:autotomize",
+    "1:paraboliccharge",
+    "1:discharge",
+    "1:flashcannon",
+    "1:electricterrain",
+    "1:risingvoltage",
+    "1:hyperbeam",
+    "20:quickattack",
+    "25:electroball",
+    "30:shiftgear",
+    "35:flamewheel",
+    "40:extremespeed",
+    "45:wildcharge",
+    "50:spinout",
+    "55:technoblast",
+    "60:zippyzap",
+    "65:gigaimpact",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:doubleedge",
+    "tm:dreameater",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:gravity",
+    "tm:guardswap",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:lastresort",
+    "tm:magiccoat",
+    "tm:magnetrise",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:speedswap",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:supercellslam",
+    "tm:takedown",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:triattack",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:chargebeam",
+    "tutor:electroweb",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:irontail",
+    "tutor:lastresort",
+    "tutor:magiccoat",
+    "tutor:magnetrise",
+    "tutor:psyshock",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:steelroller",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:thunderbolt",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt"
+  ],
+  "preEvolution": "porytron2",
+  "evolutions": []
+}

@@ -1,0 +1,86 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+        "id": "mikueon-1",
+        "pokemon": "mikueon",
+        "presets": [                
+            "natural",
+            "wild"
+        ],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "ultra-rare",
+        "level": "28-53",
+        "weight": 5.0,
+        "weightMultiplier": {
+            "multiplier": 1.5,
+            "condition": {
+                "timeRange": "day"
+            }
+        },
+        "condition": {
+            "canSeeSky": true,
+            "biomes": [
+                "#cobblemon:is_plains"
+            ]
+        },
+        "anticondition": {
+            "biomes": [
+                "#cobblemon:is_arid",
+                "#cobblemon:is_freezing"
+            ]
+        }
+      },
+      {
+        "id": "mikueon-2",
+        "pokemon": "mikueon",
+        "presets": [                
+            "natural"
+        ],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "ultra-rare",
+        "level": "28-53",
+        "weight": 5.0,
+        "weightMultiplier": {
+            "multiplier": 1.5,
+            "condition": {
+                "timeRange": "day"
+            }
+        },
+        "condition": {
+            "canSeeSky": true,
+            "biomes": [
+                "minecraft:cherry_grove"
+            ]
+        }
+    },
+    {
+        "id": "mikueon-3",
+        "pokemon": "mikueon",
+        "presets": [                
+            "natural"
+        ],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "ultra-rare",
+        "level": "28-53",
+        "weight": 5.0,
+        "weightMultiplier": {
+            "multiplier": 1.5,
+            "condition": {
+                "timeRange": "day"
+            }
+        },
+        "condition": {
+            "canSeeSky": true,
+            "biomes": [
+                "#cobblemon:is_snowy"
+            ]
+        }
+    }
+  ]
+}

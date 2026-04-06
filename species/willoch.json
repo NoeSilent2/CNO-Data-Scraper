@@ -1,0 +1,151 @@
+{
+  "implemented": true,
+  "name": "willoch",
+  "nationalPokedexNumber": 1045,
+  "primaryType": "grass",
+  "secondaryType": "psychic",
+  "abilities": [
+    "damp",
+    "stormdrain",
+    "h:magician"
+  ],
+  "baseStats": {
+    "hp": 150,
+    "attack": 30,
+    "defence": 90,
+    "special_attack": 85,
+    "special_defence": 115,
+    "speed": 20
+  },
+  "catchRate": 40,
+  "maleRatio": 1,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 287,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "grass",
+    "human_like"
+  ],
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "canSwimInWater": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnWater": false
+      },
+      "wanderChance": 120
+    }
+  },
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:vine",
+        "quantityRange": "1-3"
+      },
+      {
+        "item": "minecraft:glow_berries",
+        "quantityRange": "1-2"
+      }
+    ]
+  },
+  "moves": [
+    "1:absorb",
+    "1:leer",
+    "3:confusion",
+    "6:roleplay",
+    "9:magicalleaf",
+    "12:trick",
+    "14:confuseray",
+    "17:hypnosis",
+    "17:dreameater",
+    "20:megadrain",
+    "22:psywave",
+    "24:hex",
+    "26:lightscreen",
+    "26:reflect",
+    "28:waterpulse",
+    "30:ingrain",
+    "32:gigadrain",
+    "35:leechseed",
+    "37:meanlook",
+    "40:eeriespell",
+    "42:rest",
+    "42:snore",
+    "46:calmmind",
+    "49:magicpowder",
+    "53:camouflage",
+    "57:mysticalfire",
+    "60:dazzlinggleam",
+    "62:grassyterrain",
+    "65:trickroom",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:endure",
+    "tm:energyball",
+    "tm:taunt",
+    "tm:substitute",
+    "tm:endeavor",
+    "tm:trick",
+    "tm:hex",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:calmmind",
+    "tm:grassyterrain",
+    "tm:gigadrain",
+    "tm:snore",
+    "tm:mysticalfire",
+    "tm:dazzlinggleam",
+    "tm:magicalleaf",
+    "tm:confuseray",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:storedpower",
+    "tm:nightshade",
+    "tm:raindance",
+    "tm:seedbomb",
+    "tm:waterpulse",
+    "tm:nastyplot",
+    "tm:mistyterrain",
+    "tm:willowisp",
+    "tm:grassknot",
+    "tm:mudshot",
+    "tm:swift",
+    "tm:thunderwave",
+    "tm:helpinghand",
+    "tm:imprison",
+    "tm:trickroom",
+    "tm:hyperbeam",
+    "tutor:synthesis",
+    "tutor:leafstorm",
+    "tutor:futuresight",
+    "tutor:magicroom",
+    "tutor:wonderroom",
+    "tutor:psychicterrain"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.willoch.desc1",
+    "cobblemon.species.willoch.desc2"
+  ],
+  "evolutions": [],
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 2.0,
+    "height": 2.0,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 1,
+    "special_defence": 1
+  },
+  "height": 34,
+  "weight": 2640
+}

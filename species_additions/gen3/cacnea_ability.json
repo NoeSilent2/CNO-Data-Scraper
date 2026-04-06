@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:cacnea",
+  "abilities": [
+    "sandrush",
+    "stakeout",
+    "h:waterabsorb"
+  ]
+}

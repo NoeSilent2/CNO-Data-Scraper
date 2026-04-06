@@ -1,0 +1,65 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "owlyn-1",
+      "pokemon": "owlyn",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-15",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "minecraft:forest",
+          "minecraft:birch_forest",
+          "minecraft:flower_forest",
+          "minecraft:taiga",
+          "minecraft:old_growth_spruce_taiga",
+          "minecraft:old_growth_pine_taiga",
+          "minecraft:grove",
+          "minecraft:windswept_forest"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "owlyn-2",
+      "pokemon": "owlyn",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "5-18",
+      "weight": 8.0,
+      "condition": {
+        "biomes": [
+          "minecraft:dark_forest",
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_magical"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "owlyn-3",
+      "pokemon": "owlyn",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "8-22",
+      "weight": 7.0,
+      "condition": {
+        "biomes": [
+          "minecraft:old_growth_spruce_taiga",
+          "minecraft:old_growth_pine_taiga",
+          "minecraft:grove"
+        ],
+        "canSeeSky": true,
+        "timeRange": "night",
+        "moonPhase": 0
+      }
+    }
+  ]
+}

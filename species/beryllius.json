@@ -1,0 +1,260 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1088,
+  "name": "beryllius",
+  "primaryType": "rock",
+  "secondaryType": "grass",
+  "maleRatio": -1,
+  "height": 7,
+  "weight": 88,
+  "pokedex": [
+    "cobblemon.species.beryllius.desc"
+  ],
+  "labels": [
+    "laserdex",
+    "minecraftian"
+  ],
+  "aspects": [
+    "emerald"
+  ],
+  "abilities": [
+    "grassysurge",
+    "sturdy",
+    "h:superluck"
+  ],
+  "eggGroups": [
+    "fairy",
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 68,
+    "attack": 150,
+    "defence": 150,
+    "special_attack": 42,
+    "special_defence": 60,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 200,
+  "experienceGroup": "slow",
+  "catchRate": 30,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1,
+    "height": 2.15,
+    "fixed": false
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "4",
+      "toleratedLeaders": [
+        {
+          "pokemon": "beryllius",
+          "tier": 1
+        },
+        {
+          "pokemon": "clarissie",
+          "tier": 1
+        },
+        {
+          "pokemon": "diancie mega=false",
+          "tier": 2
+        },
+        {
+          "pokemon": "diancie mega",
+          "tier": 3
+        }
+      ]
+    },
+    "resting": {
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": true
+      },
+      "fly": {
+        "canFly": true
+      },
+      "walk": {
+        "canWalk": false
+      }
+    },
+    "combat": {
+      "willDefendOwner": true
+    },
+    "fireImmune": true
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:emerald",
+        "quantityRange": "0-4"
+      },
+      {
+        "item": "cobblemon:tanga_berry",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:bright_powder",
+        "percentage": 10.0
+      }
+    ]
+  },
+  "moves": [
+    "1:payday",
+    "1:luckychant",
+    "1:tackle",
+    "1:leafage",
+    "1:harden",
+    "1:rockthrow",
+    "1:sharpen",
+    "1:leechseed",
+    "1:rapidspin",
+    "1:guardsplit",
+    "1:smackdown",
+    "1:razorleaf",
+    "1:ancientpower",
+    "1:rockpolish",
+    "1:bulletseed",
+    "1:rockslide",
+    "1:synthesis",
+    "1:powergem",
+    "1:guardpress",
+    "1:stealthrock",
+    "1:seedbomb",
+    "50:stoneedge",
+    "55:naturalgift",
+    "65:woodhammer",
+    "tm:afteryou",
+    "tm:allyswitch",
+    "tm:ancientpower",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:explosion",
+    "tm:facade",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:gravity",
+    "tm:guardpress",
+    "tm:guardswap",
+    "tm:gyroball",
+    "tm:hail",
+    "tm:heavyslam",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:leafstorm",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:magnetrise",
+    "tm:meteorbeam",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:seedbomb",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:terrainpulse",
+    "tm:trailblaze",
+    "tm:trickroom",
+    "tm:wonderroom",
+    "tm:woodhammer",
+    "tutor:afteryou",
+    "tutor:allyswitch",
+    "tutor:ancientpower",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:flashcannon",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:magiccoat",
+    "tutor:magnetrise",
+    "tutor:meteorbeam",
+    "tutor:mistyexplosion",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:telekinesis",
+    "tutor:terrainpulse",
+    "tutor:trick",
+    "tutor:wonderroom"
+  ],
+  "preEvolution": "carbink emerald",
+  "evolutions": [],
+  "forms": [
+    {
+      "name": "Emerald-Crystal",
+      "aspects": [
+        "emerald"
+      ],
+      "battleOnly": false
+    }
+  ]
+}

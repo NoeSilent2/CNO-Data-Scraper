@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:weedle",
+  "abilities": [
+    "shielddust",
+    "runaway",
+    "h:rattled"
+  ]
+}

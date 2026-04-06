@@ -1,0 +1,140 @@
+{
+  "implemented": true,
+  "name": "funerun",
+  "nationalPokedexNumber": 1042,
+  "primaryType": "ghost",
+  "secondaryType": "rock",
+  "abilities": [
+    "rattled",
+    "h:rockhead"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 135,
+    "defence": 100,
+    "special_attack": 135,
+    "special_defence": 55,
+    "speed": 98
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 187,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 40,
+  "eggGroups": [
+    "amorphous",
+    "mineral"
+  ],
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "swim": {
+        "canSwimInWater": false,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:cobblestone",
+        "quantityRange": "1-3"
+      },
+      {
+        "item": "minecraft:moss_block",
+        "quantityRange": "1-3"
+      }
+    ]
+  },
+  "moves": [
+    "1:astonish",
+    "1:tackle",
+    "1:faketears",
+    "4:flail",
+    "7:rockpolish",
+    "9:confuseray",
+    "12:rollout",
+    "15:ingrain",
+    "17:nightshade",
+    "19:takedown",
+    "23:hex",
+    "28:curse",
+    "32:spite",
+    "35:rocktomb",
+    "37:trick",
+    "39:shadowsneak",
+    "42:stealthrock",
+    "45:phantomforce",
+    "47:suckerpunch",
+    "49:rockblast",
+    "51:memento",
+    "53:strengthsap",
+    "56:destinybond",
+    "58:headsmash",
+    "tm:rest",
+    "tm:substitute",
+    "tm:taunt",
+    "tm:protect",
+    "tm:endure",
+    "tm:snore",
+    "tm:shadowball",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:powergem",
+    "tm:encore",
+    "tm:mudshot",
+    "tm:dig",
+    "tm:rockslide",
+    "tm:sandstorm",
+    "tm:bodyslam",
+    "tm:stoneedge",
+    "tm:stompingtantrum",
+    "tm:willowisp",
+    "tm:rockpolish",
+    "tm:faketears",
+    "tm:takedown",
+    "tm:smackdown",
+    "tm:rocktomb",
+    "tm:rockblast",
+    "tm:bulldoze",
+    "tm:trick",
+    "tm:stealthrock",
+    "tm:phantomforce",
+    "tm:facade",
+    "tm:attract",
+    "tm:gigaimpact",
+    "tm:batonpass",
+    "tm:fling",
+    "tm:thief",
+    "tm:confuseray",
+    "tm:swagger",
+    "tutor:painsplit",
+    "tutor:endeavor",
+    "tutor:helpinghand",
+    "tutor:knockoff",
+    "tutor:poltergeist"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.funerun.desc1",
+    "cobblemon.species.funerun.desc2"
+  ],
+  "evolutions": [],
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 1.4,
+    "height": 1.4,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "speed": 2
+  },
+  "height": 12,
+  "weight": 360
+}

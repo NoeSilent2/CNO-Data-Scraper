@@ -1,0 +1,28 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "croppup-1",
+            "pokemon": "croppup",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "1-14",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 2.0,
+                "condition": {
+                    "moonPhase": "0"
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [ "minecraft:farmland" ]
+            }
+        }
+    ]
+}

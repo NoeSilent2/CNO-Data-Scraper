@@ -1,0 +1,7 @@
+{
+  "target": "cobblemon:arceus",
+  "abilities": [
+    "multitype",
+    "h:normalmastery"
+  ]
+}

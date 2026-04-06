@@ -1,0 +1,63 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "tarblin-1",
+            "pokemon": "tarblin",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-45",
+            "weight": 2.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_sandy"
+                ],
+                "isRaining": false,
+				"neededNearbyBlocks": [
+                    "minecraft:lava", "minecraft:flowing_lava"
+                ]
+            }
+        },
+        {
+            "id": "tarblin-2",
+            "pokemon": "tarblin",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-45",
+            "weight": 0.18,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_sandy"
+                ],
+                "isRaining": false
+            }
+        },
+        {
+            "id": "tarblin-3",
+            "pokemon": "tarblin",
+            "presets": [
+                "natural",
+                "nether_fossil"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "40-55",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "minecraft:soul_sand_valley"
+                ]
+            }
+        }
+    ]
+}

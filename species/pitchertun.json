@@ -1,0 +1,331 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1120,
+  "name": "pitchertun",
+  "primaryType": "grass",
+  "secondaryType": "ground",
+  "maleRatio": 0.5,
+  "height": 4,
+  "weight": 1260,
+  "pokedex": [
+    "cobblemon.species.pitchertun.desc"
+  ],
+  "labels": [
+    "laserdex",
+    "minecraftian",
+    "fossil"
+  ],
+  "aspects": [],
+  "abilities": [
+    "harvest",
+    "raindish",
+    "h:dragonsmaw"
+  ],
+  "eggGroups": [
+    "grass",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 120,
+    "attack": 125,
+    "defence": 135,
+    "special_attack": 40,
+    "special_defence": 80,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 270,
+  "experienceGroup": "erratic",
+  "catchRate": 10,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 1.2,
+  "hitbox": {
+    "width": 1,
+    "height": 1.0,
+    "fixed": false
+  },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "10-20",
+          "JUMP": "15-25",
+          "SKILL": "10-40",
+          "SPEED": "15-25",
+          "STAMINA": "45-85"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "4",
+      "toleratedLeaders": [
+        {
+          "pokemon": "pitchertun",
+          "tier": 2
+        },
+        {
+          "pokemon": "torchflyer",
+          "tier": 1
+        }
+      ]
+    },
+    "resting": {
+      "willSleepOnBed": true,
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.165
+      }
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+  },
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:pitcher_pod",
+        "quantityRange": "1-4"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:grassy_seed",
+        "percentage": 10.0
+      }
+    ]
+  },
+  "moves": [
+    "1:sappyseed",
+    "1:raindance",
+    "1:headbutt",
+    "1:dragontail",
+    "1:leafage",
+    "1:sweetscent",
+    "1:recycle",
+    "1:withdraw",
+    "1:astonish",
+    "1:leechseed",
+    "1:worryseed",
+    "1:infestation",
+    "1:irondefense",
+    "4:mudshot",
+    "4:curse",
+    "8:growth",
+    "8:stomp",
+    "10:sandtomb",
+    "12:razorleaf",
+    "14:bulldoze",
+    "16:lifedew",
+    "20:grassyglide",
+    "20:bulletseed",
+    "24:naturalgift",
+    "28:rototiller",
+    "32:stompingtantrum",
+    "32:bodyslam",
+    "34:liquidation",
+    "36:recover",
+    "38:dragonhammer",
+    "40:seedbomb",
+    "44:aquatail",
+    "48:earthquake",
+    "50:dragoncheer",
+    "egg:defensecurl",
+    "egg:recycle",
+    "egg:rollout",
+    "egg:suckerpunch",
+    "egg:appleacid",
+    "egg:gravapple",
+    "egg:ingrain",
+    "tm:amnesia",
+    "tm:aquatail",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:bugbite",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:curse",
+    "tm:dig",
+    "tm:dragonbreath",
+    "tm:dragoncheer",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:gyroball",
+    "tm:headbutt",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:leafstorm",
+    "tm:leechseed",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:naturepower",
+    "tm:naturalgift",
+    "tm:outrage",
+    "tm:payback",
+    "tm:pollenpuff",
+    "tm:pounce",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:sandtomb",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:surf",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:zenheadbutt",
+    "tutor:bulldoze",
+    "tutor:bugbite",
+    "tutor:dragonpulse",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:outrage",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:suckerpunch",
+    "tutor:superpower",
+    "tutor:zenheadbutt",
+    "tutor:worryseed"
+  ],
+  "preEvolution": "podlin",
+  "evolutions": []
+}

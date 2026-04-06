@@ -1,0 +1,165 @@
+{
+  "implemented": true,
+  "name": "solafae",
+  "nationalPokedexNumber": 1031,
+  "primaryType": "fire",
+  "secondaryType": "fairy",
+  "abilities": [
+    "blaze",
+    "h:magicguard"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 75,
+    "defence": 70,
+    "special_attack": 120,
+    "special_defence": 95,
+    "speed": 95
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-4"
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "fairy",
+    "field"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:blaze_rod",
+        "quantityRange": "1-2",
+        "percentage": 40
+      },
+      {
+        "item": "minecraft:pink_petals",
+        "quantityRange": "2-4",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:amethyst_shard",
+        "quantityRange": "1-3",
+        "percentage": 35
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "1:ember",
+    "1:sweetkiss",
+    "1:fairywind",
+    "1:flamecharge",
+    "1:drainingkiss",
+    "1:firespin",
+    "4:willowisp",
+    "8:incinerate",
+    "12:dazzlinggleam",
+    "16:flamethrower",
+    "20:charm",
+    "24:calmmind",
+    "28:mysticalfire",
+    "32:moonblast",
+    "36:fierydance",
+    "40:fireblast",
+    "44:quiverdance",
+    "48:flareblitz",
+    "52:moonlight",
+    "56:overheat",
+    "60:nastyplot",
+    "64:mistyexplosion",
+    "egg:morningsun",
+    "egg:hypnosis",
+    "egg:captivate",
+    "egg:wish",
+    "egg:aromatherapy",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:mysticalfire",
+    "tm:heatwave",
+    "tm:overheat",
+    "tm:flareblitz",
+    "tm:willowisp",
+    "tm:fierydance",
+    "tm:calmmind",
+    "tm:nastyplot",
+    "tm:quiverdance",
+    "tm:moonblast",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:playrough",
+    "tm:mistyexplosion",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:shadowball",
+    "tm:energyball",
+    "tm:solarbeam",
+    "tm:grassknot",
+    "tm:thunderbolt",
+    "tm:focusblast",
+    "tm:aurasphere",
+    "tm:protect",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:safeguard",
+    "tm:sunnyday",
+    "tm:mistyterrain",
+    "tm:encore",
+    "tm:taunt",
+    "tm:healbell",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure",
+    "tm:facade",
+    "tm:hyperbeam",
+    "tm:gigaimpact"
+  ],
+  "labels": [
+    "starter",
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.solafae.desc1"
+  ],
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 1.1,
+    "height": 3.1,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 325,
+  "evolutions": []
+}

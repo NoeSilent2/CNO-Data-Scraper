@@ -1,0 +1,135 @@
+{
+  "implemented": true,
+  "name": "lunage",
+  "nationalPokedexNumber": 1073,
+  "primaryType": "grass",
+  "secondaryType": "fairy",
+  "abilities": [
+    "serenegrace",
+    "mistysurge",
+    "h:unaware"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 70,
+    "special_attack": 100,
+    "special_defence": 160,
+    "speed": 100
+  },
+  "catchRate": 25,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 300,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 30,
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:gold_block",
+        "quantityRange": "1",
+        "percentage": 25
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      }
+    }
+  },
+  "moves": [
+    "1:tackle",
+    "1:babydolleyes",
+    "4:absorb",
+    "8:growth",
+    "10:playnice",
+    "12:megadrain",
+    "15:howl",
+    "20:leechseed",
+    "23:fairywind",
+    "26:magicalleaf",
+    "30:cosmicpower",
+    "33:gigadrain",
+    "36:dazzlinggleam",
+    "38:takedown",
+    "40:moonlight",
+    "43:grassyterrain",
+    "47:spotlight",
+    "50:moonblast",
+    "53:worryseed",
+    "55:psychic",
+    "58:lightscreen",
+    "60:solarbeam",
+    "64:wish",
+    "tm:solarbeam",
+    "tm:rest",
+    "tm:snore",
+    "tm:protect",
+    "tm:gigadrain",
+    "tm:charm",
+    "tm:attract",
+    "tm:sunnyday",
+    "tm:facade",
+    "tm:bulletseed",
+    "tm:round",
+    "tm:grassyterrain",
+    "tm:substitute",
+    "tm:endure",
+    "tm:sleeptalk",
+    "tm:seedbomb",
+    "tm:energyball",
+    "tm:grassknot",
+    "tm:lightscreen",
+    "tm:safeguard",
+    "tm:helpinghand",
+    "tm:drainingkiss",
+    "tm:thunderbolt",
+    "tm:psychic",
+    "tm:amnesia",
+    "tm:calmmind",
+    "tm:playrough",
+    "tm:dazzlinggleam",
+    "tm:trick",
+    "tm:storedpower",
+    "tm:imprison",
+    "tm:shadowball",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:psyshock",
+    "tm:reflect",
+    "tm:trickroom",
+    "tm:snarl",
+    "tm:trailblaze",
+    "tm:hypervoice",
+    "tutor:nuzzle",
+    "tutor:meteorbeam"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.lunage.desc1",
+    "cobblemon.species.lunage.desc2"
+  ],
+  "evolutions": [],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1.3,
+    "height": 1.6,
+    "fixed": false
+  },
+  "baseFriendship": 120,
+  "evYield": {
+    "special_defence": 2
+  },
+  "height": 11,
+  "weight": 312
+}

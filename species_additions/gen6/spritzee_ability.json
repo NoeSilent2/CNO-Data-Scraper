@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:spritzee",
+  "abilities": [
+    "healer",
+    "aromaveil",
+    "h:mistysurge"
+  ]
+}

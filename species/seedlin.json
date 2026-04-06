@@ -1,0 +1,217 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1116,
+  "name": "seedlin",
+  "primaryType": "grass",
+  "secondaryType": "ground",
+  "maleRatio": 0.5,
+  "height": 2,
+  "weight": 5,
+  "pokedex": [
+    "cobblemon.species.seedlin.desc"
+  ],
+  "labels": [
+    "laserdex",
+    "minecraftian",
+    "fossil"
+  ],
+  "aspects": [
+    "torchflower-seed"
+  ],
+  "abilities": [
+    "harvest",
+    "leafguard",
+    "h:dragonsmaw"
+  ],
+  "eggGroups": [
+    "grass",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 40,
+    "defence": 40,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 20
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "shoulderMountable": true,
+  "baseExperienceYield": 52,
+  "experienceGroup": "erratic",
+  "catchRate": 255,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.4,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "4",
+      "toleratedLeaders": [
+        {
+          "pokemon": "seedlin",
+          "tier": 1
+        },
+        {
+          "pokemon": "podlin",
+          "tier": 2
+        },
+        {
+          "pokemon": "torchlin",
+          "tier": 2
+        },
+        {
+          "pokemon": "pitchertun",
+          "tier": 3
+        },
+        {
+          "pokemon": "torchflyer",
+          "tier": 3
+        }
+      ]
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "resting": {
+      "willSleepOnBed": true,
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+  },
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:torchflower_seeds"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:grassy_seed",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:withdraw",
+    "1:astonish",
+    "1:leechseed",
+    "1:worryseed",
+    "egg:defensecurl",
+    "egg:recycle",
+    "egg:rollout",
+    "egg:suckerpunch",
+    "egg:appleacid",
+    "egg:gravapple",
+    "egg:ingrain",
+    "tm:leechseed",
+    "tm:pounce",
+    "tm:recycle",
+    "tm:rollout",
+    "tm:suckerpunch",
+    "tm:terablast",
+    "tutor:recycle",
+    "tutor:rollout",
+    "tutor:suckerpunch",
+    "tutor:worryseed"
+  ],
+  "evolutions": [
+    {
+      "id": "seedlin_torchlin",
+      "variant": "level_up",
+      "result": "torchlin",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "dragonbreath"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "name": "Pitcher-Plant",
+      "primaryType": "grass",
+      "secondaryType": "ground",
+      "maleRatio": 0.5,
+      "height": 2,
+      "weight": 5,
+      "pokedex": [
+        "cobblemon.species.seedlin.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "pitcher-plant-seed"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 40,
+        "defence": 40,
+        "special_attack": 40,
+        "special_defence": 40,
+        "speed": 20
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:pitcher_pod"
+          },
+          {
+            "item": "cobblemon:yache_berry",
+            "percentage": 2.5
+          },
+          {
+            "item": "cobblemon:grassy_seed",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "baseScale": 0.4,
+      "evolutions": [
+        {
+          "id": "seedlin_podlin",
+          "variant": "level_up",
+          "result": "podlin",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "dragontail"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 20
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    }
+  ]
+}

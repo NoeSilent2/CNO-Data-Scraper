@@ -1,0 +1,228 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1150,
+  "name": "regisculk",
+  "primaryType": "dark",
+  "maleRatio": -1,
+  "height": 17,
+  "weight": 2100,
+  "pokedex": [
+    "cobblemon.species.regisculk.desc"
+  ],
+  "labels": [
+    "legendary",
+    "laserdex",
+    "minecraftian"
+  ],
+  "aspects": [],
+  "abilities": [
+    "shrieker",
+    "h:shrieker"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 150,
+    "attack": 80,
+    "defence": 100,
+    "special_attack": 100,
+    "special_defence": 100,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 290,
+  "experienceGroup": "slow",
+  "catchRate": 3,
+  "eggCycles": 80,
+  "baseFriendship": 35,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1.85,
+    "height": 2.85,
+    "fixed": false
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "2",
+      "toleratedLeaders": [
+        {
+          "pokemon": "regisculk",
+          "tier": 1
+        }
+      ]
+    },
+    "resting": {
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInWater": false,
+        "canSwimInLava": true
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": true
+  },
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:sculk",
+        "quantityRange": "2-4"
+      },
+      {
+        "item": "minecraft:echo_shard",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemon:throat_spray",
+        "quantityRange": "1"
+      }
+    ]
+  },
+  "moves": [
+    "1:echoedvoice",
+    "1:roar",
+    "1:supersonic",
+    "1:perishsong",
+    "6:payback",
+    "8:dig",
+    "12:ancientpower",
+    "18:shadowpunch",
+    "21:brutalswing",
+    "24:snarl",
+    "30:nobleroar",
+    "33:suckerpunch",
+    "36:acidarmor",
+    "39:lashout",
+    "42:hammerarm",
+    "45:partingshot",
+    "48:darkpulse",
+    "54:shadowball",
+    "60:uproar",
+    "63:sonicshriek",
+    "66:eeriespell",
+    "69:earthpower",
+    "72:hypervoice",
+    "78:boomburst",
+    "tm:acidarmor",
+    "tm:ancientpower",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bugbuzz",
+    "tm:bulldoze",
+    "tm:chargebeam",
+    "tm:curse",
+    "tm:darkestlariat",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:gravity",
+    "tm:guardpress",
+    "tm:hardpress",
+    "tm:headbutt",
+    "tm:heavyslam",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icepunch",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lashout",
+    "tm:leechlife",
+    "tm:megapunch",
+    "tm:powergem",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychicnoise",
+    "tm:psychicsnap",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:selfdestruct",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:snarl",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:uproar",
+    "tutor:ancientpower",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:chargebeam",
+    "tutor:drainpunch",
+    "tutor:earthpower",
+    "tutor:firepunch",
+    "tutor:flashcannon",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icepunch",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:throatchop",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:uproar"
+  ],
+  "evolutions": []
+}

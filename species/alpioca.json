@@ -1,0 +1,158 @@
+{
+  "implemented": true,
+  "name": "alpioca",
+  "nationalPokedexNumber": 1060,
+  "primaryType": "normal",
+  "secondaryType": "water",
+  "abilities": [
+    "sapsipper",
+    "h:gooey"
+  ],
+  "baseStats": {
+    "hp": 120,
+    "attack": 40,
+    "defence": 70,
+    "special_attack": 93,
+    "special_defence": 100,
+    "speed": 62
+  },
+  "catchRate": 45,
+  "maleRatio": 0.75,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 248,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "field"
+  ],
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "60-70",
+          "JUMP": "55-90",
+          "SKILL": "30-50",
+          "SPEED": "40-55",
+          "STAMINA": "25-45"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "walk": {
+        "canWalk": true
+      }
+    }
+  },
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:slime_ball",
+        "quantityRange": "1-2",
+        "percentage": 70
+      },
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:bubble",
+    "1:aromaticmist",
+    "4:mudshot",
+    "10:defensecurl",
+    "14:sweetscent",
+    "17:round",
+    "20:bubblebeam",
+    "23:stomp",
+    "25:sweetkiss",
+    "28:aromatherapy",
+    "30:rest",
+    "34:bounce",
+    "36:hypervoice",
+    "39:stockpile",
+    "39:spitup",
+    "39:swallow",
+    "43:lifedew",
+    "46:acidarmor",
+    "50:muddywater",
+    "55:charm",
+    "58:triattack",
+    "60:sludgebomb",
+    "64:hydropump",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:icebeam",
+    "tm:screech",
+    "tm:rest",
+    "tm:snore",
+    "tm:sleeptalk",
+    "tm:protect",
+    "tm:icywind",
+    "tm:attract",
+    "tm:raindance",
+    "tm:whirlpool",
+    "tm:facade",
+    "tm:mudshot",
+    "tm:round",
+    "tm:stompingtantrum",
+    "tm:bodyslam",
+    "tm:hydropump",
+    "tm:surf",
+    "tm:amnesia",
+    "tm:substitute",
+    "tm:endure",
+    "tm:uproar",
+    "tm:sludgebomb",
+    "tm:focusblast",
+    "tm:fireblast",
+    "tm:energyball",
+    "tm:electroball",
+    "tm:shadowball",
+    "tm:drainingkiss",
+    "tm:mistyterrain",
+    "tm:triattack",
+    "tm:lightscreen",
+    "tm:helpinghand",
+    "tutor:recover",
+    "tutor:mistyexplosion"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.alpioca.desc1",
+    "cobblemon.species.alpioca.desc2"
+  ],
+  "evolutions": [],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1.3,
+    "height": 2.2,
+    "fixed": false
+  },
+  "baseFriendship": 20,
+  "evYield": {
+    "hp": 2
+  },
+  "height": 25,
+  "weight": 980
+}

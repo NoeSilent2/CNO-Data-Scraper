@@ -1,0 +1,173 @@
+{
+  "implemented": true,
+  "name": "pikapod",
+  "nationalPokedexNumber": 1063,
+  "primaryType": "water",
+  "secondaryType": "electric",
+  "abilities": [
+    "electricsurge",
+    "lightningrod",
+    "h:regenerator"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 41,
+    "defence": 88,
+    "special_attack": 95,
+    "special_defence": 104,
+    "speed": 20
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": true,
+  "forms": [
+    {
+      "name": "normal"
+    },
+    {
+      "name": "wild",
+      "aspects": [
+        "wild"
+      ],
+      "labels": [
+        "custom",
+        "wild"
+      ]
+    }
+  ],
+  "baseExperienceYield": 144,
+  "experienceGroup": "fast",
+  "eggCycles": 10,
+  "eggGroups": [
+    "water_1",
+    "fairy"
+  ],
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "walkSpeed": 0.135
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:slime_ball",
+        "percentage": 50
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:harden",
+    "1:nuzzle",
+    "5:bubble",
+    "10:charge",
+    "14:thundershock",
+    "19:charm",
+    "22:helpinghand",
+    "25:waterpulse",
+    "28:paraboliccharge",
+    "30:recover",
+    "33:yawn",
+    "36:bubblebeam",
+    "38:discharge",
+    "40:surf",
+    "44:voltswitch",
+    "50:bouncybubble",
+    "52:acidarmor",
+    "56:gastroacid",
+    "60:thunder",
+    "tm:takedown",
+    "tm:protect",
+    "tm:waterpulse",
+    "tm:chillingwater",
+    "tm:chargebeam",
+    "tm:facade",
+    "tm:icywind",
+    "tm:endure",
+    "tm:voltswitch",
+    "tm:raindance",
+    "tm:sleeptalk",
+    "tm:electroball",
+    "tm:waterfall",
+    "tm:dazzlinggleam",
+    "tm:thunderwave",
+    "tm:rest",
+    "tm:substitute",
+    "tm:liquidation",
+    "tm:surf",
+    "tm:thunderbolt",
+    "tm:amnesia",
+    "tm:electricterrain",
+    "tm:hydropump",
+    "tm:wildcharge",
+    "tm:gigaimpact",
+    "tm:hyperbeam",
+    "tm:thunder",
+    "tm:charge",
+    "tm:whirlpool",
+    "tm:doubleedge",
+    "tm:muddywater",
+    "tm:earthpower",
+    "tm:mudslap",
+    "tm:bulldoze",
+    "tm:skittersmack",
+    "tm:helpinghand",
+    "tm:attract",
+    "tm:safeguard",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:taunt",
+    "tm:charm",
+    "tm:chargebeam",
+    "tm:toxic",
+    "tm:weatherball",
+    "tm:mudshot",
+    "tm:dive",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tutor:aquaring",
+    "tutor:memento",
+    "tutor:painsplit",
+    "tutor:flail",
+    "tutor:tickle",
+    "tutor:swagger",
+    "egg:curse",
+    "egg:soak",
+    "egg:volttackle"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.pikapod.desc1",
+    "cobblemon.species.pikapod.desc2"
+  ],
+  "evolutions": [],
+  "features": [
+    "wild"
+  ],
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.7,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "special_defence": 2
+  },
+  "height": 3,
+  "weight": 15
+}

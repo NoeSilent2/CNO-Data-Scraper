@@ -1,0 +1,234 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1031,
+  "name": "Phantasmare",
+  "primaryType": "ghost",
+  "secondaryType": "psychic",
+  "maleRatio": 0.5,
+  "height": 15,
+  "weight": 12,
+  "pokedex": [
+    "cobblemon.species.phantasmare.desc"
+  ],
+  "labels": [
+    "laserdex"
+  ],
+  "aspects": [
+    "bad"
+  ],
+  "abilities": [
+    "baddreams",
+    "h:baddreams"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 135,
+    "defence": 95,
+    "special_attack": 50,
+    "special_defence": 115,
+    "speed": 45
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 186,
+  "experienceGroup": "medium_slow",
+  "catchRate": 65,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 2.6,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "swim": {
+        "avoidsWater": true
+      },
+      "walk": {
+        "canWalk": false
+      }
+    },
+    "herd": {
+      "maxSize": "5",
+      "toleratedLeaders": [
+        {
+          "pokemon": "darkrai",
+          "tier": 3
+        }
+      ]
+    },
+    "resting": {
+      "depth": "comatose",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0033,
+      "rouseChance": 0.0042
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:sand",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:mental_herb",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+        "1:nightterror",
+        "1:rest",
+        "1:snore",
+        "1:defensecurl",
+        "1:sleeptalk",
+        "1:astonish",
+        "1:confusion",
+        "1:hypnosis",
+        "1:dreameater",
+        "1:nightslash",
+        "1:psychicsnap",
+        "1:mindbend",
+        "4:sleeppowder",
+        "4:confuseray",
+        "8:psybeam",
+        "12:workup",
+        "16:nightmare",
+        "18:taunt",
+        "20:bite",
+        "24:cottonguard",
+        "26:hex",
+        "28:darkpulse",
+        "32:leechlife",
+        "36:futuresight",
+        "40:shadowclaw",
+        "44:memento",
+        "48:phantomforce",
+        "50:zenheadbutt",
+        "egg:drainingkiss",
+        "egg:clearsmog",
+        "egg:disable",
+        "egg:destinybond",
+        "egg:haze",
+        "egg:nightmare",
+        "egg:perishsong",
+        "egg:psywave",
+        "egg:followme",
+        "tm:burningjealousy",
+        "tm:allyswitch",
+        "tm:confuseray",
+        "tm:amnesia",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:shadowclaw",
+        "tm:dreameater",
+        "tm:embargo",
+        "tm:expandingforce",
+        "tm:energyball",
+        "tm:extrasensory",
+        "tm:facade",
+        "tm:gigadrain",
+        "tm:leechlife",
+        "tm:mindbend",
+        "tm:faketears",
+        "tm:hex",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:infestation",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:painsplit",
+        "tm:payback",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicsnap",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:shadowball",
+        "tm:skillswap",
+        "tm:skittersmack",
+        "tm:sleeptalk",
+        "tm:spite",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:torment",
+        "tm:toxic",
+        "tm:trick",
+        "tm:trickroom",
+        "tm:venoshock",
+        "tm:willowisp",
+        "tm:wonderroom",
+        "tm:zenheadbutt",
+        "tm:knockoff",
+        "tutor:allyswitch",
+        "tutor:darkpulse",
+        "tutor:shadowclaw",
+        "tutor:energyball",
+        "tutor:foulplay",
+        "tutor:gigadrain",
+        "tutor:icywind",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:shadowball",
+        "tutor:skillswap",
+        "tutor:skittersmack",
+        "tutor:sleeptalk",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:wonderroom",
+        "tutor:zenheadbutt"
+  ],
+  "preEvolution": "pillowisp bad",
+  "evolutions": [],
+  "forms": [
+    {
+      "name": "Bad-Dreams",
+      "aspects": [
+        "bad"
+      ],
+      "battleOnly": false
+    }
+  ]
+}

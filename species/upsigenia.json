@@ -1,0 +1,139 @@
+{
+  "implemented": true,
+  "name": "upsigenia",
+  "nationalPokedexNumber": 1070,
+  "primaryType": "rock",
+  "secondaryType": "psychic",
+  "abilities": [
+    "neuroforce",
+    "h:telepathy"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 50,
+    "defence": 80,
+    "special_attack": 65,
+    "special_defence": 80,
+    "speed": 50
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 30,
+  "eggGroups": [
+    "water_3"
+  ],
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "walkSpeed": 0.3
+      },
+      "swim": {
+        "canSwimInWater": false,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:experience_bottle",
+        "percentage": 10
+      }
+    ]
+  },
+  "moves": [
+    "1:ancientpower",
+    "1:confusion",
+    "1:harden",
+    "1:sandattack",
+    "4:mudslap",
+    "9:bind",
+    "12:spikes",
+    "16:hypnosis",
+    "19:rocktomb",
+    "23:imprison",
+    "27:psywave",
+    "30:powergem",
+    "32:coil",
+    "33:brine",
+    "35:extrasensory",
+    "38:stealthrock",
+    "40:acupressure",
+    "44:rest",
+    "45:sleeptalk",
+    "47:psychic",
+    "50:calmmind",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:confuseray",
+    "tm:facade",
+    "tm:swift",
+    "tm:nightshade",
+    "tm:endure",
+    "tm:raindance",
+    "tm:snowscape",
+    "tm:sandstorm",
+    "tm:psyshock",
+    "tm:zenheadbutt",
+    "tm:bodyslam",
+    "tm:sleeptalk",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:rest",
+    "tm:taunt",
+    "tm:substitute",
+    "tm:psychic",
+    "tm:encore",
+    "tm:calmmind",
+    "tm:amnesia",
+    "tm:psychicterrain",
+    "tm:safeguard",
+    "tm:whirlpool",
+    "tm:dive",
+    "tm:brine",
+    "tm:mudshot",
+    "tm:rocktomb",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tutor:toxicspikes"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.upsigenia.desc1",
+    "cobblemon.species.upsigenia.desc2"
+  ],
+  "evolutions": [
+    {
+      "id": "upsigenia_hallucerebra_lvl",
+      "variant": "level_up",
+      "result": "hallucerebra",
+      "consumeHeldItem": false,
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]
+    }
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "special_defence": 1
+  },
+  "height": 12,
+  "weight": 450
+}

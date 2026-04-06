@@ -1,0 +1,395 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1058,
+  "name": "Golisopede",
+  "primaryType": "bug",
+  "secondaryType": "ground",
+  "maleRatio": 0.5,
+  "height": 20,
+  "weight": 1080,
+  "pokedex": [
+    "cobblemon.species.golisopede.desc"
+  ],
+  "labels": [
+    "laserdex",
+    "minecraftian"
+  ],
+  "aspects": [
+    "silverfish"
+  ],
+  "features": [
+    "mega_evolution"
+  ],
+  "abilities": [
+    "emergencyexit",
+    "swarm",
+    "h:hivemind"
+  ],
+  "eggGroups": [
+    "bug",
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 125,
+    "defence": 90,
+    "special_attack": 30,
+    "special_defence": 140,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "baseExperienceYield": 186,
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1.5,
+    "height": 2.9,
+    "fixed": false
+  },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "20-45",
+          "JUMP": "10-20",
+          "SKILL": "10-40",
+          "SPEED": "20-35",
+          "STAMINA": "45-85"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "swim": {
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    },
+    "herd": {
+      "maxSize": "12",
+      "toleratedLeaders": [
+        {
+          "pokemon": "golisopede",
+          "tier": 1
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:iron_nugget",
+        "quantityRange": "1-4"
+      },
+      {
+        "item": "cobblemon:custap_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:firstimpression",
+    "1:dig",
+    "1:strugglebug",
+    "1:irontail",
+    "1:camouflage",
+    "1:sandattack",
+    "1:shelter",
+    "1:mudsport",
+    "1:spite",
+    "1:infestation",
+    "1:sandshift",
+    "4:rocksmash",
+    "8:furycutter",
+    "8:metalclaw",
+    "12:mudshot",
+    "16:bugbite",
+    "20:bulldoze",
+    "22:steamroller",
+    "22:steelcutter",
+    "24:suckerpunch",
+    "28:pitfall",
+    "32:ironhead",
+    "34:armorpress",
+    "36:pinmissile",
+    "40:swordsdance",
+    "44:earthquake",
+    "48:fissure",
+    "52:steelroller",
+    "60:defendorder",
+    "60:healorder",
+    "60:attackorder",
+    "egg:uturn",
+    "egg:harden",
+    "egg:metalclaw",
+    "egg:rollout",
+    "egg:wideguard",
+    "tm:armorpress",
+    "tm:assurance",
+    "tm:brickbreak",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:drillrun",
+    "tm:dualchop",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fissure",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:guardpress",
+    "tm:gyroball",
+    "tm:hardpress",
+    "tm:heavyslam",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:leechlife",
+    "tm:liquidation",
+    "tm:metalclaw",
+    "tm:metalsound",
+    "tm:mudshot",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sandtomb",
+    "tm:screech",
+    "tm:shadowclaw",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snarl",
+    "tm:spikes",
+    "tm:spite",
+    "tm:steelcutter",
+    "tm:steelroller",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:uturn",
+    "tm:venoshock",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:bugbite",
+    "tutor:bulkup",
+    "tutor:drillrun",
+    "tutor:dualchop",
+    "tutor:endeavor",
+    "tutor:falseswipe",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:leechlife",
+    "tutor:painsplit",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:shadowclaw",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snarl",
+    "tutor:spikes",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:xscissor"
+  ],
+  "preEvolution": "wimpod silverfish",
+  "evolutions": [],
+  "forms": [
+    {
+      "name": "Silverfish",
+      "aspects": [
+        "silverfish"
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Mega",
+      "primaryType": "bug",
+      "secondaryType": "ground",
+      "maleRatio": 0.5,
+      "height": 24,
+      "weight": 1280,
+      "pokedex": [
+        "cobblemon.species.golisopede-mega.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian",
+        "mega"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "abilities": [
+        "hivemind",
+        "h:hivemind"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 150,
+        "defence": 185,
+        "special_attack": 30,
+        "special_defence": 130,
+        "speed": 60
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 3,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseExperienceYield": 279,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
+}

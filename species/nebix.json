@@ -1,0 +1,132 @@
+{
+  "implemented": true,
+  "name": "nebix",
+  "nationalPokedexNumber": 1145,
+  "primaryType": "fairy",
+  "secondaryType": "psychic",
+  "abilities": [
+    "telepathy",
+    "healpy",
+    "h:magicbounce"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 40,
+    "defence": 45,
+    "special_attack": 65,
+    "special_defence": 60,
+    "speed": 65
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "depth": "normal",
+      "light": "0-4"
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "slow",
+  "eggCycles": 40,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:ender_pearl",
+        "quantityRange": "1",
+        "percentage": 40
+      },
+      {
+        "item": "minecraft:amethyst_shard",
+        "quantityRange": "1-4",
+        "percentage": 30
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "5:confusion",
+    "9:fairywind",
+    "13:swift",
+    "17:disarmingvoice",
+    "21:psybeam",
+    "25:charm",
+    "29:drainingkiss",
+    "33:lightscreen",
+    "37:calmmind",
+    "41:dazzlinggleam",
+    "45:psychic",
+    "egg:wish",
+    "egg:hypnosis",
+    "egg:storedpower",
+    "egg:cosmicpower",
+    "egg:magiccoat",
+    "tm:protect",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:calmmind",
+    "tm:thunderwave",
+    "tm:allyswitch",
+    "tm:psychic",
+    "tm:dazzlinggleam",
+    "tm:shadowball",
+    "tm:energyball"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.nebix.desc1"
+  ],
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.5,
+    "fixed": false
+  },
+  "baseFriendship": 35,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 100,
+  "evolutions": [
+    {
+      "id": "nebix-voryn",
+      "variant": "level_up",
+      "result": "voryn",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

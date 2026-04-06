@@ -1,0 +1,131 @@
+{
+  "implemented": true,
+  "name": "poseiclops",
+  "nationalPokedexNumber": 1059,
+  "primaryType": "fighting",
+  "secondaryType": "water",
+  "abilities": [
+    "moldbreaker",
+    "h:angerpoint"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 131,
+    "defence": 86,
+    "special_attack": 93,
+    "special_defence": 70,
+    "speed": 55
+  },
+  "catchRate": 10,
+  "maleRatio": 1,
+  "shoulderMountable": false,
+  "forms": [],
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
+  "baseExperienceYield": 240,
+  "experienceGroup": "slow",
+  "eggCycles": 40,
+  "eggGroups": [
+    "human_like",
+    "water_1"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:trident",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:prismarine_shard",
+        "percentage": 100,
+        "quantityRange": "3-8"
+      }
+    ]
+  },
+  "moves": [
+    "1:watergun",
+    "1:meanlook",
+    "1:rage",
+    "6:reversal",
+    "12:counter",
+    "18:surf",
+    "25:swordsdance",
+    "30:aquacutter",
+    "36:vitalthrow",
+    "42:detect",
+    "50:flipturn",
+    "58:aquatail",
+    "67:hammerarm",
+    "74:aquaring",
+    "80:wavecrash",
+    "tm:takedown",
+    "tm:agility",
+    "tm:scaryface",
+    "tm:protect",
+    "tm:waterpulse",
+    "tm:acrobatics",
+    "tm:chillingwater",
+    "tm:facade",
+    "tm:lowsweep",
+    "tm:fling",
+    "tm:dragontail",
+    "tm:endure",
+    "tm:raindance",
+    "tm:smartstrike",
+    "tm:falseswipe",
+    "tm:brickbreak",
+    "tm:zenheadbutt",
+    "tm:foulplay",
+    "tm:bulkup",
+    "tm:bodyslam",
+    "tm:firepunch",
+    "tm:thunderpunch",
+    "tm:icepunch",
+    "tm:sleeptalk",
+    "tm:drainpunch",
+    "tm:waterfall",
+    "tm:poisonjab",
+    "tm:rest",
+    "tm:taunt",
+    "tm:swordsdance",
+    "tm:bodypress",
+    "tm:substitute",
+    "tm:liquidation",
+    "tm:surf",
+    "tm:amnesia",
+    "tm:reversal",
+    "tm:hydropump",
+    "tm:gigaimpact",
+    "tm:hydrocannon",
+    "tm:closecombat",
+    "tutor:cottonguard",
+    "tutor:closecombat"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.poseiclops.desc1",
+    "cobblemon.species.poseiclops.desc2"
+  ],
+  "evolutions": [],
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 1.3,
+    "height": 2.6,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "attack": 2
+  },
+  "height": 20,
+  "weight": 2810
+}

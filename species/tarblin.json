@@ -1,0 +1,140 @@
+{
+  "name": "tarblin",
+  "nationalPokedexNumber": 1047,
+  "primaryType": "ground",
+  "secondaryType": "fire",
+  "abilities": [
+    "arenatrap",
+    "h:stickyhold"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 100,
+    "defence": 90,
+    "special_attack": 75,
+    "special_defence": 90,
+    "speed": 10
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 151,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": [
+    "amorphous",
+    "mineral"
+  ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:coal",
+        "percentage": 80
+      },
+      {
+        "item": "minecraft:bone",
+        "percentage": 75
+      }
+    ]
+  },
+  "moves": [
+    "1:mudslap",
+    "1:ancientpower",
+    "1:ember",
+    "1:tarshot",
+    "4:mudsport",
+    "7:minimize",
+    "10:mudbomb",
+    "14:flamewheel",
+    "16:sludge",
+    "21:bind",
+    "25:boneclub",
+    "28:yawn",
+    "32:thief",
+    "35:firefang",
+    "39:rockslide",
+    "43:bonemerang",
+    "45:acidarmor",
+    "49:recover",
+    "53:curse",
+    "55:foulplay",
+    "58:bonerush",
+    "60:heatcrash",
+    "63:playrough",
+    "66:gunkshot",
+    "70:fissure",
+    "egg:earthpower",
+    "egg:inferno",
+    "egg:fakeout",
+    "egg:smokescreen",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow",
+    "tm:bulldoze",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:endure",
+    "tm:endeavor",
+    "tm:flareblitz",
+    "tm:flamethrower",
+    "tm:flamecharge",
+    "tm:sunnyday",
+    "tm:sludgebomb",
+    "tm:firespin",
+    "tm:mudslap",
+    "tm:charm",
+    "tm:takedown",
+    "tm:scaryface",
+    "tm:facade",
+    "tm:sandstorm",
+    "tm:dig",
+    "tm:bodyslam",
+    "tm:rockslide",
+    "tm:ironhead",
+    "tm:substitute",
+    "tm:willowisp",
+    "tm:stealthrock",
+    "tm:heatwave",
+    "tm:amnesia",
+    "tm:helpinghand",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:fireblast",
+    "tm:solarbeam",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:stoneedge",
+    "tm:drainpunch",
+    "tm:thief",
+    "tm:playrough",
+    "tm:taunt",
+    "tm:firepunch",
+    "tm:falseswipe"
+  ],
+  "labels": [
+    "gen8"
+  ],
+  "pokedex": [
+    "cobblemon.species.tarblin.desc1",
+    "cobblemon.species.tarblin.desc2"
+  ],
+  "preEvolution": "gubble",
+  "evolutions": [],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1.0,
+    "height": 1.8,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "defence": 1,
+    "special_defence": 1
+  },
+  "height": 11,
+  "weight": 2500
+}

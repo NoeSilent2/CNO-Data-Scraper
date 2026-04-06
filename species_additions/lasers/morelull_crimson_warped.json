@@ -1,0 +1,438 @@
+{
+  "target": "cobblemon:morelull",
+  "forms": [
+    {
+      "name": "Crimson",
+      "primaryType": "grass",
+      "secondaryType": "fire",
+      "maleRatio": 0.5,
+      "height": 2,
+      "weight": 15,
+      "pokedex": [
+        "cobblemon.species.morelull-crimson.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "crimson"
+      ],
+      "abilities": [
+        "tanglinghair",
+        "wellbakedbody",
+        "h:chlorophyll"
+      ],
+      "eggGroups": [
+      "grass",
+      "amorphous"
+      ],
+      "baseStats": {
+        "hp": 40,
+        "attack": 30,
+        "defence": 75,
+        "special_attack": 65,
+        "special_defence": 55,
+        "speed": 20
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "shoulderMountable": true,
+      "baseScale": 0.5,
+      "hitbox": {
+        "width": 0.5,
+        "height": 0.5,
+        "fixed": false
+      },
+      "behaviour": {
+        "herd": {
+          "maxSize": "4",
+          "toleratedLeaders": [
+            {
+              "pokemon": "morelull",
+              "tier": 1
+            },
+            {
+              "pokemon": "foongus",
+              "tier": 2
+            },
+            {
+              "pokemon": "shroomish",
+              "tier": 3
+            },
+            {
+              "pokemon": "toedscool",
+              "tier": 4
+            },
+            {
+              "pokemon": "breloom",
+              "tier": 5
+            },
+            {
+              "pokemon": "shiinotic",
+              "tier": 6
+            },
+            {
+              "pokemon": "amoonguss",
+              "tier": 7
+            },
+            {
+              "pokemon": "brutebonnet",
+              "tier": 8
+            },
+            {
+              "pokemon": "toedscruel",
+              "tier": 9
+            }
+          ]
+        },
+        "resting": {
+          "willSleepOnBed": true,
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0033,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        }
+      },
+      "lightingData": {
+        "lightLevel": 7,
+        "liquidGlowMode": "BOTH"
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:crimson_fungus",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "cobblemon:kebia_berry",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "moves": [
+        "1:absorb",
+        "1:ember",
+        "1:astonish",
+        "4:confuseray",
+        "8:ingrain",
+        "12:megadrain",
+        "16:willowisp",
+        "20:morningsun",
+        "25:strengthsap",
+        "28:gigadrain",
+        "32:flameburst",
+        "36:spore",
+        "40:flamethrower",
+        "44:solarbeam",
+        "egg:growth",
+        "egg:leechseed",
+        "egg:poisonpowder",
+        "egg:spotlight",
+        "egg:stunspore",
+        "tm:afteryou",
+        "tm:amnesia",
+        "tm:confuseray",
+        "tm:dazzlinggleam",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:fireblast",
+        "tm:firespin",
+        "tm:flamecharge",
+        "tm:flamethrower",
+        "tm:flash",
+        "tm:gigadrain",
+        "tm:grassknot",
+        "tm:heatwave",
+        "tm:incinerate",
+        "tm:lightscreen",
+        "tm:mysticalfire",
+        "tm:naturepower",
+        "tm:pollenpuff",
+        "tm:protect",
+        "tm:recycle",
+        "tm:rest",
+        "tm:safeguard",
+        "tm:seedbomb",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:solarbeam",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:synthesis",
+        "tm:terablast",
+        "tm:thunderwave",
+        "tm:willowisp",
+        "tm:worryseed",
+        "tutor:afteryou",
+        "tutor:dazzlinggleam",
+        "tutor:energyball",
+        "tutor:gigadrain",
+        "tutor:heatwave",
+        "tutor:recycle",
+        "tutor:rest",
+        "tutor:seedbomb",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:sludgebomb",
+        "tutor:worryseed"
+      ],
+      "evolutions": [
+        {
+          "id": "morelull_shiinotic_crimson",
+          "variant": "level_up",
+          "result": "shiinotic crimson",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 24
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Warped",
+      "primaryType": "grass",
+      "secondaryType": "psychic",
+      "maleRatio": 0.5,
+      "height": 2,
+      "weight": 15,
+      "pokedex": [
+        "cobblemon.species.morelull-warped.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "warped"
+      ],
+      "abilities": [
+        "wonderskin",
+        "wellbakedbody",
+        "h:contrary"
+      ],
+      "eggGroups": [
+      "grass",
+      "amorphous"
+      ],
+      "baseStats": {
+        "hp": 40,
+        "attack": 20,
+        "defence": 55,
+        "special_attack": 75,
+        "special_defence": 80,
+        "speed": 15
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "shoulderMountable": true,
+      "baseScale": 0.5,
+      "hitbox": {
+        "width": 0.5,
+        "height": 0.5,
+        "fixed": false
+      },
+      "behaviour": {
+        "herd": {
+          "maxSize": "4",
+          "toleratedLeaders": [
+            {
+              "pokemon": "morelull",
+              "tier": 1
+            },
+            {
+              "pokemon": "foongus",
+              "tier": 2
+            },
+            {
+              "pokemon": "shroomish",
+              "tier": 3
+            },
+            {
+              "pokemon": "toedscool",
+              "tier": 4
+            },
+            {
+              "pokemon": "breloom",
+              "tier": 5
+            },
+            {
+              "pokemon": "shiinotic",
+              "tier": 6
+            },
+            {
+              "pokemon": "amoonguss",
+              "tier": 7
+            },
+            {
+              "pokemon": "brutebonnet",
+              "tier": 8
+            },
+            {
+              "pokemon": "toedscruel",
+              "tier": 9
+            }
+          ]
+        },
+        "resting": {
+          "willSleepOnBed": true,
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0033,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        }
+      },
+      "lightingData": {
+        "lightLevel": 7,
+        "liquidGlowMode": "BOTH"
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:warped_fungus",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "cobblemon:occa_berry",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "moves": [
+        "1:absorb",
+        "1:confusion",
+        "1:astonish",
+        "4:confuseray",
+        "8:ingrain",
+        "12:megadrain",
+        "16:hypnosis",
+        "20:moonlight",
+        "25:strengthsap",
+        "28:gigadrain",
+        "32:extrasensory",
+        "36:spore",
+        "40:psychic",
+        "44:dreameater",
+        "60:psychoboost",
+        "egg:growth",
+        "egg:leechseed",
+        "egg:poisonpowder",
+        "egg:spotlight",
+        "egg:stunspore",
+        "tm:afteryou",
+        "tm:amnesia",
+        "tm:confuseray",
+        "tm:curse",
+        "tm:dazzlinggleam",
+        "tm:dreameater",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:flash",
+        "tm:gigadrain",
+        "tm:grassknot",
+        "tm:leafstorm",
+        "tm:lightscreen",
+        "tm:magiccoat",
+        "tm:magicroom",
+        "tm:naturepower",
+        "tm:pollenpuff",
+        "tm:protect",
+        "tm:psybeam",
+        "tm:psychic",
+        "tm:psychicnoise",
+        "tm:psychicterrain",
+        "tm:psyshock",
+        "tm:recycle",
+        "tm:rest",
+        "tm:safeguard",
+        "tm:seedbomb",
+        "tm:signalbeam",
+        "tm:skillswap",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:solarbeam",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:synthesis",
+        "tm:terablast",
+        "tm:thunderwave",
+        "tm:trickroom",
+        "tm:wonderroom",
+        "tm:worryseed",
+        "tm:zenheadbutt",
+        "tutor:afteryou",
+        "tutor:dazzlinggleam",
+        "tutor:energyball",
+        "tutor:gigadrain",
+        "tutor:magiccoat",
+        "tutor:magicroom",
+        "tutor:psychic",
+        "tutor:recycle",
+        "tutor:rest",
+        "tutor:seedbomb",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:sludgebomb",
+        "tutor:synthesis",
+        "tutor:wonderroom",
+        "tutor:worryseed"
+      ],
+      "evolutions": [
+        {
+          "id": "morelull_shiinotic_warped",
+          "variant": "level_up",
+          "result": "shiinotic warped",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 24
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    }
+  ]
+}

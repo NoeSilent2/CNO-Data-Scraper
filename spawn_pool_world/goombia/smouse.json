@@ -1,0 +1,80 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "smouse-1",
+            "pokemon": "smouse",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "5-20",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_overworld"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            }
+        },
+        {
+            "id": "smouse-2",
+            "pokemon": "smouse",
+            "presets": [
+                "natural",
+                "urban"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "5-20",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "smouse-3",
+            "pokemon": "smouse",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "5-10",
+            "weight": 2.5,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_grassland"
+                ]
+            }
+        },
+        {
+            "id": "smouse-4",
+            "pokemon": "smouse",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-21",
+            "weight": 3.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_toxic"
+                ]
+            }
+        }
+    ]
+}

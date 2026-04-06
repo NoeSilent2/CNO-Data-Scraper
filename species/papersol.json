@@ -1,0 +1,393 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1096,
+  "name": "papersol",
+  "primaryType": "grass",
+  "secondaryType": "normal",
+  "maleRatio": 0,
+  "height": 5,
+  "weight": 10,
+  "pokedex": [
+    "cobblemon.species.papersol.desc"
+  ],
+  "labels": [
+    "laserdex"
+  ],
+  "aspects": [
+    "umbrella-red"
+  ],
+  "abilities": [
+    "swiftswim",
+    "paperthin",
+    "h:windrider"
+  ],
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 70,
+    "defence": 35,
+    "special_attack": 55,
+    "special_defence": 35,
+    "speed": 35
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_fast",
+  "catchRate": 225,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1.1,
+    "height": 1.15,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "light": "0-4",
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "herd": {
+      "maxSize": "4",
+      "toleratedLeaders": [
+        {
+          "pokemon": "umbrelligant",
+          "tier": 1
+        },
+        {
+          "pokemon": "kartana",
+          "tier": 2
+        }
+      ]
+    },
+    "combat": {
+      "willDefendOwner": true,
+      "willFlee": true
+    }
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:paper",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "minecraft:bamboo",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:occa_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:splash",
+    "1:tackle",
+    "1:cut",
+    "1:helpinghand",
+    "1:afteryou",
+    "1:raindance",
+    "5:doublekick",
+    "6:razorleaf",
+    "7:rapidspin",
+    "8:stomp",
+    "12:charm",
+    "18:papercut",
+    "21:acrobatics",
+    "26:uturn",
+    "28:swordsdance",
+    "egg:grasswhistle",
+    "egg:healingwish",
+    "egg:naturalgift",
+    "egg:firstimpression",
+    "egg:decorate",
+    "egg:tailwind",
+    "egg:nuzzle",
+    "tm:acrobatics",
+    "tm:afteryou",
+    "tm:lowkick",
+    "tm:charm",
+    "tm:covet",
+    "tm:cut",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flipturn",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:leafblade",
+    "tm:leafstorm",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:petalblizzard",
+    "tm:pollenpuff",
+    "tm:protect",
+    "tm:psychup",
+    "tm:rest",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:weatherball",
+    "tm:gyroball",
+    "tm:icespinner",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:swift",
+    "tm:drainingkiss",
+    "tm:lowsweep",
+    "tm:aircutter",
+    "tm:raindance",
+    "tm:falseswipe",
+    "tm:zenheadbutt",
+    "tm:uturn",
+    "tm:airslash",
+    "tm:bodyslam",
+    "tm:ironhead",
+    "tm:tailwind",
+    "tm:hypervoice",
+    "tm:playrough",
+    "tm:calmmind",
+    "tm:uturn",
+    "tutor:afteryou",
+    "tutor:covet",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassyglide",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:magicalleaf",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:sleeptalk",
+    "tutor:synthesis",
+    "tutor:falseswipe",
+    "tutor:aerialace",
+    "tutor:swift",
+    "tutor:calmmind",
+    "tutor:psychocut",
+    "tutor:zenheadbutt",
+    "tutor:ironhead"
+  ],
+  "evolutions": [
+    {
+      "id": "papersol_umbrelligant",
+      "variant": "level_up",
+      "result": "umbrelligant",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 39
+        }
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "name": "Yellow",
+      "primaryType": "grass",
+      "secondaryType": "normal",
+      "maleRatio": 0,
+      "height": 5,
+      "weight": 10,
+      "pokedex": [
+        "cobblemon.species.papersol.desc"
+      ],
+      "labels": [
+        "laserdex"
+      ],
+      "aspects": [
+        "umbrella-yellow"
+      ],
+      "evolutions": [
+        {
+          "id": "papersol_umbrelligant",
+          "variant": "level_up",
+          "result": "umbrelligant",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 39
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Light_Blue",
+      "primaryType": "grass",
+      "secondaryType": "normal",
+      "maleRatio": 0,
+      "height": 5,
+      "weight": 10,
+      "pokedex": [
+        "cobblemon.species.papersol.desc"
+      ],
+      "labels": [
+        "laserdex"
+      ],
+      "aspects": [
+        "umbrella-light_blue"
+      ],
+      "evolutions": [
+        {
+          "id": "papersol_umbrelligant",
+          "variant": "level_up",
+          "result": "umbrelligant",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 39
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Blue",
+      "primaryType": "grass",
+      "secondaryType": "normal",
+      "maleRatio": 0,
+      "height": 5,
+      "weight": 10,
+      "pokedex": [
+        "cobblemon.species.papersol.desc"
+      ],
+      "labels": [
+        "laserdex"
+      ],
+      "aspects": [
+        "umbrella-blue"
+      ],
+      "evolutions": [
+        {
+          "id": "papersol_umbrelligant",
+          "variant": "level_up",
+          "result": "umbrelligant",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 39
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Pink",
+      "primaryType": "grass",
+      "secondaryType": "normal",
+      "maleRatio": 0,
+      "height": 5,
+      "weight": 10,
+      "pokedex": [
+        "cobblemon.species.papersol.desc"
+      ],
+      "labels": [
+        "laserdex"
+      ],
+      "aspects": [
+        "umbrella-pink"
+      ],
+      "evolutions": [
+        {
+          "id": "papersol_umbrelligant",
+          "variant": "level_up",
+          "result": "umbrelligant",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 39
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Green",
+      "primaryType": "grass",
+      "secondaryType": "normal",
+      "maleRatio": 0,
+      "height": 5,
+      "weight": 10,
+      "pokedex": [
+        "cobblemon.species.papersol.desc"
+      ],
+      "labels": [
+        "laserdex"
+      ],
+      "aspects": [
+        "umbrella-green"
+      ],
+      "evolutions": [
+        {
+          "id": "papersol_umbrelligant",
+          "variant": "level_up",
+          "result": "umbrelligant",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 39
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    }
+  ]
+}

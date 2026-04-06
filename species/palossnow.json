@@ -1,0 +1,202 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1115,
+  "name": "palossnow",
+  "primaryType": "ghost",
+  "secondaryType": "ice",
+  "maleRatio": 0.5,
+  "height": 13,
+  "weight": 2500,
+  "pokedex": [
+    "cobblemon.species.palossnow.desc"
+  ],
+  "labels": [
+    "laserdex"
+  ],
+  "aspects": [],
+  "abilities": [
+    "icebody",
+    "snowcloak",
+    "h:snowwarning"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 45,
+    "defence": 120,
+    "special_attack": 110,
+    "special_defence": 75,
+    "speed": 35
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_fast",
+  "catchRate": 60,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1.6,
+    "height": 1.55,
+    "fixed": false
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "3"
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInWater": false
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "resting": {
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0033,
+      "rouseChance": 0.0042
+    }
+  },
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:snowball",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:icy_rock",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:occa_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:harden",
+    "1:absorb",
+    "1:powdersnow",
+    "1:hail",
+    "1:snowscape",
+    "5:astonish",
+    "10:icywind",
+    "15:megadrain",
+    "20:haze",
+    "25:hex",
+    "30:hypnosis",
+    "35:gigadrain",
+    "40:auroraveil",
+    "45:shadowball",
+    "50:icebeam",
+    "55:bittermalice",
+    "60:snowbank",
+    "65:blizzard",
+    "egg:ancientpower",
+    "egg:curse",
+    "egg:destinybond",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow",
+    "tm:afteryou",
+    "tm:amnesia",
+    "tm:ancientpower",
+    "tm:auroraveil",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:chillingwater",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:earthpower",
+    "tm:embargo",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:frostbreath",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:gravity",
+    "tm:hail",
+    "tm:haze",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icespinner",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psychic",
+    "tm:quash",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:roleplay",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:snowscape",
+    "tm:spite",
+    "tm:substitute",
+    "tm:terablast",
+    "tm:terrainpulse",
+    "tm:trick",
+    "tm:trickroom",
+    "tutor:afteryou",
+    "tutor:ancientpower",
+    "tutor:block",
+    "tutor:earthpower",
+    "tutor:energyball",
+    "tutor:flashcannon",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spite",
+    "tutor:terrainpulse",
+    "tutor:trick",
+    "tutor:trickroom"
+  ],
+  "preEvolution": "snowygast",
+  "evolutions": []
+}

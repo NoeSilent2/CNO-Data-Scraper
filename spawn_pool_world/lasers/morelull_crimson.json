@@ -1,0 +1,41 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "morelull-crimson-1",
+            "pokemon": "morelull crimson",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-29",
+            "weight": 18.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_crimson"
+                ]
+            }
+        },
+        {
+            "id": "morelull-crimson-2",
+            "pokemon": "morelull crimson",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-29",
+            "weight": 0.5,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_warped"
+                ]
+            }
+        }
+    ]
+}

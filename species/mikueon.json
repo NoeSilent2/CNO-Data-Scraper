@@ -1,0 +1,152 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1131,
+  "name": "mikueon",
+  "primaryType": "normal",
+  "maleRatio": 0.875,
+  "height": 1,
+  "weight": 52,
+  "pokedex": [
+    "cobblemon.species.mikueon.desc"
+  ],
+  "labels": [
+    "genbaka"
+  ],
+  "aspects": [],
+  "abilities": [
+    "soundproof",
+    "h:serenegrace"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 60,
+    "defence": 130,
+    "special_attack": 65,
+    "special_defence": 110,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "eggCycles": 35,
+  "baseFriendship": 50,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.2,
+    "fixed": false
+  },
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:music_disc",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:medicinal_leek",
+        "percentage": 35.0
+      },
+      {
+        "item": "cobblemon:cell_battery",
+        "percentage": 20.0
+      }
+    ]
+  },
+  "moves": [
+    "1:batonpass",
+    "1:bite",
+    "1:charm",
+    "1:copycat",
+    "1:covet",
+    "1:doubleedge",
+    "1:growl",
+    "1:helpinghand",
+    "1:swift",
+    "1:tailwhip",
+    "1:takedown",
+    "5:sandattack",
+    "10:quickattack",
+    "15:babydolleyes",
+    "20:fakeout",
+    "25:fairywind",
+    "30:safeguard",
+    "35:icefang",
+    "40:alluringvoice",
+    "45:hypervoice",
+    "50:boomburst",
+    "55:lastresort",
+    "tm:attract",
+    "tm:confide",
+    "tm:doubleteam",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:toxic",
+    "tm:workup",
+    "tm:metalsound",
+    "tm:psychicnoise",
+    "tm:encore",
+    "tm:alluringvoice",
+    "tm:disarmingvoice",
+    "tm:sing",
+    "tm:psyshock",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:haze",
+    "tm:dazzlinggleam",
+    "tm:dig",
+    "tm:snore",
+    "tm:mistyterrain",
+    "tm:metronome",
+    "tm:calmmind",
+    "tm:skillswap",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:freezedry",
+    "tm:terablast",
+    "tm:roar",
+    "tm:chillingwater",
+    "tm:storedpower",
+    "tm:playrough",
+    "tm:irontail",
+    "tm:endure",
+    "tm:avalanche",
+    "tm:snarl",
+    "tm:bulkup",
+    "tm:trailblaze",
+    "egg:curse",
+    "egg:detect",
+    "egg:doublekick",
+    "egg:flail",
+    "egg:mudslap",
+    "egg:tickle",
+    "egg:wish",
+    "egg:yawn"
+  ],
+  "preEvolution": "eevee",
+  "evolutions": []
+}

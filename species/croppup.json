@@ -1,0 +1,123 @@
+{
+  "implemented": true,
+  "name": "croppup",
+  "nationalPokedexNumber": 1072,
+  "primaryType": "grass",
+  "abilities": [
+    "serenegrace",
+    "superluck",
+    "h:unaware"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 40,
+    "defence": 120,
+    "special_attack": 40,
+    "special_defence": 120,
+    "speed": 40
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 100,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 30,
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:gold_ingot",
+        "quantityRange": "1-4",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:babydolleyes",
+    "4:absorb",
+    "8:growth",
+    "10:playnice",
+    "12:megadrain",
+    "15:howl",
+    "20:leechseed",
+    "23:fairywind",
+    "26:magicalleaf",
+    "30:cosmicpower",
+    "33:gigadrain",
+    "38:takedown",
+    "43:grassyterrain",
+    "53:worryseed",
+    "64:wish",
+    "tm:solarbeam",
+    "tm:rest",
+    "tm:snore",
+    "tm:protect",
+    "tm:gigadrain",
+    "tm:charm",
+    "tm:attract",
+    "tm:sunnyday",
+    "tm:facade",
+    "tm:bulletseed",
+    "tm:round",
+    "tm:grassyterrain",
+    "tm:substitute",
+    "tm:endure",
+    "tm:sleeptalk",
+    "tm:seedbomb",
+    "tm:energyball",
+    "tm:grassknot",
+    "tm:lightscreen",
+    "tm:safeguard",
+    "tm:helpinghand",
+    "tm:drainingkiss",
+    "tm:thunderbolt",
+    "tm:psychic",
+    "tm:amnesia",
+    "tm:calmmind",
+    "tm:playrough",
+    "tm:dazzlinggleam",
+    "tm:trick",
+    "tm:storedpower",
+    "tm:imprison",
+    "tutor:nuzzle"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.croppup.desc1",
+    "cobblemon.species.croppup.desc2"
+  ],
+  "evolutions": [
+    {
+      "id": "croppup_lunage_lvl",
+      "variant": "level_up",
+      "result": "lunage",
+      "consumeHeldItem": false,
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 210
+        }
+      ]
+    }
+  ],
+  "baseScale": 0.85,
+  "hitbox": {
+    "width": 0.6,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 100,
+  "evYield": {
+    "special_defence": 1
+  },
+  "height": 3,
+  "weight": 70
+}

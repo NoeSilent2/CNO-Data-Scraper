@@ -1,0 +1,141 @@
+{
+  "implemented": true,
+  "name": "masticat",
+  "nationalPokedexNumber": 1054,
+  "primaryType": "dark",
+  "secondaryType": "ghost",
+  "abilities": [
+    "strongjaw",
+    "h:shadowtag"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 65,
+    "defence": 41,
+    "special_attack": 49,
+    "special_defence": 55,
+    "speed": 63
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": [
+    "amorphous",
+    "field"
+  ],
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "walk": {
+        "canWalk": false
+      }
+    }
+  },
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:red_mushroom",
+        "quantityRange": "1-4",
+        "percentage": 80
+      },
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:bite",
+    "1:lick",
+    "4:confuseray",
+    "7:meanlook",
+    "9:pursuit",
+    "12:shadowsneak",
+    "16:fakeout",
+    "20:assist",
+    "24:crunch",
+    "30:phantomforce",
+    "38:superfang",
+    "46:jawlock",
+    "54:poltergeist",
+    "tm:takedown",
+    "tm:charm",
+    "tm:faketears",
+    "tm:scaryface",
+    "tm:protect",
+    "tm:firefang",
+    "tm:thunderfang",
+    "tm:icefang",
+    "tm:acrobatics",
+    "tm:confuseray",
+    "tm:thief",
+    "tm:pounce",
+    "tm:facade",
+    "tm:poisontail",
+    "tm:hex",
+    "tm:snarl",
+    "tm:nightshade",
+    "tm:fling",
+    "tm:endure",
+    "tm:falseswipe",
+    "tm:shadowclaw",
+    "tm:foulplay",
+    "tm:psychicfangs",
+    "tm:sleeptalk",
+    "tm:metronome",
+    "tm:rest",
+    "tm:taunt",
+    "tm:darkpulse",
+    "tm:substitute",
+    "tm:willowisp",
+    "tm:crunch",
+    "tm:trickroom",
+    "tm:shadowball",
+    "tm:encore",
+    "tm:playrough",
+    "tm:batonpass",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tutor:poisonfang",
+    "tutor:curse"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.masticat.desc1",
+    "cobblemon.species.masticat.desc2"
+  ],
+  "evolutions": [
+    {
+      "id": "masticat_chewshire_lvl",
+      "variant": "item_interact",
+      "result": "chewshire",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "teatime"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:dusk_stone"
+    }
+  ],
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.0,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "attack": 1
+  },
+  "height": 6,
+  "weight": 312
+}

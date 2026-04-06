@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:mamoswine",
+  "abilities": [
+    "oblivious",
+    "snowforce",
+    "h:thickfat"
+  ]
+}

@@ -1,0 +1,176 @@
+{
+	"target": "cobblemon:blacephalon",
+	"baseScale": 0.4,
+	"hitbox": {
+		"width": 2.0,
+		"height": 4.3,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "1",
+		"entries": [
+			{
+				"item": "minecraft:iron_ingot",
+				"quantityRange": "1-32",
+				"percentage": 50
+			}
+		]
+	},
+	"behaviour": {
+		"resting": {
+			"canSleep": true,
+			"depth": "normal",
+			"light": "0-4"
+		},
+		"moving": {
+			"canLook": false,
+			"walk": {
+				"canWalk": true,
+				"avoidsLand": false
+			},
+			"swim": {
+				"swimSpeed": 0.1,
+				"canSwimInWater": false,
+				"canBreatheUnderwater": false
+			}
+		}
+	},
+	"forms": [
+		{
+			"implemented": true,
+			"name": "Festival",
+			"primaryType": "fire",
+			"secondaryType": "psychic",
+			"abilities": [
+				"prankster",
+				"windrider",
+				"h:beastboost"
+			],
+			"baseStats": {
+				"hp": 101,
+				"attack": 97,
+				"defence": 41,
+				"special_attack": 139,
+				"special_defence": 131,
+				"speed": 61
+			},
+			"behaviour": {
+				"resting": {
+					"canSleep": false,
+					"depth": "normal",
+					"light": "0-4",
+					"willSleepOnBed": false,
+					"times": "night"
+				},
+				"moving": {
+					"canLook": false,
+					"walk": {
+						"canWalk": true,
+						"avoidsLand": false
+					},
+					"swim": {
+						"swimSpeed": 0.3,
+						"canSwimInWater": true,
+						"canBreatheUnderwater": false
+					},
+					"fly": {
+						"canFly": false,
+						"flySpeedHorizontal": 0.3
+					}
+				}
+			},
+			"catchRate": 80,
+			"maleRatio": -1,
+			"shoulderMountable": false,
+			"baseExperienceYield": 100,
+			"experienceGroup": "medium_slow",
+			"eggCycles": 25,
+			"eggGroups": [
+				"undiscovered"
+			],
+			"drops": {
+				"amount": 1,
+				"entries": [
+					{
+						"item": "minecraft:echo_shard",
+						"quantityRange": "1-1",
+						"percentage": 25
+					},
+					{
+						"item": "minecraft:gunpowder",
+						"quantityRange": "1-5",
+						"percentage": 50
+					}
+				]
+			},
+			"moves": [
+				"1:astonish",
+				"1:firespin",
+				"5:lightscreen",
+				"10:ember",
+				"1:flatter",
+				"1:taunt",
+				"tm:swagger",
+				"30:mysticalfire",
+				"40:psychicnoise",
+				"15:psychicterrain",
+				"20:confuseray",
+				"25:magiccoat",
+				"45:tailwind",
+				"tm:bleakwindstorm",
+				"tm:psychicfangs",
+				"tm:flareblitz",
+				"tm:aeroblast",
+				"35:hypnosis",
+				"50:calmmind",
+				"55:willowisp",
+				"10:agility",
+				"60:trick",
+				"65:fireblast",
+				"70:mindblown",
+				"tm:fairylock",
+				"70:mistyexplosion",
+				"tm:moonlight",
+				"tm:dreameater",
+				"tm:extrasensory",
+				"tm:healingwish",
+				"tm:magicpowder",
+				"tm:psychic",
+				"tm:psyshock",
+				"tm:roleplay",
+				"tm:telekinesis",
+				"tm:teleport",
+				"tm:calmmind",
+				"tm:zenheadbutt",
+				"tm:pyroball"
+			],
+			"labels": [
+				"custom"
+			],
+			"pokedex": [
+				"cobblemon.species.blacephalon-festival.desc"
+			],
+			"aspects": [
+				 "festival"
+			],
+			"baseScale": 0.4,
+			"hitbox": {
+				"width": 2,
+				"height": 4.3,
+				"fixed": false
+			},
+			"baseFriendship": 50,
+			"evYield": {
+				"hp": 0,
+				"attack": 0,
+				"defence": 0,
+				"special_attack": 1,
+				"special_defence": 0,
+				"speed": 0
+			},
+			"height": 17,
+			"weight": 765,
+			"evolutions": []
+		}
+	]
+}

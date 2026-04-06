@@ -1,0 +1,219 @@
+{
+  "target": "cobblemon:sewaddle",
+  "forms": [
+    {
+      "name": "Clockwork",
+      "primaryType": "steel",
+      "secondaryType": "bug",
+      "maleRatio": -1,
+      "height": 3,
+      "weight": 50,
+      "pokedex": [
+        "cobblemon.species.sewaddle-clockwork.desc"
+      ],
+      "labels": [
+        "laserdex"
+      ],
+      "aspects": [
+        "clockwork"
+      ],
+      "abilities": [
+        "levitate",
+        "heatproof",
+        "h:hivemind"
+      ],
+      "eggGroups": [
+        "bug"
+      ],
+      "baseStats": {
+        "hp": 45,
+        "attack": 73,
+        "defence": 70,
+        "special_attack": 30,
+        "special_defence": 50,
+        "speed": 42
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseScale": 0.7,
+      "hitbox": {
+        "width": 0.75,
+        "height": 0.7,
+        "fixed": false
+      },
+      "behaviour": {
+        "herd": {
+          "maxSize": "4",
+          "toleratedLeaders": [
+            {
+              "pokemon": "sewaddle clockwork",
+              "tier": 1
+            },
+            {
+              "pokemon": "leavanny clockwork",
+              "tier": 2
+            }
+          ]
+        },
+        "resting": {
+          "willSleepOnBed": true,
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          },
+          "fly": {
+            "canFly": true
+          }
+        }
+      },
+      "drops": {
+        "amount": 4,
+        "entries": [
+          {
+            "item": "minecraft:string",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "minecraft:copper_ingot",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "cobblemon:destiny_knot",
+            "percentage": 2.5
+          },
+          {
+            "item": "cobblemon:razor_claw",
+            "percentage": 2.5
+          },
+          {
+            "item": "cobblemon:occa_berry",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "moves": [
+        "1:tackle",
+        "1:stringshot",
+        "4:quickattack",
+        "8:furycutter",
+        "15:metalclaw",
+        "22:strugglebug",
+        "29:endure",
+        "31:stickyweb",
+        "36:steelcutter",
+        "43:flail",
+        "egg:camouflage",
+        "egg:mefirst",
+        "egg:mindreader",
+        "egg:razorwind",
+        "egg:screech",
+        "egg:switcheroo",
+        "egg:firstimpression",
+        "tm:aerialace",
+        "tm:batonpass",
+        "tm:bugbite",
+        "tm:bugbuzz",
+        "tm:charm",
+        "tm:cut",
+        "tm:dreameater",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:flash",
+        "tm:flashcannon",
+        "tm:furycutter",
+        "tm:helpinghand",
+        "tm:honeclaws",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:laserfocus",
+        "tm:lunge",
+        "tm:magiccoat",
+        "tm:metalsound",
+        "tm:naturepower",
+        "tm:nightslash",
+        "tm:payback",
+        "tm:pounce",
+        "tm:protect",
+        "tm:psychocut",
+        "tm:raindance",
+        "tm:rest",
+        "tm:safeguard",
+        "tm:screech",
+        "tm:seedbomb",
+        "tm:signalbeam",
+        "tm:silverwind",
+        "tm:skittersmack",
+        "tm:sleeptalk",
+        "tm:steelcutter",
+        "tm:steelwing",
+        "tm:stringshot",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swordsdance",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:trailblaze",
+        "tm:uturn",
+        "tm:xscissor",
+        "tutor:bugbite",
+        "tutor:electroweb",
+        "tutor:energyball",
+        "tutor:furycutter",
+        "tutor:irondefense",
+        "tutor:laserfocus",
+        "tutor:magiccoat",
+        "tutor:rest",
+        "tutor:seedbomb",
+        "tutor:signalbeam",
+        "tutor:skittersmack",
+        "tutor:sleeptalk",
+        "tutor:stringshot",
+        "tutor:xscissor",
+        "legacy:agility",
+        "legacy:airslash",
+        "legacy:attract",
+        "legacy:calmmind",
+       "legacy:confide",
+        "legacy:doubleteam",
+        "legacy:frustration",
+        "legacy:hiddenpower",
+        "legacy:lightscreen",
+        "legacy:return",
+        "legacy:round",
+        "legacy:secretpower",
+        "legacy:swagger",
+        "legacy:toxic"
+      ],
+      "evolutions": [
+        {
+          "id": "sewaddle_swadloon_clockwork",
+          "variant": "level_up",
+          "result": "swadloon clockwork",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "protect"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 20
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    }
+  ]
+}

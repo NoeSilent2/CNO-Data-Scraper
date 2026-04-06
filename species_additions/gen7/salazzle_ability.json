@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:salazzle",
+  "abilities": [
+    "corrosion",
+    "merciless",
+    "h:oblivious"
+  ]
+}

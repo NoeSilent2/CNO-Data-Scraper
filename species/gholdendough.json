@@ -1,0 +1,162 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1130,
+  "name": "gholdendough",
+  "primaryType": "ghost",
+  "secondaryType": "fairy",
+  "maleRatio": -1,
+  "height": 12,
+  "weight": 150,
+  "pokedex": [
+    "cobblemon.species.gholdendough.desc"
+  ],
+  "labels": [
+    "laserdex"
+  ],
+  "aspects": [],
+  "abilities": [
+    "wellbakedbody",
+    "h:wellbakedbody"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 87,
+    "attack": 60,
+    "defence": 65,
+    "special_attack": 123,
+    "special_defence": 71,
+    "speed": 144
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 275,
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "eggCycles": 50,
+  "baseFriendship": 50,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.85,
+    "height": 2.15,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.25
+      },
+      "swim": {
+        "swimSpeed": 0.35,
+        "avoidsWater": true
+      },
+      "fly": {
+        "canFly": true
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "drops": {
+    "amount": 48,
+    "entries": [
+      {
+        "item": "minecraft:cookie",
+        "quantityRange": "24-48"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:astonish",
+    "1:fairywind",
+    "1:present",
+    "1:sweetscent",
+    "1:babydolleyes",
+    "7:nightshade",
+    "14:confuseray",
+    "21:substitute",
+    "28:aromaticmist",
+    "35:shadowball",
+    "42:recover",
+    "49:incinerate",
+    "56:letitcook",
+    "63:nastyplot",
+    "70:decorate",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:electroball",
+    "tm:endure",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:gigaimpact",
+    "tm:heatwave",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:incinerate",
+    "tm:lightscreen",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:mistyterrain",
+    "tm:mistyexplosion",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:playrough",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:reflect",
+    "tm:rest",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trick",
+    "tm:willowisp",
+    "tutor:chargebeam",
+    "tutor:dazzlinggleam",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:lowkick",
+    "tutor:mistyexplosion",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:trick"
+  ],
+  "preEvolution": "gimmibread",
+  "evolutions": []
+}

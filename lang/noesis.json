@@ -1,0 +1,36 @@
+{
+
+"cobblemon.ui.pokedex.region.lumoria": "Lumoria",
+"cobblemon.ui.pokedex.info.form.goombia": "Lumorian",
+
+"cobblemon.ability.anotherlife": "Another Life",
+"cobblemon.ability.anotherlife.desc": "The Pokémon can revive itself one time after it switches out, bringing it to half of its max HP and giving it the sleep condition.",
+"cobblemon.battle.activate.anotherlife": "%1$s was knocked out, but came back!",
+
+"cobblemon.ability.derivative": "Derivative",
+"cobblemon.ability.derivative.desc": "When it enters a battle, it copies an opposing Pokémon's stat changes.",
+
+"cobblemon.ability.fury": "Fury",
+"cobblemon.ability.fury.desc": "The Pokémon's anger boosts its Attack and Sp. Attack stats every time it flinches.",
+
+"cobblemon.ability.psychout": "Psych Out",
+"cobblemon.ability.psychout.desc": "When the Pokémon enters a battle, it psyches out opposing Pokémon and discourages them, lowering their Sp. Attack stats.",
+
+"cobblemon.ability.restful": "Restful",
+"cobblemon.ability.restful.desc": "While asleep, the Pokémon regains 1/8th of their HP at the end of each turn.",
+
+"cobblemon.ability.slowmind": "Slow Mind",
+"cobblemon.ability.slowmind.desc": "For five turns, the Pokémon's Sp. Attack and Speed stats are halved.",
+
+"cobblemon.ability.startle": "Startle",
+"cobblemon.ability.startle.desc": "When the Pokémon enters a battle, it startles opposing Pokémon and makes them hesitate, lowering their Defense stats.",
+
+"cobblemon.ability.stupefy": "Stupefy",
+"cobblemon.ability.stupefy.desc": "When the Pokémon enters a battle, it stupefies opposing Pokémon and leaves them dumbfounded, lowering their Sp. Defense stats.",
+
+"cobblemon.ability.terrify": "Terrify",
+"cobblemon.ability.terrify.desc": "When the Pokémon enters a battle, it terrifies opposing Pokémon and leaves them petrified, lowering their Speed stats.",
+
+"cobblemon.ability.thickskin": "Thick Skin",
+"cobblemon.ability.thickskin.desc": "Reduces the power of non-supereffective attacks that hit the Pokémon by 1/4th."
+}

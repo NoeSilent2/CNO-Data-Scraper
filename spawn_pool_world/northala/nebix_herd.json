@@ -1,0 +1,68 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "nebix-herd",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "levelRange": "2-52",
+            "weight": 0.75,
+            "minHerdSize": 4,
+            "maxHerdSize": 8,
+            "minDistanceBetweenSpawns": 2.5,
+            "herdablePokemon": [
+                {
+                    "pokemon": "nebix",
+                    "levelRange": "2-27",
+                    "isLeader": false,
+                    "weight": 5,
+                    "levelRangeOffset": "0-5"
+                },
+                {
+                    "pokemon": "zorua",
+                    "levelRange": "5-30",
+                    "isLeader": false,
+                    "weight": 2,
+                    "maxTimes": 3,
+                    "levelRangeOffset": "0-0"
+                },
+                {
+                    "pokemon": "zorua hisuian",
+                    "isLeader": false,
+                    "levelRange": "5-30",
+                    "weight": 2,
+                    "minTimes": 1,
+                    "maxTimes": 3,
+                    "levelRangeOffset": "0-3"
+                },
+                {
+                    "pokemon": "voryn",
+                    "isLeader": true,
+                    "levelRange": "31-40",
+                    "weight": 0.5,
+                    "maxTimes": 1,
+                    "levelRangeOffset": "0-6"
+                }
+            ],
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_plains"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_magical"
+                ]
+            }
+        }
+    ]
+}

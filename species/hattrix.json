@@ -1,0 +1,227 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1091,
+  "name": "hattrix",
+  "primaryType": "fire",
+  "secondaryType": "fairy",
+  "maleRatio": 0,
+  "height": 6,
+  "weight": 48,
+  "pokedex": [
+    "cobblemon.species.hattrix.desc"
+  ],
+  "labels": [
+    "laserdex"
+  ],
+  "aspects": [
+    "midnight"
+  ],
+  "abilities": [
+    "magician",
+    "mistysurge",
+    "h:costar"
+  ],
+  "eggGroups": [
+    "fairy"
+  ],
+  "behaviour": {
+    "herd": {
+      "maxSize": "3",
+      "toleratedLeaders": [
+        {
+          "pokemon": "hattertainer",
+          "tier": 1
+        }
+      ]
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "combat": {
+      "willDefendSelf": false,
+      "willDefendOwner": true,
+      "willFlee": true
+    },
+    "resting": {
+      "times": [
+        "night"
+      ],
+      "drowsyChance": 0.0033,
+      "rouseChance": 0.0042
+    }
+  },
+  "baseStats": {
+    "hp": 57,
+    "attack": 86,
+    "defence": 55,
+    "special_attack": 30,
+    "special_defence": 63,
+    "speed": 79
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 130,
+  "experienceGroup": "slow",
+  "catchRate": 120,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 1,
+    "height": 1.2,
+    "fixed": false
+  },
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:blaze_powder",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:passho_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:focus_sash",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:brutalswing",
+    "1:ember",
+    "1:playnice",
+    "1:roleplay",
+    "1:disarmingvoice",
+    "1:magictrick",
+    "15:encore",
+    "20:flamewheel",
+    "25:trick",
+    "30:dazzlinggleam",
+    "37:lashout",
+    "44:firelash",
+    "51:magicroom",
+    "64:playrough",
+    "egg:afteryou",
+    "egg:aromaticmist",
+    "egg:mysticalfire",
+    "egg:nuzzle",
+    "egg:quash",
+    "tm:acrobatics",
+    "tm:afteryou",
+    "tm:batonpass",
+    "tm:brutalswing",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:disarmingvoice",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:endure",
+    "tm:encore",
+    "tm:facade",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:flamecharge",
+    "tm:firepunch",
+    "tm:helpinghand",
+    "tm:icepunch",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magicroom",
+    "tm:metronome",
+    "tm:mistyterrain",
+    "tm:mysticalfire",
+    "tm:painsplit",
+    "tm:playrough",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psychup",
+    "tm:quash",
+    "tm:reflect",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:terablast",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:tripleaxel",
+    "tm:wonderroom",
+    "tm:willowisp",
+    "tutor:afteryou",
+    "tutor:calmmind",
+    "tutor:darkpulse",
+    "tutor:dazzlinggleam",
+    "tutor:helpinghand",
+    "tutor:magicalleaf",
+    "tutor:mysticalfire",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:swift",
+    "tutor:trick"
+  ],
+  "preEvolution": "hatenna midnight",
+  "evolutions": [
+    {
+      "id": "hattrix_hattertainer",
+      "variant": "level_up",
+      "result": "hattertainer midnight",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "firelash"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "name": "Midnight",
+      "aspects": [
+        "midnight"
+      ],
+      "evolutions": [
+        {
+          "id": "hattrix_hattertainer",
+          "variant": "level_up",
+          "result": "hattertainer midnight",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "firelash"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 42
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

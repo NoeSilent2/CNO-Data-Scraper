@@ -1,0 +1,45 @@
+{
+	"enabled": true,
+	"neededInstalledMods": [],
+	"neededUninstalledMods": [],
+	"spawns": [
+		{
+			"id": "sinisnow-1",
+			"pokemon": "sinisnow",
+			"presets": [],
+			"type": "pokemon",
+			"spawnablePositionType": "grounded",
+			"bucket": "common",
+			"level": "2-27",
+			"weight": 2.0,
+			"condition": {
+				"minSkyLight": 8,
+				"maxSkyLight": 15,
+				"biomes": [
+					"#cobblemon:is_snowy",
+					"minecraft:ice_spikes"
+				]
+			}
+		},
+		{
+			"id": "sinisnow-2",
+			"pokemon": "sinisnow",
+			"presets": [],
+			"type": "pokemon",
+			"spawnablePositionType": "grounded",
+			"bucket": "rare",
+			"level": "2-27",
+			"weight": 2.0,
+			"condition": {
+				"minSkyLight": 8,
+				"maxSkyLight": 15,
+				"biomes": [
+					"#cobblemon:is_cold"
+				],
+				"structures": [
+					"#minecraft:village"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,139 @@
+{
+  "implemented": true,
+  "name": "cigarat",
+  "nationalPokedexNumber": 1036,
+  "primaryType": "dark",
+  "secondaryType": "poison",
+  "abilities": [
+    "flashfire",
+    "whitesmoke",
+    "h:neutralizinggas"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 90,
+    "defence": 80,
+    "special_attack": 90,
+    "special_defence": 60,
+    "speed": 90
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 187,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 15,
+  "eggGroups": [
+    "field"
+  ],
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnWater": false
+      },
+      "wanderChance": 120
+    }
+  },
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:gunpowder",
+        "quantityRange": "1-3",
+        "percentage": 60
+      },
+      {
+        "item": "cobblemon:smoke_ball",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:poisongas",
+    "1:smokescreen",
+    "4:smog",
+    "7:pursuit",
+    "10:quickattack",
+    "15:clearsmog",
+    "18:haze",
+    "22:ember",
+    "24:sludge",
+    "26:beatup",
+    "28:snarl",
+    "30:taunt",
+    "33:embargo",
+    "35:sludgebomb",
+    "37:torment",
+    "39:corrosivegas",
+    "42:powertrip",
+    "43:suckerpunch",
+    "45:toxic",
+    "48:belch",
+    "50:heatwave",
+    "52:nastyplot",
+    "55:gunkshot",
+    "60:partingshot",
+    "tm:roar",
+    "tm:workup",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:dig",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:sludgebomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:endure",
+    "tm:gigaimpact",
+    "tm:sleeptalk",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:cut",
+    "tm:strength",
+    "tm:rocksmash",
+    "tm:snarl",
+    "tm:fling",
+    "tm:foulplay",
+    "tm:darkpulse",
+    "tm:crunch",
+    "tm:nastyplot",
+    "tm:venoshock",
+    "tm:toxic",
+    "tm:sludgewave",
+    "tm:assurance",
+    "tm:payback",
+    "tm:uproar",
+    "tm:heatwave",
+    "tutor:lashout",
+    "tutor:burningjealousy"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.cigarat.desc1",
+    "cobblemon.species.cigarat.desc2"
+  ],
+  "preEvolution": "smouse",
+  "evolutions": [],
+  "baseScale": 1.2,
+  "hitbox": {
+    "width": 1.3,
+    "height": 1.5,
+    "fixed": false
+  },
+  "baseFriendship": 20,
+  "evYield": {
+    "speed": 1,
+    "special_attack": 1
+  },
+  "height": 14,
+  "weight": 700
+}

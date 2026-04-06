@@ -1,0 +1,41 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "roselia-wither-1",
+            "pokemon": "roselia wither",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-40",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_soul_sand"
+                ]
+            }
+        },
+        {
+            "id": "roselia-wither-2",
+            "pokemon": "roselia wither",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-40",
+            "weight": 5.0,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:wither_rose"
+                ]
+            }
+        }
+    ]
+}

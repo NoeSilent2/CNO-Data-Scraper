@@ -1,0 +1,45 @@
+{
+	"enabled": true,
+	"neededInstalledMods": [],
+	"neededUninstalledMods": [],
+	"spawns": [
+		{
+			"id": "frostygeist-1",
+			"pokemon": "frostygeist",
+			"presets": [],
+			"type": "pokemon",
+			"spawnablePositionType": "grounded",
+			"bucket": "common",
+			"level": "2-27",
+			"weight": 0.2,
+			"condition": {
+				"minSkyLight": 8,
+				"maxSkyLight": 15,
+				"biomes": [
+					"#cobblemon:is_snowy",
+					"minecraft:ice_spikes"
+				]
+			}
+		},
+		{
+			"id": "frostygeist-2",
+			"pokemon": "frostygeist",
+			"presets": [],
+			"type": "pokemon",
+			"spawnablePositionType": "grounded",
+			"bucket": "rare",
+			"level": "2-27",
+			"weight": 0.2,
+			"condition": {
+				"minSkyLight": 8,
+				"maxSkyLight": 15,
+				"biomes": [
+					"#cobblemon:is_cold"
+				],
+				"structures": [
+					"#minecraft:village"
+				]
+			}
+		}
+	]
+}

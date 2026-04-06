@@ -1,0 +1,63 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "striglow-1",
+      "pokemon": "striglow",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "28-40",
+      "weight": 15.0,
+      "condition": {
+        "biomes": [
+          "minecraft:old_growth_spruce_taiga",
+          "minecraft:old_growth_pine_taiga",
+          "minecraft:grove",
+          "minecraft:windswept_forest",
+          "minecraft:dark_forest",
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_magical"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "striglow-2",
+      "pokemon": "striglow",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "35-50",
+      "weight": 8.0,
+      "condition": {
+        "biomes": [
+          "minecraft:old_growth_spruce_taiga",
+          "minecraft:old_growth_pine_taiga",
+          "minecraft:grove"
+        ],
+        "canSeeSky": true,
+        "timeRange": "night",
+        "moonPhase": 0
+      }
+    },
+    {
+      "id": "striglow-3",
+      "pokemon": "striglow",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "30-45",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_spooky"
+        ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

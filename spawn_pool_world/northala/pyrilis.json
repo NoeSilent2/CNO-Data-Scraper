@@ -1,0 +1,56 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pyrilis-1",
+      "pokemon": "pyrilis",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-32",
+      "weight": 0.2,
+      "condition": {
+        "biomes": [
+          "minecraft:flower_forest",
+          "minecraft:cherry_grove"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "pyrilis-2",
+      "pokemon": "pyrilis",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "18-32",
+      "weight": 0.15,
+      "condition": {
+        "biomes": [
+          "minecraft:meadow",
+          "#cobblemon:is_floral"
+        ],
+        "timeRange": "day",
+        "neededNearbyBlocks": [
+          "#minecraft:flowers"
+        ]
+      }
+    },
+    {
+      "id": "pyrilis-3",
+      "pokemon": "pyrilis",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "20-32",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
+      }
+    }
+  ]
+}

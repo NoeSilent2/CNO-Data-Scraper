@@ -1,0 +1,153 @@
+{
+  "implemented": true,
+  "name": "magnipulo",
+  "nationalPokedexNumber": 1067,
+  "primaryType": "dark",
+  "secondaryType": "water",
+  "abilities": [
+    "supremeoverlord",
+    "pressure",
+    "h:stall"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 120,
+    "defence": 130,
+    "special_attack": 90,
+    "special_defence": 120,
+    "speed": 65
+  },
+  "catchRate": 15,
+  "maleRatio": 0.8,
+  "shoulderMountable": false,
+  "forms": [],
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "wanderChance": 480,
+      "walk": {
+        "walkSpeed": 0.35
+      }
+    }
+  },
+  "features": [],
+  "baseExperienceYield": 248,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 40,
+  "eggGroups": [
+    "water_2",
+    "water_3"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "2-5",
+        "percentage": 66
+      }
+    ]
+  },
+  "moves": [
+    "1:disable",
+    "1:roleplay",
+    "1:wrap",
+    "1:meanlook",
+    "1:whirlpool",
+    "1:astonish",
+    "3:pursuit",
+    "8:taunt",
+    "8:torment",
+    "15:assurance",
+    "18:encore",
+    "20:waterpulse",
+    "23:swagger",
+    "29:knockoff",
+    "31:dive",
+    "34:foulplay",
+    "36:afteryou",
+    "36:followme",
+    "43:liquidation",
+    "45:darkpulse",
+    "48:snatch",
+    "55:nastyplot",
+    "58:suckerpunch",
+    "65:embargo",
+    "70:quash",
+    "75:brutalswing",
+    "tm:gigaimpact",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:rest",
+    "tm:thief",
+    "tm:snore",
+    "tm:protect",
+    "tm:scaryface",
+    "tm:attract",
+    "tm:raindance",
+    "tm:facade",
+    "tm:faketears",
+    "tm:payback",
+    "tm:fling",
+    "tm:trickroom",
+    "tm:brutalswing",
+    "tm:psychic",
+    "tm:endure",
+    "tm:sleeptalk",
+    "tm:taunt",
+    "tm:darkpulse",
+    "tm:nastyplot",
+    "tm:foulplay",
+    "tm:throatchop",
+    "tm:liquidation",
+    "tm:waterpulse",
+    "tm:icywind",
+    "tm:waterfall",
+    "tm:grassknot",
+    "tm:substitute",
+    "tm:encore",
+    "tm:helpinghand",
+    "tm:snarl",
+    "tm:hex",
+    "tm:surf",
+    "tm:dive",
+    "tutor:spite",
+    "tutor:block",
+    "tutor:flatter",
+    "tutor:powerwhip",
+    "tutor:imprison",
+    "tutor:memento",
+    "tutor:snarl",
+    "egg:wideguard",
+    "egg:haze",
+    "egg:confuseray",
+    "egg:switcheroo",
+    "egg:partingshot"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.magnipulo.desc1",
+    "cobblemon.species.magnipulo.desc2"
+  ],
+  "preEvolution": "cephalange",
+  "evolutions": [],
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 0.9,
+    "height": 9.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "defence": 1,
+    "special_defence": 1
+  },
+  "height": 88,
+  "weight": 2200
+}

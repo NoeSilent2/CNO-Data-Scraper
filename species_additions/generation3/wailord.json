@@ -1,0 +1,30 @@
+{
+  "target": "cobblemon:wailord",
+  "features": ["mega_evolution"],
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "water",
+      "secondaryType": "ice",
+      "maleRatio": 0.5,
+      "height": 145,
+      "weight": 3980,
+      "pokedex": ["cobblemon.species.wailord-mega.desc"],
+      "abilities": ["snowwarning", "h:snowwarning"],
+      "labels": ["gen6", "mega"],
+      "aspects": ["mega"],
+      "baseStats": {
+        "hp": 170,
+        "attack": 105,
+        "defence": 80,
+        "special_attack": 105,
+        "special_defence": 80,
+        "speed": 60
+      },
+      "baseExperienceYield": 175,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
+}

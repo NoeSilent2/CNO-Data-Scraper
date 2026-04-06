@@ -1,0 +1,138 @@
+{
+  "implemented": true,
+  "name": "fossie",
+  "nationalPokedexNumber": 1037,
+  "primaryType": "electric",
+  "abilities": [
+    "magnetpull",
+    "levetric",
+    "h:motordrive"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 55,
+    "defence": 50,
+    "special_attack": 50,
+    "special_defence": 40,
+    "speed": 85
+  },
+  "catchRate": 230,
+  "maleRatio": 0.5,
+  "forms": [],
+  "shoulderMountable": true,
+  "baseExperienceYield": 55,
+  "experienceGroup": "fast",
+  "eggCycles": 15,
+  "eggGroups": [
+    "field",
+    "human_like"
+  ],
+  "drops": {
+    "amount": "3",
+    "entries": [
+      {
+        "item": "minecraft:glowstone_dust",
+        "quantityRange": "1-3",
+        "percentage": 75
+      },
+      {
+        "item": "cobblemon:shuca_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:magnet",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:tailwhip",
+    "3:quickattack",
+    "7:furyswipes",
+    "9:flash",
+    "12:thundershock",
+    "14:honeclaws",
+    "17:triplekick",
+    "21:agility",
+    "25:spark",
+    "30:thunderfang",
+    "33:charge",
+    "36:voltswitch",
+    "38:electrodrain",
+    "40:magnetrise",
+    "45:iondeluge",
+    "50:wildcharge",
+    "60:volttackle",
+    "tm:agility",
+    "tm:scaryface",
+    "tm:protect",
+    "tm:firefang",
+    "tm:thunderfang",
+    "tm:icefang",
+    "tm:lowkick",
+    "tm:acrobatics",
+    "tm:thief",
+    "tm:pounce",
+    "tm:chargebeam",
+    "tm:facade",
+    "tm:metalclaw",
+    "tm:swift",
+    "tm:endure",
+    "tm:voltswitch",
+    "tm:falseswipe",
+    "tm:uturn",
+    "tm:shadowclaw",
+    "tm:psychicfangs",
+    "tm:bulkup",
+    "tm:sleeptalk",
+    "tm:electroball",
+    "tm:thunderwave",
+    "tm:rest",
+    "tm:eerieimpulse",
+    "tm:substitute",
+    "tm:crunch",
+    "tm:encore",
+    "tm:thunderbolt",
+    "tm:electricterrain",
+    "tm:wildcharge",
+    "tm:focusblast",
+    "tm:thunder",
+    "tutor:fakeout",
+    "tutor:risingvoltage"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.fossie.desc1",
+    "cobblemon.species.fossie.desc2"
+  ],
+  "evolutions": [
+    {
+      "id": "fossie_amperox_lvl",
+      "variant": "level_up",
+      "result": "amperox",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]
+    }
+  ],
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 0.8,
+    "height": 0.6,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "speed": 1
+  },
+  "height": 5,
+  "weight": 20
+}

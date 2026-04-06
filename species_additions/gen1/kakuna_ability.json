@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:kakuna",
+  "abilities": [
+    "shedskin",
+    "poisonpoint",
+    "h:anticipation"
+  ]
+}

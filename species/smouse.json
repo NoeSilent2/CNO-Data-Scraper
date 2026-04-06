@@ -1,0 +1,130 @@
+{
+  "implemented": true,
+  "name": "smouse",
+  "nationalPokedexNumber": 1035,
+  "primaryType": "normal",
+  "secondaryType": "poison",
+  "abilities": [
+    "flashfire",
+    "whitesmoke",
+    "h:neutralizinggas"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 65,
+    "defence": 40,
+    "special_attack": 65,
+    "special_defence": 30,
+    "speed": 80
+  },
+  "catchRate": 240,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 40,
+  "experienceGroup": "fast",
+  "eggCycles": 15,
+  "eggGroups": [
+    "field"
+  ],
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnWater": false
+      },
+      "wanderChance": 120
+    }
+  },
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:gunpowder",
+        "quantityRange": "1",
+        "percentage": 60
+      },
+      {
+        "item": "cobblemon:smoke_ball",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:poisongas",
+    "1:smokescreen",
+    "4:smog",
+    "7:pursuit",
+    "10:quickattack",
+    "15:clearsmog",
+    "18:haze",
+    "22:ember",
+    "24:sludge",
+    "30:sludgebomb",
+    "35:corrosivegas",
+    "40:suckerpunch",
+    "42:toxic",
+    "44:belch",
+    "48:gunkshot",
+    "tm:workup",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:dig",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:sludgebomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:endure",
+    "tm:gigaimpact",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:substitute",
+    "tm:cut",
+    "tm:rocksmash",
+    "tm:venoshock",
+    "tm:toxic",
+    "tm:sludgewave",
+    "tm:uproar"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.smouse.desc1",
+    "cobblemon.species.smouse.desc2"
+  ],
+  "evolutions": [
+    {
+      "id": "smouse_cigarat_lvl",
+      "variant": "level_up",
+      "result": "cigarat",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "beatup"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 26
+        }
+      ]
+    }
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 0.6,
+    "fixed": false
+  },
+  "baseFriendship": 60,
+  "evYield": {
+    "speed": 1
+  },
+  "height": 3,
+  "weight": 30
+}

@@ -1,0 +1,591 @@
+{
+  "target": "cobblemon:goodra",
+  "forms": [
+    {
+      "name": "Bogland",
+      "primaryType": "dragon",
+      "secondaryType": "poison",
+      "maleRatio": 0.5,
+      "height": 12,
+      "weight": 1505,
+      "pokedex": [
+        "cobblemon.species.goodra-bogland.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "powerhouse"
+      ],
+      "aspects": [
+        "bogland"
+      ],
+      "abilities": [
+        "liquidooze",
+        "corrosion",
+        "h:gooey"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 60,
+        "defence": 150,
+        "special_attack": 110,
+        "special_defence": 150,
+        "speed": 40
+      },
+      "baseScale": 0.9,
+      "hitbox": {
+        "width": 2.5,
+        "height": 3.6,
+        "fixed": false
+      },
+      "riding": {
+        "behaviours": {
+          "LAND": {
+            "key": "cobblemon:land/horse",
+            "rideSounds": [],
+            "stats": {
+              "ACCELERATION": "25-40",
+              "JUMP": "20-30",
+              "SKILL": "10-40",
+              "SPEED": "25-40",
+              "STAMINA": "45-85"
+            }
+          }
+        },
+        "seats": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "poseTypes": [
+                  "STAND"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "poseTypes": [
+                  "WALK"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "poseTypes": [
+                  "HOVER"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "poseTypes": [
+                  "FLY"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "poseTypes": [
+                  "FLOAT"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "poseTypes": [
+                  "SWIM"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "poseTypes": [
+                  "GLIDE"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "behaviour": {
+        "moving": {
+          "swim": {}
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "drops": {
+        "amount": 7,
+        "entries": [
+          {
+            "item": "minecraft:slime_ball",
+            "quantityRange": "0-3"
+          },
+          {
+            "item": "cobblemon:payapa_berry",
+            "percentage": 10.0
+          },
+          {
+            "item": "cobblemon:black_sludge",
+            "percentage": 10.0
+          }
+        ]
+      },
+      "moves": [
+        "1:acid",
+        "1:bulldoze",
+        "1:toxic",
+        "1:acidspray",
+        "1:feint",
+        "1:tearfullook",
+        "1:dragonbreath",
+        "1:tackle",
+        "1:absorb",
+        "1:poisontail",
+        "1:bide",
+        "1:acidarmor",
+        "15:protect",
+        "20:flail",
+        "25:sludge",
+        "30:raindance",
+        "35:dragonpulse",
+        "43:curse",
+        "49:sludgebomb",
+        "49:bodyslam",
+        "58:muddywater",
+        "67:earthpower",
+        "70:dragonpress",
+        "egg:counter",
+        "egg:lifedew",
+        "tm:acidspray",
+        "tm:blizzard",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bulldoze",
+        "tm:charm",
+        "tm:chillingwater",
+        "tm:curse",
+        "tm:dracometeor",
+        "tm:dragoncheer",
+        "tm:dragonclaw",
+        "tm:dragonpulse",
+        "tm:dragontail",
+        "tm:earthquake",
+        "tm:earthpower",
+        "tm:endure",
+        "tm:facade",
+        "tm:fireblast",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flashcannon",
+        "tm:gigaimpact",
+        "tm:heavyslam",
+        "tm:hydropump",
+        "tm:hyperbeam",
+        "tm:icebeam",
+        "tm:ironhead",
+        "tm:irontail",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:muddywater",
+        "tm:mudshot",
+        "tm:outrage",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:scaryface",
+        "tm:skittersmack",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:stompingtantrum",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:surf",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:waterpulse",
+        "tm:weatherball",
+        "tutor:bulldoze",
+        "tutor:dracometeor",
+        "tutor:dragonpulse",
+        "tutor:firepunch",
+        "tutor:flamethrower",
+        "tutor:flashcannon",
+        "tutor:gigaimpact",
+        "tutor:hyperbeam",
+        "tutor:icebeam",
+        "tutor:ironhead",
+        "tutor:irontail",
+        "tutor:knockoff",
+        "tutor:lashout",
+        "tutor:outrage",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:rocksmash",
+        "tutor:skittersmack",
+        "tutor:sleeptalk",
+        "tutor:sludgebomb",
+        "tutor:stompingtantrum",
+        "tutor:thunderbolt",
+        "tutor:thunderpunch",
+        "tutor:waterpulse"
+      ],
+      "preEvolution": "sliggoo",
+      "evolutions": [],
+      "battleOnly": false
+    },
+    {
+      "name": "Wetland",
+      "primaryType": "dragon",
+      "secondaryType": "water",
+      "maleRatio": 0.5,
+      "height": 20,
+      "weight": 1405,
+      "pokedex": [
+        "cobblemon.species.goodra-wetland.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "powerhouse"
+      ],
+      "aspects": [
+        "wetland"
+      ],
+      "abilities": [
+        "stormdrain",
+        "raindish",
+        "h:gooey"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 100,
+        "defence": 90,
+        "special_attack": 100,
+        "special_defence": 130,
+        "speed": 110
+      },
+      "baseScale": 0.9,
+      "hitbox": {
+        "width": 2.5,
+        "height": 3.6,
+        "fixed": false
+      },
+      "riding": {
+        "behaviours": {
+          "LAND": {
+            "key": "cobblemon:land/horse",
+            "rideSounds": [],
+            "canJump": true,
+            "canSprint": true,
+            "stats": {
+              "ACCELERATION": "25-40",
+              "JUMP": "25-40",
+              "SKILL": "80-100",
+              "SPEED": "25-45",
+              "STAMINA": "20-60"
+            }
+          },
+          "LIQUID": {
+            "key": "cobblemon:liquid/boat",
+            "surfaceLevelOffset": -1.6,
+            "rideSounds": [
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                "playForNonPassengers": true,
+                "soundLocation": "cobblemon:ride.loop.water_surface",
+                "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+              }
+            ],
+            "stats": {
+              "ACCELERATION": "30-55",
+              "JUMP": "20-30",
+              "SKILL": "50-75",
+              "SPEED": "25-40",
+              "STAMINA": "45-75"
+            }
+          }
+        },
+        "seats": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "poseTypes": [
+                  "STAND"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "poseTypes": [
+                  "WALK"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "poseTypes": [
+                  "HOVER"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "poseTypes": [
+                  "FLY"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "poseTypes": [
+                  "FLOAT"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "poseTypes": [
+                  "SWIM"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "poseTypes": [
+                  "GLIDE"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "behaviour": {
+        "moving": {
+          "swim": {
+            "swimSpeed": 0.2,
+            "canBreatheUnderwater": true,
+            "canWalkOnWater": true,
+            "canSwimInWater": true,
+            "canSwimInLava": false
+          }
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "drops": {
+        "amount": 7,
+        "entries": [
+          {
+            "item": "minecraft:slime_ball",
+            "quantityRange": "0-3"
+          },
+          {
+            "item": "cobblemon:haban_berry",
+            "percentage": 10.0
+          },
+          {
+            "item": "cobblemon:damp_rock",
+            "percentage": 10.0
+          }
+        ]
+      },
+      "moves": [
+        "1:bubble",
+        "1:aquatail",
+        "1:raindance",
+        "1:aquaring",
+        "1:feint",
+        "1:tearfullook",
+        "1:dragonbreath",
+        "1:tackle",
+        "1:absorb",
+        "1:watergun",
+        "1:bide",
+        "1:haze",
+        "1:aquajet",
+        "15:protect",
+        "20:flail",
+        "25:waterpulse",
+        "30:raindance",
+        "35:dragonpulse",
+        "43:curse",
+        "49:waterfall",
+        "49:bodyslam",
+        "51:brine",
+        "51:waterspout",
+        "53:flipturn",
+        "58:surf",
+        "67:dragonhammer",
+        "70:dragonpress",
+        "egg:counter",
+        "egg:lifedew",
+        "egg:dragondance",
+        "tm:acidspray",
+        "tm:blizzard",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bulldoze",
+        "tm:charm",
+        "tm:chillingwater",
+        "tm:curse",
+        "tm:dracometeor",
+        "tm:dragoncheer",
+        "tm:dragonclaw",
+        "tm:dragonpulse",
+        "tm:dragontail",
+        "tm:earthquake",
+        "tm:endure",
+        "tm:facade",
+        "tm:fireblast",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flashcannon",
+        "tm:gigaimpact",
+        "tm:hydropump",
+        "tm:hyperbeam",
+        "tm:icebeam",
+        "tm:ironhead",
+        "tm:irontail",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:muddywater",
+        "tm:mudshot",
+        "tm:outrage",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:scaryface",
+        "tm:skittersmack",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:stompingtantrum",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:surf",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:waterpulse",
+        "tm:waterfall",
+        "tm:dive",
+        "tm:dragondance",
+        "tm:weatherball",
+        "tutor:bulldoze",
+        "tutor:dracometeor",
+        "tutor:dragonpulse",
+        "tutor:firepunch",
+        "tutor:flamethrower",
+        "tutor:flashcannon",
+        "tutor:gigaimpact",
+        "tutor:hyperbeam",
+        "tutor:icebeam",
+        "tutor:ironhead",
+        "tutor:irontail",
+        "tutor:knockoff",
+        "tutor:lashout",
+        "tutor:outrage",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:rocksmash",
+        "tutor:skittersmack",
+        "tutor:sleeptalk",
+        "tutor:sludgebomb",
+        "tutor:stompingtantrum",
+        "tutor:superpower",
+        "tutor:thunderbolt",
+        "tutor:thunderpunch",
+        "tutor:waterpulse"
+      ],
+      "preEvolution": "sliggoo",
+      "evolutions": [],
+      "battleOnly": false
+    }
+  ]
+}

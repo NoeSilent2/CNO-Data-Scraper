@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:nymble",
+  "abilities": [
+    "swarm",
+    "rattled",
+    "h:tintedlens"
+  ]
+}

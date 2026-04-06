@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:elekid",
+  "abilities": [
+    "static",
+    "vitalspirit",
+    "h:ironfist"
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "name": "jodoki",
+  "nationalPokedexNumber": 1064,
+  "primaryType": "fire",
+  "secondaryType": "psychic",
+  "abilities": [
+    "levitate",
+    "magicguard",
+    "h:magmaarmor"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 30,
+    "defence": 55,
+    "special_attack": 68,
+    "special_defence": 55,
+    "speed": 52
+  },
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "canWalkOnLava": true,
+        "canBreatheUnderlava": true,
+        "avoidsWater": true,
+        "canSwimInLava": true,
+        "canSwimInWater": false
+      }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": [
+    "mineral"
+  ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:obsidian",
+        "percentage": 25
+      },
+      {
+        "item": "cobblemon:passho_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:confusion",
+    "1:harden",
+    "4:ember",
+    "8:healblock",
+    "8:imprison",
+    "10:confuseray",
+    "14:psywave",
+    "17:incinerate",
+    "21:ancientpower",
+    "24:extrasensory",
+    "28:willowisp",
+    "31:mysticalfire",
+    "tm:overheat",
+    "tm:allyswitch",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:dazzlinggleam",
+    "tm:dreameater",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:flash",
+    "tm:frustration",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:guardswap",
+    "tm:gyroball",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:irondefense",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:nastyplot",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:recycle",
+    "tm:sunnyday",
+    "tm:rest",
+    "tm:return",
+    "tm:rockpolish",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:selfdestruct",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:stealthrock",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:telekinesis",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:zenheadbutt",
+    "tm:psychicnoise",
+    "tm:fireblast",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:heatwave",
+    "tm:incinerate",
+    "tm:mysticalfire",
+    "egg:expandingforce",
+    "egg:inferno",
+    "egg:signalbeam",
+    "egg:destinybond",
+    "egg:memento",
+    "egg:smokescreen",
+    "tutor:eerieimpulse"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.jodoki.desc1",
+    "cobblemon.species.jodoki.desc2"
+  ],
+  "evolutions": [
+    {
+      "id": "jodoki_umeltaka",
+      "variant": "level_up",
+      "result": "umeltaka",
+      "consumeHeldItem": false,
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 31
+        }
+      ]
+    }
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 2.05,
+    "height": 2.4,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "special_attack": 1
+  },
+  "height": 2,
+  "weight": 100
+}

@@ -1,0 +1,102 @@
+{
+  "implemented": true,
+  "name": "dungeon",
+  "nationalPokedexNumber": 1142,
+  "primaryType": "ground",
+  "abilities": [
+    "arenatrap",
+    "terrify",
+    "h:moldbreaker"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 95,
+    "defence": 80,
+    "special_attack": 70,
+    "special_defence": 70,
+    "speed": 85
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 35,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:scratch",
+    "1:growl",
+    "1:tailwhip",
+    "1:tackle",
+    "1:sandattack",
+    "5:sandtomb",
+    "8:sandstorm",
+    "12:mudslap",
+    "14:suckerpunch",
+    "17:dig",
+    "22:bulldoze",
+    "24:ancientpower",
+    "26:earthpower",
+    "30:mudshot",
+    "34:rockblast",
+    "37:sludgebomb",
+    "37:substitute",
+    "40:gigaimpact",
+    "43:metalclaw",
+    "50:rocktomb",
+    "54:rockslide",
+    "57:bonerush",
+    "60:bonemerang",
+    "67:stoneedge",
+    "73:stompingtantrum",
+    "80:fissure",
+    "tm:recover",
+    "tm:explosion",
+    "tm:stealthrock",
+    "tm:imprison",
+    "tm:earthquake",
+    "tm:headlongrush",
+    "tm:drillrun",
+    "tm:nightslash",
+    "tm:throatchop",
+    "tm:darkpulse",
+    "tm:knockoff",
+    "tm:endure",
+    "tm:followme",
+    "tm:grudge",
+    "tm:harden",
+    "tm:meanlook",
+    "tm:nastyplot",
+    "tm:brickbreak",
+    "tm:dragonhammer",
+    "tm:falseswipe"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.dungeon.desc1",
+    "cobblemon.species.dungeon.desc2"
+  ],
+  "preEvolution": "eevee",
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.1,
+    "fixed": false
+  },
+  "baseFriendship": 35,
+  "evYield": {
+    "speed": 2
+  },
+  "height": 11,
+  "weight": 300
+}

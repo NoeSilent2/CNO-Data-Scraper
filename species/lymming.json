@@ -1,0 +1,100 @@
+{
+  "implemented": true,
+  "name": "lymming",
+  "nationalPokedexNumber": 1051,
+  "primaryType": "rock",
+  "secondaryType": "grass",
+  "abilities": [
+    "sturdy",
+    "anticipation",
+    "h:quickfeet"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 40,
+    "defence": 53,
+    "special_attack": 67,
+    "special_defence": 55,
+    "speed": 75
+  },
+  "catchRate": 165,
+  "maleRatio": 0.5,
+  "shoulderMountable": true,
+  "forms": [],
+  "baseExperienceYield": 54,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "mineral"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:stone",
+        "percentage": 80,
+        "quantityRange": "3-10"
+      }
+    ]
+  },
+  "moves": [
+    "1:rockthrow",
+    "1:absorb",
+    "1:harden",
+    "4:rockpolish",
+    "8:rollout",
+    "12:snatch",
+    "16:megadrain",
+    "21:rocktomb",
+    "30:jumpkick",
+    "tm:takedown",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:facade",
+    "tm:swift",
+    "tm:mudshot",
+    "tm:rocktomb",
+    "tm:endure",
+    "tm:sandstorm",
+    "tm:bodyslam",
+    "tm:sleeptalk",
+    "tm:rockblast",
+    "tm:stompingtantrum",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:taunt",
+    "tm:powergem",
+    "tm:substitute",
+    "tm:irondefense",
+    "tm:stealthrock",
+    "tm:encore"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.lymming.desc1",
+    "cobblemon.species.lymming.desc2"
+  ],
+  "evolutions": [
+    {
+      "id": "lymming_karstory_item",
+      "variant": "item_interact",
+      "result": "karstory",
+      "consumeHeldItem": true,
+      "requiredContext": "cobblemon:leaf_stone"
+    }
+  ],
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 0.45,
+    "height": 0.45,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "speed": 1
+  },
+  "height": 6,
+  "weight": 561
+}

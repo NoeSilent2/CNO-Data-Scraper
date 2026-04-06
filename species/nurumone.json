@@ -1,0 +1,190 @@
+{
+  "implemented": true,
+  "name": "nurumone",
+  "nationalPokedexNumber": 1062,
+  "primaryType": "poison",
+  "secondaryType": "electric",
+  "abilities": [
+    "electricsurge",
+    "poisontouch",
+    "h:toughclaws"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 110,
+    "defence": 70,
+    "special_attack": 76,
+    "special_defence": 110,
+    "speed": 38
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": [
+    "water_3",
+    "monster"
+  ],
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "canJump": false,
+        "canSprint": false,
+        "stats": {
+          "ACCELERATION": "10-40",
+          "JUMP": "10-25",
+          "SKILL": "30-60",
+          "SPEED": "10-20",
+          "STAMINA": "35-70"
+        }
+      },
+      "LIQUID": {
+        "key": "cobblemon:liquid/submarine",
+        "stats": {
+          "ACCELERATION": "45-70",
+          "JUMP": "20-30",
+          "SKILL": "30-55",
+          "SPEED": "35-45",
+          "STAMINA": "60-80"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "avoidsLand": true,
+        "walkSpeed": 0.25
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "wanderChance": 1
+    }
+  },
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:sea_pickle",
+        "percentage": 90
+      },
+      {
+        "item": "cobblemon:shuca_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:tickle",
+    "1:poisonsting",
+    "1:poisonfang",
+    "1:thunderfang",
+    "1:scratch",
+    "3:bubble",
+    "5:furyswipes",
+    "8:thundershock",
+    "13:poisontail",
+    "16:nuzzle",
+    "18:honeclaws",
+    "20:scaryface",
+    "24:spark",
+    "26:slash",
+    "28:gastroacid",
+    "30:poisonjab",
+    "33:waterpulse",
+    "37:crosspoison",
+    "40:direclaw",
+    "42:wildcharge",
+    "45:toxic",
+    "48:yawn",
+    "50:aquatail",
+    "55:recover",
+    "tm:takedown",
+    "tm:scaryface",
+    "tm:protect",
+    "tm:thunderfang",
+    "tm:acidspray",
+    "tm:chargebeam",
+    "tm:facade",
+    "tm:poisontail",
+    "tm:snarl",
+    "tm:storedpower",
+    "tm:venoshock",
+    "tm:endure",
+    "tm:voltswitch",
+    "tm:raindance",
+    "tm:sleeptalk",
+    "tm:thunderwave",
+    "tm:poisonjab",
+    "tm:rest",
+    "tm:toxicspikes",
+    "tm:gunkshot",
+    "tm:substitute",
+    "tm:thunderbolt",
+    "tm:electricterrain",
+    "tm:wildcharge",
+    "tm:sludgebomb",
+    "tm:gigaimpact",
+    "tm:hyperbeam",
+    "tm:thunder",
+    "tm:metalclaw",
+    "tm:rocktomb",
+    "tm:avalanche",
+    "tm:dig",
+    "tm:brickbreak",
+    "tm:shadowclaw",
+    "tm:bodyslam",
+    "tm:stompingtantrum",
+    "tm:playrough",
+    "tm:earthquake",
+    "tm:amnesia",
+    "tm:surf",
+    "tm:liquidation",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tutor:bellydrum",
+    "tutor:painsplit",
+    "tutor:counter",
+    "tutor:curse"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.nurumone.desc1",
+    "cobblemon.species.nurumone.desc2"
+  ],
+  "preEvolution": "anemini",
+  "evolutions": [],
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 1.4,
+    "height": 0.65,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "attack": 1,
+    "special_defence": 1
+  },
+  "height": 18,
+  "weight": 120
+}

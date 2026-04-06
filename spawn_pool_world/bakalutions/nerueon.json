@@ -1,0 +1,62 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+        "id": "nerueon-1",
+        "pokemon": "nerueon",
+        "presets": [                
+            "natural",
+            "wild"
+        ],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "ultra-rare",
+        "level": "28-53",
+        "weight": 5.0,
+        "weightMultiplier": {
+            "multiplier": 1.5,
+            "condition": {
+                "timeRange": "day"
+            }
+        },
+        "condition": {
+            "canSeeSky": true,
+            "biomes": [
+                "#cobblemon:is_plains"
+            ]
+        },
+        "anticondition": {
+            "biomes": [
+                "#cobblemon:is_arid",
+                "#cobblemon:is_freezing"
+            ]
+        }
+      },
+      {
+        "id": "nerueon-2",
+        "pokemon": "nerueon",
+        "presets": [                
+            "natural"
+        ],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "ultra-rare",
+        "level": "28-53",
+        "weight": 5.0,
+        "weightMultiplier": {
+            "multiplier": 1.5,
+            "condition": {
+                "timeRange": "day"
+            }
+        },
+        "condition": {
+            "canSeeSky": true,
+            "biomes": [
+                "#cobblemon:is_hills"
+            ]
+        }
+    }
+    ]
+  }

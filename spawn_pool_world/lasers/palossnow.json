@@ -1,0 +1,35 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "palossnow-1",
+            "pokemon": "palossnow",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "42-48",
+            "weight": 0.2,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_snowy"
+                ],
+                "neededBaseBlocks": [
+                    "minecraft:snow",
+                    "minecraft:snow_block",
+                    "minecraft:sand",
+                    "minecraft:red_sand"
+                ]
+            }
+        }
+    ]
+}

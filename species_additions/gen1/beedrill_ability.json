@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:beedrill",
+  "abilities": [
+    "swarm",
+    "angerpoint",
+    "h:sniper"
+  ]
+}

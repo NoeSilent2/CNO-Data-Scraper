@@ -1,0 +1,32 @@
+{
+
+"cobblemon.ability.bizarre": "Bizarre",
+"cobblemon.ability.bizarre.desc": "After this Pokémon has been on the field for 1 turn, the effectiveness of each type swaps. This effect ends when the Pokémon leaves the field.",
+
+"cobblemon.ability.viciousjaw": "Vicious Jaw",
+"cobblemon.ability.viciousjaw.desc": "Biting attacks from this Pokémon lower the targets Defense and Sp. Defense stats.",
+
+"cobblemon.ability.sirenssong": "Sirens Song",
+"cobblemon.ability.sirenssong.desc": "All sound based moves are converted to Water-type and doom the target to faint in 3 turns.",
+
+"cobblemon.ability.heartofdiamond": "Heart of Diamond",
+"cobblemon.ability.heartofdiamond.desc": "Boosts to this Pokémons Defense stat will instead boost its Attack stat.",
+
+"cobblemon.ability.spectralretribution": "Spectral Retribution",
+"cobblemon.ability.spectralretribution.desc": "When this Pokémon is knocked out, it performs the last move it used before fainting.",
+
+"cobblemon.ability.windupcannon": "Wind-Up Cannon",
+"cobblemon.ability.windupcannon.desc": "This Pokémons attacks always go last and deal half damage, but hit 3 times.",
+
+"cobblemon.ability.chillingglare": "Chilling Glare",
+"cobblemon.ability.chillingglare.desc": "When the Pokémon enters a battle, it horrifies opposing Pokémon, lowering their Sp. Attack stat.",
+
+"cobblemon.ability.cursedsoil": "Cursed Soil",
+"cobblemon.ability.cursedsoil.desc": "This Pokémon heals 1/3rd of its max HP when another Pokémon faints.",
+
+"cobblemon.ability.dullingpaper": "Dulling Paper",
+"cobblemon.ability.dullingpaper.desc": "After this Pokémon attacks, its Attack and Speed stats are lowered.",
+
+"cobblemon.ability.ignite": "Ignite",
+"cobblemon.ability.ignite.desc": "Normal-type moves become Fire-type moves. The power of those moves is boosted a little."
+}

@@ -1,0 +1,771 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1048,
+  "name": "Alloette",
+  "primaryType": "flying",
+  "secondaryType": "fairy",
+  "maleRatio": 0,
+  "height": 2,
+  "weight": 9,
+  "pokedex": [
+    "cobblemon.species.alloette.desc"
+  ],
+  "labels": [
+    "laserdex",
+    "minecraftian"
+  ],
+  "aspects": [
+    "allay"
+  ],
+  "features": [
+    "mega_evolution"
+  ],
+  "abilities": [
+    "pickup",
+    "symbiosis",
+    "h:dancer"
+  ],
+  "eggGroups": [
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 78,
+    "attack": 50,
+    "defence": 68,
+    "special_attack": 122,
+    "special_defence": 109,
+    "speed": 125
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "shoulderMountable": true,
+  "baseExperienceYield": 276,
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 1.15,
+    "height": 1.3,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "swim": {
+        "avoidsWater": true
+      },
+      "walk": {
+        "canWalk": false
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "willSleepOnBed": true,
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "herd": {
+      "maxSize": "3",
+      "toleratedLeaders": [
+        {
+          "pokemon": "jigglypuff",
+          "tier": 1
+        },
+        {
+          "pokemon": "chimecho",
+          "tier": 1
+        },
+        {
+          "pokemon": "kricketune",
+          "tier": 1
+        },
+        {
+          "pokemon": "carbink gem_type=amethyst",
+          "tier": 1
+        },
+        {
+          "pokemon": "primarina",
+          "tier": 2
+        },
+        {
+          "pokemon": "meloetta song_forme=aria",
+          "tier": 3
+        },
+        {
+          "pokemon": "meloetta song_forme=pirouette",
+          "tier": 3
+        },
+        {
+          "pokemon": "meloetta song_forme=soprano",
+          "tier": 3
+        },
+        {
+          "pokemon": "meloetta song_forme=acoustic",
+          "tier": 3
+        },
+        {
+          "pokemon": "alloette mega vex=false",
+          "tier": 3
+        },
+        {
+          "pokemon": "chimecho mega",
+          "tier": 3
+        }
+      ]
+    },
+    "combat": {
+      "willDefendOwner": true,
+      "willFlee": true
+    }
+  },
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:amethyst_shard",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:dawn_stone",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:kebia_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:fairy_feather",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:revelationdance",
+    "1:echoedvoice",
+    "1:gust",
+    "1:sing",
+    "1:safeguard",
+    "1:fairywind",
+    "1:disarmingvoice",
+    "1:round",
+    "1:covet",
+    "1:acrobatics",
+    "1:wish",
+    "1:aircutter",
+    "1:tailwind",
+    "18:airslash",
+    "24:alluringvoice",
+    "27:featherdance",
+    "33:hypervoice",
+    "37:mistyterrain",
+    "39:fleurdance",
+    "41:moonblast",
+    "48:hurricane",
+    "egg:camouflage",
+    "egg:captivate",
+    "egg:copycat",
+    "egg:endeavor",
+    "egg:tearfullook",
+    "egg:quiverdance",
+    "egg:sparklingaria",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:afteryou",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:alluringvoice",
+    "tm:allyswitch",
+    "tm:batonpass",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:confide",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:disarmingvoice",
+    "tm:drainingkiss",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:flash",
+    "tm:fly",
+    "tm:grassknot",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hurricane",
+    "tm:hypervoice",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magiccoat",
+    "tm:mistyterrain",
+    "tm:naturepower",
+    "tm:pollenpuff",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicsnap",
+    "tm:psychicnoise",
+    "tm:raindance",
+    "tm:rest",
+    "tm:round",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:tailwind",
+    "tm:terablast",
+    "tutor:afteryou",
+    "tutor:allyswitch",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:magicalleaf",
+    "tutor:magiccoat",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:swift"
+  ],
+  "preEvolution": "flabebe aspect=allay",
+  "evolutions": [],
+  "forms": [
+    {
+      "name": "Allay",
+      "aspects": [
+        "allay"
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Vex",
+      "primaryType": "flying",
+      "secondaryType": "ghost",
+      "maleRatio": 0,
+      "height": 2,
+      "weight": 9,
+      "pokedex": [
+        "cobblemon.species.alloette-vex.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "vex"
+      ],
+      "features": [
+        "mega_evolution"
+      ],
+      "abilities": [
+        "vendetta",
+        "sharpness",
+        "h:prankster"
+      ],
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "baseStats": {
+        "hp": 68,
+        "attack": 122,
+        "defence": 68,
+        "special_attack": 70,
+        "special_defence": 99,
+        "speed": 125
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+      },
+      "shoulderMountable": true,
+      "baseExperienceYield": 276,
+      "behaviour": {
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "willSleepOnBed": true,
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        },
+        "herd": {
+          "maxSize": "5",
+          "toleratedLeaders": [
+            {
+              "pokemon": "alloette vex=true",
+              "tier": 1
+            },
+            {
+              "pokemon": "noseferatu",
+              "tier": 2
+            },
+            {
+              "pokemon": "alloette mega vex=true",
+              "tier": 3
+            }
+          ]
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:iron_sword"
+          },
+          {
+            "item": "cobblemon:colbur_berry",
+            "percentage": 5.0
+          }
+        ]
+      },
+      "moves": [
+        "1:cut",
+        "1:gust",
+        "1:aerialace",
+        "1:curse",
+        "1:astonish",
+        "1:shadowsneak",
+        "1:furycutter",
+        "1:covet",
+        "1:acrobatics",
+        "1:grudge",
+        "1:spite",
+        "1:nastyplot",
+        "1:aircutter",
+        "1:tailwind",
+        "1:foulplay",
+        "8:slash",
+        "12:airslash",
+        "18:steelcutter",
+        "24:nightslash",
+        "24:psychocut",
+        "27:featherdance",
+        "33:phantomforce",
+        "37:swordsdance",
+        "48:phantomblade",
+        "56:floatyfall",
+        "egg:camouflage",
+        "egg:captivate",
+        "egg:copycat",
+        "egg:endeavor",
+        "egg:tearfullook",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:afteryou",
+        "tm:aircutter",
+        "tm:airslash",
+        "tm:alluringvoice",
+        "tm:allyswitch",
+        "tm:batonpass",
+        "tm:calmmind",
+        "tm:captivate",
+        "tm:charm",
+        "tm:confide",
+        "tm:covet",
+        "tm:cut",
+        "tm:drainingkiss",
+        "tm:echoedvoice",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:featherdance",
+        "tm:flash",
+        "tm:fly",
+        "tm:foulplay",
+        "tm:furycutter",
+        "tm:grassknot",
+        "tm:healbell",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hurricane",
+        "tm:hypervoice",
+        "tm:leafblade",
+        "tm:lightscreen",
+        "tm:magiccoat",
+        "tm:nastyplot",
+        "tm:naturepower",
+        "tm:nightslash",
+        "tm:phantomforce",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicnoise",
+        "tm:psychocut",
+        "tm:raindance",
+        "tm:rest",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:shadowclaw",
+        "tm:slash",
+        "tm:sleeptalk",
+        "tm:smartstrike",
+        "tm:spite",
+        "tm:steelcutter",
+        "tm:steelwing",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:tailwind",
+        "tm:terablast",
+        "tm:terrainblade",
+        "tm:xscissor",
+        "tutor:afteryou",
+        "tutor:allyswitch",
+        "tutor:calmmind",
+        "tutor:covet",
+        "tutor:endeavor",
+        "tutor:energyball",
+        "tutor:furycutter",
+        "tutor:healbell",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:magiccoat",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:sleeptalk",
+        "tutor:spite",
+        "tutor:swift"
+      ],
+      "evolutions": [],
+      "battleOnly": false
+    },
+    {
+      "name": "Mega",
+      "primaryType": "flying",
+      "secondaryType": "fairy",
+      "maleRatio": 0,
+      "height": 2,
+      "weight": 18,
+      "pokedex": [
+        "cobblemon.species.alloette-mega.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian",
+        "mega"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "abilities": [
+        "parentalbond",
+        "h:parentalbond"
+      ],
+      "baseStats": {
+        "hp": 78,
+        "attack": 50,
+        "defence": 98,
+        "special_attack": 162,
+        "special_defence": 129,
+        "speed": 135
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "shoulderMountable": false,
+      "baseExperienceYield": 276,
+      "dynamaxBlocked": true,
+      "moves": [
+        "1:revelationdance",
+        "1:echoedvoice",
+        "1:gust",
+        "1:sing",
+        "1:safeguard",
+        "1:fairywind",
+        "1:disarmingvoice",
+        "1:round",
+        "1:covet",
+        "1:acrobatics",
+        "1:wish",
+        "1:aircutter",
+        "1:tailwind",
+        "18:airslash",
+        "24:alluringvoice",
+        "27:featherdance",
+        "33:hypervoice",
+        "37:mistyterrain",
+        "41:moonblast",
+        "48:hurricane",
+        "egg:camouflage",
+        "egg:captivate",
+        "egg:copycat",
+        "egg:endeavor",
+        "egg:tearfullook",
+        "egg:quiverdance",
+        "egg:sparklingaria",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:afteryou",
+        "tm:aircutter",
+        "tm:airslash",
+        "tm:alluringvoice",
+        "tm:allyswitch",
+        "tm:batonpass",
+        "tm:calmmind",
+        "tm:captivate",
+        "tm:charm",
+        "tm:chillingwater",
+        "tm:confide",
+        "tm:covet",
+        "tm:dazzlinggleam",
+        "tm:disarmingvoice",
+        "tm:drainingkiss",
+        "tm:echoedvoice",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:featherdance",
+        "tm:flash",
+        "tm:fly",
+        "tm:grassknot",
+        "tm:healbell",
+        "tm:helpinghand",
+        "tm:hurricane",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:magicalleaf",
+        "tm:magiccoat",
+        "tm:mistyterrain",
+        "tm:naturepower",
+        "tm:pollenpuff",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicsnap",
+        "tm:psychicnoise",
+        "tm:raindance",
+        "tm:rest",
+        "tm:round",
+        "tm:safeguard",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:tailwind",
+        "tm:terablast",
+        "tutor:afteryou",
+        "tutor:allyswitch",
+        "tutor:calmmind",
+        "tutor:covet",
+        "tutor:dazzlinggleam",
+        "tutor:endeavor",
+        "tutor:energyball",
+        "tutor:healbell",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:magicalleaf",
+        "tutor:magiccoat",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:sleeptalk",
+        "tutor:swift"
+      ],
+      "evolutions": [],
+      "battleOnly": true
+    },
+    {
+      "name": "Mega-Vex",
+      "primaryType": "flying",
+      "secondaryType": "ghost",
+      "maleRatio": 0,
+      "height": 4,
+      "weight": 9,
+      "pokedex": [
+        "cobblemon.species.alloette-vex-mega.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian",
+        "mega"
+      ],
+      "aspects": [
+        "vex",
+        "mega"
+      ],
+      "abilities": [
+        "moxie",
+        "h:moxie"
+      ],
+      "baseStats": {
+        "hp": 68,
+        "attack": 172,
+        "defence": 58,
+        "special_attack": 80,
+        "special_defence": 119,
+        "speed": 155
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "shoulderMountable": false,
+      "baseExperienceYield": 276,
+      "dynamaxBlocked": true,
+      "moves": [
+        "1:cut",
+        "1:gust",
+        "1:aerialace",
+        "1:curse",
+        "1:astonish",
+        "1:shadowsneak",
+        "1:furycutter",
+        "1:covet",
+        "1:acrobatics",
+        "1:grudge",
+        "1:spite",
+        "1:nastyplot",
+        "1:aircutter",
+        "1:tailwind",
+        "1:foulplay",
+        "8:slash",
+        "12:airslash",
+        "18:steelcutter",
+        "24:nightslash",
+        "24:psychocut",
+        "27:featherdance",
+        "33:phantomforce",
+        "37:swordsdance",
+        "48:phantomblade",
+        "56:floatyfall",
+        "egg:camouflage",
+        "egg:captivate",
+        "egg:copycat",
+        "egg:endeavor",
+        "egg:tearfullook",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:afteryou",
+        "tm:aircutter",
+        "tm:airslash",
+        "tm:alluringvoice",
+        "tm:allyswitch",
+        "tm:batonpass",
+        "tm:calmmind",
+        "tm:captivate",
+        "tm:charm",
+        "tm:confide",
+        "tm:covet",
+        "tm:cut",
+        "tm:drainingkiss",
+        "tm:echoedvoice",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:featherdance",
+        "tm:flash",
+        "tm:fly",
+        "tm:foulplay",
+        "tm:furycutter",
+        "tm:grassknot",
+        "tm:healbell",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hurricane",
+        "tm:hypervoice",
+        "tm:leafblade",
+        "tm:lightscreen",
+        "tm:magiccoat",
+        "tm:nastyplot",
+        "tm:naturepower",
+        "tm:nightslash",
+        "tm:phantomforce",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicnoise",
+        "tm:psychocut",
+        "tm:raindance",
+        "tm:rest",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:shadowclaw",
+        "tm:slash",
+        "tm:sleeptalk",
+        "tm:smartstrike",
+        "tm:spite",
+        "tm:steelcutter",
+        "tm:steelwing",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:tailwind",
+        "tm:terablast",
+        "tm:terrainblade",
+        "tm:xscissor",
+        "tutor:afteryou",
+        "tutor:allyswitch",
+        "tutor:calmmind",
+        "tutor:covet",
+        "tutor:endeavor",
+        "tutor:energyball",
+        "tutor:furycutter",
+        "tutor:healbell",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:magiccoat",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:sleeptalk",
+        "tutor:spite",
+        "tutor:swift"
+      ],
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
+}

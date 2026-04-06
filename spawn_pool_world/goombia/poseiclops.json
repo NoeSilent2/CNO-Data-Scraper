@@ -1,0 +1,47 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "poseiclops-1",
+            "pokemon": "poseiclops",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "52-71",
+            "weight": 4.5,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_island"
+                ],
+                "neededNearbyBlocks": ["minecraft:water", "minecraft:flowing_water"]
+            }
+        },
+        {
+            "id": "poseiclops-2",
+            "pokemon": "poseiclops",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "52-71",
+            "weight": 4.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ],
+                "isRaining": true
+            }
+        }
+    ]
+}

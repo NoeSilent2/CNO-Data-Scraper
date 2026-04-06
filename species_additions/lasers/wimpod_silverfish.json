@@ -1,0 +1,430 @@
+{
+  "target": "cobblemon:wimpod",
+  "forms": [
+    {
+      "name": "Silverfish",
+      "primaryType": "bug",
+      "secondaryType": "ground",
+      "maleRatio": 0.5,
+      "height": 5,
+      "weight": 120,
+      "pokedex": [
+        "cobblemon.species.wimpod-silverfish.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "silverfish"
+      ],
+      "abilities": [
+        "wimpout",
+        "swarm",
+        "h:swarming"
+      ],
+      "eggGroups": [
+        "bug",
+        "mineral"
+      ],
+      "baseStats": {
+        "hp": 55,
+        "attack": 35,
+        "defence": 30,
+        "special_attack": 10,
+        "special_defence": 30,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "baseScale": 0.35,
+      "hitbox": {
+        "width": 0.8,
+        "height": 0.4,
+        "fixed": false
+      },
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "willSleepOnBed": true,
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "canSwimInWater": false,
+            "canBreatheUnderwater": false
+          }
+        },
+        "herd": {
+          "maxSize": "12",
+          "toleratedLeaders": [
+            {
+              "pokemon": "stonejourner sandstone=false",
+              "tier": 1
+            },
+            {
+              "pokemon": "wimpod silverfish",
+              "tier": 1
+            },
+            {
+              "pokemon": "golisopede",
+              "tier": 2
+            }
+          ]
+        }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:iron_nugget",
+            "quantityRange": "0-2"
+          },
+          {
+            "item": "cobblemon:custap_berry",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "moves": [
+        "1:strugglebug",
+        "1:irontail",
+        "1:camouflage",
+        "1:sandattack",
+        "1:shelter",
+        "1:mudsport",
+        "1:dig",
+        "1:sandshift",
+        "4:rocksmash",
+        "8:furycutter",
+        "8:metalclaw",
+        "12:mudshot",
+        "16:bugbite",
+        "20:bulldoze",
+        "22:steelcutter",
+        "24:suckerpunch",
+        "28:pitfall",
+        "32:ironhead",
+        "36:pinmissile",
+        "40:swordsdance",
+        "44:earthquake",
+        "54:defendorder",
+        "54:healorder",
+        "54:attackorder",
+        "egg:uturn",
+        "egg:harden",
+        "egg:metalclaw",
+        "egg:rollout",
+        "egg:wideguard",
+        "tm:assurance",
+        "tm:bugbite",
+        "tm:bugbuzz",
+        "tm:bulldoze",
+        "tm:dig",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:falseswipe",
+        "tm:furycutter",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:irontail",
+        "tm:knockoff",
+        "tm:leechlife",
+        "tm:metalclaw",
+        "tm:metalsound",
+        "tm:mudshot",
+        "tm:payback",
+        "tm:pinmissile",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:raindance",
+        "tm:razorshell",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:rollout",
+        "tm:screech",
+        "tm:shadowclaw",
+        "tm:skittersmack",
+        "tm:sleeptalk",
+        "tm:spikes",
+        "tm:steelcutter",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:terablast",
+        "tm:uturn",
+        "tm:xscissor",
+        "tutor:bugbite",
+        "tutor:endeavor",
+        "tutor:falseswipe",
+        "tutor:furycutter",
+        "tutor:irondefense",
+        "tutor:ironhead",
+        "tutor:knockoff",
+        "tutor:leechlife",
+        "tutor:poisonjab",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:rocksmash",
+        "tutor:rollout",
+        "tutor:skittersmack",
+        "tutor:sleeptalk",
+        "tutor:spikes",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:throatchop",
+        "tutor:xscissor"
+      ],
+      "evolutions": [
+        {
+          "id": "wimpod_golisopede",
+          "variant": "level_up",
+          "result": "golisopede silverfish",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "firstimpression"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 30
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Swarm",
+      "primaryType": "bug",
+      "secondaryType": "ground",
+      "maleRatio": 0.5,
+      "height": 5,
+      "weight": 600,
+      "pokedex": [
+        "cobblemon.species.wimpod-silverfish-swarm.desc"
+      ],
+      "labels": [
+        "laserdex",
+        "minecraftian"
+      ],
+      "aspects": [
+        "silverfish",
+        "swarming"
+      ],
+      "abilities": [
+        "wimpout",
+        "swarm",
+        "h:swarming"
+      ],
+      "eggGroups": [
+        "bug",
+        "mineral"
+      ],
+      "baseStats": {
+        "hp": 55,
+        "attack": 115,
+        "defence": 70,
+        "special_attack": 10,
+        "special_defence": 85,
+        "speed": 125
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+      },
+      "baseScale": 0.5,
+      "hitbox": {
+        "width": 3.6,
+        "height": 1.0,
+        "fixed": false
+      },
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "willSleepOnBed": true,
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "canSwimInWater": false,
+            "canBreatheUnderwater": false
+          }
+        },
+        "herd": {
+          "maxSize": "12",
+          "toleratedLeaders": [
+            {
+              "pokemon": "stonejourner sandstone=false",
+              "tier": 1
+            },
+            {
+              "pokemon": "wimpod silverfish",
+              "tier": 1
+            },
+            {
+              "pokemon": "golisopede",
+              "tier": 2
+            }
+          ]
+        }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:iron_nugget",
+            "quantityRange": "0-2"
+          },
+          {
+            "item": "cobblemon:custap_berry",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "moves": [
+        "1:strugglebug",
+        "1:irontail",
+        "1:camouflage",
+        "1:sandattack",
+        "1:shelter",
+        "1:mudsport",
+        "1:dig",
+        "1:sandshift",
+        "4:rocksmash",
+        "8:furycutter",
+        "8:metalclaw",
+        "12:mudshot",
+        "16:bugbite",
+        "20:bulldoze",
+        "22:steelcutter",
+        "24:suckerpunch",
+        "28:pitfall",
+        "32:ironhead",
+        "36:pinmissile",
+        "40:swordsdance",
+        "44:earthquake",
+        "54:defendorder",
+        "54:healorder",
+        "54:attackorder",
+        "egg:uturn",
+        "egg:harden",
+        "egg:metalclaw",
+        "egg:rollout",
+        "egg:wideguard",
+        "tm:assurance",
+        "tm:bugbite",
+        "tm:bugbuzz",
+        "tm:bulldoze",
+        "tm:dig",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:falseswipe",
+        "tm:furycutter",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:irontail",
+        "tm:knockoff",
+        "tm:leechlife",
+        "tm:metalclaw",
+        "tm:metalsound",
+        "tm:mudshot",
+        "tm:payback",
+        "tm:pinmissile",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:raindance",
+        "tm:razorshell",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:rollout",
+        "tm:screech",
+        "tm:shadowclaw",
+        "tm:skittersmack",
+        "tm:sleeptalk",
+        "tm:spikes",
+        "tm:steelcutter",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:terablast",
+        "tm:uturn",
+        "tm:xscissor",
+        "tutor:bugbite",
+        "tutor:endeavor",
+        "tutor:falseswipe",
+        "tutor:furycutter",
+        "tutor:irondefense",
+        "tutor:ironhead",
+        "tutor:knockoff",
+        "tutor:leechlife",
+        "tutor:poisonjab",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:rocksmash",
+        "tutor:rollout",
+        "tutor:skittersmack",
+        "tutor:sleeptalk",
+        "tutor:spikes",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:throatchop",
+        "tutor:xscissor"
+      ],
+      "evolutions": [
+        {
+          "id": "wimpod_golisopede",
+          "variant": "level_up",
+          "result": "golisopede silverfish",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "firstimpression"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 30
+            }
+          ]
+        }
+      ],
+      "battleOnly": true
+    }
+  ]
+}

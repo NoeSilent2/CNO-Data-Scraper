@@ -1,0 +1,484 @@
+{
+  "target": "cobblemon:leavanny",
+  "features": [
+    "mega_evolution"
+  ],
+  "forms": [
+    {
+      "name": "Clockwork",
+      "primaryType": "steel",
+      "secondaryType": "bug",
+      "maleRatio": -1,
+      "height": 12,
+      "weight": 410,
+      "pokedex": [
+        "cobblemon.species.leavanny-clockwork.desc"
+      ],
+      "labels": [
+        "laserdex"
+      ],
+      "aspects": [
+        "clockwork"
+      ],
+      "abilities": [
+        "dancer",
+        "heatproof",
+        "h:hivemind"
+      ],
+      "eggGroups": [
+        "bug"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 118,
+        "defence": 100,
+        "special_attack": 50,
+        "special_defence": 75,
+        "speed": 77
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseScale": 0.8,
+      "hitbox": {
+        "width": 0.65,
+        "height": 2.4,
+        "fixed": false
+      },
+      "behaviour": {
+        "herd": {
+          "maxSize": "6"
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "drops": {
+        "amount": 6,
+        "entries": [
+          {
+            "item": "minecraft:string",
+            "quantityRange": "0-3"
+          },
+          {
+            "item": "minecraft:copper_ingot",
+            "quantityRange": "0-2"
+          },
+          {
+            "item": "cobblemon:destiny_knot",
+            "percentage": 10.0
+          },
+          {
+            "item": "cobblemon:razor_claw",
+            "percentage": 10.0
+          },
+          {
+            "item": "cobblemon:occa_berry",
+            "percentage": 10.0
+          }
+        ]
+      },
+      "moves": [
+        "1:quiverdance",
+        "1:falseswipe",
+        "1:tackle",
+        "1:quickattack",
+        "1:stringshot",
+        "1:furycutter",
+        "1:metalclaw",
+        "1:metalsound",
+        "1:slash",
+        "1:flail",
+        "1:protect",
+        "1:endure",
+        "1:autotomize",
+        "1:armorpress",
+        "1:nightslash",
+        "22:strugglebug",
+        "29:fellstinger",
+        "32:silktrap",
+        "36:steelcutter",
+        "39:xscissor",
+        "42:entrainment",
+        "45:crosschop",
+        "46:swordsdance",
+        "50:shiftgear",
+        "50:geargrind",
+        "egg:camouflage",
+        "egg:mefirst",
+        "egg:mindreader",
+        "egg:razorwind",
+        "egg:screech",
+        "egg:switcheroo",
+        "egg:firstimpression",
+        "tm:aerialace",
+        "tm:acrobatics",
+        "tm:agility",
+        "tm:airslash",
+        "tm:armorpress",
+        "tm:batonpass",
+        "tm:bodypress",
+        "tm:bugbite",
+        "tm:bugbuzz",
+        "tm:bulletbarrage",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:cut",
+        "tm:dreameater",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:falseswipe",
+        "tm:flash",
+        "tm:flashcannon",
+        "tm:furycutter",
+        "tm:gigaimpact",
+        "tm:healbell",
+        "tm:helpinghand",
+        "tm:honeclaws",
+        "tm:hyperbeam",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:laserfocus",
+        "tm:leafblade",
+        "tm:lightscreen",
+        "tm:lowkick",
+        "tm:lunge",
+        "tm:magiccoat",
+        "tm:metalsound",
+        "tm:naturepower",
+        "tm:nightslash",
+        "tm:payback",
+        "tm:poisonjab",
+        "tm:pounce",
+        "tm:protect",
+        "tm:psychocut",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:retaliate",
+        "tm:safeguard",
+        "tm:screech",
+        "tm:shadowclaw",
+        "tm:signalbeam",
+        "tm:skittersmack",
+        "tm:sleeptalk",
+        "tm:smartstrike",
+        "tm:steelbeam",
+        "tm:steelcutter",
+        "tm:steelwing",
+        "tm:stringshot",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swordsdance",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:terrainblade",
+        "tm:throatchop",
+        "tm:trailblaze",
+        "tm:tripleaxel",
+        "tm:uturn",
+        "tm:vacuumwave",
+        "tm:xscissor",
+        "tutor:bugbite",
+        "tutor:electroweb",
+        "tutor:energyball",
+        "tutor:falseswipe",
+        "tutor:furycutter",
+        "tutor:gigaimpact",
+        "tutor:healbell",
+        "tutor:helpinghand",
+        "tutor:hyperbeam",
+        "tutor:irondefense",
+        "tutor:knockoff",
+        "tutor:laserfocus",
+        "tutor:lowkick",
+        "tutor:magiccoat",
+        "tutor:poisonjab",
+        "tutor:rest",
+        "tutor:shadowclaw",
+        "tutor:signalbeam",
+        "tutor:skittersmack",
+        "tutor:sleeptalk",
+        "tutor:steelbeam",
+        "tutor:stringshot",
+        "tutor:throatchop",
+        "tutor:tripleaxel",
+        "tutor:vacuumwave",
+        "tutor:xscissor",
+        "legacy:attract",
+        "legacy:confide",
+        "legacy:doubleteam",
+        "legacy:frustration",
+        "legacy:hiddenpower",
+        "legacy:return",
+        "legacy:round",
+        "legacy:secretpower",
+        "legacy:swagger",
+        "legacy:toxic"
+      ],
+      "preEvolution": "swadloon clockwork",
+      "evolutions": [],
+      "battleOnly": false
+    },
+    {
+      "name": "Mega-Clockwork",
+      "primaryType": "steel",
+      "secondaryType": "bug",
+      "maleRatio": -1,
+      "height": 14,
+      "weight": 610,
+      "pokedex": [
+        "cobblemon.species.leavanny-mega-clockwork.desc"
+      ],
+      "labels": [
+        "laserdex"
+      ],
+      "aspects": [
+        "mega",
+        "clockwork"
+      ],
+      "abilities": [
+        "queenlymajesty",
+        "h:queenlymajesty"
+      ],
+      "eggGroups": [
+        "bug"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 168,
+        "defence": 120,
+        "special_attack": 50,
+        "special_defence": 95,
+        "speed": 87
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseScale": 0.9,
+      "hitbox": {
+        "width": 0.85,
+        "height": 2.8,
+        "fixed": false
+      },
+      "behaviour": {
+        "herd": {
+          "maxSize": "6"
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          },
+          "fly": {
+            "canFly": true
+          }
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "drops": {
+        "amount": 6,
+        "entries": [
+          {
+            "item": "minecraft:string",
+            "quantityRange": "0-3"
+          },
+          {
+            "item": "minecraft:copper_ingot",
+            "quantityRange": "0-2"
+          },
+          {
+            "item": "cobblemon:destiny_knot",
+            "percentage": 10.0
+          },
+          {
+            "item": "cobblemon:razor_claw",
+            "percentage": 10.0
+          },
+          {
+            "item": "cobblemon:occa_berry",
+            "percentage": 10.0
+          }
+        ]
+      },
+      "moves": [
+        "1:quiverdance",
+        "1:falseswipe",
+        "1:tackle",
+        "1:quickattack",
+        "1:stringshot",
+        "1:furycutter",
+        "1:metalclaw",
+        "1:metalsound",
+        "1:slash",
+        "1:flail",
+        "1:protect",
+        "1:endure",
+        "1:autotomize",
+        "1:armorpress",
+        "1:nightslash",
+        "22:strugglebug",
+        "29:fellstinger",
+        "32:silktrap",
+        "36:steelcutter",
+        "39:xscissor",
+        "42:entrainment",
+        "45:crosschop",
+        "46:swordsdance",
+        "50:shiftgear",
+        "50:geargrind",
+        "egg:camouflage",
+        "egg:mefirst",
+        "egg:mindreader",
+        "egg:razorwind",
+        "egg:screech",
+        "egg:switcheroo",
+        "egg:firstimpression",
+        "tm:aerialace",
+        "tm:acrobatics",
+        "tm:agility",
+        "tm:airslash",
+        "tm:armorpress",
+        "tm:batonpass",
+        "tm:bodypress",
+        "tm:bugbite",
+        "tm:bugbuzz",
+        "tm:bulletbarrage",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:cut",
+        "tm:dreameater",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:falseswipe",
+        "tm:flash",
+        "tm:flashcannon",
+        "tm:furycutter",
+        "tm:gigaimpact",
+        "tm:healbell",
+        "tm:helpinghand",
+        "tm:honeclaws",
+        "tm:hyperbeam",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:laserfocus",
+        "tm:leafblade",
+        "tm:lightscreen",
+        "tm:lowkick",
+        "tm:lunge",
+        "tm:magiccoat",
+        "tm:metalsound",
+        "tm:naturepower",
+        "tm:nightslash",
+        "tm:payback",
+        "tm:poisonjab",
+        "tm:pounce",
+        "tm:protect",
+        "tm:psychocut",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:retaliate",
+        "tm:safeguard",
+        "tm:screech",
+        "tm:shadowclaw",
+        "tm:signalbeam",
+        "tm:skittersmack",
+        "tm:sleeptalk",
+        "tm:smartstrike",
+        "tm:steelbeam",
+        "tm:steelcutter",
+        "tm:steelwing",
+        "tm:stringshot",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swordsdance",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:terrainblade",
+        "tm:throatchop",
+        "tm:trailblaze",
+        "tm:tripleaxel",
+        "tm:uturn",
+        "tm:vacuumwave",
+        "tm:xscissor",
+        "tutor:bugbite",
+        "tutor:electroweb",
+        "tutor:energyball",
+        "tutor:falseswipe",
+        "tutor:furycutter",
+        "tutor:gigaimpact",
+        "tutor:healbell",
+        "tutor:helpinghand",
+        "tutor:hyperbeam",
+        "tutor:irondefense",
+        "tutor:knockoff",
+        "tutor:laserfocus",
+        "tutor:lowkick",
+        "tutor:magiccoat",
+        "tutor:poisonjab",
+        "tutor:rest",
+        "tutor:shadowclaw",
+        "tutor:signalbeam",
+        "tutor:skittersmack",
+        "tutor:sleeptalk",
+        "tutor:steelbeam",
+        "tutor:stringshot",
+        "tutor:throatchop",
+        "tutor:tripleaxel",
+        "tutor:vacuumwave",
+        "tutor:xscissor",
+        "legacy:attract",
+        "legacy:confide",
+        "legacy:doubleteam",
+        "legacy:frustration",
+        "legacy:hiddenpower",
+        "legacy:return",
+        "legacy:round",
+        "legacy:secretpower",
+        "legacy:swagger",
+        "legacy:toxic"
+      ],
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
+}

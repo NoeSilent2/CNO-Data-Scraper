@@ -1,0 +1,199 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "wizledger-1",
+            "pokemon": "wizledger spell_forme=fire",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 0.25,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:bookshelf"
+                ]
+            }
+        },
+        {
+            "id": "wizledger-2",
+            "pokemon": "wizledger spell_forme=fire",
+            "presets": [
+                "stronghold"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 0.8,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:bookshelf"
+                ]
+            }
+        },
+        {
+            "id": "wizledger-3",
+            "pokemon": "wizledger spell_forme=fire",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 0.8,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:bookshelf"
+                ]
+            }
+        },
+        {
+            "id": "wizledger-4",
+            "pokemon": "wizledger spell_forme=ice",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 0.25,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:bookshelf"
+                ]
+            }
+        },
+        {
+            "id": "wizledger-5",
+            "pokemon": "wizledger spell_forme=ice",
+            "presets": [
+                "stronghold"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 0.8,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:bookshelf"
+                ]
+            }
+        },
+        {
+            "id": "wizledger-6",
+            "pokemon": "wizledger spell_forme=ice",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 0.8,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:bookshelf"
+                ]
+            }
+        },
+        {
+            "id": "wizledger-7",
+            "pokemon": "wizledger spell_forme=lightning",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 0.25,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:bookshelf"
+                ]
+            }
+        },
+        {
+            "id": "wizledger-8",
+            "pokemon": "wizledger spell_forme=lightning",
+            "presets": [
+                "stronghold"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 0.8,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:bookshelf"
+                ]
+            }
+        },
+        {
+            "id": "wizledger-9",
+            "pokemon": "wizledger spell_forme=lightning",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 0.8,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:bookshelf"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "yakru-1",
+      "pokemon": "yakru",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-32",
+      "weight": 0.2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_tropical_island"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:water"
+        ]
+      }
+    },
+    {
+      "id": "yakru-2",
+      "pokemon": "yakru",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "18-32",
+      "weight": 0.15,
+      "condition": {
+        "biomes": [
+          "minecraft:river",
+          "#cobblemon:is_river"
+        ],
+        "timeRange": "day"
+      }
+    }
+  ]
+}

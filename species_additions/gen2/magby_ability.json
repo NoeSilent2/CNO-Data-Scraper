@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:magby",
+  "abilities": [
+    "flamebody",
+    "vitalspirit",
+    "h:magmaarmor"
+  ]
+}

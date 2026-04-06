@@ -1,0 +1,57 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "solafae-1",
+      "pokemon": "solafae",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-50",
+      "weight": 0.05,
+      "condition": {
+        "biomes": [
+          "minecraft:flower_forest",
+          "minecraft:cherry_grove"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "solafae-2",
+      "pokemon": "solafae",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "40-55",
+      "weight": 0.03,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "moonPhase": "0"
+      }
+    },
+    {
+      "id": "solafae-3",
+      "pokemon": "solafae",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "38-50",
+      "weight": 0.02,
+      "condition": {
+        "biomes": [
+          "minecraft:meadow",
+          "#cobblemon:is_floral"
+        ],
+        "timeRange": "day",
+        "neededNearbyBlocks": [
+          "#minecraft:flowers"
+        ]
+      }
+    }
+  ]
+}

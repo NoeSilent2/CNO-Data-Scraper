@@ -1,0 +1,7 @@
+{
+  "target": "cobblemon:typenull",
+  "abilities": [
+    "battlearmor",
+    "h:adaptability"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "implemented": true,
+  "name": "anemini",
+  "nationalPokedexNumber": 1061,
+  "primaryType": "poison",
+  "secondaryType": "electric",
+  "abilities": [
+    "electricsurge",
+    "poisontouch",
+    "h:owntempo"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 40,
+    "defence": 35,
+    "special_attack": 55,
+    "special_defence": 55,
+    "speed": 45
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": [
+    "water_3",
+    "monster"
+  ],
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "wanderChance": 1
+    }
+  },
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:sea_pickle",
+        "percentage": 80
+      },
+      {
+        "item": "cobblemon:shuca_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:tickle",
+    "1:poisonsting",
+    "5:bubble",
+    "10:thundershock",
+    "15:nuzzle",
+    "18:spark",
+    "24:gastroacid",
+    "30:poisonjab",
+    "35:waterpulse",
+    "40:crosspoison",
+    "40:wildcharge",
+    "42:toxic",
+    "45:yawn",
+    "50:recover",
+    "tm:protect",
+    "tm:acidspray",
+    "tm:chargebeam",
+    "tm:facade",
+    "tm:venoshock",
+    "tm:endure",
+    "tm:voltswitch",
+    "tm:raindance",
+    "tm:sleeptalk",
+    "tm:thunderwave",
+    "tm:poisonjab",
+    "tm:rest",
+    "tm:toxicspikes",
+    "tm:substitute",
+    "tm:thunderbolt",
+    "tm:electricterrain",
+    "tm:wildcharge",
+    "tm:sludgebomb",
+    "tutor:curse"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.anemini.desc1",
+    "cobblemon.species.anemini.desc2"
+  ],
+  "evolutions": [
+    {
+      "id": "anemini_nurumone_lvl",
+      "variant": "level_up",
+      "result": "nurumone",
+      "consumeHeldItem": false,
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 26
+        }
+      ]
+    }
+  ],
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.8,
+    "height": 0.5,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "special_defence": 1
+  },
+  "height": 4,
+  "weight": 0.5
+}

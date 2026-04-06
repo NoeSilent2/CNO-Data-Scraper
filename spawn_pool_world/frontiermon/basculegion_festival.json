@@ -1,0 +1,41 @@
+{
+	"enabled": true,
+	"neededInstalledMods": [],
+	"neededUninstalledMods": [],
+	"spawns": [
+		{
+			"id": "basculegion-festival-1",
+			"pokemon": "basculegion festival",
+			"presets": [
+				"water"
+			],
+			"type": "pokemon",
+			"spawnablePositionType": "submerged",
+			"bucket": "uncommon",
+			"level": "41-53",
+			"weight": 0.8,
+			"condition": {
+				"minSkyLight": 8,
+				"maxSkyLight": 15,
+				"biomes": [
+					"minecraft:cherry_grove"
+				]
+			}
+		},
+		{
+			"id": "basculegion-festival-2",
+			"pokemon": "basculegion festival",
+			"type": "pokemon",
+			"spawnablePositionType": "fishing",
+			"bucket": "uncommon",
+			"level": "41-53",
+			"weight": 4.0,
+			"condition": {
+				"canSeeSky": true,
+				"biomes": [
+					"minecraft:cherry_grove"
+				]
+			}
+		}
+	]
+}

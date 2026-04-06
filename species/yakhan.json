@@ -1,0 +1,158 @@
+{
+  "implemented": true,
+  "name": "yakhan",
+  "nationalPokedexNumber": 1034,
+  "primaryType": "water",
+  "secondaryType": "fighting",
+  "abilities": [
+    "torrent",
+    "h:ironfist"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 120,
+    "defence": 95,
+    "special_attack": 70,
+    "special_defence": 85,
+    "speed": 85
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "swimSpeed": 0.7,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-4"
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:prismarine_crystals",
+        "quantityRange": "1-3",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "quantityRange": "1-2",
+        "percentage": 35
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:growl",
+    "1:watergun",
+    "1:focusenergy",
+    "1:quickattack",
+    "1:waterpulse",
+    "1:machpunch",
+    "1:detect",
+    "4:rocksmash",
+    "8:aquajet",
+    "12:poweruppunch",
+    "16:bulkup",
+    "20:liquidation",
+    "24:drainpunch",
+    "28:brickbreak",
+    "32:icepunch",
+    "36:thunderpunch",
+    "40:closecombat",
+    "44:hydropump",
+    "48:hammerarm",
+    "52:wavecrash",
+    "56:dynamicpunch",
+    "60:focuspunch",
+    "egg:mist",
+    "egg:helpinghand",
+    "egg:aquaring",
+    "egg:counter",
+    "egg:bulletpunch",
+    "tm:waterfall",
+    "tm:surf",
+    "tm:scald",
+    "tm:liquidation",
+    "tm:hydropump",
+    "tm:wavecrash",
+    "tm:icepunch",
+    "tm:thunderpunch",
+    "tm:firepunch",
+    "tm:drainpunch",
+    "tm:machpunch",
+    "tm:bulletpunch",
+    "tm:poweruppunch",
+    "tm:hammerarm",
+    "tm:focuspunch",
+    "tm:protect",
+    "tm:bulkup",
+    "tm:brickbreak",
+    "tm:closecombat",
+    "tm:superpower",
+    "tm:lowsweep",
+    "tm:reversal",
+    "tm:coaching",
+    "tm:earthquake",
+    "tm:stoneedge",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:poisonjab",
+    "tm:zenheadbutt",
+    "tm:knockoff",
+    "tm:raindance",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure",
+    "tm:facade",
+    "tm:gigaimpact",
+    "tm:hyperbeam"
+  ],
+  "labels": [
+    "starter",
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.yakhan.desc1"
+  ],
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 1.1,
+    "height": 3.1,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 850,
+  "evolutions": []
+}

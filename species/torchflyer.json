@@ -1,0 +1,236 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1119,
+  "name": "torchflyer",
+  "primaryType": "grass",
+  "secondaryType": "fire",
+  "maleRatio": 0.5,
+  "height": 2,
+  "weight": 5,
+  "pokedex": [
+    "cobblemon.species.torchflyer.desc"
+  ],
+  "labels": [
+    "laserdex",
+    "minecraftian",
+    "fossil"
+  ],
+  "aspects": [],
+  "abilities": [
+    "harvest",
+    "flowerveil",
+    "h:dragonsmaw"
+  ],
+  "eggGroups": [
+    "grass",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 60,
+    "defence": 60,
+    "special_attack": 120,
+    "special_defence": 90,
+    "speed": 100
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "4",
+      "toleratedLeaders": [
+        {
+          "pokemon": "pitchertun",
+          "tier": 1
+        },
+        {
+          "pokemon": "torchflyer",
+          "tier": 2
+        }
+      ]
+    },
+    "resting": {
+      "willSleepOnBed": true,
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      },
+      "walk": {
+        "canWalk": false
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "baseExperienceYield": 270,
+  "experienceGroup": "erratic",
+  "catchRate": 10,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 1.3,
+    "height": 1.2,
+    "fixed": false
+  },
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:torchflower_seeds",
+        "quantityRange": "2-4"
+      },
+      {
+        "item": "cobblemon:coba_berry",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:grassy_seed",
+        "percentage": 10.0
+      }
+    ]
+  },
+  "moves": [
+    "1:torchsong",
+    "1:sunnyday",
+    "1:fly",
+    "1:dragonbreath",
+    "1:twister",
+    "1:absorb",
+    "1:sweetscent",
+    "1:recycle",
+    "1:withdraw",
+    "1:astonish",
+    "1:leechseed",
+    "1:worryseed",
+    "1:infestation",
+    "4:ember",
+    "8:growth",
+    "10:firespin",
+    "12:megadrain",
+    "14:incinerate",
+    "16:mudbomb",
+    "20:gigadrain",
+    "24:naturepower",
+    "28:rototiller",
+    "32:scorchingsands",
+    "34:flameburst",
+    "36:recover",
+    "38:dragonpulse",
+    "40:energyball",
+    "44:flamethrower",
+    "50:dragoncheer",
+    "egg:defensecurl",
+    "egg:recycle",
+    "egg:rollout",
+    "egg:suckerpunch",
+    "egg:appleacid",
+    "egg:gravapple",
+    "egg:ingrain",
+    "tm:acidspray",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:airslash",
+    "tm:bodyslam",
+    "tm:bugbite",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:dig",
+    "tm:dragonbreath",
+    "tm:dragoncheer",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:earthpower",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:fly",
+    "tm:focusenergy",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:gyroball",
+    "tm:heatwave",
+    "tm:hyperbeam",
+    "tm:incinerate",
+    "tm:infestation",
+    "tm:leafstorm",
+    "tm:leechseed",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:mysticalfire",
+    "tm:naturepower",
+    "tm:overheat",
+    "tm:outrage",
+    "tm:pollenpuff",
+    "tm:pounce",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rollout",
+    "tm:scorchingsands",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:twister",
+    "tm:uturn",
+    "tm:willowisp",
+    "tutor:aerialace",
+    "tutor:bugbite",
+    "tutor:dragonpulse",
+    "tutor:dualwingbeat",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:focusenergy",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassyglide",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:outrage",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:suckerpunch",
+    "tutor:worryseed",
+    "tutor:twister"
+  ],
+  "preEvolution": "torchlin",
+  "evolutions": []
+}

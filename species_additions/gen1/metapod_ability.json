@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:metapod",
+  "abilities": [
+    "shedskin",
+    "unaware",
+    "h:anticipation"
+  ]
+}

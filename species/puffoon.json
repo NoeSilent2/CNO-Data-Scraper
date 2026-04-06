@@ -1,0 +1,190 @@
+{
+  "implemented": true,
+  "name": "puffoon",
+  "nationalPokedexNumber": 1050,
+  "primaryType": "water",
+  "secondaryType": "flying",
+  "abilities": [
+    "aftermath",
+    "unburden",
+    "h:hydration"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 45,
+    "defence": 95,
+    "special_attack": 75,
+    "special_defence": 95,
+    "speed": 75
+  },
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 200,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "water_2"
+  ],
+  "riding": {
+    "behaviours": {
+      "AIR": {
+        "key": "cobblemon:air/hover",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "20-35",
+          "JUMP": "20-60",
+          "SKILL": "10-30",
+          "SPEED": "5-15",
+          "STAMINA": "30-80"
+        }
+      },
+      "LIQUID": {
+        "key": "cobblemon:liquid/boat",
+        "surfaceLevelOffset": 1,
+        "stats": {
+          "ACCELERATION": "20-80",
+          "JUMP": "20-30",
+          "SKILL": "10-25",
+          "SPEED": "5-30",
+          "STAMINA": "30-80"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true,
+        "canWalkOnWater": true
+      },
+      "fly": {
+        "canFly": true
+      },
+      "walk": {
+        "canWalk": false
+      }
+    }
+  },
+  "drops": {
+    "amount": "3",
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-3"
+      },
+      {
+        "item": "minecraft:pufferfish",
+        "quantityRange": "1",
+        "percentage": 65
+      },
+      {
+        "item": "cobblemon:wacan_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:watergun",
+    "1:protect",
+    "4:poisonsting",
+    "7:acidarmor",
+    "10:poisontail",
+    "13:bubblebeam",
+    "15:watersport",
+    "18:meanlook",
+    "21:headbutt",
+    "22:aguagatcha",
+    "24:waterpulse",
+    "29:fly",
+    "30:stockpile",
+    "30:swallow",
+    "30:spitup",
+    "34:airslash",
+    "38:weatherball",
+    "40:selfdestruct",
+    "43:tailwind",
+    "47:surf",
+    "51:defog",
+    "56:hurricane",
+    "60:roost",
+    "63:explosion",
+    "66:hydropump",
+    "tm:takedown",
+    "tm:agility",
+    "tm:mudslap",
+    "tm:scaryface",
+    "tm:protect",
+    "tm:waterpulse",
+    "tm:acidspray",
+    "tm:acrobatics",
+    "tm:facade",
+    "tm:poisontail",
+    "tm:aerialace",
+    "tm:swift",
+    "tm:icywind",
+    "tm:mudshot",
+    "tm:drainingkiss",
+    "tm:aircutter",
+    "tm:endure",
+    "tm:raindance",
+    "tm:zenheadbutt",
+    "tm:airslash",
+    "tm:sleeptalk",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:waterfall",
+    "tm:poisonjab",
+    "tm:rest",
+    "tm:taunt",
+    "tm:fly",
+    "tm:ironhead",
+    "tm:substitute",
+    "tm:crunch",
+    "tm:liquidation",
+    "tm:tailwind",
+    "tm:surf",
+    "tm:amnesia",
+    "tm:hydropump",
+    "tm:hydrocannon",
+    "tm:hurricane",
+    "tm:bravebird",
+    "tutor:toxic",
+    "tutor:venoshock",
+    "tutor:gastroacid"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.puffoon.desc1",
+    "cobblemon.species.puffoon.desc2"
+  ],
+  "preEvolution": [
+    "fubber"
+  ],
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 1.4,
+    "height": 1.4,
+    "fixed": false
+  },
+  "baseFriendship": 80,
+  "evYield": {
+    "defence": 1,
+    "special_defence": 1
+  },
+  "height": 11,
+  "weight": 132
+}

@@ -1,0 +1,147 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1085,
+  "name": "kazoom",
+  "primaryType": "steel",
+  "secondaryType": "water",
+  "maleRatio": 0.5,
+  "height": 12,
+  "weight": 300,
+  "pokedex": [
+    "cobblemon.species.kazoom.desc"
+  ],
+  "labels": [
+    "frontiermon"
+  ],
+  "aspects": [],
+  "abilities": [
+    "overcoat",
+    "frigidfrenzy",
+    "h:waterabsorb"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 60,
+    "defence": 58,
+    "special_attack": 30,
+    "special_defence": 62,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 0.75,
+    "height": 1,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "light": "0-4"
+    },
+    "moving": {
+      "swim": {
+        "swimSpeed": 0.17,
+        "avoidsWater": false,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:iron_nugget",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:shuca_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:spark",
+    "1:watergun",
+    "4:soak",
+    "7:aquajet",
+    "10:withdraw",
+    "13:lock-on",
+    "17:autotomize",
+    "21:magnetbomb",
+    "25:scald",
+    "28:ironhead",
+    "32:scald",
+    "36:wavecrash",
+    "41:wildcharge",
+    "46:spinout",
+    "50:steelroller",
+    "tm:icespinner",
+    "tm:flamewheel",
+    "tm:flareblitz",
+    "tm:bounce",
+    "tm:protect",
+    "tm:terablast",
+    "tm:iceball",
+    "tm:flipturn",
+    "tm:waterfall",
+    "tm:rockclimb",
+    "tm:rollout",
+    "tm:whirlwind",
+    "tm:slam",
+    "tm:bodyslam",
+    "tm:extremespeed",
+    "tm:substitute",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:sleeptalk",
+    "tm:rest",
+    "tm:gyroball",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:sandstorm",
+    "tm:electricterrain",
+    "tm:electrify",
+    "tm:wideguard",
+    "tm:steamroller",
+    "tm:takedown",
+    "tm:doubleedge"
+  ],
+  "evolutions": [
+    {
+      "id": "kazoom_amphizoom",
+      "variant": "level_up",
+      "result": "amphizoom",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "shiftgear"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+	"enabled": true,
+	"neededInstalledMods": [],
+	"neededUninstalledMods": [],
+	"spawns": [
+		{
+			"id": "basculin-festival-1",
+			"pokemon": "basculin festival",
+			"presets": [
+				"water"
+			],
+			"type": "pokemon",
+			"spawnablePositionType": "submerged",
+			"bucket": "uncommon",
+			"level": "21-46",
+			"weight": 20.0,
+			"condition": {
+				"minSkyLight": 8,
+				"maxSkyLight": 15,
+				"biomes": [
+					"minecraft:cherry_grove"
+				]
+			}
+		},
+		{
+			"id": "basculin-festival-2",
+			"pokemon": "basculin festival",
+			"type": "pokemon",
+			"spawnablePositionType": "fishing",
+			"bucket": "uncommon",
+			"level": "21-46",
+			"weight": 40.0,
+			"condition": {
+				"canSeeSky": true,
+				"biomes": [
+					"minecraft:cherry_grove"
+				]
+			}
+		}
+	]
+}

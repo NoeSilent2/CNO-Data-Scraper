@@ -1,0 +1,282 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1107,
+  "name": "clawviathan",
+  "primaryType": "water",
+  "secondaryType": "dragon",
+  "maleRatio": 0.5,
+  "height": 16,
+  "weight": 455,
+  "pokedex": [
+    "cobblemon.species.clawviathan.desc"
+  ],
+  "labels": [
+    "gen6",
+    "laserdex"
+  ],
+  "aspects": [],
+  "abilities": [
+    "fury",
+    "h:megalauncher"
+  ],
+  "eggGroups": [
+    "water_1",
+    "water_3"
+  ],
+  "baseStats": {
+    "hp": 91,
+    "attack": 98,
+    "defence": 83,
+    "special_attack": 124,
+    "special_defence": 84,
+    "speed": 85
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 150,
+  "experienceGroup": "slow",
+  "catchRate": 35,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 1.6,
+    "height": 1.8,
+    "fixed": false
+  },
+  "riding": {
+    "behaviours": {
+      "LIQUID": {
+        "key": "cobblemon:liquid/submarine",
+        "hitboxBreachPercentage": 0.9,
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "55-80",
+          "JUMP": "15-35",
+          "SKILL": "35-65",
+          "SPEED": "50-70",
+          "STAMINA": "30-45"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.1382103,
+              "z": 0.31190932
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.2665093,
+              "z": 0.35917875
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.2607776,
+              "z": 0.1809411
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.2607776,
+              "z": 0.1809411
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.14216961,
+              "y": -1.2242103,
+              "z": 0.27955168
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.2665093,
+              "z": 0.35917875
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.2607776,
+              "z": 0.1809411
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.35,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.5,
+        "canBreatheUnderwater": true
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "resting": {
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    }
+  },
+  "moves": [
+    "1:dualchop",
+    "1:healpulse",
+    "1:darkpulse",
+    "1:dragonpulse",
+    "1:splash",
+    "1:watergun",
+    "1:watersport",
+    "1:visegrip",
+    "1:bubble",
+    "1:flail",
+    "1:bubblebeam",
+    "1:aquajet",
+    "1:smackdown",
+    "1:honeclaws",
+    "1:waterpulse",
+    "1:swordsdance",
+    "1:aurasphere",
+    "1:bounce",
+    "1:muddywater",
+    "1:crabhammer",
+    "10:octazooka",
+    "20:breakingswipe",
+    "32:terrainpulse",
+    "38:hydropump",
+    "46:dragonclaw",
+    "70:originpulse",
+    "egg:aquatail",
+    "egg:bubblebeam",
+    "egg:entrainment",
+    "tm:aquatail",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:chillingwater",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:dive",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:dracometeor",
+    "tm:endure",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:liquidation",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:outrage",
+    "tm:pounce",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:smackdown",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:terrainpulse",
+    "tm:thief",
+    "tm:uturn",
+    "tm:venoshock",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tutor:aquatail",
+    "tutor:bounce",
+    "tutor:darkpulse",
+    "tutor:dive",
+    "tutor:dragonpulse",
+    "tutor:flashcannon",
+    "tutor:flipturn",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:liquidation",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:terrainpulse",
+    "tutor:waterpulse"
+  ],
+  "preEvolution": "clawitzer",
+  "evolutions": []
+}

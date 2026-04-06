@@ -1,0 +1,266 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1090,
+  "name": "velvettia",
+  "primaryType": "rock",
+  "secondaryType": "fire",
+  "maleRatio": -1,
+  "height": 7,
+  "weight": 68,
+  "pokedex": [
+    "cobblemon.species.velvettia.desc"
+  ],
+  "labels": [
+    "laserdex",
+    "minecraftian"
+  ],
+  "aspects": [
+    "quartz"
+  ],
+  "abilities": [
+    "clearbody",
+    "sturdy",
+    "h:sharpness"
+  ],
+  "eggGroups": [
+    "fairy",
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 150,
+    "defence": 42,
+    "special_attack": 68,
+    "special_defence": 60,
+    "speed": 150
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "baseExperienceYield": 200,
+  "experienceGroup": "slow",
+  "catchRate": 30,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1,
+    "height": 2.15,
+    "fixed": false
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "4",
+      "toleratedLeaders": [
+        {
+          "pokemon": "beryllius",
+          "tier": 1
+        },
+        {
+          "pokemon": "clarissie",
+          "tier": 1
+        },
+        {
+          "pokemon": "velvettia",
+          "tier": 1
+        },
+        {
+          "pokemon": "diancie mega=false",
+          "tier": 2
+        },
+        {
+          "pokemon": "diancie mega",
+          "tier": 3
+        }
+      ]
+    },
+    "resting": {
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": true
+      },
+      "fly": {
+        "canFly": true
+      },
+      "walk": {
+        "canWalk": false
+      }
+    },
+    "combat": {
+      "willDefendOwner": true
+    },
+    "fireImmune": true
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:quartz",
+        "quantityRange": "1-4"
+      },
+      {
+        "item": "cobblemon:passho_berry",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:heat_rock",
+        "percentage": 10.0
+      }
+    ]
+  },
+  "moves": [
+    "1:drillrun",
+    "1:nightslash",
+    "1:smartstrike",
+    "1:slash",
+    "1:tackle",
+    "1:ember",
+    "1:harden",
+    "1:rockthrow",
+    "1:sharpen",
+    "1:willowisp",
+    "1:powersplit",
+    "1:smackdown",
+    "1:flamecharge",
+    "1:ancientpower",
+    "1:rockpolish",
+    "1:swordsdance",
+    "1:rockslide",
+    "1:flamethrower",
+    "1:powergem",
+    "1:guardpress",
+    "1:stealthrock",
+    "1:spikes",
+    "50:lashout",
+    "55:crystalspear",
+    "60:temperflare",
+    "tm:aerialace",
+    "tm:afteryou",
+    "tm:allyswitch",
+    "tm:ancientpower",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:covet",
+    "tm:cut",
+    "tm:dazzlinggleam",
+    "tm:drillrun",
+    "tm:earthpower",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:furycutter",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:gravity",
+    "tm:guardpress",
+    "tm:guardswap",
+    "tm:gyroball",
+    "tm:heatwave",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:magnetrise",
+    "tm:meteorbeam",
+    "tm:naturepower",
+    "tm:poisonjab",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychocut",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:smartstrike",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:telekinesis",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:terrainpulse",
+    "tm:trickroom",
+    "tm:wonderroom",
+    "tutor:afteryou",
+    "tutor:allyswitch",
+    "tutor:ancientpower",
+    "tutor:burningjealousy",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:drillrun",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:flashcannon",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:magiccoat",
+    "tutor:magnetrise",
+    "tutor:meteorbeam",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:telekinesis",
+    "tutor:terrainpulse",
+    "tutor:trick",
+    "tutor:wonderroom"
+  ],
+  "preEvolution": "carbink quartz",
+  "evolutions": [],
+  "forms": [
+    {
+      "name": "Quartz-Crystal",
+      "aspects": [
+        "quartz"
+      ],
+      "battleOnly": false
+    }
+  ]
+}

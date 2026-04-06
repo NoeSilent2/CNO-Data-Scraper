@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:castform",
+  "forms": [
+    {
+      "name": "Sandy",
+      "primaryType": "rock",
+      "maleRatio": 0.5,
+      "height": 3,
+      "weight": 8,
+      "pokedex": [
+        "cobblemon.species.castform-sandy.desc"
+      ],
+      "labels": [
+        "gen4"
+      ],
+      "aspects": [
+        "sandy-form"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:smooth_rock",
+            "percentage": 5.0
+          }
+        ]
+      },
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
+}

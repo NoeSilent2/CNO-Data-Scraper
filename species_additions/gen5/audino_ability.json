@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:audino",
+  "abilities": [
+    "healer",
+    "regenerator",
+    "h:immunity"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "implemented": true,
+  "name": "protobi",
+  "nationalPokedexNumber": 1068,
+  "primaryType": "rock",
+  "secondaryType": "fighting",
+  "abilities": [
+    "toughclaws",
+    "sturdy",
+    "h:sandstream"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 70,
+    "defence": 50,
+    "special_attack": 50,
+    "special_defence": 55,
+    "speed": 100
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 30,
+  "eggGroups": [
+    "monster",
+    "flying"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1",
+        "percentage": 60
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "3:quickguard",
+    "6:bide",
+    "8:sandattack",
+    "10:rockthrow",
+    "12:armthrust",
+    "14:rocksmash",
+    "17:headbutt",
+    "20:brickbreak",
+    "23:rocktomb",
+    "26:detect",
+    "30:doubleedge",
+    "33:taunt",
+    "35:poweruppunch",
+    "38:submission",
+    "40:ancientpower",
+    "42:machpunch",
+    "47:hammerarm",
+    "50:headsmash",
+    "51:mightyslash",
+    "tm:dig",
+    "tm:rest",
+    "tm:snore",
+    "tm:protect",
+    "tm:attract",
+    "tm:sandstorm",
+    "tm:facade",
+    "tm:brickbreak",
+    "tm:rocktomb",
+    "tm:rockblast",
+    "tm:assurance",
+    "tm:endure",
+    "tm:substitute",
+    "tm:zenheadbutt",
+    "tm:firepunch",
+    "tm:thunderpunch",
+    "tm:icepunch",
+    "tm:megapunch",
+    "tm:thief",
+    "tm:revenge",
+    "tm:lowsweep",
+    "tm:reversal",
+    "tm:bulkup",
+    "tutor:encore",
+    "tutor:fling"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.protobi.desc1",
+    "cobblemon.species.protobi.desc2"
+  ],
+  "evolutions": [
+    {
+      "id": "protobi_protoffin_lvl",
+      "variant": "level_up",
+      "result": "protoffin",
+      "consumeHeldItem": false,
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]
+    }
+  ],
+  "baseScale": 0.85,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1.4,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "speed": 1
+  },
+  "height": 6,
+  "weight": 100
+}

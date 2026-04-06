@@ -1,0 +1,249 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1126,
+  "name": "tomledger",
+  "primaryType": "psychic",
+  "secondaryType": "ghost",
+  "maleRatio": 0.5,
+  "height": 8,
+  "weight": 10,
+  "pokedex": [
+    "cobblemon.species.tomledger.desc"
+  ],
+  "labels": [
+    "laserdex"
+  ],
+  "aspects": [],
+  "abilities": [
+    "magicguard",
+    "h:prankster"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 35,
+    "defence": 37,
+    "special_attack": 80,
+    "special_defence": 100,
+    "speed": 28
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "baseExperienceYield": 65,
+  "experienceGroup": "medium_fast",
+  "catchRate": 180,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 0.85,
+    "height": 1.9,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      },
+      "fly": {
+        "canFly": true
+      },
+      "walk": {
+        "walkSpeed": 0.4,
+        "canWalk": false
+      }
+    },
+    "resting": {
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:paper",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "minecraft:book",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:dawn_stone",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:bind",
+    "1:swift",
+    "1:astonish",
+    "1:confusion",
+    "1:storedpower",
+    "1:nightshade",
+    "1:instruct",
+    "1:roleplay",
+    "1:magictrick",
+    "4:hypnosis",
+    "8:agility",
+    "12:psybeam",
+    "16:confide",
+    "20:hiddenpower",
+    "24:hex",
+    "28:mirrorcoat",
+    "32:amnesia",
+    "36:eeriespell",
+    "38:psychicsnap",
+    "40:trickroom",
+    "40:magicroom",
+    "40:wonderroom",
+    "44:calmmind",
+    "48:shadowball",
+    "52:aurasphere",
+    "56:psychic",
+    "egg:healblock",
+    "egg:healpulse",
+    "egg:destinybond",
+    "egg:guardsplit",
+    "egg:memento",
+    "egg:powersplit",
+    "egg:teleport",
+    "egg:wish",
+    "tm:afteryou",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:amnesia",
+    "tm:aurasphere",
+    "tm:block",
+    "tm:calmmind",
+    "tm:confide",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:endure",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:focusblast",
+    "tm:futuresight",
+    "tm:guardswap",
+    "tm:healblock",
+    "tm:hiddenpower",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:laserfocus",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magicroom",
+    "tm:mindbend",
+    "tm:mysticalfire",
+    "tm:nightshade",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicsnap",
+    "tm:psychicterrain",
+    "tm:psychocut",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:speedswap",
+    "tm:spite",
+    "tm:substitute",
+    "tm:storedpower",
+    "tm:swift",
+    "tm:teleport",
+    "tm:terablast",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:triattack",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:afteryou",
+    "tutor:allyswitch",
+    "tutor:block",
+    "tutor:darkpulse",
+    "tutor:energyball",
+    "tutor:expandingforce",
+    "tutor:flashcannon",
+    "tutor:icywind",
+    "tutor:laserfocus",
+    "tutor:magiccoat",
+    "tutor:magicalleaf",
+    "tutor:magicroom",
+    "tutor:mysticalfire",
+    "tutor:nightshade",
+    "tutor:poltergeist",
+    "tutor:powershift",
+    "tutor:psychic",
+    "tutor:psychocut",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:thunderwave",
+    "tutor:triattack",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:return",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "evolutions": [
+    {
+      "id": "tomledger_twinledger",
+      "variant": "level_up",
+      "result": "twinledger",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]
+    }
+  ]
+}

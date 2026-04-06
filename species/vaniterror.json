@@ -1,0 +1,251 @@
+{
+  "implemented": true,
+  "name": "vaniterror",
+  "nationalPokedexNumber": 1080,
+  "primaryType": "ghost",
+  "secondaryType": "dark",
+  "features": [
+    "mega_evolution"
+  ],
+  "abilities": [
+    "mirrorarmor",
+    "h:magicguard"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 140,
+    "defence": 60,
+    "special_attack": 90,
+    "special_defence": 120,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    }
+  },
+  "catchRate": 80,
+  "maleRatio": 0.25,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cozyhome:dark_oak_wall_mirror",
+        "quantityRange": "1-1",
+        "percentage": 25
+      },
+      {
+        "item": "minecraft:glass",
+        "quantityRange": "1-5",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:reflect",
+    "1:astonish",
+    "1:withdraw",
+    "1:suckerpunch",
+    "1:confuseray",
+    "tm:phantomforce",
+    "1:imprison",
+    "1:curse",
+    "1:grudge",
+    "1:hex",
+    "1:hypnosis",
+    "1:dreameater",
+    "1:nightmare",
+    "1:mirrormove",
+    "1:mirrorcoat",
+    "1:mirrorshot",
+    "1:shadowclaw",
+    "1:shadowpunch",
+    "1:spite",
+    "35:destinybond",
+    "35:phantomforce",
+    "35:nightslash",
+    "40:assurance",
+    "40:punishment",
+    "40:knockoff",
+    "45:feintattack",
+    "45:protect",
+    "egg:healblock",
+    "egg:memento",
+    "egg:nightmare",
+    "tm:afteryou",
+    "tm:allyswitch",
+    "tm:block",
+    "tm:bodypress",
+    "tm:calmmind",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dreameater",
+    "tm:embargo",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:guardswap",
+    "tm:haze",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:knockoff",
+    "tm:magiccoat",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:ominouswind",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:revenge",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:spite",
+    "tm:substitute",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:toxicspikes",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:afteryou",
+    "tutor:allyswitch",
+    "tutor:block",
+    "tutor:calmmind",
+    "tutor:darkpulse",
+    "tutor:energyball",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:knockoff",
+    "tutor:magiccoat",
+    "tutor:ominouswind",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:spikes",
+    "tutor:spite",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "60:spectralthief"
+  ],
+  "labels": [
+    "frontiermon"
+  ],
+  "pokedex": [
+    "cobblemon.species.vaniterror.desc"
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1.5,
+    "height": 3.3,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 765,
+  "preEvolution": "validys",
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "ghost",
+      "secondaryType": "dark",
+      "abilities": [
+        "perishbody",
+        "h:perishbody"
+      ],
+      "maleRatio": 0.25,
+      "height": 23,
+      "weight": 700,
+      "pokedex": [
+        "cobblemon.species.vaniterror-mega.desc"
+      ],
+      "labels": [
+        "gen6",
+        "mega"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "baseStats": {
+        "hp": 115,
+        "attack": 140,
+        "defence": 105,
+        "special_attack": 100,
+        "special_defence": 155,
+        "speed": 80
+      },
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1112,
+  "name": "ceruclone",
+  "primaryType": "flying",
+  "secondaryType": "electric",
+  "maleRatio": 0.5,
+  "height": 16,
+  "weight": 620,
+  "pokedex": [
+    "cobblemon.species.ceruclone.desc"
+  ],
+  "labels": [
+    "laserdex",
+    "minecraftian"
+  ],
+  "aspects": [],
+  "abilities": [
+    "windcharge",
+    "lightningrod",
+    "h:aerilate"
+  ],
+  "eggGroups": [
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 70,
+    "defence": 70,
+    "special_attack": 125,
+    "special_defence": 90,
+    "speed": 95
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 263,
+  "experienceGroup": "slow",
+  "catchRate": 25,
+  "eggCycles": 35,
+  "baseFriendship": 20,
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 1.1,
+    "height": 2.7,
+    "fixed": false
+  },
+  "behaviour": {
+    "walking": {
+      "walkSpeed": 0.5
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    },
+    "herd": {
+      "maxSize": "9"
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:wind_charge",
+        "quantityRange": "0-4"
+      },
+      {
+        "item": "cobblemon:protective_pads",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:malicious_armor",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:trident",
+        "percentage": 0.05
+      }
+    ]
+  },
+  "moves": [
+    "1:thunderbolt",
+    "1:bodyslam",
+    "1:leer",
+    "1:barrage",
+    "1:gust",
+    "1:raindance",
+    "1:waterpulse",
+    "1:quickguard",
+    "1:electrify",
+    "1:aerialace",
+    "1:acrobatics",
+    "1:thunderwave",
+    "1:swift",
+    "1:aircutter",
+    "1:mirrorshot",
+    "1:armorpress",
+    "8:shockwave",
+    "12:whirlpool",
+    "16:electroball",
+    "20:liquidation",
+    "24:paraboliccharge",
+    "28:airslash",
+    "32:brine",
+    "40:weatherball",
+    "44:psyshock",
+    "48:autotomize",
+    "48:breezeball",
+    "52:triattack",
+    "56:hurricane",
+    "68:thunder",
+    "70:hyperbeam",
+    "egg:disable",
+    "egg:spite",
+    "egg:bulletpunch",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:airslash",
+    "tm:allyswitch",
+    "tm:armorpress",
+    "tm:brine",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:defog",
+    "tm:discharge",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:flamecharge",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:gigaimpact",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:icespinner",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:razorwind",
+    "tm:reflect",
+    "tm:rest",
+    "tm:shockwave",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:spite",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:triattack",
+    "tm:vacuumwave",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:whirlwind",
+    "tutor:allyswitch",
+    "tutor:energyball",
+    "tutor:falseswipe",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:vacuumwave"
+  ],
+  "preEvolution": "galecadet",
+  "evolutions": []
+}

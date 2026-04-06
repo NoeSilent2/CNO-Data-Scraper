@@ -1,0 +1,52 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "fubber-1",
+            "pokemon": "fubber",
+            "presets": [
+                "underwater"
+            ],
+            "context": "submerged",
+            "type": "pokemon",
+            "bucket": "common",
+            "level": "3-25",
+            "weight": 3.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#minecraft:is_ocean"
+                ],
+                "minY": 48
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_ocean"
+                ]
+            }
+        },
+        {
+            "id": "fubber-2",
+            "pokemon": "fubber",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "5-35",
+            "weight": 6.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1,
+                "biomes": [
+                    "#cobblemon:is_deep_ocean"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,224 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1118,
+  "name": "podlin",
+  "primaryType": "grass",
+  "secondaryType": "ground",
+  "maleRatio": 0.5,
+  "height": 2,
+  "weight": 5,
+  "pokedex": [
+    "cobblemon.species.podlin.desc"
+  ],
+  "labels": [
+    "laserdex",
+    "minecraftian",
+    "fossil"
+  ],
+  "aspects": [],
+  "abilities": [
+    "harvest",
+    "raindish",
+    "h:dragonsmaw"
+  ],
+  "eggGroups": [
+    "grass",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 100,
+    "defence": 100,
+    "special_attack": 50,
+    "special_defence": 80,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "shoulderMountable": true,
+  "baseExperienceYield": 170,
+  "experienceGroup": "erratic",
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 1,
+    "height": 1.2,
+    "fixed": false
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "4",
+      "toleratedLeaders": [
+        {
+          "pokemon": "pitchertun",
+          "tier": 2
+        },
+        {
+          "pokemon": "torchflyer",
+          "tier": 1
+        }
+      ]
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "resting": {
+      "willSleepOnBed": true,
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+  },
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:pitcher_pod",
+        "quantityRange": "1-2"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:grassy_seed",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:dragontail",
+    "1:leafage",
+    "1:sweetscent",
+    "1:recycle",
+    "1:withdraw",
+    "1:astonish",
+    "1:leechseed",
+    "1:worryseed",
+    "1:infestation",
+    "4:mudshot",
+    "8:growth",
+    "10:sandtomb",
+    "12:razorleaf",
+    "14:bulldoze",
+    "16:lifedew",
+    "20:grassyglide",
+    "24:naturalgift",
+    "28:rototiller",
+    "32:stompingtantrum",
+    "34:liquidation",
+    "36:recover",
+    "38:dragonhammer",
+    "40:seedbomb",
+    "44:aquatail",
+    "48:earthquake",
+    "50:dragoncheer",
+    "egg:defensecurl",
+    "egg:recycle",
+    "egg:rollout",
+    "egg:suckerpunch",
+    "egg:appleacid",
+    "egg:gravapple",
+    "egg:ingrain",
+    "tm:aquatail",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:bugbite",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:dig",
+    "tm:dragonbreath",
+    "tm:dragoncheer",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:gyroball",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:infestation",
+    "tm:leafstorm",
+    "tm:leechseed",
+    "tm:liquidation",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:naturepower",
+    "tm:naturalgift",
+    "tm:outrage",
+    "tm:pollenpuff",
+    "tm:pounce",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rollout",
+    "tm:sandtomb",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tutor:bugbite",
+    "tutor:dragonpulse",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassyglide",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:outrage",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:suckerpunch",
+    "tutor:worryseed"
+  ],
+  "preEvolution": "seedlin",
+  "evolutions": [
+    {
+      "id": "podlin_pitchertun",
+      "variant": "level_up",
+      "result": "pitchertun",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "sappyseed"
+      ],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "dragoncheer"
+        }
+      ]
+    }
+  ]
+}

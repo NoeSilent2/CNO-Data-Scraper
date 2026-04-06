@@ -1,0 +1,60 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "carbink_quartz-1",
+            "pokemon": "carbink quartz",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-50",
+            "weight": 50.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:nether/is_basalt",
+                    "#cobblemon:nether/is_crimson",
+                    "#cobblemon:nether/is_desert",
+                    "#cobblemon:nether/is_forest",
+                    "#cobblemon:nether/is_frozen",
+                    "#cobblemon:nether/is_fungus",
+                    "#cobblemon:nether/is_mountain",
+                    "#cobblemon:nether/is_overgrowth",
+                    "#cobblemon:nether/is_soul_fire",
+                    "#cobblemon:nether/is_soul_sand",
+                    "#cobblemon:nether/is_toxic",
+                    "#cobblemon:nether/is_warped",
+                    "#cobblemon:nether/is_wasteland"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:nether_quartz_ore"
+                ]
+            }
+        },
+        {
+            "id": "carbink_quartz-2",
+            "pokemon": "carbink quartz",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-50",
+            "weight": 50.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:nether/is_quartz"
+                ]
+            }
+        }
+    ]
+}

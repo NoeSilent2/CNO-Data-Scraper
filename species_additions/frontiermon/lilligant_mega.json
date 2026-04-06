@@ -1,0 +1,38 @@
+{
+	"target": "cobblemon:lilligant",
+	"features": ["mega_evolution"],
+	"forms": [
+		{
+			"name": "Mega",
+			"primaryType": "grass",
+			"secondaryType": "fairy",
+			"abilities": [
+				"flashfire",
+				"h:flashfire"
+			],
+			"maleRatio": 0.25,
+			"height": 13,
+			"weight": 178,
+			"baseScale": 0.8,
+			"pokedex": ["cobblemon.species.lilligant-mega.desc"],
+			"labels": [
+				"gen6",
+				"mega"
+			],
+			"aspects": [
+				"mega"
+			],
+			"baseStats": {
+				"hp": 70,
+				"attack": 60,
+				"defence": 95,
+				"special_attack": 130,
+				"special_defence": 95,
+				"speed": 130
+			},
+			"dynamaxBlocked": true,
+			"evolutions": [],
+			"battleOnly": true
+		}
+	]
+}
