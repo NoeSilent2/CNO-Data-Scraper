@@ -353,7 +353,7 @@ class DataScraper:
 			if not spawn.get('pokemon', False):
 				return "cannot process herd files"
 			# A large ugly stack of replacements for alt_internal_id stuff. This should probably get organized and put into its own function
-			pokemon = spawn.get('pokemon', '').lower().replace(' ', '-').replace('gmax', 'gigantamax').replace('alola', 'alolan').replace('region_bias=alolan','alolan-bias').replace('hisui', 'hisuian').replace('galar', 'galarian').replace('region_bias=galarian','galarian-bias').replace("'", "").replace('\u2019', '').replace('_','-').replace('-cream','-cream-love').replace('-swirl','-swirl-love')
+			pokemon = spawn.get('pokemon', '').lower().replace(' ', '-').replace('gmax', 'gigantamax').replace('alola', 'alolan').replace('region_bias=alolan','alolan-bias').replace('hisui', 'hisuian').replace('galar', 'galarian').replace('region_bias=galarian','galarian-bias').replace("flower=","").replace("'", "").replace('\u2019', '').replace('_','-').replace('-cream','-cream-love').replace('-swirl','-swirl-love')
 			if spawn.get('spawnablePositionType',''):
 				spawn['context'] = spawn.get('spawnablePositionType','')
 				spawn.pop('spawnablePositionType')
@@ -475,6 +475,13 @@ class DataScraper:
 			step = "creating alternative internal name"
 			# For some image API's, that prefer iron-moth to ironmoth
 			alt_internal_name = display_name.lower().replace(' ', '-').replace('gmax', 'gigantamax').replace('alola', 'alolan').replace('hisui', 'hisuian').replace('galar', 'galarian').replace("'", "").replace('\u2019', '').replace('_','-').replace('.','').replace('?','qm').replace('!','em').replace('-cream','-cream-love').replace('-swirl','-swirl-love')
+			# Need to turn this whole elif stack into an "overrides" json file that'll read over every replacement like this
+			if alt_internal_name == 'flabebe':
+				alt_internal_name = "flabebe-red"
+			elif alt_internal_name == 'floette':
+				alt_internal_name = "floette-red"
+			elif alt_internal_name == 'florges':
+				alt_internal_name == "florges-red"
 			
 			step = "retrieving primary and secondary types"
 			# Types
