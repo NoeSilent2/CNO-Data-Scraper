@@ -481,7 +481,7 @@ class DataScraper:
 			elif alt_internal_name == 'floette':
 				alt_internal_name = "floette-red"
 			elif alt_internal_name == 'florges':
-				alt_internal_name == "florges-red"
+				alt_internal_name = "florges-red"
 			
 			step = "retrieving primary and secondary types"
 			# Types
