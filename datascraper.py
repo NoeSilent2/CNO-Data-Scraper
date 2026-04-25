@@ -474,7 +474,7 @@ class DataScraper:
 			
 			step = "creating alternative internal name"
 			# For some image API's, that prefer iron-moth to ironmoth
-			alt_internal_name = display_name.lower().replace(' ', '-').replace('gmax', 'gigantamax').replace('alola', 'alolan').replace('hisui', 'hisuian').replace('galar', 'galarian').replace("'", "").replace('\u2019', '').replace('_','-').replace('.','').replace('?','qm').replace('!','em').replace('-cream','-cream-love').replace('-swirl','-swirl-love')
+			alt_internal_name = display_name.lower().replace(' ', '-').replace('gmax', 'gigantamax').replace('alola', 'alolan').replace('hisui', 'hisuian').replace('galar', 'galarian').replace("'", "").replace('\u2019', '').replace('_','-').replace('.','').replace('?','qm').replace('!','em').replace('-cream','-cream-love').replace('-swirl','-swirl-love').replace('quartz-crystal','quartz').replace('echo-shard-crystal','echo').replace('emerald-crystal','emerald').replace('amethyst-crystal','amethyst')
 			# Need to turn this whole elif stack into an "overrides" json file that'll read over every replacement like this
 			if alt_internal_name == 'flabebe':
 				alt_internal_name = "flabebe-red"
