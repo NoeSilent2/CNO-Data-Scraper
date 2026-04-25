@@ -580,8 +580,8 @@ class DataScraper:
 				
 				learnable_moves = []
 				for move in evolution.get('learnableMoves', []):
-					newname = self.safe_get(self.safe_get(self.move_dict, move, {}), 'name', move)
-					learnable_moves.append(newname)
+					# newname = self.safe_get(self.safe_get(self.move_dict, move, {}), 'name', move)
+					learnable_moves.append(move)
 				if len(learnable_moves) > 0:
 					evolution['learnableMoves'] = learnable_moves
 				
