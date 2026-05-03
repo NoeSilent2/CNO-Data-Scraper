@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ccc-ub-poipole-1",
+      "pokemon": "poipole",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "48-60",
+      "weight": 0.08,
+      "condition": {
+        "biomes": [
+          "#ub_spawns_ccc:poipole"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:purpur_block"
+        ]
+      }
+    }
+  ]
+}

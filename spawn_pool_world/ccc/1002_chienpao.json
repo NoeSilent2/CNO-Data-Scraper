@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ccc-chienpao-1",
+      "pokemon": "chienpao",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "75-80",
+      "weight": 2.5,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#legendary_spawns_ccc:chienpao"
+        ]
+      }
+    }
+  ]
+}

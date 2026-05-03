@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ccc-latios-1",
+      "pokemon": "latios",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "65",
+      "weight": 0.1,
+      "condition": {
+        "minY": 120,
+        "isRaining": false,
+        "biomes": [
+          "#legendary_spawns_ccc:latios"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ccc-lunala-1",
+      "pokemon": "lunala",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70-80",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#legendary_spawns_ccc:lunala"
+        ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

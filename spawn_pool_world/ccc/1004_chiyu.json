@@ -1,0 +1,42 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ccc-chiyu-1",
+      "pokemon": "chiyu",
+      "presets": [
+        "lava"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "60",
+      "weight": 2.5,
+      "condition": {
+        "maxY": 127,
+        "biomes": [
+          "#legendary_spawns_ccc:chiyu/nether"
+        ]
+      }
+    },
+    {
+      "id": "ccc-chiyu-2",
+      "pokemon": "chiyu",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "60",
+      "weight": 4.0,
+      "condition": {
+        "biomes": [
+          "#legendary_spawns_ccc:chiyu/overworld"
+        ]
+      }
+    }
+  ]
+}

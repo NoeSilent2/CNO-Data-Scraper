@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ccc-phione-1",
+      "pokemon": "phione",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "rare",
+      "level": "50",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#legendary_spawns_ccc:phione"
+        ],
+        "minLureLevel": 2
+      }
+    }
+  ]
+}

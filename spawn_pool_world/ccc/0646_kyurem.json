@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "spawns": [
+    {
+      "id": "ccc-kyurem-1",
+      "pokemon": "kyurem",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 0.1,
+      "weightMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "isRaining": true
+          }
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#legendary_spawns_ccc:kyurem"
+        ]
+      }
+    }
+  ]
+}

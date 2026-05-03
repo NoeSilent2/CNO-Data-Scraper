@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ccc-yveltal-1",
+      "pokemon": "yveltal",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 0.1,
+      "condition": {
+        "timeRange": "night",
+        "biomes": [
+          "#legendary_spawns_ccc:yveltal"
+        ]
+      }
+    }
+  ]
+}

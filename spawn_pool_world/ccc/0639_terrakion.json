@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ccc-terrakion-1",
+      "pokemon": "terrakion",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70-100",
+      "weight": 0.1,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#legendary_spawns_ccc:terrakion"
+        ]
+      }
+    }
+  ]
+}

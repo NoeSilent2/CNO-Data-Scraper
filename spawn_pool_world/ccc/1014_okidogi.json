@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ccc-okidogi-1",
+      "pokemon": "okidogi",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 3.25,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#legendary_spawns_ccc:okidogi"
+        ]
+      }
+    }
+  ]
+}

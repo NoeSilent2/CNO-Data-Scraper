@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ccc-mew-1",
+      "pokemon": "mew",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "60",
+      "weight": 0.1,
+      "weightMultipliers": [
+        {
+          "multiplier": 4,
+          "condition": {
+            "timeRange": "noon"
+          }
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#legendary_spawns_ccc:mew"
+        ],
+        "isRaining": false
+      }
+    }
+  ]
+}

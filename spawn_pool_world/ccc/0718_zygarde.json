@@ -1,0 +1,85 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ccc-zygarde-1",
+      "pokemon": "zygarde percent_cells=1",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "1-10",
+      "weight": 0.1,
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "maxY": -16
+        }
+      },
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "maxY": 0,
+        "biomes": [
+          "#legendary_spawns_ccc:zygarde"
+        ]
+      }
+    },
+    {
+      "id": "ccc-zygarde-2",
+      "pokemon": "zygarde percent_cells=10",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "10-50",
+      "weight": 0.1,
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "maxY": -32
+        }
+      },
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "maxY": -16,
+        "biomes": [
+          "#legendary_spawns_ccc:zygarde"
+        ]
+      }
+    },
+    {
+      "id": "ccc-zygarde-3",
+      "pokemon": "zygarde percent_cells=50",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-80",
+      "weight": 0.1,
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "maxY": -48
+        }
+      },
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "maxY": -32,
+        "biomes": [
+          "#legendary_spawns_ccc:zygarde"
+        ]
+      }
+    }
+  ]
+}

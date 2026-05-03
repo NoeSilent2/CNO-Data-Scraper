@@ -1,0 +1,42 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ccc-ub-pheromosa-1",
+      "pokemon": "pheromosa",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-65",
+      "weight": 1.0,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#ub_spawns_ccc:pheromosa/overworld"
+        ]
+      }
+    },
+    {
+      "id": "ccc-pheromosa-2",
+      "pokemon": "pheromosa",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-65",
+      "weight": 1.0,
+      "condition": {
+        "biomes": [
+          "#ub_spawns_ccc:pheromosa/end"
+        ]
+      }
+    }
+  ]
+}

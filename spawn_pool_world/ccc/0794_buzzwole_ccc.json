@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ccc-ub-buzzwole-1",
+      "pokemon": "buzzwole",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70-100",
+      "weight": 3.2,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#ub_spawns_ccc:buzzwole"
+        ]
+      }
+    }
+  ]
+}

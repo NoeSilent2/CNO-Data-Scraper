@@ -1,0 +1,21 @@
+{
+  "enabled": "true",
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ccc-ub-nihilego-1",
+      "pokemon": "nihilego",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "60-88",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#ub_spawns_ccc:nihilego"
+        ]
+      }
+    }
+  ]
+}

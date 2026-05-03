@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ccc-kyogre-1",
+      "pokemon": "kyogre",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 0.1,
+      "condition": {
+        "isRaining": true,
+        "biomes": [
+          "#legendary_spawns_ccc:kyogre"
+        ],
+        "minLureLevel": 3
+      }
+    }
+  ]
+}

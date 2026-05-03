@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ccc-zacian-1",
+      "pokemon": "zacian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 0.1,
+      "condition": {
+        "isRaining": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#legendary_spawns_ccc:zacian"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "spawns": [
+    {
+      "id": "ccc-regice-1",
+      "pokemon": "regice",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#legendary_spawns_ccc:regice"
+        ],
+        "canSeeSky": true,
+        "minLureLevel": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ccc-terapagos-1",
+      "pokemon": "terapagos",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30",
+      "weight": 0.1,
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "maxY": -32
+        }
+      },
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "maxY": 0,
+        "biomes": [
+          "#legendary_spawns_ccc:terapagos"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:amethyst_block",
+          "minecraft:amethyst_cluster",
+          "minecraft:budding_amethyst",
+          "minecraft:large_amethyst_bud",
+          "minecraft:medium_amethyst_bud",
+          "minecraft:small_amethyst_bud"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark",
+          "#cobblemon:is_lush"
+        ]
+      }
+    }
+  ]
+}

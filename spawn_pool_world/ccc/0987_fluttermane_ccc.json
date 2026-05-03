@@ -1,0 +1,24 @@
+{
+  "enabled": "true",
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ccc-fluttermane-1",
+      "pokemon": "fluttermane",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "48-80",
+      "weight": 15.0,
+      "condition": {
+        "biomes": [
+          "#paradox_spawns_ccc:fluttermane"
+        ]
+      }
+    }
+  ]
+}
