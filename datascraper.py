@@ -353,7 +353,7 @@ class DataScraper:
 			if not spawn.get('pokemon', False):
 				return "cannot process herd files"
 			# A large ugly stack of replacements for alt_internal_id stuff. This should probably get organized and put into its own function
-			pokemon = spawn.get('pokemon', '').lower().replace(' ', '-').replace('gmax', 'gigantamax').replace('alola', 'alolan').replace('region_bias=alolan','alolan-bias').replace('hisui', 'hisuian').replace('galar', 'galarian').replace('region_bias=galarian','galarian-bias').replace("flower=","").replace("'", "").replace('\u2019', '').replace('_','-').replace('-cream','-cream-love').replace('-swirl','-swirl-love')
+			pokemon = spawn.get('pokemon', '').lower().replace(' ', '-').replace('gmax', 'gigantamax').replace('region_bias=alola','alolan-bias').replace('region_bias=galar','galarian-bias').replace("flower=","").replace("'", "").replace('\u2019', '').replace('_','-').replace('-cream','-cream-love').replace('-swirl','-swirl-love')
 			if 'minior' in pokemon:
 				if '=meteor' in pokemon:
 					pokemon = 'minior-meteor'
