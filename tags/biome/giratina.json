@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_end",
+    "#cobblemon:nether/is_soul_sand",
+    "#cobblemon:nether/is_wasteland",
+    "#cobblemon:is_spooky"
+  ]
+}

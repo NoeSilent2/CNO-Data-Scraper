@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_freezing",
+    "#cobblemon:is_glacial",
+    "#cobblemon:is_snowy_forest"
+  ]
+}

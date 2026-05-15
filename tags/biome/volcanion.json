@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#c:is_nether",
+    "#cobblemon:is_volcanic"
+  ]
+}

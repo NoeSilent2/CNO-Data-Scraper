@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:has_season/autumn",
+    "#cobblemon:is_floral"
+  ]
+}

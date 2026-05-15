@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "betterend:crystal_mountains",
+      "required": false
+    },
+    {
+      "id": "betterend:amber_land",
+      "required": false
+    }
+  ]
+}

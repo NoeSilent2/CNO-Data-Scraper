@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_arid",
+    "#cobblemon:is_jungle",
+    "#cobblemon:is_badlands"
+  ]
+}

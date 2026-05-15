@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_sky",
+    "#cobblemon:is_snowy_forest",
+    "#cobblemon:is_snowy_taiga"
+  ]
+}

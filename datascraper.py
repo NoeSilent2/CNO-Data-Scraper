@@ -5,6 +5,7 @@ import sqlite3
 import glob
 import os
 import math
+from pathlib import Path
 
 
 class DataScraper:
@@ -19,6 +20,7 @@ class DataScraper:
 				self.pokemon_categories = self.pokemon_categories | json.load(file)
 				
 		self.lang_dict = {}
+		self.tag_dict = {}
 		self.additions_dict = {}
 		self.fossil_dict = {}
 		
@@ -103,6 +105,26 @@ class DataScraper:
 		tqdm.tqdm.write(f"Found {len(return_files)} in {self.directory_paths[pathid]}")
 		return return_files
 	
+	# Loads files and returns them with the path included, e.g. returning "articuno/galarian"
+	def load_indexed_files(self, pathid, fileid):
+		base = Path(self.directory_paths[pathid])
+		return_files = {}
+		
+		for file in base.rglob(fileid):
+			if not file.is_file():
+				continue
+			
+			# as_posix is to make all the \ into /
+			rkey = file.relative_to(base).with_suffix("").as_posix()
+
+			if "/" not in rkey:
+				return_files[file.stem] = file
+			else:
+				return_files[rkey] = file
+		
+		return return_files
+
+
 	# Simple thing to read JSON file data
 	def extract_json_data(self, file_path):
 		try:
@@ -346,6 +368,20 @@ class DataScraper:
 		
 		return nudata
 	
+	def process_tags(self, tags):
+		return_list = []
+		for tag in tags:
+			split = tag.split(':')[1]
+			if tag[0] == "#":
+				if self.tag_dict.get(split, False):
+					for tag in self.tag_dict[split]:
+						return_list.append(tag.split(':')[1].replace('_',' ').title())
+				else:
+					return_list.append(split)
+			else:
+				return_list.append(split)
+		return return_list
+
 	def process_spawnpool_data(self, data):
 		# Extract and return a list of spawns
 		returndata = {}
@@ -365,22 +401,16 @@ class DataScraper:
 			new_condition = {}
 			for key, value in spawn.get('condition',{}).items():
 				new_key = self.camelcase_to_space(key).title()
-				new_value = []
 				if isinstance(value, list):
-					for item in value:
-						new_value.append(item.split(':')[1].replace('_',' ').title())
-					value = new_value
+					value = self.process_tags(value)
 				new_condition[new_key] = value
 			spawn['condition'] = new_condition
 			if spawn.get('anticondition', False):
 				new_anticondition = {}
 				for key, value in spawn.get('anticondition',{}).items():
 					new_key = self.camelcase_to_space(key).title()
-					new_value = []
 					if isinstance(value, list):
-						for item in value:
-							new_value.append(item.split(':')[1].replace('_',' ').title())
-						value = new_value
+						value = self.process_tags(value)
 					new_anticondition[new_key] = value
 				spawn['anticondition'] = new_anticondition
 			try:
@@ -779,18 +809,29 @@ class DataScraper:
 	def process_all_files(self, all_files, func):
 		if all_files:
 			successes = 0
-			pbar = tqdm.tqdm(all_files)
-			for i, file_path in enumerate(pbar):
-				pbar.set_description(f"Processing: {os.path.basename(file_path).ljust(20)}")
-				data = self.extract_json_data(file_path)
-				if data:
-					status = func(data)
-					if status and not isinstance(status, str):
-						successes += 1
+			if isinstance(all_files, list):
+				iterator = enumerate(all_files)
+			elif isinstance(all_files, dict):
+				iterator = all_files.items()
+			else:
+				tqdm.tqdm.write(f"	Failed to process files: iterator is a {type(all_files)}")
+				return False
+			with tqdm.tqdm(total=len(all_files)) as pbar:
+				for i, file_path in iterator:
+					pbar.set_description(f"Processing: {os.path.basename(file_path).ljust(15)}")
+					data = self.extract_json_data(file_path)
+					if data:
+						try:
+							status = func(data, i)
+							if status and not isinstance(status, str):
+								successes += 1
+							else:
+								tqdm.tqdm.write(f"	Failed to process {os.path.basename(file_path)}: {status}")
+						except Exception as e:
+							tqdm.tqdm.write(f"	Unexpected error in {os.path.basename(file_path)}: {e}")
 					else:
-						tqdm.tqdm.write(f"	Failed to process {os.path.basename(file_path)}: {status}")
-				else:
-					tqdm.tqdm.write(f"	Failed to read json data of {os.path.basename(file_path)}")
+						tqdm.tqdm.write(f"	Failed to read json data of {os.path.basename(file_path)}")
+					pbar.update(1)
 			
 			tqdm.tqdm.write(f"Successfully loaded {successes}/{len(all_files)} files\n")
 		else:
@@ -804,14 +845,28 @@ class DataScraper:
 		# Main processing function
 		
 		lang_files = self.load_shallow_files('lang', '*.json')
-		def lang_func(data):
+		def lang_func(data, _):
 			self.lang_dict = self.lang_dict | data
 			return True
 		self.process_all_files(lang_files, lang_func)
 		self.lang_dict = self.process_lang_data(self.lang_dict)
-		
 		#self.write_to_json('en_us.json', self.lang_dict)
 		
+		# Load some unclear tags to make things like spawn conditions readable
+		tag_files = self.load_indexed_files('tags/biome', '*.json')
+		def tag_func(data, index):
+			data = data.get("values", [])
+			nudata = []
+			for value in data:
+				if isinstance(value, dict):
+					nudata.append(value.get("id"))
+				else:
+					nudata.append(value)
+			self.tag_dict[index] = nudata
+			return True
+		self.process_all_files(tag_files, tag_func)
+		#self.write_to_json('tag_debug.json', self.tag_dict)
+
 		abilities = self.lang_dict.get('cobblemon',{}).get('ability',{})
 		for id, info in abilities.items():
 			self.ability_dict[id] = info
@@ -869,7 +924,7 @@ class DataScraper:
 		#self.write_to_json('moves_dict.json', self.move_dict)
 		
 		fossil_files = self.load_shallow_files('fossil', '*.json')
-		def fossil_func(data):
+		def fossil_func(data, _):
 			result = data.get('result')
 			if result:
 				items = data.get('fossils')
@@ -886,7 +941,7 @@ class DataScraper:
 		
 		
 		spawnpool_files = self.load_deep_files('spawns', '*.json')
-		def spawn_func(data):
+		def spawn_func(data, _):
 			pools = self.process_spawnpool_data(data)
 			if isinstance(pools, str):
 				return pools
@@ -904,7 +959,7 @@ class DataScraper:
 		
 		
 		addition_files = self.load_deep_files('additions', '*.json')
-		def additions_func(data):
+		def additions_func(data, _):
 			iname, pokemon = self.process_additions_data(data)
 			if pokemon:
 				olddata = self.additions_dict.get(iname)
@@ -1075,6 +1130,7 @@ if __name__ == "__main__":
 	lang_directory = "./lang"
 	fossil_directory = "./fossils"
 	additions_directory = "./species_additions"
+	tag_biome_directory = "./tags/biome"
 	
 	tqdm.tqdm.write(f"Looking for species in: {os.path.abspath(species_directory)}")
 	tqdm.tqdm.write(f"Looking for moves in: {os.path.abspath(moves_directory)}")
@@ -1083,7 +1139,7 @@ if __name__ == "__main__":
 	tqdm.tqdm.write(f"Looking for additions in: {os.path.abspath(lang_directory)}")
 	tqdm.tqdm.write("\n")
 	
-	converter = DataScraper({'species':species_directory, 'moves':moves_directory, 'spawns':spawnpool_directory, 'lang':lang_directory, 'additions':additions_directory, 'fossil':fossil_directory})
+	converter = DataScraper({'species':species_directory, 'moves':moves_directory, 'spawns':spawnpool_directory, 'lang':lang_directory, 'additions':additions_directory, 'fossil':fossil_directory, 'tags/biome':tag_biome_directory})
 	
 	if converter.process_all():
 		if converter.db_compile():

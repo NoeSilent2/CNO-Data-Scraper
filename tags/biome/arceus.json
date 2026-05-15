@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_end",
+    "#cobblemon:is_sky"
+  ]
+}

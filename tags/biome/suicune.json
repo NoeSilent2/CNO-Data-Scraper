@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_river",
+    "#cobblemon:is_freshwater",
+    "#cobblemon:is_cold_ocean"
+  ]
+}

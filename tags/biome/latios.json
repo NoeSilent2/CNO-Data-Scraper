@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_mirage_island",
+    "#cobblemon:is_plains"
+  ]
+}

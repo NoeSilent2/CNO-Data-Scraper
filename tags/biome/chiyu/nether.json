@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:nether/is_basalt",
+    "#cobblemon:nether/is_wasteland"
+  ]
+}
