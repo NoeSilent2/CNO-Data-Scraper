@@ -377,9 +377,9 @@ class DataScraper:
 					for tag in self.tag_dict[split]:
 						return_list.append(tag.split(':')[1].replace('_',' ').title())
 				else:
-					return_list.append(split)
+					return_list.append(split.replace('_',' ').title())
 			else:
-				return_list.append(split)
+				return_list.append(split.replace('_',' ').title())
 		return return_list
 
 	def process_spawnpool_data(self, data):
