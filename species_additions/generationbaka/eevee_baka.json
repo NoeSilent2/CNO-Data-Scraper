@@ -1,0 +1,38 @@
+{
+    "target": "cobblemon:eevee",
+    "evolutions": [
+    {
+      "id": "eevee_mikueon",
+      "variant": "item_interact",
+      "result": "mikueon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "echoedvoice"
+      ],
+      "requirements": [],
+      "requiredContext": "miku-plushie:miku_plush"
+    },
+    {
+      "id": "eevee_tetoeon",
+      "variant": "item_interact",
+      "result": "tetoeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "echoedvoice"
+      ],
+      "requirements": [],
+	  "requiredContext": "miku-plushie:teto_plush"
+    },
+    {
+      "id": "eevee_nerueon",
+      "variant": "item_interact",
+      "result": "nerueon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "echoedvoice"
+      ],
+      "requirements": [],
+	  "requiredContext": "miku-plushie:akita_neru_plush"
+    }
+  ]
+}

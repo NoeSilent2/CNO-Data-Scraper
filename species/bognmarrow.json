@@ -1,0 +1,241 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1069,
+  "name": "bognmarrow",
+  "primaryType": "ghost",
+  "secondaryType": "grass",
+  "maleRatio": 0.5,
+  "height": 15,
+  "weight": 45,
+  "pokedex": [
+    "cobblemon.species.bognmarrow.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "sniper",
+    "longreach",
+    "h:effectspore"
+  ],
+  "eggGroups": [
+    "human_like",
+	  "amorphous"
+  ],
+  "baseStats": {
+    "hp": 97,
+    "attack": 115,
+    "defence": 70,
+    "special_attack": 70,
+    "special_defence": 135,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "baseExperienceYield": 168,
+  "experienceGroup": "slow",
+  "catchRate": 30,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "standingEyeHeight": 1,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.35
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "bognmarrow",
+          "tier": 2
+        },
+		{
+          "pokemon": "toedscruel",
+          "tier": 1
+        },
+		{
+          "pokemon": "amoonguss",
+          "tier": 1
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "2-5"
+      },
+      {
+        "item": "minecraft:mycelium",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:helpinghand",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "tm:toxic",
+    "special:celebrate",
+    "1:leer",
+    "1:astonish",
+    "1:shadowsneak",
+    "1:disable",
+    "1:confuseray",
+    "1:shadowpunch",
+    "1:boneclub",
+    "1:willowisp",
+    "1:curse",
+    "1:bonemerang",
+    "1:skullbash",
+    "1:shadowbone",
+    "1:leechseed",
+    "1:powder",
+    "36:seedbomb",
+    "42:strengthsap",
+    "48:spiritshackle",
+    "54:spore",
+    "60:blunderpowder",
+    "tm:willowisp",
+    "tm:curse",
+    "tm:shadowclaw",
+    "tm:shadowball",
+    "tm:poltergeist",
+    "tm:hex",
+    "tm:nightshade",
+    "tm:darkpulse",
+    "tm:payback",
+    "tm:knockoff",
+    "tm:suckerpunch",
+    "tm:beatup",
+    "tm:throatchop",
+    "tm:spite",
+    "tm:foulplay",
+    "tm:grassyglide",
+    "tm:taunt",
+    "tm:torment",
+    "tm:flatter",
+    "tm:swagger",
+    "tm:spikes",
+    "tm:stompingtantrum",
+    "tm:sandtomb",
+    "tm:dig",
+    "tm:mudslap",
+    "tm:mudshot",
+    "tm:scorchingsands",
+    "tm:rocksmash",
+    "tm:rockslide",
+    "tm:stoneedge",
+    "tm:rocktomb",
+    "tm:painsplit",
+    "tm:zenheadbutt",
+    "tm:sandstorm",
+    "tm:raindance",
+    "tm:rockpolish",
+    "tm:infestation",
+    "tm:xscissor",
+    "tm:skittersmack",
+    "tm:pounce",
+    "tm:smartstrike",
+    "tm:flashcannon",
+    "tm:gigadrain",
+    "tm:trailblaze",
+    "tm:magicalleaf",
+    "tm:bulletseed",
+    "tm:leechseed",
+    "tm:grassyterrain",
+    "tm:synthesis",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:energyball",
+    "tm:worryseed",
+    "tm:leafstorm",
+    "tm:poisonjab",
+    "tm:gunkshot",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:pollenpuff",
+    "tm:lunge",
+    "tm:woodhammer",
+    "tm:healblock",
+    "tm:firstimpression",
+    "tm:strugglebug",
+    "tm:liquidation",
+    "tm:muddywater",
+    "tm:surf",
+    "tm:chillingwater",
+    "egg:leer",
+    "egg:astonish",
+    "egg:shadowsneak",
+    "egg:confuseray",
+    "egg:boneclub",
+    "egg:shadowpunch",
+    "egg:bonemerang",
+    "tm:ominouswind",
+    "egg:pursuit",
+    "egg:nightslash",
+    "egg:feintattack",
+    "egg:memento",
+    "egg:sandattack",
+    "egg:ancientpower",
+    "egg:headbutt",
+    "egg:skullbash",
+    "egg:spiritbreak",
+    "egg:falsesurrender",
+    "egg:furycutter",
+    "egg:metalclaw",
+    "egg:clearsmog",
+    "egg:grudge",
+    "egg:absorb",
+    "egg:megadrain"
+  ],
+ "evolutions": [],
+  "lightingData": {
+    "lightLevel": 7,
+    "liquidGlowMode": "LAND"
+  }
+}

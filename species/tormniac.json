@@ -1,0 +1,228 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1072,
+  "name": "tormniac",
+  "primaryType": "ghost",
+  "secondaryType": "flying",
+  "maleRatio": 0.7,
+  "height": 4,
+  "weight": 100,
+  "pokedex": [
+    "cobblemon.species.tormniac.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "insomnia",
+    "forewarn",
+    "h:stakeout"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 114,
+    "defence": 70,
+    "special_attack": 63,
+    "special_defence": 70,
+    "speed": 106
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "baseExperienceYield": 130,
+  "experienceGroup": "slow",
+  "catchRate": 40,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "standingEyeHeight": 0.85,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.8,
+    "height": 1.4,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.35
+      },
+      "fly": {
+        "canFly": true
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "3",
+      "toleratedLeaders": [
+        {
+          "pokemon": "hypno",
+          "tier": 1
+        },
+	      {
+          "pokemon": "tormniac",
+          "tier": 2
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:phantom_membrane",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 15.0
+      },
+	  {
+        "item": "cobblemon:colbur_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:helpinghand",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "legacy:toxic",
+    "special:celebrate",
+    "1:astonish",
+    "1:peck",
+    "1:leer",
+    "10:shadowsneak",
+    "15:wingattack",
+    "20:hypnosis",
+    "20:nightmare",
+    "23:beatup",
+    "27:comeuppance",
+    "30:tailwind",
+    "35:shadowclaw",
+    "40:taunt",
+    "45:suckerpunch",
+    "50:bravebird",
+    "55:poltergeist",
+    "tm:beatup",
+    "tm:shadowclaw",
+    "tm:poltergeist",
+    "tm:tailwind",
+    "tm:knockoff",
+    "tm:taunt",
+    "tm:suckerpunch",
+    "tm:bravebird",
+    "tm:pluck",
+    "tm:roost",
+    "tm:airslash",
+    "tm:aerialace",
+    "tm:aircutter",
+    "tm:skyattack",
+    "tm:defog",
+    "tm:featherdance",
+    "tm:shadowball",
+    "tm:hex",
+    "tm:phantomforce",
+    "tm:fly",
+    "tm:acrobatics",
+    "tm:hurricane",
+    "tm:dualwingbeat",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:amnesia",
+    "tm:dreameater",
+    "tm:corrosivegas",
+    "tm:lightscreen",
+    "tm:futuresight",
+    "tm:magiccoat",
+    "tm:skillswap",
+    "tm:imprison",
+    "tm:psychocut",
+    "tm:psychicterrain",
+    "tm:wonderroom",
+    "tm:magicroom",
+    "tm:trickroom",
+    "tm:trick",
+    "tm:psychicnoise",
+    "tm:poisonjab",
+    "tm:sludgebomb",
+    "tm:echoedvoice",
+    "tm:hypervoice",
+    "tm:doubleedge",
+    "tm:doubleteam",
+    "tm:painsplit",
+    "tm:screech",
+    "tm:focusenergy",
+    "tm:vacuumwave",
+    "tm:swordsdance",
+    "tm:nastyplot",
+    "tm:flash",
+    "tm:swift",
+    "tm:scaryface",
+    "tm:swagger",
+    "tm:torment",
+    "tm:embargo",
+    "tm:quash",
+    "tm:honeclaws",
+    "tm:uturn",
+    "tm:thunderwave",
+    "tm:icywind",
+    "tm:raindance",
+    "tm:foulplay",
+    "tm:darkpulse",
+    "tm:takedown",
+    "tm:endeavor",
+    "tm:drillrun",
+    "tm:gigaimpact",
+    "tm:vacuumwave",
+    "egg:drillpeck",
+    "egg:pursuit",
+    "egg:peck",
+    "egg:leer",
+    "egg:hypnosis",
+    "egg:nightmare",
+    "egg:feintattack",
+    "egg:wingattack",
+    "egg:whirlwind",
+    "egg:perishsong"
+  ],
+ "evolutions": [],
+  "lightingData": {
+    "lightLevel": 7,
+    "liquidGlowMode": "LAND"
+  }
+}

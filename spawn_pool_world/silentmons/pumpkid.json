@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "pumpkid-1",
+            "pokemon": "pumpkid",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "10-35",
+            "weight": 12,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:pumpkin",
+					"minecraft:carved_pumpkin"
+                ]
+            }
+        }
+   ]
+}

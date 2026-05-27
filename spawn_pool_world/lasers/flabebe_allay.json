@@ -2,40 +2,38 @@
     "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
-    "spawns": [
-        {
+    "spawns": [{
             "id": "flabebe-allay-1",
             "pokemon": "flabebe allay",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
             "level": "5-30",
-            "weight": 600.0,
+            "weight": 30.0,
             "condition": {
-	        "structures": [
-	            "minecraft:mansion"
+                "structures": [
+                    "minecraft:mansion"
                 ],
-	        "minY": 62,
+                "minY": 62,
                 "canSeeSky": false,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ],
-	        "neededBaseBlocks": [
-	            "minecraft:cobblestone",
-	            "minecraft:cobblestone_slab",
-	            "minecraft:birch_planks",
-	            "minecraft:double_smooth_stone_slab",
-	            "minecraft:polished_andesite",
-	            "minecraft:brown_carpet"
-	        ],
+                "neededBaseBlocks": [
+                    "minecraft:cobblestone",
+                    "minecraft:cobblestone_slab",
+                    "minecraft:birch_planks",
+                    "minecraft:double_smooth_stone_slab",
+                    "minecraft:polished_andesite",
+                    "minecraft:brown_carpet"
+                ],
                 "neededNearbyBlocks": [
                     "minecraft:cauldron",
                     "minecraft:iron_bars",
                     "minecraft:iron_door"
                 ]
             }
-        },
-        {
+        }, {
             "id": "flabebe-allay-2",
             "pokemon": "flabebe allay",
             "presets": [
@@ -45,7 +43,7 @@
             "context": "grounded",
             "bucket": "common",
             "level": "5-30",
-            "weight": 50.0,
+            "weight": 20.0,
             "condition": {
                 "canSeeSky": false,
                 "biomes": [
@@ -58,8 +56,7 @@
                     "minecraft:dark_oak_fence"
                 ]
             }
-        },
-        {
+        }, {
             "id": "flabebe-allay-3",
             "pokemon": "flabebe allay",
             "presets": [
@@ -79,8 +76,7 @@
                     "minecraft:note_block"
                 ]
             }
-        },
-        {
+        }, {
             "id": "flabebe-allay-4",
             "pokemon": "flabebe allay",
             "presets": [
@@ -88,9 +84,9 @@
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
+            "bucket": "rare",
             "level": "5-30",
-            "weight": 20.0,
+            "weight": 1.0,
             "condition": {
                 "biomes": [
                     "minecraft:meadow"

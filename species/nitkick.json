@@ -1,0 +1,226 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1115,
+  "name": "nitkick",
+  "primaryType": "fighting",
+  "maleRatio": 0.7,
+  "height": 5,
+  "weight": 400,
+  "pokedex": [
+    "cobblemon.species.nitkick.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "scrappy",
+    "cudchew",
+    "h:truant"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 65,
+    "defence": 60,
+    "special_attack": 30,
+    "special_defence": 55,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 80,
+  "experienceGroup": "slow",
+  "catchRate": 80,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "baseScale": 1,
+  "standingEyeHeight": 1,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.35
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+	  	  {
+          "pokemon": "tauros",
+          "tier": 1
+        },
+		{
+          "pokemon": "rapidash",
+          "tier": 1
+        },
+		{
+          "pokemon": "mudsdale",
+          "tier": 1
+        },
+        {
+          "pokemon": "anonkey",
+          "tier": 2
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "2-5"
+      },
+	  {
+        "item": "cobblemon:chople_berry",
+        "percentage": 3.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "legacy:toxic",
+    "special:celebrate",
+    "1:rocksmash",
+    "1:growl",
+    "1:tackle",
+    "1:focusenergy",
+    "5:feintattack",
+    "7:yawn",
+    "10:doublekick",
+    "15:counter",
+    "20:brickbreak",
+    "23:taunt",
+    "25:bodypress",
+    "30:quickguard",
+    "35:partingshot",
+    "40:jumpkick",
+    "45:bulkup",
+    "50:superpower",
+    "tm:rocksmash",
+    "tm:brickbreak",
+    "tm:taunt",
+    "tm:bodypress",
+    "tm:superpower",
+    "tm:bulkup",
+    "tm:knockoff",
+    "tm:coaching",
+    "tm:closecombat",
+    "tm:highhorsepower",
+    "tm:takedown",
+    "tm:gigaimpact",
+    "tm:bodyslam",
+    "tm:doubleedge",
+    "tm:strength",
+    "tm:focusenergy",
+    "tm:rockclimb",
+    "tm:echoedvoice",
+    "tm:hypervoice",
+    "tm:hyperbeam",
+    "tm:earthquake",
+    "tm:stompingtantrum",
+    "tm:focusblast",
+    "tm:vacuumwave",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:lowkick",
+    "tm:rockslide",
+    "tm:stoneedge",
+    "tm:outrage",
+    "tm:wildcharge",
+    "tm:sunnyday",
+    "tm:sandstorm",
+    "tm:raindance",
+    "tm:bulletseed",
+    "tm:seedbomb",
+    "tm:poisonjab",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:stealthrock",
+    "tm:rocktomb",
+    "tm:ironhead",
+    "tm:heavyslam",
+    "tm:swagger",
+    "tm:flatter",
+    "tm:torment",
+    "tm:trailblaze",
+    "egg:growl",
+    "egg:tackle",
+    "egg:feintattack",
+    "egg:yawn",
+    "egg:doublekick",
+    "egg:counter",
+    "egg:quickguard",
+    "egg:wideguard",
+    "egg:partingshot",
+    "egg:jumpkick",
+    "egg:ragingfury",
+    "egg:feint",
+    "egg:doublehit",
+    "egg:headbutt",
+    "egg:rage",
+    "egg:stomp"
+  ],
+ "evolutions": [
+     {
+      "id": "nitkick-anonkey",
+      "variant": "level_up",
+      "result": "anonkey",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+	  "thunderouskick"
+	  ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]
+    }
+  ],
+  "lightingData": {
+    "lightLevel": 7,
+    "liquidGlowMode": "LAND"
+  }
+}

@@ -13,11 +13,12 @@
             "context": "grounded",
             "bucket": "uncommon",
             "level": "2-25",
-            "weight": 25.0,
+            "weight": 1.0,
             "weightMultiplier": {
-                "multiplier": 1.25,
+                "multiplier": 4,
                 "condition": {
-                    "timeRange": "night"
+                    "timeRange": "night",
+					"moonPhase": 4
                 }
             },
             "condition": {

@@ -1,0 +1,215 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1120,
+  "name": "ocatalyst",
+  "primaryType": "fairy",
+  "secondaryType": "poison",
+  "maleRatio": 0.3,
+  "height": 4,
+  "weight": 67,
+  "pokedex": [
+    "cobblemon.species.ocatalyst.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "magician",
+    "magicguard",
+    "h:powerofalchemy"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 60,
+    "special_attack": 112,
+    "special_defence": 100,
+    "speed": 128
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "baseExperienceYield": 120,
+  "experienceGroup": "slow",
+  "catchRate": 40,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": true,
+  "standingEyeHeight": 1,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1.5,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.50
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "1",
+      "toleratedLeaders": [
+	  {
+          "pokemon": "ocatalyst",
+          "tier": 1
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": false,
+      "willDefendOwner": true,
+      "willFlee": true
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:redstone_dust",
+        "quantityRange": "1-2",
+        "percentage": 40
+      },
+      {
+        "item": "minecraft:glowstone_dust",
+        "quantityRange": "1-2",
+        "percentage": 40
+      },
+      {
+        "item": "minecraft:fermented_spider_eye",
+        "percentage": 20
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:helpinghand",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "tm:toxic",
+    "special:celebrate",
+    "1:disarmingvoice",
+    "1:leer",
+    "1:acid",
+    "5:drainingkiss",
+    "10:charm",
+    "13:octazooka",
+    "15:venoshock",
+    "15:toxic",
+    "20:mistyterrain",
+    "25:corrosivegas",
+    "30:dazzlinggleam",
+    "35:mishap",
+    "40:sludgebomb",
+    "50:strangesteam",
+    "tm:acidspray",
+    "tm:drainingkiss",
+    "tm:charm",
+    "tm:waterpulse",
+    "tm:hydropump",
+    "tm:venoshock",
+    "tm:terrainpulse",
+    "tm:mistyterrain",
+    "tm:grassyterrain",
+    "tm:psychicterrain",
+    "tm:electricterrain",
+    "tm:thunderwave",
+    "tm:thunderbolt",
+    "tm:dazzlinggleam",
+    "tm:corrosivegas",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:toxicspikes",
+    "tm:swagger",
+    "tm:flatter",
+    "tm:faketears",
+    "tm:babydolleyes",
+    "tm:poisonjab",
+    "tm:gunkshot",
+    "tm:playrough",
+    "tm:slash",
+    "tm:energyball",
+    "tm:shadowball",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:gastroacid",
+    "tm:earthpower",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:darkpulse",
+    "tm:snarl",
+    "tm:thief",
+    "tm:knockoff",
+    "tm:beatup",
+    "tm:taunt",
+    "tm:torment",
+    "tm:nastyplot",
+    "tm:pounce",
+    "tm:pinmissile",
+    "tm:uturn",
+    "tm:icywind",
+    "tm:aurasphere",
+    "tm:focusblast",
+    "tm:vacuumwave",
+    "tm:overheat",
+    "tm:mysticalfire",
+    "tm:defog",
+    "tm:haze",
+    "tm:mist",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:snowscape",
+    "tm:solarbeam",
+    "tm:magicalleaf",
+    "tm:trailblaze",
+    "tm:skittersmack",
+    "tm:lunge",
+    "tm:strugglebug",
+    "tm:assurance",
+    "tm:throatchop",
+    "tm:venomdrench",
+    "egg:fakeout",
+    "egg:scratch",
+    "egg:leer",
+    "egg:acid",
+    "egg:clearsmog",
+    "egg:smog",
+    "egg:covet",
+    "egg:mirrorcoat"
+  ],
+ "evolutions": [],
+  "lightingData": {
+    "lightLevel": 7,
+    "liquidGlowMode": "LAND"
+  }
+}

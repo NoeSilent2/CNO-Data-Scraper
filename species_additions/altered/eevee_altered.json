@@ -1,0 +1,317 @@
+{
+    "target": "cobblemon:eevee",
+    "forms": [{
+            "name": "Altered-A",
+            "primaryType": "normal",
+            "abilities": [
+                "runaway",
+                "adaptability",
+                "h:anticipation"
+            ],
+            "drops": {
+                "amount": 4,
+                "entries": [{
+                        "item": "cobblemon:silk_scarf",
+                        "percentage": 5
+                    }, {
+                        "item": "cobblemon:eviolite",
+                        "percentage": 5
+                    }, {
+                        "item": "cobblemon:black_glasses",
+                        "percentage": 2.5
+                    }, {
+                        "item": "minecraft:nether_star",
+                        "percentage": 0.5
+                    }
+                ]
+            },
+            "baseStats": {
+                "hp": 65,
+                "attack": 75,
+                "defence": 90,
+                "special_attack": 50,
+                "special_defence": 95,
+                "speed": 45
+            },
+            "moves": [
+                "1:tailwhip",
+                "1:tackle",
+                "1:helpinghand",
+                "1:growl",
+                "1:covet",
+                "5:sandattack",
+                "10:quickattack",
+                "15:babydolleyes",
+                "20:refresh",
+                "25:bite",
+                "30:copycat",
+                "35:batonpass",
+                "40:takedown",
+                "45:trumpcard",
+                "50:doubleedge",
+                "55:lastresort",
+                "egg:captivate",
+                "egg:curse",
+                "egg:detect",
+                "egg:doublekick",
+                "egg:flail",
+                "egg:mudslap",
+                "egg:naturalgift",
+                "egg:synchronoise",
+                "egg:tickle",
+                "egg:wish",
+                "egg:yawn",
+                "tm:alluringvoice",
+                "tm:babydolleyes",
+                "tm:batonpass",
+                "tm:bodyslam",
+                "tm:calmmind",
+                "tm:captivate",
+                "tm:charm",
+                "tm:covet",
+                "tm:curse",
+                "tm:dig",
+                "tm:doubleedge",
+                "tm:echoedvoice",
+                "tm:endure",
+                "tm:facade",
+                "tm:faketears",
+                "tm:focusenergy",
+                "tm:headbutt",
+                "tm:healbell",
+                "tm:helpinghand",
+                "tm:hypervoice",
+                "tm:irontail",
+                "tm:laserfocus",
+                "tm:lastresort",
+                "tm:mudslap",
+                "tm:naturalgift",
+                "tm:payday",
+                "tm:protect",
+                "tm:raindance",
+                "tm:rest",
+                "tm:retaliate",
+                "tm:roar",
+                "tm:shadowball",
+                "tm:sleeptalk",
+                "tm:storedpower",
+                "tm:substitute",
+                "tm:sunnyday",
+                "tm:swift",
+                "tm:takedown",
+                "tm:terablast",
+                "tm:trailblaze",
+                "tm:weatherball",
+                "tm:workup",
+                "tutor:babydolleyes",
+                "tutor:calmmind",
+                "tutor:covet",
+                "tutor:focusenergy",
+                "tutor:healbell",
+                "tutor:helpinghand",
+                "tutor:hypervoice",
+                "tutor:irontail",
+                "tutor:laserfocus",
+                "tutor:lastresort",
+                "tutor:mudslap",
+                "tutor:rest",
+                "tutor:shadowball",
+                "tutor:sleeptalk",
+                "tutor:swift"
+            ],
+            "labels": [
+                "gen1",
+                "altered",
+                "altered_a"
+            ],
+            "pokedex": [
+                "cobblemon.species.eevee-altered-a.desc"
+            ],
+            "evolutions": [
+				{
+                    "id": "eevee_altered_umbreon_1",
+                    "variant": "level_up",
+                    "result": "umbreon altered",
+                    "consumeHeldItem": false,
+                    "learnableMoves": ["foulplay", "twilightveil"],
+                    "requirements": [{
+                            "variant": "friendship",
+                            "amount": 200
+                        }, {
+                            "variant": "time_range",
+                            "range": "night"
+                        }, {
+                            "variant": "held_item",
+                            "itemCondition": "cobblemon:moon_stone"
+                        }
+                    ]
+                },
+				{
+                    "id": "eevee_altered_umbreon_2",
+                    "variant": "item_interact",
+                    "result": "umbreon altered",
+                    "consumeHeldItem": false,
+                    "learnableMoves": ["foulplay", "twilightveil"],
+                    "requirements": [],
+                    "requiredContext": "minecraft:nether_star"
+                }
+            ],
+            "aspects": ["altered_a"]
+        }, {
+            "name": "Altered-B",
+            "primaryType": "normal",
+            "abilities": [
+                "runaway",
+                "adaptability",
+                "h:anticipation"
+            ],
+            "drops": {
+                "amount": 4,
+                "entries": [{
+                        "item": "cobblemon:silk_scarf",
+                        "percentage": 5
+                    }, {
+                        "item": "cobblemon:eviolite",
+                        "percentage": 5
+                    }, {
+                        "item": "cobblemon:twisted_spoon",
+                        "percentage": 2.5
+                    }, {
+                        "item": "minecraft:nether_star",
+                        "percentage": 0.5
+                    }
+                ]
+            },
+            "baseStats": {
+                "hp": 75,
+                "attack": 45,
+                "defence": 50,
+                "special_attack": 95,
+                "special_defence": 90,
+                "speed": 65
+            },
+            "moves": [
+                "1:tailwhip",
+                "1:tackle",
+                "1:helpinghand",
+                "1:growl",
+                "1:covet",
+                "5:sandattack",
+                "10:quickattack",
+                "15:babydolleyes",
+                "20:refresh",
+                "25:bite",
+                "30:copycat",
+                "35:batonpass",
+                "40:takedown",
+                "45:trumpcard",
+                "50:doubleedge",
+                "55:lastresort",
+                "egg:captivate",
+                "egg:curse",
+                "egg:detect",
+                "egg:doublekick",
+                "egg:flail",
+                "egg:mudslap",
+                "egg:naturalgift",
+                "egg:synchronoise",
+                "egg:tickle",
+                "egg:wish",
+                "egg:yawn",
+                "tm:alluringvoice",
+                "tm:babydolleyes",
+                "tm:batonpass",
+                "tm:bodyslam",
+                "tm:calmmind",
+                "tm:captivate",
+                "tm:charm",
+                "tm:covet",
+                "tm:curse",
+                "tm:dig",
+                "tm:doubleedge",
+                "tm:echoedvoice",
+                "tm:endure",
+                "tm:facade",
+                "tm:faketears",
+                "tm:focusenergy",
+                "tm:headbutt",
+                "tm:healbell",
+                "tm:helpinghand",
+                "tm:hypervoice",
+                "tm:irontail",
+                "tm:laserfocus",
+                "tm:lastresort",
+                "tm:mudslap",
+                "tm:naturalgift",
+                "tm:payday",
+                "tm:protect",
+                "tm:raindance",
+                "tm:rest",
+                "tm:retaliate",
+                "tm:roar",
+                "tm:shadowball",
+                "tm:sleeptalk",
+                "tm:storedpower",
+                "tm:substitute",
+                "tm:sunnyday",
+                "tm:swift",
+                "tm:takedown",
+                "tm:terablast",
+                "tm:trailblaze",
+                "tm:weatherball",
+                "tm:workup",
+                "tutor:babydolleyes",
+                "tutor:calmmind",
+                "tutor:covet",
+                "tutor:focusenergy",
+                "tutor:healbell",
+                "tutor:helpinghand",
+                "tutor:hypervoice",
+                "tutor:irontail",
+                "tutor:laserfocus",
+                "tutor:lastresort",
+                "tutor:mudslap",
+                "tutor:rest",
+                "tutor:shadowball",
+                "tutor:sleeptalk",
+                "tutor:swift"
+            ],
+            "labels": [
+                "gen1",
+                "altered",
+                "altered_b"
+            ],
+            "pokedex": [
+                "cobblemon.species.eevee-altered-b.desc"
+            ],
+            "evolutions": [{
+                    "id": "eevee_altered_espeon_1",
+                    "variant": "level_up",
+                    "result": "espeon altered",
+                    "consumeHeldItem": false,
+                    "learnableMoves": ["psyshock", "daybreakcannon"],
+                    "requirements": [{
+                            "variant": "friendship",
+                            "amount": 200
+                        }, {
+                            "variant": "time_range",
+                            "range": "day"
+                        }, {
+                            "variant": "held_item",
+                            "itemCondition": "cobblemon:sun_stone"
+                        }
+                    ]
+                }, {
+                    "id": "eevee_altered_espeon_2",
+                    "variant": "item_interact",
+                    "result": "espeon altered",
+                    "consumeHeldItem": false,
+                    "learnableMoves": ["psyshock", "daybreakcannon"],
+                    "requirements": [],
+                    "requiredContext": "minecraft:nether_star"
+                }
+            ],
+            "aspects": ["altered_b"]
+        }
+    ]
+}

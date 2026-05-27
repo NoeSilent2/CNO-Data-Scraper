@@ -1,0 +1,754 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1073,
+  "name": "parropot",
+  "primaryType": "rock",
+  "maleRatio": 0.5,
+  "height": 2,
+  "weight": 30,
+  "pokedex": [
+    "cobblemon.species.parropot.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": ["empty"],
+  "abilities": [
+  "hustle",
+	"klutz",
+	"h:weakarmor"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 80,
+    "defence": 60,
+    "special_attack": 30,
+    "special_defence": 90,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "baseExperienceYield": 80,
+  "experienceGroup": "medium_fast",
+  "catchRate": 80,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "baseScale": 1,
+  "standingEyeHeight": 0.9,
+  "hitbox": {
+    "width": 0.3,
+    "height": 0.5,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.35
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+	  	  {
+          "pokemon": "parropot",
+          "tier": 1
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": false,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 1,
+    "entries": [
+	  {
+        "item": "minecraft:friend_pottery_sherd",
+        "percentage": 3.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:substitute",
+	  "tm:rest",
+    "tm:sleeptalk",
+	  "tm:facade",
+	  "tm:terablast",
+    "legacy:attract",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:toxic",
+    "1:harden",
+    "1:tackle",
+    "3:peck",
+    "5:rockthrow",
+    "10:safeguard",
+    "15:rocktomb",
+    "20:stealthrock",
+    "23:sandtomb",
+    "25:pluck",
+    "30:dig",
+    "38:wideguard",
+    "35:rockslide",
+    "40:drillpeck",
+    "45:rockpolish",
+    "48:wish",
+    "55:stoneedge",
+    "60:shellsmash",
+    "tm:harden",
+    "tm:tackle",
+    "tm:peck",
+    "tm:rockthrow",
+    "tm:safeguard",
+    "tm:rocktomb",
+    "tm:stealthrock",
+    "tm:sandtomb",
+    "tm:pluck",
+    "tm:dig",
+    "tm:wideguard",
+    "tm:rockslide",
+    "tm:drillpeck",
+    "tm:rockpolish",
+    "tm:wish",
+    "tm:stoneedge",
+    "tm:shellsmash",
+    "tm:powergem",
+    "tm:mudshot",
+    "tm:rapidspin",
+    "tm:steelwing",
+    "tm:dualwingbeat",
+    "tm:tailwind",
+    "tm:roost",
+    "tm:spikes",
+    "tm:earthpower",
+    "tm:meteorbeam",
+    "tm:vacuumwave",
+    "tm:scorchingsands",
+    "tm:autotomize",
+    "special:celebrate"
+  ],
+ "evolutions": [],
+   "lightingData": {
+    "lightLevel": 7,
+    "liquidGlowMode": "LAND"
+  },
+  "features": [
+      "honey",
+      "candle",
+      "flower",
+      "quill"
+    ],
+"forms": [ 
+{
+      "name": "Honeypot",
+      "primaryType": "rock",
+      "secondaryType": "bug",
+      "maleRatio": 0.5,
+	  "height": 2,
+	  "weight": 30,
+      "pokedex": [
+        "cobblemon.species.parropot-honeypot.desc"
+      ],
+	  "abilities": [
+      "hustle",
+	  "klutz",
+	  "h:sapsipper"
+  ],
+      "labels": [
+        "minemons"
+      ],
+      "aspects": [
+        "honey"
+      ],
+      "baseStats": {
+        "hp": 60,
+		"attack": 30,
+		"defence": 60,
+		"special_attack": 80,
+		"special_defence": 90,
+		"speed": 60
+      },
+      "baseExperienceYield": 80,
+      "moves": [
+    "tm:protect",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:substitute",
+	  "tm:rest",
+    "tm:sleeptalk",
+	  "tm:facade",
+	  "tm:terablast",
+    "legacy:attract",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:toxic",
+    "1:harden",
+    "1:tackle",
+    "1:sweetscent",
+    "3:peck",
+    "5:rockthrow",
+    "10:safeguard",
+    "13:infestation",
+    "15:rocktomb",
+    "18:silverwind",
+    "20:stealthrock",
+    "20:stickyweb",
+    "23:sandtomb",
+    "25:pluck",
+    "30:dig",
+    "38:bugbuzz",
+    "38:wideguard",
+    "35:rockslide",
+    "38:ragepowder",
+    "40:drillpeck",
+    "45:rockpolish",
+    "48:wish",
+    "50:quiverdance",
+    "55:stoneedge",
+    "58:healorder",
+    "58:defendorder",
+    "60:shellsmash",
+    "tm:harden",
+    "tm:tackle",
+    "tm:peck",
+    "tm:rockthrow",
+    "tm:safeguard",
+    "tm:rocktomb",
+    "tm:stealthrock",
+    "tm:sandtomb",
+    "tm:pluck",
+    "tm:dig",
+    "tm:wideguard",
+    "tm:rockslide",
+    "tm:drillpeck",
+    "tm:rockpolish",
+    "tm:wish",
+    "tm:stoneedge",
+    "tm:shellsmash",
+    "tm:powergem",
+    "tm:mudshot",
+    "tm:rapidspin",
+    "tm:steelwing",
+    "tm:dualwingbeat",
+    "tm:tailwind",
+    "tm:roost",
+    "tm:spikes",
+    "tm:earthpower",
+    "tm:meteorbeam",
+    "tm:vacuumwave",
+    "tm:scorchingsands",
+    "tm:autotomize",
+    "tm:pollenpuff",
+    "tm:bugbuzz",
+    "tm:infestation",
+    "tm:sweetscent",
+    "tm:quiverdance",
+    "tm:ragepowder",
+    "tm:silverwind",
+    "tm:stickyweb",
+    "special:celebrate"
+      ],
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": "4"
+        },
+        "fireImmune": false
+      },
+      "lightingData": {
+        "lightLevel": 7,
+        "liquidGlowMode": "LAND"
+      }
+    },
+	{
+      "name": "Flowerpot",
+      "primaryType": "rock",
+      "secondaryType": "grass",
+      "maleRatio": 0.5,
+	  "height": 2,
+	  "weight": 30,
+      "pokedex": [
+        "cobblemon.species.parropot-flowerpot.desc"
+      ],
+      "labels": [
+        "minemons"
+      ],
+      "aspects": [
+        "flower"
+      ],
+	    "abilities": [
+    "hustle",
+	"klutz",
+	"h:chlorophyll"
+  ],
+      "baseStats": {
+        "hp": 60,
+		"attack": 30,
+		"defence": 60,
+		"special_attack": 80,
+		"special_defence": 70,
+		"speed": 80
+      },
+      "baseExperienceYield": 80,
+      "moves": [
+    "tm:protect",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:substitute",
+	  "tm:rest",
+    "tm:sleeptalk",
+	  "tm:facade",
+	  "tm:terablast",
+    "legacy:attract",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:toxic",
+    "1:harden",
+    "1:tackle",
+    "1:sweetscent",
+    "3:peck",
+    "5:rockthrow",
+    "10:safeguard",
+    "13:leechseed",
+    "15:rocktomb",
+    "18:megadrain",
+    "20:stealthrock",
+    "20:worryseed",
+    "23:sandtomb",
+    "25:gigadrain",
+    "30:dig",
+    "38:energyball",
+    "38:wideguard",
+    "35:rockslide",
+    "38:sleeppowder",
+    "40:drillpeck",
+    "45:rockpolish",
+    "48:wish",
+    "50:strengthsap",
+    "55:stoneedge",
+    "58:leafstorm",
+    "60:shellsmash",
+    "tm:harden",
+    "tm:tackle",
+    "tm:peck",
+    "tm:rockthrow",
+    "tm:safeguard",
+    "tm:rocktomb",
+    "tm:stealthrock",
+    "tm:sandtomb",
+    "tm:pluck",
+    "tm:dig",
+    "tm:wideguard",
+    "tm:rockslide",
+    "tm:drillpeck",
+    "tm:rockpolish",
+    "tm:wish",
+    "tm:stoneedge",
+    "tm:shellsmash",
+    "tm:powergem",
+    "tm:mudshot",
+    "tm:rapidspin",
+    "tm:steelwing",
+    "tm:dualwingbeat",
+    "tm:tailwind",
+    "tm:roost",
+    "tm:spikes",
+    "tm:earthpower",
+    "tm:meteorbeam",
+    "tm:vacuumwave",
+    "tm:scorchingsands",
+    "tm:autotomize",
+    "tm:solarbeam",
+    "tm:absorb",
+    "tm:gigadrain",
+    "tm:leechseed",
+    "tm:sweetscent",
+    "tm:strengthsap",
+    "tm:energyball",
+    "tm:megadrain",
+    "tm:worryseed",
+    "special:celebrate"
+      ],
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": "4"
+        },
+        "fireImmune": false
+      },
+      "lightingData": {
+        "lightLevel": 7,
+        "liquidGlowMode": "LAND"
+      }
+    },
+	{
+      "name": "Candle",
+      "primaryType": "rock",
+      "secondaryType": "fire",
+      "maleRatio": 0.5,
+	  "height": 2,
+	  "weight": 30,
+      "pokedex": [
+        "cobblemon.species.parropot-candle.desc"
+      ],
+      "labels": [
+        "minemons"
+      ],
+      "aspects": [
+        "candle"
+      ],
+	    "abilities": [
+    "hustle",
+	"klutz",
+	"h:flamebody"
+  ],
+      "baseStats": {
+        "hp": 60,
+		"attack": 100,
+		"defence": 60,
+		"special_attack": 30,
+		"special_defence": 70,
+		"speed": 60
+      },
+      "baseExperienceYield": 80,
+      "moves": [
+    "tm:protect",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:substitute",
+	  "tm:rest",
+    "tm:sleeptalk",
+	  "tm:facade",
+	  "tm:terablast",
+    "legacy:attract",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "tm:toxic",
+    "1:harden",
+    "1:tackle",
+    "1:smokescreen",
+    "3:peck",
+    "5:rockthrow",
+    "10:safeguard",
+    "13:poisongas",
+    "15:rocktomb",
+    "18:flamecharge",
+    "20:stealthrock",
+    "20:worryseed",
+    "23:sandtomb",
+    "25:flamewheel",
+    "30:dig",
+    "38:firelash",
+    "38:wideguard",
+    "35:rockslide",
+    "38:willowisp",
+    "40:drillpeck",
+    "45:rockpolish",
+    "48:wish",
+    "50:toxicspikes",
+    "55:stoneedge",
+    "58:flareblitz",
+    "60:shellsmash",
+    "tm:harden",
+    "tm:tackle",
+    "tm:peck",
+    "tm:rockthrow",
+    "tm:safeguard",
+    "tm:rocktomb",
+    "tm:stealthrock",
+    "tm:sandtomb",
+    "tm:pluck",
+    "tm:dig",
+    "tm:wideguard",
+    "tm:rockslide",
+    "tm:drillpeck",
+    "tm:rockpolish",
+    "tm:wish",
+    "tm:stoneedge",
+    "tm:shellsmash",
+    "tm:powergem",
+    "tm:mudshot",
+    "tm:rapidspin",
+    "tm:steelwing",
+    "tm:dualwingbeat",
+    "tm:tailwind",
+    "tm:roost",
+    "tm:spikes",
+    "tm:earthpower",
+    "tm:meteorbeam",
+    "tm:vacuumwave",
+    "tm:scorchingsands",
+    "tm:autotomize",
+    "tm:solarbeam",
+    "tm:willowisp",
+    "tm:flamewheel",
+    "tm:smokescreen",
+    "tm:poisongas",
+    "tm:toxicspikes",
+    "tm:flareblitz",
+    "tm:firelash",
+    "tm:flamecharge",
+    "tm:corrosivegas",
+    "special:celebrate"
+      ],
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": "4"
+        },
+        "fireImmune": false
+      },
+      "lightingData": {
+        "lightLevel": 7,
+        "liquidGlowMode": "LAND"
+      }
+    },
+    {
+      "name": "Quill",
+      "primaryType": "rock",
+      "secondaryType": "flying",
+      "maleRatio": 0.5,
+	  "height": 2,
+	  "weight": 30,
+      "pokedex": [
+        "cobblemon.species.parropot-quill.desc"
+      ],
+      "labels": [
+        "minemons"
+      ],
+      "aspects": [
+        "quill"
+      ],
+	    "abilities": [
+    "hustle",
+	"klutz",
+	"h:windrider"
+  ],
+      "baseStats": {
+        "hp": 60,
+		"attack": 80,
+		"defence": 70,
+		"special_attack": 30,
+		"special_defence": 60,
+		"speed": 80
+      },
+      "baseExperienceYield": 80,
+      "moves": [
+    "tm:protect",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:substitute",
+	  "tm:rest",
+    "tm:sleeptalk",
+	  "tm:facade",
+	  "tm:terablast",
+    "legacy:attract",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "tm:toxic",
+    "1:harden",
+    "1:tackle",
+    "1:smokescreen",
+    "3:peck",
+    "5:rockthrow",
+    "10:safeguard",
+    "13:featherdance",
+    "15:rocktomb",
+    "18:aerialace",
+    "20:stealthrock",
+    "20:worryseed",
+    "23:sandtomb",
+    "25:defog",
+    "30:dig",
+    "38:dualwingbeat",
+    "38:wideguard",
+    "35:rockslide",
+    "38:tailwind",
+    "40:drillpeck",
+    "45:rockpolish",
+    "48:wish",
+    "50:roost",
+    "55:stoneedge",
+    "58:bravebird",
+    "60:shellsmash",
+    "tm:harden",
+    "tm:tackle",
+    "tm:smokescreen",
+    "tm:peck",
+    "tm:rockthrow",
+    "tm:safeguard",
+    "tm:featherdance",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:stealthrock",
+    "tm:worryseed",
+    "tm:sandtomb",
+    "tm:tailwind",
+    "tm:dig",
+    "tm:dualwingbeat",
+    "tm:wideguard",
+    "tm:rockslide",
+    "tm:roost",
+    "tm:drillpeck",
+    "tm:rockpolish",
+    "tm:wish",
+    "tm:stoneedge",
+    "tm:bravebird",
+    "tm:shellsmash",
+    "tm:powergem",
+    "tm:mudshot",
+    "tm:rapidspin",
+    "tm:steelwing",
+    "tm:dualwingbeat",
+    "tm:tailwind",
+    "tm:roost",
+    "tm:spikes",
+    "tm:earthpower",
+    "tm:meteorbeam",
+    "tm:vacuumwave",
+    "tm:scorchingsands",
+    "tm:autotomize",
+    "tm:solarbeam",
+    "tm:willowisp",
+    "tm:flamewheel",
+    "tm:smokescreen",
+    "tm:airslash",
+    "tm:defog",
+    "tm:skyattack",
+    "tm:acrobatics",
+    "tm:pluck",
+    "tm:hurricane",
+    "special:celebrate"
+      ],
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": "4"
+        },
+        "fireImmune": false
+      },
+      "lightingData": {
+        "lightLevel": 7,
+        "liquidGlowMode": "LAND"
+      }
+    }
+]
+}

@@ -28,12 +28,27 @@
     "mineral"
   ],
   "drops": {
-    "amount": "1",
+    "amount": "3",
     "entries": [
       {
         "item": "minecraft:stone",
-        "percentage": 80,
-        "quantityRange": "3-10"
+        "quantityRange": "2-8"
+      },
+	  {
+        "item": "cobblemon:everstone",
+        "percentage": 2.5
+      },
+	  {
+        "item": "cobblemon:float_stone",
+        "percentage": 2.5
+      },
+	  {
+        "item": "cobblemon:hard_stone",
+        "percentage": 2.5
+      },
+	  {
+        "item": "cobblemon:oval_stone",
+        "percentage": 1
       }
     ]
   },

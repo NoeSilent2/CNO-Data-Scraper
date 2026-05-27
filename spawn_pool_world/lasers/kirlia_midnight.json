@@ -5,7 +5,7 @@
     "spawns": [
         {
             "id": "kirlia_goth-1",
-            "pokemon": "kirlia midnight",
+            "pokemon": "kirlia goth",
             "presets": [
                 "natural"
             ],
@@ -26,7 +26,7 @@
         },
         {
             "id": "kirlia_goth-2",
-            "pokemon": "kirlia midnight",
+            "pokemon": "kirlia goth",
             "presets": [
                 "natural"
             ],
@@ -49,7 +49,7 @@
         },
         {
             "id": "kirlia_goth-3",
-            "pokemon": "kirlia midnight",
+            "pokemon": "kirlia goth",
             "presets": [
                 "mansion"
             ],

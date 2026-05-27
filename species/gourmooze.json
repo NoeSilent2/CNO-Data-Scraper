@@ -1,0 +1,245 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1119,
+  "name": "gourmooze",
+  "primaryType": "grass",
+  "maleRatio": 0.7,
+  "height": 1,
+  "weight": 28,
+  "pokedex": [
+    "cobblemon.species.gourmooze.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "appetite",
+    "h:appetite"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 80,
+    "defence": 80,
+    "special_attack": 80,
+    "special_defence": 80,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 100,
+  "experienceGroup": "medium_fast",
+  "catchRate": 60,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "standingEyeHeight": 1,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.5,
+    "height": 0.8,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0155,
+      "rouseChance": 0.0084
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.35
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "4",
+      "toleratedLeaders": [
+        {
+          "pokemon": "swalot",
+          "tier": 1
+        },
+		{
+          "pokemon": "sliggoo",
+          "tier": 1
+        },
+		{
+          "pokemon": "goodra",
+          "tier": 2
+        },
+		{
+          "pokemon": "gourmooze",
+          "tier": 3
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:slime_ball",
+        "quantityRange": "2-5"
+      },
+      {
+        "item": "minecraft:sitrus_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:helpinghand",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "legacy:toxic",
+    "special:celebrate",
+    "1:absorb",
+    "1:bubble",
+    "1:leer",
+    "10:megadrain",
+    "15:bubblebeam",
+    "20:stockpile",
+    "20:swallow",
+    "20:spitup",
+    "25:gigadrain",
+    "30:comeuppance",
+    "35:scald",
+    "40:energyball",
+    "45:recycle",
+    "45:belch",
+    "50:leafstorm",
+    "55:hydropump",
+    "65:waterspout",
+    "tm:waterpulse",
+    "tm:scald",
+    "tm:energyball",
+    "tm:leafstorm",
+    "tm:hydropump",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:muddywater",
+    "tm:magicalleaf",
+    "tm:liquidation",
+    "tm:waterfall",
+    "tm:dive",
+    "tm:surf",
+    "tm:wavecrash",
+    "tm:petalblizzard",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:seedbomb",
+    "tm:powerwhip",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:synthesis",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:leechseed",
+    "tm:worryseed",
+    "tm:toxicspikes",
+    "tm:flatter",
+    "tm:swagger",
+    "tm:faketears",
+    "tm:charm",
+    "tm:calmmind",
+    "tm:amnesia",
+    "tm:acidarmor",
+    "tm:acidspray",
+    "tm:snatch",
+    "tm:embargo",
+    "tm:fling",
+    "tm:thief",
+    "tm:brutalswing",
+    "tm:heavyslam",
+    "tm:bounce",
+    "tm:confuseray",
+    "tm:shadowball",
+    "tm:hex",
+    "tm:hyperbeam",
+    "egg:absorb",
+    "egg:bubble",
+    "egg:leer",
+    "egg:waterspout",
+    "egg:megadrain",
+    "egg:bubblebeam",
+    "egg:stockpile",
+    "egg:swallow",
+    "egg:spitup",
+    "egg:recycle",
+    "egg:belch",
+    "egg:aquaring",
+    "egg:woodhammer",
+    "egg:razorleaf",
+    "egg:strengthsap",
+    "egg:minimize",
+    "egg:grasswhistle"
+  ],
+ "evolutions": [],
+  "lightingData": {
+    "lightLevel": 7,
+    "liquidGlowMode": "LAND"
+  },
+  "features": [
+      "obese"
+    ],
+  "forms": [ 
+{
+"name": "Obese",
+
+      "primaryType": "grass",
+      "secondaryType": "water",
+      "maleRatio": 0.7,
+	  "height": 6,
+	  "weight": 1000,
+      "pokedex": [
+        "cobblemon.species.gourmooze-obese.desc"
+      ],
+      "labels": [
+        "minemons"
+      ],
+      "aspects": [
+          "obese"
+        ],
+      "baseStats": {
+        "hp": 80,
+		"attack": 120,
+		"defence": 80,
+		"special_attack": 120,
+		"special_defence": 100,
+		"speed": 40
+      },
+      "baseExperienceYield": 100
+}
+  ]
+}

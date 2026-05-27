@@ -1,0 +1,243 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1070,
+  "name": "ivorice",
+  "primaryType": "ghost",
+  "secondaryType": "ice",
+  "maleRatio": 0.5,
+  "height": 13,
+  "weight": 38,
+  "pokedex": [
+    "cobblemon.species.ivorice.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "sniper",
+    "longreach",
+    "h:slushrush"
+  ],
+  "eggGroups": [
+    "human_like",
+	  "amorphous"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 115,
+    "defence": 70,
+    "special_attack": 85,
+    "special_defence": 80,
+    "speed": 125
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 168,
+  "experienceGroup": "slow",
+  "catchRate": 30,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "standingEyeHeight": 1,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0155,
+      "rouseChance": 0.0084
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.35
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "ivorice",
+          "tier": 1
+        },
+		{
+          "pokemon": "glalie",
+          "tier": 1
+        },
+		{
+          "pokemon": "froslass",
+          "tier": 1
+        },
+		{
+          "pokemon": "weavile",
+          "tier": 2
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "2-5"
+      },
+      {
+        "item": "minecraft:blue_ice",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:helpinghand",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "legacy:toxic",
+    "special:celebrate",
+    "1:leer",
+    "1:astonish",
+    "1:shadowsneak",
+    "1:disable",
+    "1:confuseray",
+    "1:shadowpunch",
+    "1:boneclub",
+    "1:willowisp",
+    "1:curse",
+    "1:bonemerang",
+    "1:skullbash",
+    "1:shadowbone",
+    "1:iceshard",
+    "1:snowscape",
+    "36:iciclecrash",
+    "40:perishsong",
+    "45:chillyreception",
+    "50:spiritshackle",
+    "55:tripleaxel",
+    "tm:willowisp",
+    "tm:curse",
+    "tm:shadowclaw",
+    "tm:shadowball",
+    "tm:poltergeist",
+    "tm:hex",
+    "tm:nightshade",
+    "tm:darkpulse",
+    "tm:payback",
+    "tm:knockoff",
+    "tm:suckerpunch",
+    "tm:beatup",
+    "tm:throatchop",
+    "tm:spite",
+    "tm:foulplay",
+    "tm:taunt",
+    "tm:torment",
+    "tm:flatter",
+    "tm:swagger",
+    "tm:spikes",
+    "tm:iciclespear",
+    "tm:stompingtantrum",
+    "tm:sandtomb",
+    "tm:dig",
+    "tm:mudslap",
+    "tm:mudshot",
+    "tm:scorchingsands",
+    "tm:rocksmash",
+    "tm:rockslide",
+    "tm:stoneedge",
+    "tm:rocktomb",
+    "tm:painsplit",
+    "tm:zenheadbutt",
+    "tm:sandstorm",
+    "tm:raindance",
+    "tm:rockpolish",
+    "tm:infestation",
+    "tm:xscissor",
+    "tm:skittersmack",
+    "tm:pounce",
+    "tm:smartstrike",
+    "tm:flashcannon",
+    "tm:gigadrain",
+    "tm:trailblaze",
+    "tm:icepunch",
+    "tm:haze",
+    "tm:mist",
+    "tm:icespinner",
+    "tm:iciclecrash",
+    "tm:blizzard",
+    "tm:icebeam",
+    "tm:drainpunch",
+    "tm:closecombat",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:brickbreak",
+    "tm:snowscape",
+    "tm:auroraveil",
+    "tm:crunch",
+    "tm:psychicfangs",
+    "tm:icefang",
+    "tm:thunderfang",
+    "tm:poisonjab",
+    "tm:sludgebomb",
+    "egg:leer",
+    "egg:astonish",
+    "egg:shadowsneak",
+    "egg:confuseray",
+    "egg:boneclub",
+    "egg:shadowpunch",
+    "egg:bonemerang",
+    "tm:ominouswind",
+    "egg:pursuit",
+    "egg:nightslash",
+    "egg:feintattack",
+    "egg:memento",
+    "egg:sandattack",
+    "egg:ancientpower",
+    "egg:headbutt",
+    "egg:skullbash",
+    "egg:spiritbreak",
+    "egg:falsesurrender",
+    "egg:furycutter",
+    "egg:metalclaw",
+    "egg:clearsmog",
+    "egg:grudge",
+    "egg:absorb",
+    "egg:megadrain"
+  ],
+ "evolutions": [],
+  "lightingData": {
+    "lightLevel": 7,
+    "liquidGlowMode": "LAND"
+  }
+}

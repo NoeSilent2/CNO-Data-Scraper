@@ -13,11 +13,12 @@
             "context": "grounded",
             "bucket": "rare",
             "level": "30-45",
-            "weight": 10.0,
+            "weight": 1.0,
             "weightMultiplier": {
-                "multiplier": 1.25,
+                "multiplier": 5,
                 "condition": {
-                    "timeRange": "night"
+                    "timeRange": "night",
+					"moonPhase": 4
                 }
             },
             "condition": {

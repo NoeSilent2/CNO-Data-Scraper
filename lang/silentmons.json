@@ -1,0 +1,160 @@
+{
+    "cobblemon.ui.pokedex.region.creanza": "Creanza",
+    
+    "cobblemon.species.pumpkid.name": "Pumpkid",
+    "cobblemon.species.pumpkid.desc": "This Pokémon is mostly found trying to awaken other pumpkins, a quality which farmers do not enjoy.",
+    
+    "cobblemon.species.gallagourd.name": "Gallagourd",
+    "cobblemon.species.gallagourd.desc": "Having found a mighty set of armor, this Pokémon shields peasants from outside threats, a quality which farmers enjoy.",
+    
+    "cobblemon.species.nitkick.name": "Nitkick",
+    "cobblemon.species.nitkick.desc": "It is a powerful Pokémon, but its stubbornness against following orders makes it an unpopular choice.",
+    
+    "cobblemon.species.anonkey.name": "Anonkey",
+    "cobblemon.species.anonkey.desc": "It destroys everything in its path. There is no reason, it is chaos incarnate. One kick could send even a snorlax flying.",
+
+    "cobblemon.species.parropot.name": "Parropot",
+    "cobblemon.ui.pokedex.info.form.parropot": "",
+    "cobblemon.species.parropot.desc": "An ancient Pokémon, made to empower objects held within its head. It cannot steal, so it must wait in the hopes someone gives it one.",
+    "cobblemon.ui.pokedex.info.form.parropot-honeypot": "Honey Pot",
+    "cobblemon.species.parropot-honeypot.desc": "An ancient Pokémon, its power causes the honey in its head to put bug Pokémon into a trance.",
+    "cobblemon.ui.pokedex.info.form.parropot-flowerpot": "Flower Pot",
+    "cobblemon.species.parropot-flowerpot.desc": "An ancient Pokémon, its power causes the flower in it's head to never stop blooming.",
+    "cobblemon.ui.pokedex.info.form.parropot-candle": "Candle",
+    "cobblemon.species.parropot-candle.desc": "An ancient Pokémon, its power causes the candle in it's head to never extinguish.",
+    "cobblemon.ui.pokedex.info.form.parropot-quill": "Quill",
+    "cobblemon.species.parropot-quill.desc": "An ancient Pokémon, its power causes the quill in it's head to always carry the wind with it.",
+
+    "cobblemon.species.serasea.name": "Serasea",
+    "cobblemon.species.serasea.desc": "Any sailor worth his salt knows to leave a Serasea be. To kill a bearer of innocent souls is to be cursed forevermore.",
+
+    "cobblemon.species.ocatalyst.name": "Ocatalyst",
+    "cobblemon.species.ocatalyst.desc": "An iconic witches assistant, the Ocatalyst can be found wandering exotic biomes in search of ingredients for their potions.",
+
+    "cobblemon.species.gourmooze.name" : "Gourmooze",
+    "cobblemon.species.gourmooze.desc" : "It implements nutrients into it's body directly, becoming more powerful. It is exceptionally difficult to satisfy it's unique tastes in food.",
+
+    "cobblemon.species.tormniac.name": "Tormniac",
+    "cobblemon.species.tormniac.desc": "Despite it's dreadful appearance, it's quite friendly. Nevertheless, its often kept by Occultists and Antiquarians to shield their sleeping minds.",
+    
+    "cobblemon.species.bowne.name": "Bowne",
+    "cobblemon.species.bowne.desc": "It carries a handcrafted bow of bone at all times. This Pokémon is never seen without it.",
+    
+    "cobblemon.species.bognmarrow.name": "Bognmarrow",
+    "cobblemon.species.bognmarrow.desc": "It patrols its territory with a platoon of fellow Bognmarrow. Whichever one has the bigger mushroom is the leader... allegedly.",
+    
+    "cobblemon.species.ivorice.name": "Ivorice",
+    "cobblemon.species.ivorice.desc": "While typically a solitary Pokémon, the call of the Frost Monarch is undeniable. Their loyalty is only outdone by their cruelty.",
+    
+    "cobblemon.species.withereign.name": "Withereign",
+    "cobblemon.species.withereign.desc": "This sinister Pokémon convalesces in the souls of its enemies and allies alike, using them to grow closer to true life.",
+
+    "cobblemon.species.inshell.name": "Inshell",
+    "cobblemon.species.inshell.desc": "It hides in it's iridescent shell, firing a poisonous needle when threatened. It has an angst-y attitude.",
+
+    "cobblemon.move.badinput": "Bad Input",
+    "cobblemon.move.badinput.desc": "This move inflicts physical or special damage, whichever will be more effective. The user distorts the fabric of reality, randomizing it's type in the process.",
+
+    "cobblemon.move.blastospore": "Blastospore",
+    "cobblemon.move.blastospore.desc": "The user explodes in a cloud of spores to inflict damage on adjacent foes. The user faints upon using this move.",
+
+    "cobblemon.move.blunderpowder": "Blunder Powder",
+    "cobblemon.move.blunderpowder.desc": "The user fires a musketball of mud at the target. The spore powder damages Pokémon next to the target as well.",
+
+    "cobblemon.move.dealer": "Dealer",
+    "cobblemon.move.dealer.desc": "The user shuffles the items of every Pokémon on the field, randomly giving each Pokémon an item.",
+    "cobblemon.battle.activate.dealer.shuffle": "%1$s shuffled everyone's items!",
+
+    "cobblemon.move.eldereye": "Elder Eye",
+    "cobblemon.move.eldereye.desc": "The user fires a crystaline beam of energy at the target. If this move is used while raining, it electrifies the target's next move.",
+
+    "cobblemon.move.fester": "Fester",
+    "cobblemon.move.fester.desc": "The user feasts on the target's natural energies. This move always hits and the user's Attack is raised if the target is a Psychic, Dark or Grass-type.",
+
+    "cobblemon.move.frostbolt": "Frost Bolt",
+    "cobblemon.move.frostbolt.desc": "The user fires a crossbow bolt of ice at the target's weakpoints. This may leave the target paralyzed.",
+
+    "cobblemon.move.mishap": "Mishap",
+    "cobblemon.move.mishap.desc": "The user spills a strange brew on the target to confuse it. However, this also sharply raises the target’s Attack stat.",
+
+    "cobblemon.move.overcharge": "Overcharge",
+    "cobblemon.move.overcharge.desc": "The user overcharges it's joints, battering the target. If it's partner is Electric-Type, a random stat of that Pokémon is raised. Cannot be used twice in a row.",
+
+    "cobblemon.move.rapidfire": "Rapidfire",
+    "cobblemon.move.rapidfire.desc": "The user fires three sandballs in quick succession. This move has a heightened chance of landing a critical hit, may burn and flinch the target.",
+
+    "cobblemon.move.siphon": "Siphon",
+    "cobblemon.move.siphon.desc": "This move inflicts physical or special damage, whichever will be more effective. The user's HP will be restored by a portion of the damage dealt. If the user is at full hp, instead of healing it will summon grassy terrain.",
+    "cobblemon.battle.activate.siphon": "%1$s's overabundance of energy summoned grassy terrain!",
+
+    "cobblemon.move.soulfireblade": "Soulfire Blade",
+    "cobblemon.move.soulfireblade.desc": "The user slashes the target with a blade of soulfire. This may leave the target with a burn.",
+
+    "cobblemon.move.treefell": "Treefell",
+    "cobblemon.move.treefell.desc": "The user attacks by hacking at the target with a blade. This move is super effective on Grass-type Pokémon.",
+
+    "cobblemon.move.whiplash": "Whiplash",
+    "cobblemon.move.whiplash.desc": "The user whips the target with high speed winds. This move always goes first and is boosted if used in tailwind.",
+    "cobblemon.battle.activate.whiplash": "The move was boosted by the flowing winds!",
+
+    "cobblemon.ability.anarchist": "Anarchist",
+    "cobblemon.ability.anarchist.desc": "Boosts the Attack stat of this Pokémon when hit by a Fighting-type move. This Pokémon cannot be confused.",
+
+    "cobblemon.ability.anomaly": "Anomaly",
+    "cobblemon.ability.anomaly.desc": "While this Pokémon is on the field, type interactions are reversed.",
+    "cobblemon.battle.activate.anomaly": "%1$s twisted reality! Types have been reversed!",
+
+    "cobblemon.ability.appetite": "Appetite",
+    "cobblemon.ability.appetite.desc": "When this Pokémon eats a berry, it transforms into it's obese form.",
+    "cobblemon.battle.activate.appetite": "%1$s is well fed!",
+
+    "cobblemon.ability.brainworm": "Brainworm",
+    "cobblemon.ability.brainworm.desc": "The Pokémon adds the psychic type to the attacker if it makes direct contact.",
+    "cobblemon.battle.activate.brainworm": "%1$s's particles transfered to the attacker!",
+
+    "cobblemon.ability.culinary": "Culinary",
+    "cobblemon.ability.culinary.desc": "Doubles the benefits of consumed berries for allies.",
+    "cobblemon.battle.activate.culinary": "%1$s prepares the meal!",
+
+    "cobblemon.ability.darksorcery": "Dark Sorcery",
+    "cobblemon.ability.darksorcery.desc": "This Pokémon's Psychic-type moves can hit Dark-types",
+
+    "cobblemon.ability.determination": "Determination",
+    "cobblemon.ability.determination.desc": "When this Pokémon is knocked out, instead of immediately fainting, it still continues the rest of it's turn. It faints when it's turn ends.",
+    "cobblemon.battle.activate.determination": "%1$s makes its last stand!",
+
+    "cobblemon.ability.dragonheart": "Dragon's Heart",
+    "cobblemon.ability.dragonheart.desc": "This Pokémon's Dragon-type moves are boosted and have a chance to flinch while in psychic terrain.",
+
+    "cobblemon.ability.lastgrasp": "Last Grasp",
+    "cobblemon.ability.lastgrasp.desc": "The Pokémon gains more health from sources of recovery. If Grassy Terrain is active, the Pokémon rejuvenates and achieves it's true form.",
+
+    "cobblemon.ability.maritime": "Maritime",
+    "cobblemon.ability.maritime.desc": "This Pokémon's Rock-type moves are boost and are perfectly accurate in rain.",
+
+    "cobblemon.ability.mentor": "Mentor",
+    "cobblemon.ability.mentor.desc": "Damaging charging moves for both this Pokémon and it's ally happen in a single turn instead.",
+    "cobblemon.battle.activate.mentor.self": "%1$s uses a technique to speed up the process!",
+    "cobblemon.battle.activate.mentor.ally": "%1$s guides %3$s",
+
+    "cobblemon.ability.neurotoxin": "Neurotoxin",
+    "cobblemon.ability.neurotoxin.desc": "Pokémon poisoned by the user's moves will also have their speed stat lowered.",
+
+
+    "cobblemon.ability.oxidize": "Oxidize",
+    "cobblemon.ability.oxidize.desc": "When hit by a Water or Electric-type move, this Pokémon envelops itself in a veil made of energy and regains some HP every turn.",
+    "cobblemon.battle.activate.oxidize.water": "%1$s is moisturized by the attack!",
+    "cobblemon.battle.activate.oxidize.electric": "%1$s is energized by the attack!",
+
+    "cobblemon.ability.savagery": "Savagery",
+    "cobblemon.ability.savagery.desc": "Instead of being confused, a random stat is raised.",
+
+    "cobblemon.ability.silvertongue": "Silver Tongue",
+    "cobblemon.ability.silvertongue.desc": "This Pokémon's Steel-type moves may lower the target's speed.",
+
+    "cobblemon.ability.sirenscall": "Siren's Call",
+    "cobblemon.ability.sirenscall.desc": "The Pokémon draws in all Ghost-type moves. Instead of taking damage from them, its Sp. Def stat is boosted.",
+
+    "cobblemon.ability.resonance": "Echo Chamber",
+    "cobblemon.ability.resonance.desc": "While this Pokémon is on the field, If a Sound-based move is used every turn, they do greater damage"
+}

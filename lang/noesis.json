@@ -32,5 +32,20 @@
 "cobblemon.ability.terrify.desc": "When the Pokémon enters a battle, it terrifies opposing Pokémon and leaves them petrified, lowering their Speed stats.",
 
 "cobblemon.ability.thickskin": "Thick Skin",
-"cobblemon.ability.thickskin.desc": "Reduces the power of non-supereffective attacks that hit the Pokémon by 1/4th."
+"cobblemon.ability.thickskin.desc": "Reduces the power of non-supereffective attacks that hit the Pokémon by 1/4th.",
+
+"cobblemon.species.meowl.name": "Meowl",
+"cobblemon.species.meowl.desc": "Meowl is a new soul that has come to this strange world in hopes of learning how to give and take.",
+
+"cobblemon.species.missingno.name": "MissingNo.",
+"cobblemon.species.missingno.desc": "",
+
+"cobblemon.species.bunger.name": "Bunger",
+"cobblemon.species.bunger.desc1": "This Pokémon loves to run into other Pokémon.",
+"cobblemon.species.bunger.desc2": "They can be easily distracted with ketchup.",
+
+"cobblemon.move.bungerblast": "Bunger Blast",
+"cobblemon.move.bungerblast.desc": "Bunger.... BLAST!!!!!!!!!!!!",
+
+"cobblemon.type.bird": "Bird"
 }

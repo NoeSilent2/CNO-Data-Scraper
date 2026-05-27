@@ -12,7 +12,7 @@
             "level": "1-14",
             "weight": 9.0,
             "weightMultiplier": {
-                "multiplier": 2.0,
+                "multiplier": 4.0,
                 "condition": {
                     "moonPhase": "0"
                 }

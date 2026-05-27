@@ -1,0 +1,253 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1117,
+  "name": "pumpkid",
+  "primaryType": "grass",
+  "maleRatio": 0.7,
+  "height": 1.5,
+  "weight": 40,
+  "pokedex": [
+    "cobblemon.species.pumpkid.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "owntempo",
+    "anticipation",
+    "h:hospitality"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 40,
+    "defence": 50,
+    "special_attack": 30,
+    "special_defence": 50,
+    "speed": 10
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 80,
+  "experienceGroup": "medium_slow",
+  "catchRate": 80,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": true,
+  "baseScale": 1,
+  "standingEyeHeight": 1,
+  "hitbox": {
+    "width": 0.7,
+    "height": 0.8,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.35
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+		{
+          "pokemon": "steenee",
+          "tier": 1
+        },
+		{
+          "pokemon": "bounsweet",
+          "tier": 1
+        },
+		{
+          "pokemon": "cottonee",
+          "tier": 1
+        },
+		{
+          "pokemon": "whimsicott",
+          "tier": 1
+        },
+		{
+          "pokemon": "pumpkaboo",
+          "tier": 2
+        },
+		{
+          "pokemon": "gourgeist",
+          "tier": 2
+        },
+		{
+          "pokemon": "leavanny",
+          "tier": 2
+        },
+		{
+          "pokemon": "chesnaught",
+          "tier": 3
+        },
+		{
+          "pokemon": "gallagourd",
+          "tier": 4
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": false,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+	  {
+        "item": "minecraft:pumpkin",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:helpinghand",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "legacy:toxic",
+    "special:celebrate",
+    "1:growl",
+    "1:vinewhip",
+    "5:aromatherapy",
+    "10:razorleaf",
+    "13:headbutt",
+    "15:grasswhistle",
+    "20:brickbreak",
+    "25:spicyextract",
+    "25:leechseed",
+    "30:seedbomb",
+    "35:bodyslam",
+    "40:synthesis",
+    "45:woodhammer",
+    "50:explosion",
+    "tm:brickbreak",
+    "tm:leechseed",
+    "tm:seedbomb",
+    "tm:bodyslam",
+    "tm:takedown",
+    "tm:synthesis",
+    "tm:charm",
+    "tm:faketears",
+    "tm:bodypress",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:sunnyday",
+    "tm:raindance",
+    "tm:grassyterrain",
+    "tm:strength",
+    "tm:energyball",
+    "tm:gigadrain",
+    "tm:petalblizzard",
+    "tm:grassknot",
+    "tm:stompingtantrum",
+    "tm:leafblade",
+    "tm:powerwhip",
+    "tm:explosion",
+    "tm:gigaimpact",
+    "tm:heavyslam",
+    "tm:swagger",
+    "tm:flatter",
+    "tm:playrough",
+    "tm:babydolleyes",
+    "tm:disarmingvoice",
+    "tm:alluringvoice",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:highhorsepower",
+    "tm:bulldoze",
+    "tm:ironhead",
+    "tm:rocktomb",
+    "tm:rockslide",
+    "tm:stoneedge",
+    "tm:mudslap",
+    "tm:mudshot",
+    "tm:rapidspin",
+    "tm:acidspray",
+    "tm:gastroacid",
+    "tm:vacuumwave",
+    "tm:focusblast",
+    "tm:reversal",
+    "tm:echoedvoice",
+    "tm:hypervoice",
+    "tm:doubleedge",
+    "tm:hyperbeam",
+    "tm:bulkup",
+    "tm:workup",
+    "tm:worryseed",
+    "tm:safeguard",
+    "tm:weatherball",
+    "tm:terrainpulse",
+    "tm:trailblaze",
+    "egg:aromatherapy",
+    "egg:vinewhip",
+    "egg:growl",
+    "egg:headbutt",
+    "egg:razorleaf",
+    "egg:grasswhistle",
+    "egg:spicyextract",
+    "egg:woodhammer",
+    "egg:strengthsap",
+    "egg:ingrain",
+    "egg:absorb",
+    "egg:megadrain",
+    "egg:petaldance",
+    "egg:yawn",
+    "egg:recycle",
+    "egg:lifedew",
+    "tm:afteryou",
+    "egg:belch"
+  ],
+ "evolutions": [
+	{
+      "id": "pumpkid_gallagourd",
+      "variant": "item_interact",
+      "result": "gallagourd",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "magnetbomb",
+        "irondefense"
+      ],
+      "requirements": [],
+      "requiredContext": "paladins:paladin_armor_chest"
+
+	}
+  ],
+  "lightingData": {
+    "lightLevel": 7,
+    "liquidGlowMode": "LAND"
+  }
+}

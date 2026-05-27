@@ -1,123 +1,120 @@
 {
-  "name": "gubble",
-  "nationalPokedexNumber": 1046,
-  "primaryType": "ground",
-  "secondaryType": "fire",
-  "abilities": [
-    "arenatrap",
-    "h:stickyhold"
-  ],
-  "baseStats": {
-    "hp": 40,
-    "attack": 40,
-    "defence": 55,
-    "special_attack": 50,
-    "special_defence": 50,
-    "speed": 10
-  },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "forms": [],
-  "baseExperienceYield": 50,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 20,
-  "eggGroups": [
-    "amorphous",
-    "mineral"
-  ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:coal",
-        "percentage": 80
-      },
-      {
-        "item": "minecraft:bone",
-        "percentage": 50
-      }
-    ]
-  },
-  "moves": [
-    "1:mudslap",
-    "1:ancientpower",
-    "1:ember",
-    "4:mudsport",
-    "7:minimize",
-    "10:mudbomb",
-    "14:flamewheel",
-    "16:sludge",
-    "21:bind",
-    "25:boneclub",
-    "28:yawn",
-    "32:firefang",
-    "35:bonemerang",
-    "38:acidarmor",
-    "40:recover",
-    "43:curse",
-    "46:bonerush",
-    "50:gunkshot",
-    "egg:earthpower",
-    "egg:inferno",
-    "egg:fakeout",
-    "egg:smokescreen",
-    "egg:spitup",
-    "egg:stockpile",
-    "egg:swallow",
-    "tm:protect",
-    "tm:rest",
-    "tm:sleeptalk",
-    "tm:snore",
-    "tm:endure",
-    "tm:endeavor",
-    "tm:flamecharge",
-    "tm:sunnyday",
-    "tm:sludgebomb",
-    "tm:firespin",
-    "tm:mudslap",
-    "tm:charm",
-    "tm:takedown",
-    "tm:substitute",
-    "tm:willowisp",
-    "tm:stealthrock",
-    "tm:amnesia",
-    "tm:helpinghand"
-  ],
-  "labels": [
-    "gen8"
-  ],
-  "pokedex": [
-    "cobblemon.species.gubble.desc1",
-    "cobblemon.species.gubble.desc2"
-  ],
-  "evolutions": [
-    {
-      "id": "gubble_tarblin",
-      "variant": "level_up",
-      "result": "tarblin",
-      "consumeHeldItem": false,
-      "learnableMoves": [
-        "tarshot"
-      ],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 30
+	"implemented": true,
+    "name": "gubble",
+    "nationalPokedexNumber": 1046,
+    "primaryType": "ground",
+    "secondaryType": "fire",
+    "abilities": [
+        "arenatrap",
+        "h:stickyhold"
+    ],
+    "baseStats": {
+        "hp": 40,
+        "attack": 40,
+        "defence": 55,
+        "special_attack": 50,
+        "special_defence": 50,
+        "speed": 10
+    },
+    "catchRate": 190,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "forms": [],
+    "baseExperienceYield": 50,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+        "amorphous",
+        "mineral"
+    ],
+    "drops": {
+        "amount": "2",
+        "entries": [{
+                "item": "minecraft:coal",
+                "percentage": 80
+            }, {
+                "item": "minecraft:bone",
+                "percentage": 50
+            }
+        ]
+    },
+    "moves": [
+        "1:mudslap",
+        "1:ancientpower",
+        "1:ember",
+        "4:mudsport",
+        "7:minimize",
+        "10:mudbomb",
+        "14:flamewheel",
+        "16:sludge",
+        "21:bind",
+        "25:boneclub",
+        "28:yawn",
+        "32:firefang",
+        "35:bonemerang",
+        "38:acidarmor",
+        "40:recover",
+        "43:curse",
+        "46:bonerush",
+        "50:gunkshot",
+        "egg:earthpower",
+        "egg:inferno",
+        "egg:fakeout",
+        "egg:smokescreen",
+        "egg:spitup",
+        "egg:stockpile",
+        "egg:swallow",
+        "tm:protect",
+        "tm:rest",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:endure",
+        "tm:endeavor",
+        "tm:flamecharge",
+        "tm:sunnyday",
+        "tm:sludgebomb",
+        "tm:firespin",
+        "tm:mudslap",
+        "tm:charm",
+        "tm:takedown",
+        "tm:substitute",
+        "tm:willowisp",
+        "tm:stealthrock",
+        "tm:amnesia",
+        "tm:helpinghand"
+    ],
+    "labels": [
+        "gen8"
+    ],
+    "pokedex": [
+        "cobblemon.species.gubble.desc1",
+        "cobblemon.species.gubble.desc2"
+    ],
+    "evolutions": [{
+            "id": "gubble_tarblin",
+            "variant": "level_up",
+            "result": "tarblin",
+            "consumeHeldItem": false,
+            "learnableMoves": [
+                "tarshot"
+            ],
+            "requirements": [{
+                    "variant": "level",
+                    "minLevel": 30
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "baseScale": 1.0,
-  "hitbox": {
-    "width": 0.25,
-    "height": 0.25,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "defence": 1
-  },
-  "height": 3,
-  "weight": 450
+    ],
+    "baseScale": 1.0,
+    "hitbox": {
+        "width": 0.25,
+        "height": 0.25,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "defence": 1
+    },
+    "height": 3,
+    "weight": 450
 }

@@ -5,7 +5,7 @@
     "spawns": [
         {
             "id": "ralts_goth-1",
-            "pokemon": "ralts midnight",
+            "pokemon": "ralts goth",
             "presets": [
                 "natural"
             ],
@@ -26,7 +26,7 @@
         },
         {
             "id": "ralts_goth-2",
-            "pokemon": "ralts midnight",
+            "pokemon": "ralts goth",
             "presets": [
                 "natural"
             ],
@@ -49,7 +49,7 @@
         },
         {
             "id": "ralts_goth-3",
-            "pokemon": "ralts midnight",
+            "pokemon": "ralts goth",
             "presets": [
                 "mansion"
             ],

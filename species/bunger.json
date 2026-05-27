@@ -1,8 +1,9 @@
 {
   "implemented": true,
-  "nationalPokedexNumber": 1151,
+  "nationalPokedexNumber": 1162,
   "name": "bunger",
   "labels": [
+	"mythical",
     "custom"
   ],
   "pokedex": [
@@ -109,6 +110,5 @@
         "canBreatheUnderwater": false
       }
     }
-  },
-  "nationalPokedexNumber": 1169
+  }
 }

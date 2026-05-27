@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "gallagourd-1",
+            "pokemon": "gallagourd",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "35-50",
+            "weight": 3,
+            "condition": {
+				"structures": [
+                "minecraft:village_taiga",
+				"minecraft:village_plains",
+				"minecraft:village_savanna"
+                ]
+            }
+        }
+   ]
+}

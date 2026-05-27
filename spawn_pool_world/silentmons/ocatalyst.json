@@ -1,0 +1,56 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "ocatalyst-1",
+            "pokemon": "ocatalyst",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "20-44",
+            "weight": 4,
+            "condition": {
+				"timeRange": "night",
+				"biomes": [
+                "minecraft:swamp",
+				"minecraft:dark_forest"
+                ]
+            }
+        },
+		{
+            "id": "ocatalyst-2",
+            "pokemon": "ocatalyst",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "32-56",
+            "weight": 12,
+            "condition": {
+				"biomes": [
+				"minecraft:crimson_forest",
+				"minecraft:warped_forest",
+				"incendium:toxic_heap"
+                ]
+            }
+        },
+		{
+            "id": "ocatalyst-3",
+            "pokemon": "ocatalyst",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "8-16",
+            "weight": 16,
+            "condition": {
+				"structures": [
+					"minecraft:swamp_hut",
+					"betterwitchhuts:witch_hut",
+					"villagesandpillages:village_witch",
+					"structory:old_manor"
+				]
+            }
+        }
+   ]
+}

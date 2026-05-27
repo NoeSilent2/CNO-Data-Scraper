@@ -1,0 +1,108 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "bowne-1",
+            "pokemon": "bowne",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+				"timeRange": "night",
+                "biomes": [
+                   "#cobblemon:is_forest",
+                   "#cobblemon:is_hills",
+                   "#cobblemon:is_snowy_forest",
+                   "#cobblemon:is_snowy_taiga",
+                   "#cobblemon:is_taiga",
+                   "#cobblemon:is_swamp",
+				   "#cobblemon:is_desert"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "bowne-2",
+            "pokemon": "bowne",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "10-40",
+            "weight": 1,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "bowne-3",
+            "pokemon": "bowne",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "10-40",
+            "weight": 2,
+            "weightMultiplier": {
+                "multiplier": 2,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 4,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ],
+                "isRaining": false
+            }
+        },
+		{
+            "id": "bowne-4",
+            "pokemon": "bowne",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "20-50",
+            "weight": 3,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_desert"
+                ]
+            }
+        }
+   ]
+}

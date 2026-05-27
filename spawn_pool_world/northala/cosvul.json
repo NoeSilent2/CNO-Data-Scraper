@@ -15,9 +15,10 @@
             "level": "55-70",
             "weight": 1.0,
             "weightMultiplier": {
-                "multiplier": 1.25,
+                "multiplier": 8,
                 "condition": {
-                    "timeRange": "night"
+                    "timeRange": "night",
+					"moonPhase": 4
                 }
             },
             "condition": {

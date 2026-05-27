@@ -5,7 +5,7 @@
     "spawns": [
         {
             "id": "gallade_goth-1",
-            "pokemon": "gallade midnight",
+            "pokemon": "gallade goth",
             "presets": [
                 "natural"
             ],
@@ -26,7 +26,7 @@
         },
         {
             "id": "gallade_goth-2",
-            "pokemon": "gallade midnight",
+            "pokemon": "gallade goth",
             "presets": [
                 "natural"
             ],
@@ -49,7 +49,7 @@
         },
         {
             "id": "gallade_goth-3",
-            "pokemon": "gallade midnight",
+            "pokemon": "gallade goth",
             "presets": [
                 "mansion"
             ],

@@ -1,0 +1,28 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "ralts-altered-1",
+            "pokemon": "ralts altered",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 7.5,
+            "condition": {
+                "timeRange": "night",
+                "biomes": [
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_magical",
+                    "aether:skyroot_grove",
+                    "aether:skyroot_meadow",
+                    "#cobblemon:is_snowy_forest"
+                ]
+            }
+        }
+    ]
+}

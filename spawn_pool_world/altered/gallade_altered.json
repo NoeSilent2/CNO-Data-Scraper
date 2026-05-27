@@ -1,0 +1,28 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "gallade-altered-1",
+            "pokemon": "gallade altered",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "30-52",
+            "weight": 0.0625,
+            "condition": {
+                "timeRange": "night",
+                "biomes": [
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_magical",
+                    "aether:skyroot_grove",
+                    "aether:skyroot_meadow",
+                    "#cobblemon:is_snowy_forest"
+                ]
+            }
+        }
+    ]
+}

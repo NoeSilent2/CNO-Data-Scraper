@@ -1,0 +1,201 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1121,
+  "name": "serasea",
+  "primaryType": "fairy",
+  "secondaryType": "ghost",
+  "maleRatio": 0.3,
+  "height": 3,
+  "weight": 20,
+  "pokedex": [
+    "cobblemon.species.serasea.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "cursedbody",
+    "serenegrace",
+    "h:sirenscall"
+  ],
+  "eggGroups": [
+    "water_1",
+    "water_3"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 40,
+    "defence": 80,
+    "special_attack": 98,
+    "special_defence": 80,
+    "speed": 112
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 80,
+  "experienceGroup": "medium_fast",
+  "catchRate": 60,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": true,
+  "baseScale": 1,
+  "standingEyeHeight": 1,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1.3,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.3,
+		"avoidsLand": true
+      },
+      "swim": {
+        "canBreatheUnderwater": true,
+        "swimSpeed": "0.3"
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+	  {
+          "pokemon": "serasea",
+          "tier": 1
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:absorb_bulb",
+		"percentage": 20
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:helpinghand",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "legacy:toxic",
+    "special:celebrate",
+    "1:watergun",
+    "1:astonish",
+    "1:babydolleyes",
+    "5:disarmingvoice",
+    "10:drainingkiss",
+    "13:sweetkiss",
+    "15:ominouswind",
+    "20:haze",
+    "25:aquaring",
+    "30:dazzlinggleam",
+    "35:shadowball",
+    "40:moonblast",
+    "43:followme",
+    "47:destinybond",
+    "50:hydropump",
+    "66:perishsong",
+    "tm:babydolleyes",
+    "tm:drainingkiss",
+    "tm:disarmingvoice",
+    "tm:ominouswind",
+    "tm:haze",
+    "tm:mist",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:snowscape",
+    "tm:raindance",
+    "tm:auroraveil",
+    "tm:shadowball",
+    "tm:moonblast",
+    "tm:hydropump",
+    "tm:spite",
+    "tm:hex",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:icespinner",
+    "tm:icywind",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:alluringvoice",
+    "tm:psychicnoise",
+    "tm:flash",
+    "tm:energyball",
+    "tm:foulplay",
+    "tm:tailwind",
+    "tm:mistyterrain",
+    "tm:mistyexplosion",
+    "tm:shockwave",
+    "tm:embargo",
+    "tm:torment",
+    "tm:signalbeam",
+    "tm:dazzlinggleam",
+    "tm:curse",
+    "tm:doubleteam",
+    "tm:metronome",
+    "tm:swift",
+    "tm:triattack",
+    "tm:healbell",
+    "tm:safeguard",
+    "tm:uproar",
+    "tm:surf",
+    "tm:dive",
+    "tm:brine",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:waterpulse",
+    "tm:aurasphere",
+    "tm:focusblast",
+    "tm:wonderroom",
+    "tm:trickroom",
+    "tm:magicroom",
+    "tm:playrough",
+    "egg:watergun",
+    "egg:astonish",
+    "egg:sweetkiss",
+    "egg:aquaring",
+    "egg:followme",
+    "egg:perishsong",
+    "egg:destinybond",
+    "egg:grudge",
+    "egg:tailglow",
+    "egg:sparklingaria",
+    "egg:mirrorcoat"
+  ],
+ "evolutions": [],
+  "lightingData": {
+    "lightLevel": 7,
+    "liquidGlowMode": "LAND"
+  }
+}

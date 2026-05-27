@@ -6,46 +6,72 @@
         {
             "id": "lymming-1",
             "pokemon": "lymming",
-            "presets": [
-                "natural",
-                "wild"
-            ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
-            "level": "11-28",
-            "weight": 7.2,
+            "level": "6-18",
+            "weight": 2.0,
+            "weightMultiplier": {
+                "multiplier": 2.0,
+                "neededNearbyBlocks": [ 
+                    "#minecraft:needs_iron_tool"
+				]
+            },
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_dripstone",
-                    "minecraft:stony_peaks"
+                    "#cobblemon:is_sandy"
                 ]
             },
-            "anticondition": {
-                "biomes": [
-                    "minecraft:dripstone_caves"
-                ]
-            }
+			"anticondition": {
+				"biomes": [
+					"#cobblemon:is_beach"
+				]
+			}
         },
         {
             "id": "lymming-2",
             "pokemon": "lymming",
-            "presets": [
-                "natural",
-                "wild"
-            ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
             "level": "8-26",
-            "weight": 4.1,
+            "weight": 20.0,
             "condition": {
                 "canSeeSky": true,
-                "biomes": [
-                    "byg:fragment_forest"
+                "structures": [
+                    "#cobblemon:fossil"
                 ]
-            }
+            },
+			"anticondition": {
+				"biomes": [
+					"#cobblemon:is_ocean",
+					"#cobblemon:is_freezing"
+				]
+			}
+        },
+		{
+            "id": "lymming-3",
+            "pokemon": "lymming",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "11-28",
+            "weight": 32.0,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:suspicious_sand",
+					"minecraft:suspicious_gravel",
+					"lootr:suspicious_sand",
+					"lootr:suspicious_gravel"
+                ]
+            },
+			"anticondition": {
+				"biomes": [
+					"#cobblemon:is_ocean",
+					"#cobblemon:is_freezing"
+				]
+			}
         }
     ]
 }

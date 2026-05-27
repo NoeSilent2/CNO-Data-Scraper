@@ -10,7 +10,7 @@
             ],
             "type": "pokemon-herd",
             "spawnablePositionType": "grounded",
-            "bucket": "common",
+            "bucket": "uncommon",
             "levelRange": "2-52",
             "weight": 0.75,
             "minHerdSize": 4,

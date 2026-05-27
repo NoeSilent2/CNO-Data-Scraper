@@ -1,0 +1,94 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "parropot-1",
+            "pokemon": "parropot",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "10-26",
+            "weight": 16,
+            "condition": {
+				"structures": [
+					"minecraft:trail_ruins"
+                ]
+            }
+        },
+        {
+            "id": "parropot-2",
+            "pokemon": "parropot",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "14-36",
+            "weight": 6,
+            "condition": {
+				"structures": [
+					"#adventuredungeons:bygonedungeon",
+					"#adventuredungeons:murkydungeon",
+					"#adventuredungeons:coldlair"
+                ],
+				"neededBaseBlocks": [
+					"minecraft:cobblestone",
+					"minecraft:mossy_cobblestone",
+					"minecraft:polished_diorite",
+					"minecraft:polished_andesite",
+					"minecraft:polished_granite",
+					"#minecraft:wool_carpets",
+					"#minecraft:stone_bricks"
+				]
+            }
+        },
+        {
+            "id": "parropot-3",
+            "pokemon": "parropot",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "6-24",
+            "weight": 8,
+            "condition": {
+                "neededNearbyBlocks": [
+					"minecraft:flower_pot",
+                    "minecraft:potted_dandelion",
+                    "minecraft:potted_poppy",
+                    "minecraft:potted_blue_orchid",
+                    "minecraft:potted_allium",
+                    "minecraft:potted_azure_bluet",
+                    "minecraft:potted_red_tulip",
+                    "minecraft:potted_orange_tulip",
+                    "minecraft:potted_white_tulip",
+                    "minecraft:potted_pink_tulip",
+                    "minecraft:potted_oxeye_daisy",
+                    "minecraft:potted_cornflower",
+                    "minecraft:potted_lily_of_the_valley",
+                    "minecraft:potted_wither_rose",
+                    "minecraft:potted_torchflower",
+                    "minecraft:potted_oak_sapling",
+                    "minecraft:potted_spruce_sapling",
+                    "minecraft:potted_birch_sapling",
+                    "minecraft:potted_jungle_sapling",
+                    "minecraft:potted_acacia_sapling",
+                    "minecraft:potted_dark_oak_sapling",
+                    "minecraft:potted_cherry_sapling",
+                    "minecraft:potted_red_mushroom",
+                    "minecraft:potted_brown_mushroom",
+                    "minecraft:potted_fern",
+                    "minecraft:potted_dead_bush",
+                    "minecraft:potted_cactus",
+                    "minecraft:potted_bamboo",
+                    "minecraft:potted_azalea_bush",
+                    "minecraft:potted_flowering_azalea_bush",
+                    "minecraft:potted_crimson_fungus",
+                    "minecraft:potted_warped_fungus",
+                    "minecraft:potted_crimson_roots",
+                    "minecraft:potted_warped_roots",
+                    "minecraft:potted_mangrove_propagule"
+                ]
+            }
+        }
+   ]
+}

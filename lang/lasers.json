@@ -21,7 +21,7 @@
   "cobblemon.species.umbrelligant.desc": "Using its stilt-like legs, this Pokémon walks across rivers and ponds to keep cool without risk of its paper body touching the water. The parasol on its head protects it from the harsh summer sun.",
 
   "cobblemon.ui.pokedex.info.form.pillowisp": "Sweet Dreams",
-  "cobblemon.ui.pokedex.info.form.pillowisp-baddreams": "Bad Dreams",
+  "cobblemon.ui.pokedex.info.form.pillowisp-bad_dream": "Bad Dreams",
   "cobblemon.species.pillowisp.name": "Pillowisp",
   "cobblemon.species.pillowisp.desc": "When a pillow is inhabited by a wandering spirit laying to rest, it becomes this Pokémon. Its pillowcase body is filled with magic sand that inherits the Pokemon’s dreams. It is said that if you lay your head on this Pokémon’s pillow-like body, you will dream happy dreams.",
   "cobblemon.species.pillowisp_bad.desc": "When a pillow is inhabited by a wandering spirit laying to rest, it becomes this Pokémon. Its pillowcase body is filled with magic sand that inherits the Pokémon’s dreams. It is said that if you lay your head on this Pokémon’s pillow-like body, you will be tormented by nightmares.",
@@ -44,15 +44,18 @@
   "cobblemon.species.lucario-midnight.desc": "Its fighting style is ruthless and brutal, and it shows its opponents no mercy. Its aura is overflowing, allowing it to sense its opponent's moves before they even make them. When the eyes on its hands open, it launches bursts of aura that can turn steel into dust.",
   "cobblemon.species.lucario-mega-midnight.desc": "It radiates a powerful aura due to the power of Mega Evolution. Using this power, it can fire off pulses of aura that can shatter solid diamond. It has no mercy in its heart.",
 
+
   "cobblemon.ui.pokedex.info.form.ralts": " ",
   "cobblemon.ui.pokedex.info.form.ralts-midnight": "Midnight",
   "cobblemon.species.ralts-midnight.name": "Ralts",
   "cobblemon.species.ralts-midnight.desc": "Ralts senses the emotions of people using the horns on its head, and feeds off of the fear of others... Unfortunately, its also a scaredy-cat itself. It will often jump out to scare people, only to get spooked when they scream.",
 
+
   "cobblemon.ui.pokedex.info.form.kirlia": " ",
   "cobblemon.ui.pokedex.info.form.kirlia-midnight": "Midnight",
   "cobblemon.species.kirlia-midnight.name": "Kirlia",
   "cobblemon.species.kirlia-midnight.desc": "It is said that a Kirlia will absorb the negative emotions of its trainer. This Pokémon prefers to keep to itself, picking petals off of flowers and thinking melancholy thoughts.",
+
 
   "cobblemon.ui.pokedex.info.form.gardevoir-midnight": "Midnight",
   "cobblemon.ui.pokedex.info.form.gardevoir-megamidnight": "Mega Midnight",
@@ -60,11 +63,13 @@
   "cobblemon.species.gardevoir-midnight.desc": "It uses its elegant appearance to lure people in, giving them a false sense of security before biting their neck and draining them of their vitality. Despite being known for its vanity, many folktales claim that this Pokémon has no reflection.",
   "cobblemon.species.gardevoir-mega-midnight.desc": "The immense energy brought upon by Mega Evolution grants it immense power, but at a cost of triggering its appetite. If its trainer isn't careful, Gardevoir may try to sneak a bite to drain some of their vitality.",
 
+
   "cobblemon.ui.pokedex.info.form.gallade-midnight": "Midnight",
   "cobblemon.ui.pokedex.info.form.gallade-megamidnight": "Mega Midnight",
   "cobblemon.species.gallade-midnight.name": "Gallade",
   "cobblemon.species.gallade-midnight.desc": "This Pokémon has the ability to disappear into shadows. It uses this skill to ambush people and Pokémon, incapacitating them with its blades before draining them of their vitality. People who live near its territory caution to stay away from shady locations.",
   "cobblemon.species.gallade-mega-midnight.desc": "By channeling the power of Mega Evolution, it can cast the area around it in shadows even under the brightest sunlight.",
+
 
   "cobblemon.ui.pokedex.info.form.pumpkaboom": "Average Size",
   "cobblemon.ui.pokedex.info.form.pumpkaboom-small": "Small Size",
@@ -73,6 +78,7 @@
   "cobblemon.species.pumpkaboom.name": "Pumpkaboom",
   "cobblemon.species.pumpkaboom.desc": "Kaboom! This convergent evolution of Pumpkaboo is full of explosive energy. Its internal flame is bursting with heat, and it loves to sneak up on people before frightening them with a huge explosion.",
 
+
   "cobblemon.ui.pokedex.info.form.gourgrenade": "Average Size",
   "cobblemon.ui.pokedex.info.form.gourgrenade-small": "Small Size",
   "cobblemon.ui.pokedex.info.form.gourgrenade-large": "Large Size",
@@ -80,8 +86,10 @@
   "cobblemon.species.gourgrenade.name": "Gourgrenade",
   "cobblemon.species.gourgrenade.desc": "Gourgrenade is a convergent evolution of Gourgeist. In the dark of night, it awakens from its pumpkin patch searching for unsuspecting victims. When it finds one, it showers pumpkin grenades around them in an attempt to scare them.",
 
+
   "cobblemon.species.norstar.name": "Norstar",
   "cobblemon.species.norstar.desc": "Despite looking like a starfish, it's actually made entirely of magnetic metals. The magnetic pull of the planet allows it to balance perfectly straight on the tip of its bottom leg.",
+
 
   "cobblemon.ui.pokedex.info.form.starstellation": " ",
   "cobblemon.ui.pokedex.info.form.starstellation-mega": "Mega",
@@ -89,19 +97,23 @@
   "cobblemon.species.starstellation.desc": "It uses its six legs to redirect magnetic fields. Some say they are even able to direct the stars with this power.",
   "cobblemon.species.starstellation-mega.desc": "Mega Starstellar is seemingly designed for spcae travel, being able to withstand the cold darkness of the cosmos. Some theorize this is the form it had before it came to this planet.",
 
+
   "cobblemon.ui.pokedex.info.form.hatenna": " ",
   "cobblemon.ui.pokedex.info.form.hatenna-midnight": "Midnight",
   "cobblemon.species.hatenna-midnight.name": "Hatenna",
   "cobblemon.species.hatenna-midnight.desc": "This Pokémon is sensitive to human emotions. Because of this, it does everything it can to keep people happy. It uses its hat to perform all sorts of tricks to impress others.",
 
+
   "cobblemon.species.hattrix.name": "Hattrix",
   "cobblemon.species.hattrix.desc": "Hattrix uses the braids on its head to juggle fireballs. It puts on performances to cheer people up when they're sad, because its sensitive to negative emotion.",
+
 
   "cobblemon.ui.pokedex.info.form.hattertainer": " ",
   "cobblemon.ui.pokedex.info.form.hattertainer-gmax": "Gigantamax",
   "cobblemon.species.hattertainer.name": "Hattertainer",
   "cobblemon.species.hattertainer.desc": "It can't stand long periods of silence, so it often goes out of its way to be around others. In an attempt to keep people happy, it likes to put on grand and over-the-top performances to wow the audience. If it senses negative emotions like anger, jealousy, or annoyance, it adopts those emotions and retaliate with a flaming whip.",
   "cobblemon.species.hattertainer-gmax.desc": "It hides inside of its hat waiting for someone to approach. Because of its size, its not very discrete... When it bursts out in a fiery explosion, it gets confused as to why people are running in fear instead of cheering.",
+
 
   "cobblemon.ui.pokedex.info.form.goodra-bogland": "Boglands",
   "cobblemon.ui.pokedex.info.form.goodra-wetland": "Wetlands",
@@ -110,15 +122,18 @@
   "cobblemon.species.goodra-bogland.desc": "To survive in the muddy boglands, Goodra developed more potent toxins within its slime. It lays down in the mud all day long to keep its skin from drying out, and to conserve its energy. Its metabolism is slow but efficient, allowing it survive longer off of less food. This is what gives it its sluggish demeanor.",
   "cobblemon.species.goodra-wetland.desc": "To survive in flooded wetlands, Goodra's body adapted to a more aquatic lifestyle. Its blubber allows it to float on top of the water with ease. It is often seen drifting down river rapids at high speeds, seemingly as a form of play.",
 
+
   "cobblemon.ui.pokedex.info.form.fomantis": " ",
   "cobblemon.ui.pokedex.info.form.lurantis": " ",
   "cobblemon.species.fomantis_lunar.name": "Fomantis",
   "cobblemon.species.fomantis_lunar.desc": "Unlike its tropical counterpart, this form of Fomantis is nocturnal. It awakens from its slumber to bask in the full moon's light, using this energy for photosynthesis. The light of the moon strengthens its psychic powers.",
 
+
   "cobblemon.ui.pokedex.info.form.fomantis-lunar": "Lunar",
   "cobblemon.ui.pokedex.info.form.lurantis-lunar": "Lunar",
   "cobblemon.species.lurantis_lunar.name": "Lurantis",
   "cobblemon.species.lurantis_lunar.desc": "This Pokémon uses its orchid-like appearance to blend into its surrounding as it soaks in moonlight. Although it resembles a bug, its actually a flower. It goes into a mantis-like stance and attacks with psychic blades when threatened by bug types drawn to its scent.",
+
 
   "cobblemon.ui.pokedex.info.form.falinks": " ",
   "cobblemon.ui.pokedex.info.form.falinks-lastsoldier": "The Last Soldier",
@@ -130,20 +145,26 @@
   "cobblemon.species.falinks-last-soldier-mega.desc": "Through the power of Mega Evolution, the Last Soldier becomes one with its fallen troops. Theirs souls link together to form an unstoppable force able to topple a thousand armies.",
   "cobblemon.species.falinks-gunslinger-mega.desc": "Through the power of Mega Evolution, all five troops combined together to form a tank. They work in unison to pilot the machine that is their body. The brass that make up the wheels of the treads get dizzy from rotating after long journeys.",
 
+
   "cobblemon.species.nosepyre.name": "Nosepyre",
   "cobblemon.species.nosepyre.desc": "There is a perpetual motion machine within the body of this Pokémon. It is said that as long as the machine keeps moving, the flame on its head will continue to spin. When its flame stops spinning, so does its life.",
+
 
   "cobblemon.species.gildenose.name": "Gildenose",
   "cobblemon.species.gildenose.desc": "The raging fire within this Pokémon has been quenched, granting it an enlightened peace of mind. Gildenose has mastered regeneration, it is said that if you perform an age-old dance of generations, you will be gifted with life-giving flowers.",
 
+
   "cobblemon.species.noseferatu.name": "Noseferatu",
   "cobblemon.species.noseferatu.desc": "After being exposed to the power of amethyst, this Pokémon was imbued with dark energy allowing it to evolve. It uses its crystal pendent to control the floating amethyst around it. These amethyst crystals can fire beams of energy to attack its foes.",
+
 
   "cobblemon.species.djinnferno.name": "Djinnferno",
   "cobblemon.species.djinnferno.desc": "The infinite flames within its stone body have burst out, granting it immense power. Its body is made entirely of spiritual flames, causing its appearance to resemble that of a genie... Some say that its fire can burn away the impurities of the soul, but none who have attempted have survived.",
 
+
   "cobblemon.species.regisculk.name": "Regisculk",
   "cobblemon.species.regisculk.desc": "Its entire body is comprised of Sculk. The Pokémon's origins are a complete mystery, all that is known about it is that it was hidden away in the Ancient Cities long ago. It is unclear if this Pokémon has any connection to Regigigas, or if the resemblence has a more sinister explanation.",
+
 
   "cobblemon.ui.pokedex.info.form.carbink": " ",
   "cobblemon.ui.pokedex.info.form.carbink-amethystcrystal": "Amethyst Crystal",
@@ -155,31 +176,39 @@
   "cobblemon.species.carbink-echo.desc": "This form of Carbink is only found in the deepest darkest depths of the caves. It is unknown how it came into being... Its body reverberates with sound, said to be echoes of the past.",
   "cobblemon.species.carbink-quartz.desc": "This form of Carbink is born from sediment that was compressed and heated from the Nether's volcanic activity. Its crystals have a glass-like structure, making them very sharp.",
 
+
   "cobblemon.species.clarissie.name": "Clarissie",
   "cobblemon.species.clarissie.desc": "By exerting its psychic powers, Clarissie has to power to create amethyst crystals between its hands. It can shoot beams of light through its crystals to amplify their power.",
+
 
   "cobblemon.species.beryllius.name": "Beryllius",
   "cobblemon.species.beryllius.desc": "Beryllius is able to channel the energy of the earth to create emeralds between its hands. Because of this, it sees no value in traditional wealth, rather it gifts its gemstones to young children who better appreciate their splendor.",
 
+
   "cobblemon.species.echolyte.name": "Echolyte",
   "cobblemon.species.echolyte.desc": "This Pokémon is so rarely seen that many scientists debate whether or not its truly alive. The shards that encircle its body protect its soft spirit-like core. Few people have seen it without its outer shell.",
 
+
   "cobblemon.species.velvettia.name": "Velvettia",
   "cobblemon.species.velvettia.desc": "This Pokémon is meticulous in keeping its crystals pristine. If it gets so much as a scratch, it will retaliate by piercing its foe using its own body as a spear. It makes sure to clean and sharpen its crystals after every battle.",
+
 
   "cobblemon.ui.pokedex.info.form.phantump": " ",
   "cobblemon.ui.pokedex.info.form.phantump-pale": "Pale Garden",
   "cobblemon.species.phantump-pale.name": "Phantump",
   "cobblemon.species.phantump-pale.desc": "The spirit of a deceased Phantump. Its wooden body has long-since petrified, becoming hard as stone. During the day it remains as still as a statue, but at night it stirs from its slumber to wander the pale forest it calls home.",
 
+
   "cobblemon.ui.pokedex.info.form.trevenant": " ",
   "cobblemon.ui.pokedex.info.form.trevenant-pale": "Pale Garden",
   "cobblemon.species.trevenant-pale.name": "Trevenant",
-  "cobblemon.species.trevenant-pale.desc": "In the dark of the night, it lurks through the dead and decaying forest it used to live in when it was alive. It unleashes the forest's rage on those who tarnished its homeland, and brutally attacks any intruders who enter its domain. Its body is made of petrified wood.",
+  "cobblemon.species.trevenant-pale.desc": "In the dark of night, Trevenant lurks through the dead forest it used to live in. Falsely attributing intruders to the decay of its home, it brutally attacks anything it sees in a blind rage. Its body is made of petrified wood.",
+
 
   "cobblemon.ui.pokedex.info.form.flabebe-allay": "Allay",
   "cobblemon.species.flabebe-allay.name": "Flabébé",
   "cobblemon.species.flabebe-allay.desc": "Its body is as light as a feather, letting its wings guide it through wind currents to travel the world. As it flies it hums a beautiful tune.",
+
 
   "cobblemon.ui.pokedex.info.form.alloette": " ",
   "cobblemon.ui.pokedex.info.form.alloette-vex": "Vex",
@@ -192,10 +221,12 @@
   "cobblemon.species.alloette-mega.desc": "Through the power of Mega Evolution, Alloette's soul has split into two. The two halves work together in unison, bound together by the amethyst crystal they carry between them.",
   "cobblemon.species.alloette-vex-mega.desc": "The hatred in its heart has grown strong, bursting from its chest and taking complete control over its soul. The bond it has with its trainer is the only thing keeping it alive.",
 
+
   "cobblemon.ui.pokedex.info.form.tangela": " ",
   "cobblemon.ui.pokedex.info.form.tangela-lushcave": "Lush Cave",
   "cobblemon.species.tangela-lush.name": "Tangela",
   "cobblemon.species.tangela-lush.desc": "Thick moss and vines cover its whole body, preventing anyone from seeing its true appearance. It has an intense fear of the dark, but fears showing its face even more. Because of this, it will stubbornly hide in the shadows if anyone approaches, even despite its fear.",
+
 
   "cobblemon.ui.pokedex.info.form.tanglare": " ",
   "cobblemon.ui.pokedex.info.form.tanglare-mega": "Mega",
@@ -203,13 +234,15 @@
   "cobblemon.species.tanglare.desc": "Because its entire body is obscured by moss and vines, scientists are unsure how it propels itself through the air. When threatened, it will shake its body to create a cloud of spores before disapearing into the shadows.",
   "cobblemon.species.tanglare-mega.desc": "Mega Evolution has caused its flowers to bloom much larger and brighter than before. Using the vine on its head its able to hang down from cave ceilings, letting its spores drift down below.",
 
+
   "cobblemon.ui.pokedex.info.form.golett": " ",
   "cobblemon.ui.pokedex.info.form.golett-copper": "Copper",
   "cobblemon.ui.pokedex.info.form.golett-exposedcopper": "Exposed Copper",
   "cobblemon.ui.pokedex.info.form.golett-weatheredcopper": "Weathered Copper",
   "cobblemon.ui.pokedex.info.form.golett-oxidizedcopper": "Oxidized Copper",
   "cobblemon.species.golett-copper.name": "Golett",
-  "cobblemon.species.golett-copper.desc": "Its been alive for thousands of years, recharging its power by standing in lightning storms. If it doesn't stay active enough, it will slowly oxidize over time. The more oxidization it has, the slower it moves.",
+  "cobblemon.species.golett-copper.desc": "After the Resealing War thousands of years ago, Copper Goletts were left without purpose. Many were weathered down in the years following, but the remainder have learned to live on.",
+
 
   "cobblemon.ui.pokedex.info.form.golurk": " ",
   "cobblemon.ui.pokedex.info.form.golurk-copper": "Copper",
@@ -224,16 +257,20 @@
   "cobblemon.species.golurk-copper.desc": "The mechanism within its body is said to produce never-ending lightning storms. It patrols the ancient chambers from which it was created. The only thing that stops it from its mission is its copper body aging with time. Once its oxidization reaches critical levels, it stops moving.",
   "cobblemon.species.golurk-copper-mega.desc": "The massive copper chest it carries is filled with pure Infinity Energy. If opened even a crack, the energy that spills out is enough to power an entire city.",
 
+
   "cobblemon.species.clawviathan.name": "Clawviathan",
   "cobblemon.species.clawviathan.desc": "Clawviathan lives in the deepest trenches of the ocean, propelling itself through the depths by shooting water through its claws. When threatened it blasts its opponent to shreds with draconic energy. Though rare, it has been recorded to sometimes blast holes in the bottom of ships crossing over its territory.",
+
 
   "cobblemon.species.spiritube.name": "Spiritube",
   "cobblemon.species.spiritube.desc": "This Pokémon was born when 108 spirits became trapped within a television broadcast. It remains dormant within its CRT Television, waiting for an unsespecting person to turn on the TV.",
 
+
   "cobblemon.ui.pokedex.info.form.dhelmise": " ",
   "cobblemon.ui.pokedex.info.form.dhelmise-sculk": "Sculk",
   "cobblemon.species.dhelmise-sculk.name": "Dhelmise",
-  "cobblemon.species.dhelmise-sculk.desc": "When reanimated Sculk wrapped around a large ancient pickaxe this Pokémon was born. The Sculk covering the pickaxe is actually its body, and it uses the tool to dig through the caves looking for unsuspecting individuals lost in the mines. If it finds its prey, it wraps their bodies in Sculk before leeching away their vitality.",
+  "cobblemon.species.dhelmise-sculk.desc": "When Sculk found its way into the remains of the Giants, this Pokémon was born. The Sculk covering the pickaxe is actually its body, and it uses the tool to dig through the caves looking for uncorrupted spaces. When it finds something, it scatters spores and moves on.",
+
 
   "cobblemon.ui.pokedex.info.form.meloetta-soprano": "Soprano Forme",
   "cobblemon.ui.pokedex.info.form.meloetta-acoustic": "Acoustic Forme",
@@ -242,13 +279,16 @@
   "cobblemon.species.meloetta-soprano.desc": "Because it is blind, this Pokémon is not afraid of the dark. It lives deep below in the Ancient Cities that remind it of its home. Its soft soprano voice echoes through the caves as it sings and plays its violin, filling the silence with an eerie yet beautiful song. Legends say its music can calm restless spirits.",
   "cobblemon.species.meloetta-acoustic.desc": "Meloetta has been empowered by lively spirits roused by its song, blessing it with electric energy. Its mood has brightened, filling it with furvor. Though its still blind, the power of its ancestors has heightened its senses. Because of this, it has removed the bandages covering its eyes, using it to tie its hair in a ponytail.",
 
+
   "cobblemon.species.melofly.name": "Melofly",
   "cobblemon.species.melofly.desc": "Its florescent glow makes a buzzing noise that sounds like a melody, which is where it gets its name from... Be warned, however, because the Melofly emits poisonous dust that can be fatal within seconds of touching your skin. If you come into contact with it, its melodic buzzing may be the last thing you hear.",
+
 
   "cobblemon.ui.pokedex.info.form.frillish": " ",
   "cobblemon.ui.pokedex.info.form.frillish-ghast": "Ghast",
   "cobblemon.species.frillish-ghast.name": "Frillish",
   "cobblemon.species.frillish-ghast.desc": "This Pokémon propels itself through the air by filling its balloon-like body with gas. Though it lives in the Nether, its body can adapt to the amount of moisture in its environment. The more moisture it has, the happier and healthier it is.",
+
 
   "cobblemon.ui.pokedex.info.form.jellicent": " ",
   "cobblemon.ui.pokedex.info.form.jellicent-grumpyghast": "Grumpy Ghast",
@@ -261,11 +301,14 @@
   "cobblemon.species.jellicent-apathy-ghast.name": "Jellicent",
   "cobblemon.species.jellicent-apathy-ghast.desc": "After facing the vast empty expanse of the End, this Pokémon has evolved and adapted to life in the void. It rarely shows emotion, taking on an almost nihilistic personality. It does, however, love the taste of Nomel Berry flavored Poképuffs.",
 
+
   "cobblemon.species.galecadet.name": "Galecadet",
   "cobblemon.species.galecadet.desc": "This Pokémon trains day in and day out within the Trial Chambers, hoping to become strong enough to wield a powerful weapon and finally evolve. Its body contains a never-ending whirlwind.",
 
+
   "cobblemon.species.zephyrouge.name": "Zephyrouge",
   "cobblemon.species.zephyrouge.desc": "The armor worn upon Zephyrouge's shoulders is made of the heaviest material in the world, yet despite this it lifts it with ease. In battle, its shoulder pads connect together to form a large mace. By jumping high into the sky and slamming down, it lets out a burst of wind strong enough to topple an entire forest.",
+
 
   "cobblemon.species.ceruclone.name": "Ceruclone",
   "cobblemon.species.ceruclone.desc": "Ceruclone's trident crackles with the power of a thousand tempests. It channels electrical energy through the trident to shoot beams of lightning at its foe. By twirling it above its head, it is said to be able to call down thunderstorms.",
@@ -370,37 +413,15 @@
 
 
   "cobblemon.species.porytron.name": "Porytron",
-  "cobblemon.species.porytron.desc": "Though artificial, it is unknown who or what created Porytron. Some people theorize that it was an advanced version of Porygon sent back in time from the future, but such ideas are merely speculation.",
+  "cobblemon.species.porytron.desc": "A powerful magical construct of unknown origin. Some wizards have spent a lifetime trying to understand how such a creature exists, none have succeeded.",
 
 
   "cobblemon.species.porytron2.name": "Porytron2",
-  "cobblemon.species.porytron2.desc": "It was upgraded to have even greater artificial intelligence. With its abilities, it is able to travel across power grids through electrical currents by turning itself into data.",
+  "cobblemon.species.porytron2.desc": "Through melding with an artifact, a Porytron may reconfigure itself into a Porytron2. This form has greater power, but its purpose is still unknown.",
 
 
   "cobblemon.species.porytronz.name": "Porytron-Z",
-  "cobblemon.species.porytronz.desc": "A strange disc has upgraded this Pokémon, transforming its body to resemble a motorbike. Though sometimes erratic, Porytron-Z can fly at high speeds, driving across electrical currents. Its even able to travel through Cyberspace.",
-
-
-  "cobblemon.ui.pokedex.info.form.typecast": "Normal",
-  "cobblemon.ui.pokedex.info.form.typecast-fire": "Fire",
-  "cobblemon.ui.pokedex.info.form.typecast-water": "Water",
-  "cobblemon.ui.pokedex.info.form.typecast-grass": "Grass",
-  "cobblemon.ui.pokedex.info.form.typecast-ice": "Ice",
-  "cobblemon.ui.pokedex.info.form.typecast-electric": "Electric",
-  "cobblemon.ui.pokedex.info.form.typecast-psychic": "Psychic",
-  "cobblemon.ui.pokedex.info.form.typecast-dark": "Dark",
-  "cobblemon.ui.pokedex.info.form.typecast-dragon": "Dragon",
-  "cobblemon.ui.pokedex.info.form.typecast-fairy": "Fairy",
-  "cobblemon.ui.pokedex.info.form.typecast-fighting": "Fighting",
-  "cobblemon.ui.pokedex.info.form.typecast-flying": "Flying",
-  "cobblemon.ui.pokedex.info.form.typecast-poison": "Poison",
-  "cobblemon.ui.pokedex.info.form.typecast-ground": "Ground",
-  "cobblemon.ui.pokedex.info.form.typecast-rock": "Rock",
-  "cobblemon.ui.pokedex.info.form.typecast-bug": "Bug",
-  "cobblemon.ui.pokedex.info.form.typecast-ghost": "Ghost",
-  "cobblemon.ui.pokedex.info.form.typecast-steel": "Steel",
-  "cobblemon.species.typecast.name": "Typecast",
-  "cobblemon.species.typecast.desc": "This Pokémon takes on a unique form depending on its type, becoming the perfect embodiment of its element of choice, doubling both its weaknesses and its strengths. Its body is malleable and adaptable, allowing it to take any shape it needs to perform any attack of its respective type. The form is born as can never be changed.",
+  "cobblemon.species.porytronz.desc": "A strange disc has upgraded this Pokémon, transforming it into a high-speed magical transportation device. Some wizards believe this form to be evidence of the Humanoid Construct Theory.",
 
 
   "cobblemon.species.shade.name": "Shade",
@@ -412,7 +433,7 @@
 
 
   "cobblemon.species.twinledger.name": "Twinledger",
-  "cobblemon.species.twinledger.desc": "The two sheathes act together in unison, combining their minds together to cast spells. If one gets distract and the two aren't in sync, their spells will missfire.",
+  "cobblemon.species.twinledger.desc": "The two sheathes act together in unison, combining their minds together to cast spells. If one gets distracted and the two aren't in sync, their spells will missfire.",
 
 
   "cobblemon.ui.pokedex.info.form.wizledger": "Fire Spell",

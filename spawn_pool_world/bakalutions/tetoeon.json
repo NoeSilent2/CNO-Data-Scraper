@@ -14,9 +14,9 @@
         "context": "grounded",
         "bucket": "ultra-rare",
         "level": "28-53",
-        "weight": 5.0,
+        "weight": 3.0,
         "weightMultiplier": {
-            "multiplier": 1.5,
+            "multiplier": 2.0,
             "condition": {
                 "timeRange": "day"
             }
@@ -33,30 +33,6 @@
                 "#cobblemon:is_freezing"
             ]
         }
-      },
-      {
-        "id": "tetoeon-2",
-        "pokemon": "tetoeon",
-        "presets": [                
-            "natural"
-        ],
-        "type": "pokemon",
-        "context": "grounded",
-        "bucket": "ultra-rare",
-        "level": "28-53",
-        "weight": 5.0,
-        "weightMultiplier": {
-            "multiplier": 1.5,
-            "condition": {
-                "timeRange": "day"
-            }
-        },
-        "condition": {
-            "canSeeSky": true,
-            "biomes": [
-                "#cobblemon:is_forest"
-            ]
-        }
-    }
+      }
     ]
   }

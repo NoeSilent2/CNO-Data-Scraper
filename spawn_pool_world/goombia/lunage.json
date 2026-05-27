@@ -16,20 +16,6 @@
                     "#minecraft:is_end"
                 ]
             }
-        },
-        {
-            "id": "lunage-2",
-            "pokemon": "lunage",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "50-60",
-            "weight": 1.0,
-            "condition": {
-                "biomes": [
-                    "ad_astra:lunar_wastelands"
-                ]
-            }
         }
     ]
 }

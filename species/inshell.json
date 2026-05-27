@@ -1,0 +1,198 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 2003,
+  "name": "inshell",
+  "primaryType": "poison",
+  "secondaryType": "psychic",
+  "maleRatio": 0.5,
+  "height": 3,
+  "weight": 500,
+  "pokedex": [
+    "cobblemon.species.inshell.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "toxicdebris",
+    "mirrorarmor",
+    "h:neurotoxin"
+  ],
+  "eggGroups": [
+    "monster",
+	  "amorphous"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 70,
+    "defence": 130,
+    "special_attack": 80,
+    "special_defence": 70,
+    "speed": 15
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 100,
+  "experienceGroup": "medium_fast",
+  "catchRate": 80,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "standingEyeHeight": 1,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.1
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "1",
+      "toleratedLeaders": [
+	  {
+          "pokemon": "inshell",
+          "tier": 1
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:shulker_shell",
+        "quantityRange": "1-2"
+      },
+	  {
+        "item": "minecraft:diamond",
+        "percentage": 3.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "tm:toxic",
+    "special:celebrate",
+    "1:confusion",
+    "1:protect",
+    "1:teleport",
+    "5:meanlook",
+    "10:psybeam",
+    "13:mortalspin",
+    "18:venoshock",
+    "23:purify",
+    "28:toxicspikes",
+    "30:sludgebomb",
+    "33:psyshock",
+    "40:banefulbunker",
+    "45:selfdestruct",
+    "tm:venoshock",
+    "tm:toxicspikes",
+    "tm:sludgebomb",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:selfdestruct",
+    "tm:explosion",
+    "tm:taunt",
+    "tm:torment",
+    "tm:venomdrench",
+    "tm:magnetrise",
+    "tm:thunderwave",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:bodypress",
+    "tm:poisonjab",
+    "tm:gunkshot",
+    "tm:psychicfangs",
+    "tm:zenheadbutt",
+    "tm:futuresight",
+    "tm:telekinesis",
+    "tm:trickroom",
+    "tm:wonderroom",
+    "tm:magicroom",
+    "tm:ominouswind",
+    "tm:hex",
+    "tm:shadowball",
+    "tm:darkpulse",
+    "tm:psybeam",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:acidspray",
+    "tm:sludgewave",
+    "tm:gastroacid",
+    "tm:terrainpulse",
+    "tm:psychicterrain",
+    "tm:imprison",
+    "tm:gravity",
+    "tm:powerswap",
+    "tm:guardswap",
+    "tm:amnesia",
+    "tm:cosmicpower",
+    "tm:storedpower",
+    "tm:calmmind",
+    "tm:nastyplot",
+    "tm:allyswitch",
+    "tm:hardpress",
+    "tm:waterpulse",
+    "tm:flashcannon",
+    "tm:aurasphere",
+    "tm:vacuumwave",
+    "tm:mistyterrain",
+    "tm:mistyexplosion",
+    "tm:dazzlinggleam",
+    "egg:confusion",
+    "egg:extrasensory",
+    "egg:banefulbunker",
+    "egg:purify",
+    "egg:mortalspin",
+    "egg:meanlook",
+    "egg:mirrorcoat",
+    "egg:teleport"
+  ],
+ "evolutions": [],
+  "lightingData": {
+    "lightLevel": 7,
+    "liquidGlowMode": "LAND"
+  }
+}

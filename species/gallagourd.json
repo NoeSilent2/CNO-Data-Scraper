@@ -1,0 +1,345 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1118,
+  "name": "gallagourd",
+  "primaryType": "grass",
+  "secondaryType": "steel",
+  "maleRatio": 0.7,
+  "height": 24,
+  "weight": 250,
+  "pokedex": [
+    "cobblemon.species.gallagourd.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "heatproof",
+    "justified",
+    "h:steelyspirit"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 140,
+    "attack": 105,
+    "defence": 127,
+    "special_attack": 50,
+    "special_defence": 63,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 80,
+  "experienceGroup": "medium_slow",
+  "catchRate": 20,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "baseScale": 1,
+  "standingEyeHeight": 1,
+  "hitbox": {
+    "width": 1.5,
+    "height": 2.8,
+    "fixed": false
+  },
+      "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "20-50",
+          "JUMP": "25-30",
+          "SKILL": "15-35",
+          "SPEED": "15-40",
+          "STAMINA": "50-80"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.7750001,
+              "z": 0.25
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.004908487,
+              "y": -1.7812071,
+              "z": 0.25
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.7750001,
+              "z": 0.25
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.7750001,
+              "z": 0.25
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.7750001,
+              "z": 0.25
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.004908487,
+              "y": -1.7812071,
+              "z": 0.25
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.7750001,
+              "z": 0.25
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },  
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.3
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "1",
+      "toleratedLeaders": [
+	  {
+          "pokemon": "gallagourd",
+          "tier": 1
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+	  {
+        "item": "minecraft:pumpkin",
+        "percentage": 50
+      },
+	  {
+        "item": "minecraft:iron_ingot",
+        "quantityRange": "2-5"
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:helpinghand",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "legacy:toxic",
+    "special:celebrate",
+    "1:growl",
+    "1:vinewhip",
+    "1:aromatherapy",
+    "1:razorleaf",
+    "1:headbutt",
+    "1:grasswhistle",
+    "1:brickbreak",
+    "1:spicyextract",
+    "1:leechseed",
+    "1:bodyslam",
+    "1:magnetbomb",
+    "1:wideguard",
+    "1:counter",
+    "30:seedbomb",
+    "35:bodypress",
+    "35:irondefense",
+    "40:meteormash",
+    "45:superpower",
+    "50:woodhammer",
+    "tm:brickbreak",
+    "tm:leechseed",
+    "tm:seedbomb",
+    "tm:bodyslam",
+    "tm:takedown",
+    "tm:synthesis",
+    "tm:charm",
+    "tm:faketears",
+    "tm:bodypress",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:sunnyday",
+    "tm:raindance",
+    "tm:grassyterrain",
+    "tm:strength",
+    "tm:energyball",
+    "tm:gigadrain",
+    "tm:petalblizzard",
+    "tm:grassknot",
+    "tm:stompingtantrum",
+    "tm:leafblade",
+    "tm:powerwhip",
+    "tm:explosion",
+    "tm:gigaimpact",
+    "tm:heavyslam",
+    "tm:swagger",
+    "tm:flatter",
+    "tm:playrough",
+    "tm:babydolleyes",
+    "tm:disarmingvoice",
+    "tm:alluringvoice",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:highhorsepower",
+    "tm:bulldoze",
+    "tm:ironhead",
+    "tm:rocktomb",
+    "tm:rockslide",
+    "tm:stoneedge",
+    "tm:mudslap",
+    "tm:mudshot",
+    "tm:rapidspin",
+    "tm:acidspray",
+    "tm:gastroacid",
+    "tm:vacuumwave",
+    "tm:focusblast",
+    "tm:reversal",
+    "tm:echoedvoice",
+    "tm:hypervoice",
+    "tm:doubleedge",
+    "tm:hyperbeam",
+    "tm:bulkup",
+    "tm:workup",
+    "tm:worryseed",
+    "tm:safeguard",
+    "tm:weatherball",
+    "tm:terrainpulse",
+    "tm:trailblaze",
+    "tm:superpower",
+    "tm:drainpunch",
+    "tm:revenge",
+    "tm:thunderpunch",
+    "tm:supercellslam",
+    "tm:wildcharge",
+    "tm:focuspunch",
+    "tm:magnetrise",
+    "tm:thunderwave",
+    "tm:throatchop",
+    "tm:knockoff",
+    "tm:taunt",
+    "tm:pinmissile",
+    "tm:lunge",
+    "tm:dualchop",
+    "tm:flashcannon",
+    "tm:steelbeam",
+    "tm:coaching",
+    "tm:poweruppunch",
+    "tm:upperhand",
+    "tm:overheat",
+    "tm:flamecharge",
+    "tm:megapunch",
+    "tm:metalsound",
+    "tm:steelroller",
+    "tm:heatcrash",
+    "tm:hardpress",
+    "tm:gyroball",
+    "tm:irondefense",
+    "tm:icepunch",
+    "tm:firepunch",
+    "tm:icespinner",
+    "egg:aromatherapy",
+    "egg:vinewhip",
+    "egg:growl",
+    "egg:headbutt",
+    "egg:razorleaf",
+    "egg:grasswhistle",
+    "egg:spicyextract",
+    "egg:woodhammer",
+    "egg:strengthsap",
+    "egg:ingrain",
+    "egg:absorb",
+    "egg:megadrain",
+    "egg:petaldance",
+    "egg:yawn",
+    "egg:recycle",
+    "egg:lifedew",
+    "tm:afteryou",
+    "egg:belch"
+  ],
+ "evolutions": [],
+  "lightingData": {
+    "lightLevel": 7,
+    "liquidGlowMode": "LAND"
+  }
+}

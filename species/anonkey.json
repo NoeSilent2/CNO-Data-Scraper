@@ -1,0 +1,304 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1116,
+  "name": "anonkey",
+  "primaryType": "fighting",
+  "secondaryType": "dark",
+  "maleRatio": 0.7,
+  "height": 18,
+  "weight": 120,
+  "pokedex": [
+    "cobblemon.species.anonkey.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "moxie",
+    "cudchew",
+    "h:anarchist"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 100,
+    "defence": 60,
+    "special_attack": 80,
+    "special_defence": 60,
+    "speed": 126
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 160,
+  "experienceGroup": "slow",
+  "catchRate": 40,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "standingEyeHeight": 1.2,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1.5,
+    "height": 2,
+    "fixed": false
+  },
+    "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "40-60",
+          "JUMP": "30-40",
+          "SKILL": "30-40",
+          "SPEED": "25-40",
+          "STAMINA": "50-80"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0,
+              "z": 0.25
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.004908487,
+              "y": 0,
+              "z": 0.25
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0,
+              "z": 0.25
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0,
+              "z": 0.25
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0,
+              "z": 0.25
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.004908487,
+              "y": 0,
+              "z": 0.25
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0,
+              "z": 0.25
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.35
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+	  {
+          "pokemon": "tauros",
+          "tier": 1
+        },
+        {
+          "pokemon": "anonkey",
+          "tier": 2
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:colbur_berry",
+        "percentage": 3.0
+      },
+	  {
+        "item": "cobblemon:chople_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "legacy:toxic",
+    "special:celebrate",
+    "1:rocksmash",
+    "1:growl",
+    "1:tackle",
+    "1:focusenergy",
+    "5:feintattack",
+    "1:yawn",
+    "1:doublekick",
+    "1:counter",
+    "1:brickbreak",
+    "1:taunt",
+    "1:bodypress",
+    "1:quickguard",
+    "35:thunderouskick",
+    "40:partingshot",
+    "45:jumpkick",
+    "50:bulkup",
+    "55:superpower",
+    "tm:rocksmash",
+    "tm:brickbreak",
+    "tm:taunt",
+    "tm:bodypress",
+    "tm:superpower",
+    "tm:bulkup",
+    "tm:knockoff",
+    "tm:coaching",
+    "tm:closecombat",
+    "tm:highhorsepower",
+    "tm:takedown",
+    "tm:gigaimpact",
+    "tm:bodyslam",
+    "tm:doubleedge",
+    "tm:strength",
+    "tm:focusenergy",
+    "tm:rockclimb",
+    "tm:echoedvoice",
+    "tm:hypervoice",
+    "tm:hyperbeam",
+    "tm:earthquake",
+    "tm:stompingtantrum",
+    "tm:focusblast",
+    "tm:vacuumwave",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:lowkick",
+    "tm:rockslide",
+    "tm:stoneedge",
+    "tm:outrage",
+    "tm:wildcharge",
+    "tm:sunnyday",
+    "tm:sandstorm",
+    "tm:raindance",
+    "tm:bulletseed",
+    "tm:seedbomb",
+    "tm:poisonjab",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:stealthrock",
+    "tm:rocktomb",
+    "tm:ironhead",
+    "tm:heavyslam",
+    "tm:swagger",
+    "tm:flatter",
+    "tm:torment",
+    "tm:trailblaze",
+    "egg:growl",
+    "egg:tackle",
+    "egg:feintattack",
+    "egg:yawn",
+    "egg:doublekick",
+    "egg:counter",
+    "egg:quickguard",
+    "egg:wideguard",
+    "egg:partingshot",
+    "egg:jumpkick",
+    "egg:ragingfury",
+    "egg:feint",
+    "egg:doublehit",
+    "egg:headbutt",
+    "egg:rage",
+    "egg:stomp"
+  ],
+ "evolutions": [],
+  "lightingData": {
+    "lightLevel": 7,
+    "liquidGlowMode": "LAND"
+  }
+}

@@ -1,0 +1,155 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{
+            "id": "eevee-altered-a-1",
+            "pokemon": "eevee altered_a",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "5-33",
+            "weight": 4.8,
+            "condition": {
+                "timeRange": "night",
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_temperate"
+                ]
+            }
+        }, {
+            "id": "eevee-altered-a-2",
+            "pokemon": "eevee altered_a",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "5-33",
+            "weight": 1.84,
+            "condition": {
+                "timeRange": "night",
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            }
+        }, {
+            "id": "eevee-altered-a-3",
+            "pokemon": "eevee altered_a",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "5-33",
+            "weight": 2.2,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:ruins/luna_henge_ruins"
+                ]
+            }
+        }, {
+            "id": "eevee-altered-b-1",
+            "pokemon": "eevee altered_b",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "5-33",
+            "weight": 4.8,
+            "condition": {
+                "timeRange": "day",
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_temperate"
+                ]
+            }
+        }, {
+            "id": "eevee-altered-b-2",
+            "pokemon": "eevee altered_b",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "5-33",
+            "weight": 1.84,
+            "condition": {
+                "timeRange": "day",
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            }
+        }, {
+            "id": "eevee-altered-b-3",
+            "pokemon": "eevee altered_b",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "5-33",
+            "weight": 2.2,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "timeRange": "day"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:ruins/sol_henge_ruins"
+                ]
+            }
+        }
+    ]
+}
