@@ -5,21 +5,6 @@
   "swimmingEyeHeight": 0.4,
   "evolutions": [
     {
-      "id": "bergmite_avalugg",
-      "variant": "level_up",
-      "result": "avalugg hisuian",
-      "consumeHeldItem": false,
-      "learnableMoves": [
-        "bodyslam"
-      ],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 37
-        }
-      ]
-    },
-    {
       "id": "bergmite_avalugg_hisuian",
       "variant": "level_up",
       "result": "avalugg hisuian",
