@@ -640,11 +640,14 @@ class DataScraper:
 									requirement.pop('itemCondition')
 									requirement['item'] = itemCondition.split(':')[1].replace('_',' ').title()
 							elif variant == "biome":
-								biomeCondition = requirement.get('biomeCondition', '')
+								biomeCondition = requirement.get('biomeCondition', False)
 								if biomeCondition:
 									requirement.pop('biomeCondition')
-									biomeCondition = self.process_tags([biomeCondition])[0]
-									requirement['biome'] = biomeCondition
+									requirement['condition'] = self.process_tags([biomeCondition])[0]
+								antiCondition = requirement.get('biomeAnticondition', False)
+								if antiCondition:
+									requirement.pop('biomeAnticondition')
+									requirement['anticondition'] = self.process_tags([antiCondition])[0]
 						new_requirements.append(requirement)
 					evolution['requirements'] = new_requirements
 				
