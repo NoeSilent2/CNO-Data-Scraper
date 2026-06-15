@@ -643,6 +643,7 @@ class DataScraper:
 								biomeCondition = requirement.get('biomeCondition', '')
 								if biomeCondition:
 									requirement.pop('biomeCondition')
+									biomeCondition = self.process_tags([biomeCondition])[0]
 									requirement['biome'] = biomeCondition
 						new_requirements.append(requirement)
 					evolution['requirements'] = new_requirements
