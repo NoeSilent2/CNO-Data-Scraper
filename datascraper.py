@@ -631,6 +631,11 @@ class DataScraper:
 					evo_result_link = evo_result.split()[0]
 					if evo_result_link and evo_result != evo_result_link:
 						evolution['result_link'] = evo_result_link
+						parts = evo_result.split(' ')
+						nparts = []
+						for part in parts:
+							nparts.append(part.split('=').reverse()[0])
+						evolution['result'] = ' '.join(nparts)
 				
 				learnable_moves = []
 				for move in evolution.get('learnableMoves', []):
