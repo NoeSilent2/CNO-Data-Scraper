@@ -247,14 +247,5 @@
     "tutor:wonderroom"
   ],
   "preEvolution": "carbink emerald",
-  "evolutions": [],
-  "forms": [
-    {
-      "name": "Emerald-Crystal",
-      "aspects": [
-        "emerald"
-      ],
-      "battleOnly": false
-    }
-  ]
+  "evolutions": []
 }

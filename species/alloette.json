@@ -251,13 +251,6 @@
   "evolutions": [],
   "forms": [
     {
-      "name": "Allay",
-      "aspects": [
-        "allay"
-      ],
-      "battleOnly": false
-    },
-    {
       "name": "Vex",
       "primaryType": "flying",
       "secondaryType": "ghost",

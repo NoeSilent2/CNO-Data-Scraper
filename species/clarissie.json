@@ -245,14 +245,5 @@
     "tutor:wonderroom"
   ],
   "preEvolution": "carbink amethyst",
-  "evolutions": [],
-  "forms": [
-    {
-      "name": "Amethyst-Crystal",
-      "aspects": [
-        "amethyst"
-      ],
-      "battleOnly": false
-    }
-  ]
+  "evolutions": []
 }

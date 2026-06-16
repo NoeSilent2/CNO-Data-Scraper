@@ -253,14 +253,5 @@
     "tutor:zenheadbutt"
   ],
   "preEvolution": "carbink echo",
-  "evolutions": [],
-  "forms": [
-    {
-      "name": "Echo-Shard-Crystal",
-      "aspects": [
-        "echo"
-      ],
-      "battleOnly": false
-    }
-  ]
+  "evolutions": []
 }

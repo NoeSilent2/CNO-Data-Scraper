@@ -1,6 +1,6 @@
 {
   "implemented": true,
-  "name": "pikapod",
+  "name": "Pikapod",
   "nationalPokedexNumber": 1063,
   "primaryType": "water",
   "secondaryType": "electric",
@@ -22,10 +22,7 @@
   "shoulderMountable": true,
   "forms": [
     {
-      "name": "normal"
-    },
-    {
-      "name": "wild",
+      "name": "Wild",
       "aspects": [
         "wild"
       ],

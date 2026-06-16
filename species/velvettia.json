@@ -253,14 +253,5 @@
     "tutor:wonderroom"
   ],
   "preEvolution": "carbink quartz",
-  "evolutions": [],
-  "forms": [
-    {
-      "name": "Quartz-Crystal",
-      "aspects": [
-        "quartz"
-      ],
-      "battleOnly": false
-    }
-  ]
+  "evolutions": []
 }
