@@ -634,7 +634,9 @@ class DataScraper:
 						parts = evo_result.split(' ')
 						nparts = []
 						for part in parts:
-							nparts.append(part.split('=').reverse()[0])
+							part = part.split('=')
+							part.reverse()
+							nparts.append(part[0])
 						evolution['result'] = ' '.join(nparts)
 				
 				learnable_moves = []
