@@ -236,7 +236,7 @@
   "evolutions": [],
   "forms": [
     {
-      "name": "Ice Spell",
+      "name": "Ice-Spell",
       "primaryType": "ice",
       "secondaryType": "ghost",
       "maleRatio": 0.5,
@@ -412,7 +412,7 @@
       "battleOnly": true
     },
     {
-      "name": "Lightning Spell",
+      "name": "Lightning-Spell",
       "primaryType": "electric",
       "secondaryType": "ghost",
       "maleRatio": 0.5,

@@ -391,7 +391,7 @@ class DataScraper:
 			# A large ugly stack of replacements for alt_internal_id stuff. This should probably get organized and put into its own function
 			pokemon = spawn.get('pokemon', '').lower().replace(' ', '-').replace('_','-')
 			pokemon = pokemon.replace('gmax', 'gigantamax').replace('region-bias=alola','alolan-bias').replace('region-bias=galar','galarian-bias').replace('-cream','-cream-love').replace('-swirl','-swirl-love')
-			removals = ["flower=","dance_style=","-amethyst","-emerald","-echo","-quartz","-allay","'",'\u2019']
+			removals = ["flower=","dance_style=","-amethyst","-emerald","-echo","-quartz","-allay","spell-forme=","'",'\u2019']
 			for removal in removals:
 				pokemon = pokemon.replace(removal,"")
 			
@@ -403,7 +403,7 @@ class DataScraper:
 			elif pokemon == 'oricorio':
 				pokemon = 'oricorio-baile'
 			elif pokemon == "wizledger":
-				pokemon = 'wizledger-fire-spell'
+				pokemon = 'wizledger-fire'
 			elif 'papersol' in pokemon:
 				pokemon = 'papersol'
 			elif 'umbrelligant' in pokemon:
@@ -522,11 +522,11 @@ class DataScraper:
 			if display_name == "Oricorio":
 				display_name = "Oricorio Baile"
 			elif display_name == "Wizledger":
-				display_name = "Wizledger Fire Spell"
+				display_name = "Wizledger Fire-Spell"
 			
 			step = "creating alternative internal name"
 			# For some image API's, that prefer iron-moth to ironmoth
-			alt_internal_name = display_name.lower().replace(' ', '-').replace('gmax', 'gigantamax').replace('alola', 'alolan').replace('hisui', 'hisuian').replace('galar', 'galarian').replace("'", "").replace('\u2019', '').replace('_','-').replace('.','').replace('?','qm').replace('!','em').replace('-cream','-cream-love').replace('-swirl','-swirl-love').replace('quartz-crystal','quartz').replace('echo-shard-crystal','echo').replace('emerald-crystal','emerald').replace('amethyst-crystal','amethyst')
+			alt_internal_name = display_name.lower().replace(' ', '-').replace('gmax', 'gigantamax').replace('alola', 'alolan').replace('hisui', 'hisuian').replace('galar', 'galarian').replace("'", "").replace('\u2019', '').replace('_','-').replace('.','').replace('?','qm').replace('!','em').replace('-cream','-cream-love').replace('-swirl','-swirl-love').replace('-spell','')
 			# Need to turn this whole elif stack into an "overrides" json file that'll read over every replacement like this
 			if alt_internal_name == 'flabebe':
 				alt_internal_name = "flabebe-red"
@@ -534,6 +534,8 @@ class DataScraper:
 				alt_internal_name = "floette-red"
 			elif alt_internal_name == 'florges':
 				alt_internal_name = "florges-red"
+			elif alt_internal_name == 'wizledger':
+				alt_internal_name = "wizledger-fire"
 			
 			step = "retrieving primary and secondary types"
 			# Types
