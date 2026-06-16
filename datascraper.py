@@ -527,15 +527,22 @@ class DataScraper:
 			step = "creating alternative internal name"
 			# For some image API's, that prefer iron-moth to ironmoth
 			alt_internal_name = display_name.lower().replace(' ', '-').replace('gmax', 'gigantamax').replace('alola', 'alolan').replace('hisui', 'hisuian').replace('galar', 'galarian').replace("'", "").replace('\u2019', '').replace('_','-').replace('.','').replace('?','qm').replace('!','em').replace('-cream','-cream-love').replace('-swirl','-swirl-love').replace('-spell','')
-			# Need to turn this whole elif stack into an "overrides" json file that'll read over every replacement like this
-			if alt_internal_name == 'flabebe':
-				alt_internal_name = "flabebe-red"
-			elif alt_internal_name == 'floette':
-				alt_internal_name = "floette-red"
-			elif alt_internal_name == 'florges':
-				alt_internal_name = "florges-red"
-			elif alt_internal_name == 'wizledger':
-				alt_internal_name = "wizledger-fire"
+			replacements = {
+				'flabebe':'flabebe-red',
+				'floette':'floette-red',
+				'florges':'florges-red',
+				'oricorio':'oricorio-baile',
+				'wizledger':'wizledger-fire',
+				'indeedee-f':'indeedee-female',
+				'meowstic-f':'meowstic-female',
+				'meowstic-f-festival':'meowstic-female-festival',
+				'basculegion-f':'basculegion-female',
+				'oinkologne-f':'oinkologne-female'
+			}
+			for target, replacement in replacements.items():
+				if alt_internal_name == target:
+					alt_internal_name = replacement
+					break
 			
 			step = "retrieving primary and secondary types"
 			# Types
