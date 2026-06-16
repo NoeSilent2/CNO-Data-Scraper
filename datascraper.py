@@ -389,7 +389,12 @@ class DataScraper:
 			if not spawn.get('pokemon', False):
 				return "cannot process herd files"
 			# A large ugly stack of replacements for alt_internal_id stuff. This should probably get organized and put into its own function
-			pokemon = spawn.get('pokemon', '').lower().replace(' ', '-').replace('gmax', 'gigantamax').replace('region_bias=alola','alolan-bias').replace('region_bias=galar','galarian-bias').replace("flower=","").replace("dance_style=","").replace("'", "").replace('\u2019', '').replace('_','-').replace('-cream','-cream-love').replace('-swirl','-swirl-love')
+			pokemon = spawn.get('pokemon', '').lower().replace(' ', '-').replace('_','-')
+			pokemon = pokemon.replace('gmax', 'gigantamax').replace('region-bias=alola','alolan-bias').replace('region-bias=galar','galarian-bias').replace('-cream','-cream-love').replace('-swirl','-swirl-love')
+			removals = ["flower=","dance_style=","-amethyst","-emerald","-echo","-quartz","-allay","'",'\u2019']
+			for removal in removals:
+				pokemon = pokemon.replace(removal,"")
+			
 			if 'minior' in pokemon:
 				if '=meteor' in pokemon:
 					pokemon = 'minior-meteor'
@@ -399,6 +404,11 @@ class DataScraper:
 				pokemon = 'oricorio-baile'
 			elif pokemon == "wizledger":
 				pokemon = 'wizledger-fire-spell'
+			elif 'papersol' in pokemon:
+				pokemon = 'papersol'
+			elif 'umbrelligant' in pokemon:
+				pokemon = 'umbrelligant'
+			
 			if spawn.get('spawnablePositionType',''):
 				spawn['context'] = spawn.get('spawnablePositionType','')
 				spawn.pop('spawnablePositionType')
