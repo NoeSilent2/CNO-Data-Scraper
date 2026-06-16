@@ -395,6 +395,8 @@ class DataScraper:
 					pokemon = 'minior-meteor'
 				else:
 					pokemon = 'minior'
+			elif pokemon == 'oricorio':
+				pokemon = 'oricorio-baile'
 			if spawn.get('spawnablePositionType',''):
 				spawn['context'] = spawn.get('spawnablePositionType','')
 				spawn.pop('spawnablePositionType')
@@ -505,6 +507,8 @@ class DataScraper:
 			else:
 				display_name = data.get('name', 'ERROR')
 			display_name = display_name.title()
+			if display_name == "Oricorio":
+				display_name = "Oricorio Baile"
 			
 			step = "creating alternative internal name"
 			# For some image API's, that prefer iron-moth to ironmoth
