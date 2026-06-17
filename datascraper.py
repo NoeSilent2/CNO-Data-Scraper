@@ -63,7 +63,7 @@ class DataScraper:
 			oldval = old.get(key)
 			if oldval:
 				if isinstance(oldval, list) and isinstance(newval, list):
-					if key != "moves":
+					if key != "moves" and key != "abilities":
 						for entry in oldval:
 							newval.append(entry)
 				elif isinstance(oldval, dict) and isinstance(newval, dict):
@@ -1007,6 +1007,7 @@ class DataScraper:
 				return True
 			return False
 		self.process_all_files(addition_files, additions_func)
+		#self.write_to_json('addition_debug.json', self.additions_dict)
 		
 		# Try to load all the fakemon species
 		fakemon_files = self.load_shallow_files('species', '*.json')
@@ -1047,7 +1048,7 @@ class DataScraper:
 			tqdm.tqdm.write("No base pokemon files found!")
 			tqdm.tqdm.write(f"Make sure your species files are nested within: {os.path.abspath(self.directory_paths['species'])}\n")
 		
-		#self.write_to_json('species.json', self.pokemon_dict)
+		#self.write_to_json('species_debug.json', self.pokemon_dict)
 		
 		
 		return True
