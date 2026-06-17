@@ -37,6 +37,7 @@ class DataScraper:
 		
 		self.spawn_data = {}
 		
+		self.ljust = 20
 	
 	# ----------------------------------------------------------------------------------------
 	# -                                   Helper functions                                   -
@@ -122,6 +123,7 @@ class DataScraper:
 			else:
 				return_files[rkey] = file
 		
+		tqdm.tqdm.write(f"Found {len(return_files)} in {self.directory_paths[pathid]}")
 		return return_files
 
 
@@ -294,7 +296,6 @@ class DataScraper:
 			final_part = parts[-1]
 			
 			if final_part in current and isinstance(current[final_part], dict):
-				print(f"Warning: {key} is trying to set a value where a dict already exists")
 				current[final_part]['name'] = value
 			else:
 				current[final_part] = value
@@ -844,7 +845,7 @@ class DataScraper:
 	
 	# Despite my confusing naming schema, this is actually just a helper.
 	# It runs a function over every file in a list of files.
-	def process_all_files(self, all_files, func):
+	def process_all_files(self, all_files, func, strict_naming=True):
 		if all_files:
 			successes = 0
 			if isinstance(all_files, list):
@@ -854,9 +855,14 @@ class DataScraper:
 			else:
 				tqdm.tqdm.write(f"	Failed to process files: iterator is a {type(all_files)}")
 				return False
+			file_names = []
 			with tqdm.tqdm(total=len(all_files)) as pbar:
 				for i, file_path in iterator:
-					pbar.set_description(f"Processing: {os.path.basename(file_path).ljust(15)}")
+					file_name = os.path.basename(file_path)
+					pbar.set_description(f"Processing: {file_name.ljust(self.ljust)}")
+					if strict_naming and file_name in file_names:
+						tqdm.tqdm.write(f"	Multiple files have the same name: {file_name}")
+					file_names.append(file_name)
 					data = self.extract_json_data(file_path)
 					if data:
 						try:
@@ -902,7 +908,7 @@ class DataScraper:
 					nudata.append(value)
 			self.tag_dict[index] = nudata
 			return True
-		self.process_all_files(tag_files, tag_func)
+		self.process_all_files(tag_files, tag_func, False)
 		#self.write_to_json('tag_debug.json', self.tag_dict)
 
 		abilities = self.lang_dict.get('cobblemon',{}).get('ability',{})
@@ -915,7 +921,7 @@ class DataScraper:
 		if move_files:
 			pbar = tqdm.tqdm(move_files)
 			for i, file_path in enumerate(pbar, 1):
-				pbar.set_description(f"Processing: {os.path.basename(file_path).ljust(15)}")
+				pbar.set_description(f"Processing: {os.path.basename(file_path).ljust(self.ljust)}")
 				move = self.extract_move_data(file_path, True)
 				move['id'] = os.path.splitext(os.path.basename(file_path))[0]
 				move = self.process_move_data(move, True)
@@ -941,7 +947,7 @@ class DataScraper:
 					startlen = len(self.move_data)
 					pbar = tqdm.tqdm(total=len(full_moves))
 					for moveid, move in full_moves.items():
-						pbar.set_description(f"Processing: {moveid.ljust(15)}")
+						pbar.set_description(f"Processing: {moveid.ljust(self.ljust)}")
 						move['id'] = moveid
 						move = self.process_move_data(move, False)
 						if move:
@@ -1009,47 +1015,45 @@ class DataScraper:
 		self.process_all_files(addition_files, additions_func)
 		#self.write_to_json('addition_debug.json', self.additions_dict)
 		
-		# Try to load all the fakemon species
-		fakemon_files = self.load_shallow_files('species', '*.json')
-		if fakemon_files:
+		# Try to load all the base Cobblemon species
+		species_files = self.load_deep_files('species', '*.json')
+		if species_files:
 			# Extract species data from all files
-			pbar = tqdm.tqdm(fakemon_files)
+			pbar = tqdm.tqdm(species_files)
 			for i, file_path in enumerate(pbar, 1):
-				pbar.set_description(f"Processing: {os.path.basename(file_path).ljust(15)}")
-				iname, pokemon = self.extract_pokemon_data(file_path, True)
+				pbar.set_description(f"Processing: {os.path.basename(file_path).ljust(self.ljust)}")
+				iname, pokemon = self.extract_pokemon_data(file_path, False)
 				if pokemon:
 					self.pokemon_dict[iname] = pokemon
 				else:
 					tqdm.tqdm.write(f"	Failed to retrieve Pokemon from: {os.path.basename(file_path)}")
 				
-			tqdm.tqdm.write(f"Successfully loaded {len(self.pokemon_dict)}/{len(fakemon_files)} Pokemon\n")
+			tqdm.tqdm.write(f"Successfully loaded {len(self.pokemon_dict)}/{len(species_files)} Pokemon\n")
 		else:
 			tqdm.tqdm.write("No pokemon files found!")
-			tqdm.tqdm.write(f"Make sure your species files are in: {os.path.abspath(self.directory_paths['species'])}\n")
-			
+			tqdm.tqdm.write(f"Make sure your species files are nested within: {os.path.abspath(self.directory_paths['species'])}\n")
+		#self.write_to_json('species_debug.json', self.pokemon_dict)
 		
-		
-		# Try to load all the base Cobblemon species
-		species_files = self.load_deep_files('species', '*.json')
-		if species_files:
+
+		# Try to load all the fakemon species
+		fakemon_files = self.load_shallow_files('species', '*.json')
+		if fakemon_files:
 			startlen = len(self.pokemon_dict)
 			# Extract species data from all files
-			pbar = tqdm.tqdm(species_files)
+			pbar = tqdm.tqdm(fakemon_files)
 			for i, file_path in enumerate(pbar, 1):
-				pbar.set_description(f"Processing: {os.path.basename(file_path).ljust(15)}")
-				iname, pokemon = self.extract_pokemon_data(file_path, False)
+				pbar.set_description(f"Processing: {os.path.basename(file_path).ljust(self.ljust)}")
+				iname, pokemon = self.extract_pokemon_data(file_path, True)
 				if pokemon:
 					self.pokemon_dict[iname] = pokemon
 				else:
-					tqdm.tqdm.write(f"	Failed to retrieve base Pokemon from: {os.path.basename(file_path)}")
+					tqdm.tqdm.write(f"	Failed to retrieve Fakemon from: {os.path.basename(file_path)}")
 				
-			tqdm.tqdm.write(f"Successfully loaded {len(self.pokemon_dict)-startlen}/{len(species_files)} Base Pokemon\n")
+			tqdm.tqdm.write(f"Successfully loaded {len(self.pokemon_dict)-startlen}/{len(fakemon_files)} Fakemon\n")
 		else:
-			tqdm.tqdm.write("No base pokemon files found!")
-			tqdm.tqdm.write(f"Make sure your species files are nested within: {os.path.abspath(self.directory_paths['species'])}\n")
-		
-		#self.write_to_json('species_debug.json', self.pokemon_dict)
-		
+			tqdm.tqdm.write("No fakemon files found!")
+			tqdm.tqdm.write(f"Make sure your species files are in: {os.path.abspath(self.directory_paths['species'])}\n")
+
 		
 		return True
 
@@ -1103,7 +1107,7 @@ class DataScraper:
 			tqdm.tqdm.write(f"Adding '{target}' table to database.")
 			pbar = tqdm.tqdm(total=len(data))
 			for category, items in data.items():
-				pbar.set_description(f"Processing: {category.ljust(10)}")
+				pbar.set_description(f"Processing: {category.ljust(self.ljust)}")
 				def process_info(item):
 					tuple = ()
 					if autoid:
@@ -1175,7 +1179,9 @@ if __name__ == "__main__":
 	tqdm.tqdm.write(f"Looking for moves in: {os.path.abspath(moves_directory)}")
 	tqdm.tqdm.write(f"Looking for spawns in: {os.path.abspath(spawnpool_directory)}")
 	tqdm.tqdm.write(f"Looking for lang in: {os.path.abspath(lang_directory)}")
-	tqdm.tqdm.write(f"Looking for additions in: {os.path.abspath(lang_directory)}")
+	tqdm.tqdm.write(f"Looking for additions in: {os.path.abspath(additions_directory)}")
+	tqdm.tqdm.write(f"Looking for fossils in: {os.path.abspath(fossil_directory)}")
+	tqdm.tqdm.write(f"Looking for biome tags in: {os.path.abspath(tag_biome_directory)}")
 	tqdm.tqdm.write("\n")
 	
 	converter = DataScraper({'species':species_directory, 'moves':moves_directory, 'spawns':spawnpool_directory, 'lang':lang_directory, 'additions':additions_directory, 'fossil':fossil_directory, 'tags/biome':tag_biome_directory})
