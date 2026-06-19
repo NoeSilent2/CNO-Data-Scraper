@@ -166,9 +166,15 @@ class DataScraper:
 			step = "retrieving forms"
 			# Get forms
 			forms = self.safe_get(data, 'forms', [])
-			
+			form_names = []
+
 			if forms:
 				for form in forms:
+					form_name = form.get('name','')
+					if form_name:
+						if form_name in form_names:
+							tqdm.tqdm.write(f"	!! {internal_name} has multiple forms named: {form_name} !!")
+						form_names.append(form_name)
 					pokemon_data.append(self.process_pokemon_data(form, data, is_fake))
 			
 			
