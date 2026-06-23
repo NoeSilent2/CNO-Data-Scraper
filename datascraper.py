@@ -397,7 +397,7 @@ class DataScraper:
 				return "cannot process herd files"
 			# A large ugly stack of replacements for alt_internal_id stuff. This should probably get organized and put into its own function
 			pokemon = spawn.get('pokemon', '').lower().replace(' ', '-').replace('_','-')
-			pokemon = pokemon.replace('gmax', 'gigantamax').replace('region-bias=alola','alolan-bias').replace('region-bias=galar','galarian-bias').replace('-cream','-cream-love').replace('-swirl','-swirl-love')
+			pokemon = pokemon.replace('gmax', 'gigantamax').replace('region-bias=alola','alolan-bias').replace('region-bias=galar','galarian-bias').replace('-cream','-cream-love').replace('-swirl','-swirl-love').replace('-goth','-midnight')
 			removals = ["flower=","dance-style=","-amethyst","-emerald","-echo","-quartz","-allay","spell-forme=","'",'\u2019']
 			for removal in removals:
 				pokemon = pokemon.replace(removal,"")
