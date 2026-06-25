@@ -4,14 +4,16 @@ import tqdm
 import sqlite3
 import glob
 import os
+import sys
 import math
 from pathlib import Path
 
 
 class DataScraper:
-	def __init__(self, directory_paths):
+	def __init__(self, directory_paths, debugmode):
 		self.directory_paths = directory_paths
 		
+		self.debugmode = debugmode
 		
 		self.pokemon_categories = {}
 		with open('species_categories.json', 'r', encoding='utf-8') as file:
@@ -277,9 +279,10 @@ class DataScraper:
 	# -                                   Data processing                                    -
 	# ----------------------------------------------------------------------------------------
 	
-	def write_to_json(self, file_path, data):
-		with open(file_path, 'w') as outfile:
-			json.dump(data, outfile, indent=4)
+	def write_debug_json(self, file_path, data):
+		if self.debugmode:
+			with open(file_path, 'w') as outfile:
+				json.dump(data, outfile, indent=4)
 	
 	def process_lang_data(self, full_language):
 		# Takes a flat dictionary of all lang values, and makes it nested
@@ -900,7 +903,7 @@ class DataScraper:
 			return True
 		self.process_all_files(lang_files, lang_func)
 		self.lang_dict = self.process_lang_data(self.lang_dict)
-		#self.write_to_json('en_us.json', self.lang_dict)
+		self.write_debug_json('lang_debug.json', self.lang_dict)
 		
 		# Load some unclear tags to make things like spawn conditions readable
 		tag_files = self.load_indexed_files('tags/biome', '*.json')
@@ -915,12 +918,12 @@ class DataScraper:
 			self.tag_dict[index] = nudata
 			return True
 		self.process_all_files(tag_files, tag_func, False)
-		#self.write_to_json('tag_debug.json', self.tag_dict)
+		self.write_debug_json('tag_debug.json', self.tag_dict)
 
 		abilities = self.lang_dict.get('cobblemon',{}).get('ability',{})
 		for id, info in abilities.items():
 			self.ability_dict[id] = info
-		#self.write_to_json('abilities.json', self.ability_dict)
+		self.write_debug_json('abilities_debug.json', self.ability_dict)
 		
 		# Try to load moves first, so species can reference their data when building the learnset info
 		move_files = self.load_shallow_files('moves', '*.js')
@@ -942,7 +945,7 @@ class DataScraper:
 			tqdm.tqdm.write(f"Make sure your move files are in: {os.path.abspath(self.directory_paths['moves'])}\n")
 		
 		self.move_data.sort(key=lambda x: x['num'])
-		#self.write_to_json('cmoves.json', self.move_data)
+		self.write_debug_json('cmoves_debug.json', self.move_data)
 			
 		# Loading all default moves, for display and name reference
 		full_move_files = self.load_shallow_files('moves', '*.ts')
@@ -970,8 +973,8 @@ class DataScraper:
 			tqdm.tqdm.write(f"Make sure your .ts move files are in: {os.path.abspath(self.directory_paths['moves'])}\n")
 		
 		self.move_data.sort(key=lambda x: x['num'])
-		#self.write_to_json('moves.json', self.move_data)
-		#self.write_to_json('moves_dict.json', self.move_dict)
+		self.write_debug_json('movedata_debug.json', self.move_data)
+		self.write_debug_json('movedict_debug.json', self.move_dict)
 		
 		fossil_files = self.load_shallow_files('fossil', '*.json')
 		def fossil_func(data, _):
@@ -986,7 +989,7 @@ class DataScraper:
 					return True
 			return "error"
 		self.process_all_files(fossil_files, fossil_func)
-		#self.write_to_json('fossils.json', self.fossil_dict)
+		self.write_debug_json('fossils_debug.json', self.fossil_dict)
 		
 		
 		
@@ -1005,7 +1008,7 @@ class DataScraper:
 					self.spawn_data[pokemon] = data
 			return True
 		self.process_all_files(spawnpool_files, spawn_func)
-		#self.write_to_json('debug.json', self.spawn_data)
+		self.write_debug_json('spawns_debug.json', self.spawn_data)
 		
 		
 		addition_files = self.load_deep_files('additions', '*.json')
@@ -1019,7 +1022,7 @@ class DataScraper:
 				return True
 			return False
 		self.process_all_files(addition_files, additions_func)
-		#self.write_to_json('addition_debug.json', self.additions_dict)
+		self.write_debug_json('additions_debug.json', self.additions_dict)
 		
 		# Try to load all the base Cobblemon species
 		species_files = self.load_deep_files('species', '*.json')
@@ -1038,7 +1041,6 @@ class DataScraper:
 		else:
 			tqdm.tqdm.write("No pokemon files found!")
 			tqdm.tqdm.write(f"Make sure your species files are nested within: {os.path.abspath(self.directory_paths['species'])}\n")
-		#self.write_to_json('species_debug.json', self.pokemon_dict)
 		
 
 		# Try to load all the fakemon species
@@ -1059,6 +1061,7 @@ class DataScraper:
 		else:
 			tqdm.tqdm.write("No fakemon files found!")
 			tqdm.tqdm.write(f"Make sure your species files are in: {os.path.abspath(self.directory_paths['species'])}\n")
+		self.write_debug_json('species_debug.json', self.pokemon_dict)
 
 		
 		return True
@@ -1190,7 +1193,15 @@ if __name__ == "__main__":
 	tqdm.tqdm.write(f"Looking for biome tags in: {os.path.abspath(tag_biome_directory)}")
 	tqdm.tqdm.write("\n")
 	
-	converter = DataScraper({'species':species_directory, 'moves':moves_directory, 'spawns':spawnpool_directory, 'lang':lang_directory, 'additions':additions_directory, 'fossil':fossil_directory, 'tags/biome':tag_biome_directory})
+	should_debug = False
+	if len(sys.argv) > 1:
+		should_debug = sys.argv[1]
+		if should_debug and type(should_debug) == str and (should_debug.lower() == "true" or should_debug == "1"):
+			should_debug = True
+			tqdm.tqdm.write("RUNNING IN DEBUG MODE")
+			tqdm.tqdm.write("\n")
+
+	converter = DataScraper({'species':species_directory, 'moves':moves_directory, 'spawns':spawnpool_directory, 'lang':lang_directory, 'additions':additions_directory, 'fossil':fossil_directory, 'tags/biome':tag_biome_directory}, should_debug)
 	
 	if converter.process_all():
 		if converter.db_compile():
