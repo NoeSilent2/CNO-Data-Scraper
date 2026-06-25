@@ -280,7 +280,7 @@ class DataScraper:
 	
 	def write_debug_json(self, file_path, data):
 		if self.debugmode:
-			with open(file_path, 'w') as outfile:
+			with open("./debug/"+file_path, 'w') as outfile:
 				json.dump(data, outfile, indent=4)
 	
 	def process_lang_data(self, full_language):
@@ -1183,26 +1183,37 @@ if __name__ == "__main__":
 	tqdm.tqdm.write(f"Looking for additions in: {os.path.abspath(additions_directory)}")
 	tqdm.tqdm.write(f"Looking for fossils in: {os.path.abspath(fossil_directory)}")
 	tqdm.tqdm.write(f"Looking for biome tags in: {os.path.abspath(tag_biome_directory)}")
-	tqdm.tqdm.write("\n")
+	tqdm.tqdm.write("")
 	
 	should_debug = False
 	if len(sys.argv) > 1:
-		should_debug = sys.argv[1]
-		if should_debug and type(should_debug) == str and (should_debug.lower() == "true" or should_debug == "1"):
+		arg1 = sys.argv[1]
+		if arg1 and (arg1.lower() == "true" or arg1 == "1"):
 			should_debug = True
-			tqdm.tqdm.write("RUNNING IN DEBUG MODE")
-			tqdm.tqdm.write("\n")
+			tqdm.tqdm.write("DEBUG MODE: ENABLED")
+	should_make_db = True
+	if len(sys.argv) > 2:
+		arg2 = sys.argv[2]
+		if arg2 and (arg2.lower() == "false" or arg2 == "0"):
+			should_make_db = False
+			tqdm.tqdm.write("DATABASE GENERATION: DISABLED")
+	tqdm.tqdm.write("\n")
 
 	converter = DataScraper({'species':species_directory, 'moves':moves_directory, 'spawns':spawnpool_directory, 'lang':lang_directory, 'additions':additions_directory, 'fossil':fossil_directory, 'tags/biome':tag_biome_directory}, should_debug)
 	
 	if converter.process_all():
-		if converter.db_compile():
-			tqdm.tqdm.write("\nDone! Press Enter to exit...")
+		if should_make_db:
+			if converter.db_compile():
+				tqdm.tqdm.write("\nDone! File has been exported to:")
+				tqdm.tqdm.write(f'{os.getcwd()}\\wiki.db')
+			else:
+				tqdm.tqdm.write("\nDatabase compilation has returned false")
+				tqdm.tqdm.write("If there are no errors, check code for incorrect return values")
 		else:
-			tqdm.tqdm.write("\nDatabase compilation has returned false")
-			tqdm.tqdm.write("If there are no errors, check code for incorrect return values")
+			tqdm.tqdm.write("\nDone! No database has been generated, as it was disabled")
 	else:
 		tqdm.tqdm.write("\nProcessing has returned false")
 		tqdm.tqdm.write("If there are no errors, check code for incorrect return values")
+	tqdm.tqdm.write("Press Enter to exit...")
 	
 	input()
