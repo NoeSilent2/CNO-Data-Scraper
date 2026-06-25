@@ -37,6 +37,7 @@ class DataScraper:
 		self.move_dict = {}
 		
 		self.spawn_data = {}
+		self.unused_spawns = []
 		
 		self.ljust = 20
 	
@@ -397,10 +398,10 @@ class DataScraper:
 		for spawn in data['spawns']:
 			if not spawn.get('pokemon', False):
 				return "cannot process herd files"
-			# A large ugly stack of replacements for alt_internal_id stuff. This should probably get organized and put into its own function
+			# A large ugly stack of replacements for alt_internal_name stuff. This should probably get organized and put into its own function
 			pokemon = spawn.get('pokemon', '').lower().replace(' ', '-').replace('_','-')
 			pokemon = pokemon.replace('gmax', 'gigantamax').replace('region-bias=alola','alolan-bias').replace('region-bias=galar','galarian-bias').replace('-cream','-cream-love').replace('-swirl','-swirl-love').replace('-goth','-midnight')
-			removals = ["flower=","dance-style=","-amethyst","-emerald","-echo","-quartz","-allay","spell-forme=","'",'\u2019']
+			removals = ["flower=","dance-style=","-amethyst","-emerald","-echo","-quartz","-allay","spell-forme=","'",'\u2019',"cobblemon:"]
 			for removal in removals:
 				pokemon = pokemon.replace(removal,"")
 			
@@ -417,6 +418,9 @@ class DataScraper:
 				pokemon = 'papersol'
 			elif 'umbrelligant' in pokemon:
 				pokemon = 'umbrelligant'
+			
+			if not pokemon in self.unused_spawns:
+				self.unused_spawns.append(pokemon)
 			
 			if spawn.get('spawnablePositionType',''):
 				spawn['context'] = spawn.get('spawnablePositionType','')
@@ -775,6 +779,14 @@ class DataScraper:
 			step = "getting spawn conditions"
 			# Spawn conditions
 			spawn_conditions = self.safe_get(self.spawn_data, alt_internal_name, [])
+			if len(spawn_conditions) <= 0:
+				spawn_conditions = self.safe_get(self.spawn_data, alt_internal_name.replace('-',''), [])
+				if len(spawn_conditions) <= 0:
+					tqdm.tqdm.write(f"No spawn conditions found for: {alt_internal_name}")
+			if alt_internal_name in self.unused_spawns:
+				self.unused_spawns.remove(alt_internal_name)
+			elif alt_internal_name.replace('-','') in self.unused_spawns:
+				self.unused_spawns.remove(alt_internal_name.replace('-',''))
 			
 			step = "setting gmax weight"
 			# Gmax Weight
@@ -1055,6 +1067,11 @@ class DataScraper:
 			tqdm.tqdm.write(f"Make sure your species files are in: {os.path.abspath(self.directory_paths['species'])}\n")
 		self.write_debug_json('species_debug.json', self.pokemon_dict)
 
+		tqdm.tqdm.write(f"{len(self.unused_spawns)} spawn sets are unused")
+		if len(self.unused_spawns) > 0 and not self.debugmode:
+			tqdm.tqdm.write(f"Run with debug mode on to see the full list")
+		self.write_debug_json('unused_spawns.json', self.unused_spawns)
+		tqdm.tqdm.write("")
 		
 		return True
 
