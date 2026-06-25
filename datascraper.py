@@ -781,8 +781,8 @@ class DataScraper:
 			spawn_conditions = self.safe_get(self.spawn_data, alt_internal_name, [])
 			if len(spawn_conditions) <= 0:
 				spawn_conditions = self.safe_get(self.spawn_data, alt_internal_name.replace('-',''), [])
-				if len(spawn_conditions) <= 0:
-					tqdm.tqdm.write(f"No spawn conditions found for: {alt_internal_name}")
+				#if len(spawn_conditions) <= 0:
+					#tqdm.tqdm.write(f"No spawn conditions found for: {alt_internal_name}")
 			if alt_internal_name in self.unused_spawns:
 				self.unused_spawns.remove(alt_internal_name)
 			elif alt_internal_name.replace('-','') in self.unused_spawns:
