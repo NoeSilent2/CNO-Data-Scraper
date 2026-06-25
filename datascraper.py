@@ -550,7 +550,8 @@ class DataScraper:
 				'meowstic-f':'meowstic-female',
 				'meowstic-f-festival':'meowstic-female-festival',
 				'basculegion-f':'basculegion-female',
-				'oinkologne-f':'oinkologne-female'
+				'oinkologne-f':'oinkologne-female',
+				':-':''
 			}
 			for target, replacement in replacements.items():
 				if alt_internal_name == target:
