@@ -34,7 +34,6 @@ class DataScraper:
 		
 		self.ability_dict = {}
 		
-		self.move_data = []
 		self.move_dict = {}
 		
 		self.spawn_data = {}
@@ -934,18 +933,14 @@ class DataScraper:
 				move = self.extract_move_data(file_path, True)
 				move['id'] = os.path.splitext(os.path.basename(file_path))[0]
 				move = self.process_move_data(move, True)
-				if move:
-					self.move_data.append(move)
-				else:
+				if not move:
 					tqdm.tqdm.write(f"	  Failed to retrieve move from: {os.path.basename(file_path)}")
 					
-			tqdm.tqdm.write(f"Successfully loaded {len(self.move_data)}/{len(move_files)} moves\n")
+			tqdm.tqdm.write(f"Successfully loaded {len(self.move_dict)}/{len(move_files)} moves\n")
 		else:
 			tqdm.tqdm.write("No move files found!")
 			tqdm.tqdm.write(f"Make sure your move files are in: {os.path.abspath(self.directory_paths['moves'])}\n")
 		
-		self.move_data.sort(key=lambda x: x['num'])
-		self.write_debug_json('cmoves_debug.json', self.move_data)
 			
 		# Loading all default moves, for display and name reference
 		full_move_files = self.load_shallow_files('moves', '*.ts')
@@ -953,27 +948,24 @@ class DataScraper:
 			for i, file_path in enumerate(full_move_files, 1):
 				full_moves = self.extract_move_data(file_path, False)
 				if full_moves:
-					startlen = len(self.move_data)
+					startlen = len(self.move_dict)
 					pbar = tqdm.tqdm(total=len(full_moves))
 					for moveid, move in full_moves.items():
 						pbar.set_description(f"Processing: {moveid.ljust(self.ljust)}")
 						move['id'] = moveid
 						move = self.process_move_data(move, False)
 						if move:
-							self.move_data.append(move)
 							pbar.update(1)
 						else:
 							tqdm.tqdm.write(f"	  Failed to retrieve move '{moveid}' from: {os.path.basename(file_path)}")
 					pbar.close()
-					tqdm.tqdm.write(f"Successfully loaded {len(self.move_data)-startlen}/{len(full_moves)} moves\n")
+					tqdm.tqdm.write(f"Successfully loaded {len(self.move_dict)-startlen}/{len(full_moves)} moves\n")
 				else:
 					tqdm.tqdm.write(f"	  Failed to retrieve any moves from: {os.path.basename(file_path)}")
 		else:
 			tqdm.tqdm.write("No .ts move files found!")
 			tqdm.tqdm.write(f"Make sure your .ts move files are in: {os.path.abspath(self.directory_paths['moves'])}\n")
 		
-		self.move_data.sort(key=lambda x: x['num'])
-		self.write_debug_json('movedata_debug.json', self.move_data)
 		self.write_debug_json('movedict_debug.json', self.move_dict)
 		
 		fossil_files = self.load_shallow_files('fossil', '*.json')
