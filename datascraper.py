@@ -551,7 +551,12 @@ class DataScraper:
 				'meowstic-f-festival':'meowstic-female-festival',
 				'basculegion-f':'basculegion-female',
 				'oinkologne-f':'oinkologne-female',
-				':-':''
+				':-':'',
+				'matcha-authenticity=counterfeit':'',
+				'matcha-authenticity=unremarkable':'',
+				'matcha-authenticity=':'',
+				'tea-authenticity=phony':'',
+				'tea-authenticity=':''
 			}
 			for target, replacement in replacements.items():
 				if alt_internal_name == target:
