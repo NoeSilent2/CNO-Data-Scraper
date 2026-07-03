@@ -82,6 +82,19 @@ class DataScraper:
 			return data.get(key, default)
 		return default
 	
+	def move_learned_by(self, movename, alt_internal_name, context):
+		move = self.move_dict.get(movename)
+		if move:
+			learnedby = move.get("learnedby")
+			if learnedby:
+				if learnedby.get(context):
+					learnedby[context].append(alt_internal_name)
+				else:
+					learnedby[context] = [alt_internal_name]
+			else:
+				move["learnedby"] = {context:[alt_internal_name]}
+			self.move_dict[movename] = move
+
 	# ----------------------------------------------------------------------------------------
 	# -                                     File loading                                     -
 	# ----------------------------------------------------------------------------------------
@@ -485,6 +498,7 @@ class DataScraper:
 				# Sorting moves by their learn criteria
 				# Level moves get additional data for what level they are learned at
 				if prefix.isdigit():
+					self.move_learned_by(move_name, [debug_name,int(prefix)], "lvl")
 					level_moves.append({
 						'move': move_name,
 						'level': int(prefix)
@@ -492,10 +506,12 @@ class DataScraper:
 				
 				# Egg moves don't have any special criteria so they just get put in a list
 				elif prefix.lower() == 'egg':
+					self.move_learned_by(move_name, debug_name, 'egg')
 					egg_moves.append(move_name)
 					
 				# Same with TM Moves as with Egg Moves
 				elif prefix.lower() == 'tm':
+					self.move_learned_by(move_name, debug_name, 'tm')
 					tm_moves.append(move_name)
 				
 				# Tutor moves  -  not for display, but may be in the future
@@ -640,7 +656,7 @@ class DataScraper:
 			step = "getting and categorizing moves"
 			# All moves
 			moves = get_wbase('moves', [])
-			level_moves, tm_moves, egg_moves = self.categorize_moves(moves, internal_name)
+			level_moves, tm_moves, egg_moves = self.categorize_moves(moves, alt_internal_name)
 			
 			step = "getting evolutions"
 			# Evolution info				
@@ -664,6 +680,7 @@ class DataScraper:
 				for move in evolution.get('learnableMoves', []):
 					# newname = self.safe_get(self.safe_get(self.move_dict, move, {}), 'name', move)
 					learnable_moves.append(move)
+					self.move_learned_by(move, alt_internal_name, "evo")
 				if len(learnable_moves) > 0:
 					evolution['learnableMoves'] = learnable_moves
 				
@@ -979,7 +996,6 @@ class DataScraper:
 			tqdm.tqdm.write("No .ts move files found!")
 			tqdm.tqdm.write(f"Make sure your .ts move files are in: {os.path.abspath(self.directory_paths['moves'])}\n")
 		
-		self.write_debug_json('movedict_debug.json', self.move_dict)
 		
 		fossil_files = self.load_shallow_files('fossil', '*.json')
 		def fossil_func(data, _):
@@ -1072,6 +1088,7 @@ class DataScraper:
 		if len(self.unused_spawns) > 0 and not self.debugmode:
 			tqdm.tqdm.write(f"Run with debug mode on to see the full list")
 		self.write_debug_json('unused_spawns.json', self.unused_spawns)
+		self.write_debug_json('movedict_debug.json', self.move_dict)
 		tqdm.tqdm.write("")
 		
 		return True
