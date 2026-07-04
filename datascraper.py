@@ -83,6 +83,8 @@ class DataScraper:
 		return default
 	
 	def move_learned_by(self, movename, alt_internal_name, context):
+		if '-mega' in alt_internal_name or '-bias' in alt_internal_name:
+			return False
 		move = self.move_dict.get(movename)
 		if move:
 			learnedby = move.get("learnedby")
