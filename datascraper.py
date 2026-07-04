@@ -82,9 +82,21 @@ class DataScraper:
 			return data.get(key, default)
 		return default
 	
+	def has_substrings(self, testobj, subs):
+		if type(testobj) == str:
+			for sub in subs:
+				if sub in testobj:
+					return True
+		elif type(testobj) == list:
+			for sub in subs:
+				for obj in testobj:
+					if type(obj) == str and sub in obj:
+						return True
+		return False
+
 	def move_learned_by(self, movename, alt_internal_name, context):
-		if '-mega' in alt_internal_name or '-bias' in alt_internal_name:
-			return False
+		if self.has_substrings(alt_internal_name, ['-bias','-gigantamax','-mega','-exposed','-weathered','-oxidized']):
+			return
 		move = self.move_dict.get(movename)
 		if move:
 			learnedby = move.get("learnedby")
