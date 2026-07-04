@@ -569,7 +569,7 @@ class DataScraper:
 			
 			step = "creating alternative internal name"
 			# For some image API's, that prefer iron-moth to ironmoth
-			alt_internal_name = display_name.lower().replace(' ', '-').replace('gmax', 'gigantamax').replace('alola', 'alolan').replace('hisui', 'hisuian').replace('galar', 'galarian').replace("'", "").replace('\u2019', '').replace('_','-').replace('.','').replace('?','qm').replace('!','em').replace('-cream','-cream-love').replace('-swirl','-swirl-love').replace('-spell','')
+			alt_internal_name = display_name.lower().replace(' ', '-').replace('gmax', 'gigantamax').replace('alola', 'alolan').replace('hisui', 'hisuian').replace('galar', 'galarian').replace("'", "").replace('\u2019', '').replace('_','-').replace('.','').replace('%','').replace('?','qm').replace('!','em').replace('-cream','-cream-love').replace('-swirl','-swirl-love').replace('-spell','')
 			replacements = {
 				'flabebe':'flabebe-red',
 				'floette':'floette-red',
