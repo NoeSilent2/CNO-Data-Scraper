@@ -1248,7 +1248,15 @@ if __name__ == "__main__":
 			tqdm.tqdm.write("DATABASE GENERATION: DISABLED")
 	tqdm.tqdm.write("\n")
 
-	converter = DataScraper({'species':species_directory, 'moves':moves_directory, 'spawns':spawnpool_directory, 'lang':lang_directory, 'additions':additions_directory, 'fossil':fossil_directory, 'tags/biome':tag_biome_directory}, should_debug)
+	converter = DataScraper({
+			'species':species_directory,
+			'moves':moves_directory,
+			'spawns':spawnpool_directory,
+			'lang':lang_directory,
+			'additions':additions_directory,
+			'fossil':fossil_directory,
+			'tags/biome':tag_biome_directory
+			}, should_debug)
 	
 	if converter.process_all():
 		if should_make_db:
