@@ -459,6 +459,16 @@ class DataScraper:
 					value = self.process_tags(value)
 				new_condition[new_key] = value
 			spawn['condition'] = new_condition
+			if spawn.get('weightMultiplier', False):
+				new_multiplier = {}
+				new_multiplier['multiplier'] = spawn.get('weightMultiplier',{}).get('multiplier',1)
+				new_multiplier['condition'] = {}
+				for key, value in spawn.get('weightMultiplier',{}).get('condition',{}).items():
+					new_key = self.camelcase_to_space(key).title()
+					if isinstance(value, list):
+						value = self.process_tags(value)
+					new_multiplier['condition'][new_key] = value
+				spawn['weightMultiplier'] = new_multiplier
 			if spawn.get('anticondition', False):
 				new_anticondition = {}
 				for key, value in spawn.get('anticondition',{}).items():
