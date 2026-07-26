@@ -427,8 +427,8 @@ class DataScraper:
 				return "cannot process herd files"
 			# A large ugly stack of replacements for alt_internal_name stuff. This should probably get organized and put into its own function
 			pokemon = spawn.get('pokemon', '').lower().replace(' ', '-').replace('_','-')
-			pokemon = pokemon.replace('gmax', 'gigantamax').replace('region-bias=alola','alolan-bias').replace('region-bias=galar','galarian-bias').replace('region-bias=hisui','hisuian-bias').replace('-cream','-cream-love').replace('-swirl','-swirl-love').replace('-goth','-midnight')
-			removals = ["flower=","dance-style=","-amethyst","-emerald","-echo","-quartz","-allay","spell-forme=","'",'\u2019',"cobblemon:"]
+			pokemon = pokemon.replace('gmax', 'gigantamax').replace('region-bias=alola','alolan-bias').replace('region-bias=galar','galarian-bias').replace('region-bias=hisui','hisuian-bias').replace('-cream','-cream-love').replace('-swirl','-swirl-love').replace('-goth','-midnight').replace('mrmime','mr-mime').replace('mimejr','mime-jr')
+			removals = ["flower=","dance-style=","-amethyst","-emerald","-echo","-quartz","-allay","spell-forme=","'",'\u2019',"cobblemon:","bull-breed=","-valencian","=true"]
 			for removal in removals:
 				pokemon = pokemon.replace(removal,"")
 			
@@ -445,6 +445,16 @@ class DataScraper:
 				pokemon = 'papersol'
 			elif 'umbrelligant' in pokemon:
 				pokemon = 'umbrelligant'
+			elif 'magikarp-jump' in pokemon:
+				pokemon = 'magikarp'
+			elif 'unown-character=' in pokemon:
+				pokemon = 'unown'
+			elif 'vivillon-wings' in pokemon:
+				pokemon = 'vivillon'
+			elif 'ekans-snake' in pokemon:
+				pokemon = 'ekans'
+			elif 'arbok-snake' in pokemon:
+				pokemon = 'arbok'
 			
 			if not pokemon in self.unused_spawns:
 				self.unused_spawns.append(pokemon)
