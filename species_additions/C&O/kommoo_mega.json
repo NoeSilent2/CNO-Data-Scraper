@@ -1,0 +1,30 @@
+{
+  "target": "cobblemon:kommoo",
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "steel",
+      "secondaryType": "fighting",
+      "maleRatio": 0.5,
+      "height": 16,
+      "weight": 782,
+      "pokedex": ["cobblemon.species.kommoo-mega.desc"],
+      "abilities": ["roughskin", "roughskin", "h:roughskin"],
+      "labels": ["gen6", "mega"],
+      "aspects": ["mega"],
+      "baseStats": {
+        "hp": 75,
+        "attack": 150,
+        "defence": 135,
+        "special_attack": 130,
+        "special_defence": 115,
+        "speed": 95
+      },
+      "baseExperienceYield": 300,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true,
+      "baseScale": 1
+    }
+  ]
+}

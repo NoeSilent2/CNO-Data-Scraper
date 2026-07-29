@@ -167,16 +167,11 @@ class DataScraper:
 			tqdm.tqdm.write(f"	Error processing {file_path}: {e}")
 			return
 
-	def extract_pokemon_data(self, file_path, is_fake):
-		step = "loading from .json"
-		# Extract and return data from a species file
+	def extract_pokemon_data(self, data, file_index, is_fake):
 		try:
-			with open(file_path, 'r', encoding='utf-8') as file:
-				data = json.load(file)
-			
-			step = "retrieving internal name from file name"
+			step = "setting internal name from file name"
 			# Get filename
-			internal_name = os.path.splitext(os.path.basename(file_path))[0]
+			internal_name = os.path.splitext(file_index[1])[0]
 			data['internal_name'] = internal_name
 			
 			step = "applying additions"
@@ -189,6 +184,10 @@ class DataScraper:
 			if fossils:
 				data['fossils'] = fossils
 			
+			step = "applying mod of origin"
+			if file_index[0]:
+				data['origin'] = file_index[0]
+
 			step = "processing base pokemon data"
 			pokemon_data = [self.process_pokemon_data(data, {}, is_fake)]
 			
@@ -211,7 +210,7 @@ class DataScraper:
 			return (internal_name, pokemon_data)
 			
 		except Exception as e:
-			tqdm.tqdm.write(f"	  Unexpected error in {file_path}: {e}")
+			tqdm.tqdm.write(f"	  Unexpected error in {file_index[1]}: {e}")
 			tqdm.tqdm.write(f"	  Exception occurred while {step}")
 			return (None, None)
 
@@ -847,13 +846,14 @@ class DataScraper:
 				weight = 1337
 			if "eternamax" in display_name.lower():
 				weight = 1337
-			
+
 			step = "assembling data"
 			return_data =  {
 				'name': display_name,
 				'category': pokemon_category,
 				'internal_name': internal_name,
 				'alt_internal_name': alt_internal_name,
+				'origin': get_wbase('origin', '-'),
 				'national_pokedex_number': get_wbase('nationalPokedexNumber', 9999),
 				'types': {"primary":primary_type.title(),"secondary":secondary_type.title()},
 				'stats':{'hp':hp,'attack':attack,'defence':defence,'special_attack':special_attack,'special_defence':special_defence,'speed':speed,'total':total,'projections':stat_projections},
@@ -891,13 +891,13 @@ class DataScraper:
 			return None
 	
 	# Returns tagged and processed data to be inserted into additions_dict later
-	def process_additions_data(self, data):
+	def process_additions_data(self, data, index):
 		step = "retrieving base pokemon name"
 		try:
 			target = data.get('target', '')
 			if target:
 				if ":" in target:
-					target = target.split(':')[1]
+					target = target.split(':')[1].lower()
 			
 			step = "removing target value"
 			data.pop('target')
@@ -906,6 +906,7 @@ class DataScraper:
 			forms = data.get('forms', [])
 			for i, form in enumerate(forms):
 				data['forms'][i]['is_fake_form'] = True
+				data['forms'][i]['origin'] = index
 			
 			step= "returning additions"
 			return(target, data)
@@ -1065,10 +1066,12 @@ class DataScraper:
 		self.process_all_files(spawnpool_files, spawn_func)
 		self.write_debug_json('spawns_debug.json', self.spawn_data)
 		
-		
-		addition_files = self.load_deep_files('additions', '*.json')
-		def additions_func(data, _):
-			iname, pokemon = self.process_additions_data(data)
+		# Try to load all species additions, with their 'mod of origin' being the name of the folder they are located in
+		# This 'origin' will only display if the addition includes a new form, wherein that form will have it
+		addition_files = self.load_indexed_files('additions', '*.json')
+		def additions_func(data, index):
+			index = os.path.split(index)[0]
+			iname, pokemon = self.process_additions_data(data, index)
 			if pokemon:
 				olddata = self.additions_dict.get(iname)
 				if olddata:
@@ -1079,43 +1082,21 @@ class DataScraper:
 		self.process_all_files(addition_files, additions_func)
 		self.write_debug_json('additions_debug.json', self.additions_dict)
 		
-		# Try to load all the base Cobblemon species
-		species_files = self.load_deep_files('species', '*.json')
-		if species_files:
-			# Extract species data from all files
-			pbar = tqdm.tqdm(species_files)
-			for i, file_path in enumerate(pbar, 1):
-				pbar.set_description(f"Processing: {os.path.basename(file_path).ljust(self.ljust)}")
-				iname, pokemon = self.extract_pokemon_data(file_path, False)
-				if pokemon:
-					self.pokemon_dict[iname] = pokemon
-				else:
-					tqdm.tqdm.write(f"	Failed to retrieve Pokemon from: {os.path.basename(file_path)}")
-				
-			tqdm.tqdm.write(f"Successfully loaded {len(self.pokemon_dict)}/{len(species_files)} Pokemon\n")
-		else:
-			tqdm.tqdm.write("No pokemon files found!")
-			tqdm.tqdm.write(f"Make sure your species files are nested within: {os.path.abspath(self.directory_paths['species'])}\n")
-		
-
-		# Try to load all the fakemon species
-		fakemon_files = self.load_shallow_files('species', '*.json')
-		if fakemon_files:
-			startlen = len(self.pokemon_dict)
-			# Extract species data from all files
-			pbar = tqdm.tqdm(fakemon_files)
-			for i, file_path in enumerate(pbar, 1):
-				pbar.set_description(f"Processing: {os.path.basename(file_path).ljust(self.ljust)}")
-				iname, pokemon = self.extract_pokemon_data(file_path, True)
-				if pokemon:
-					self.pokemon_dict[iname] = pokemon
-				else:
-					tqdm.tqdm.write(f"	Failed to retrieve Fakemon from: {os.path.basename(file_path)}")
-				
-			tqdm.tqdm.write(f"Successfully loaded {len(self.pokemon_dict)-startlen}/{len(fakemon_files)} Fakemon\n")
-		else:
-			tqdm.tqdm.write("No fakemon files found!")
-			tqdm.tqdm.write(f"Make sure your species files are in: {os.path.abspath(self.directory_paths['species'])}\n")
+		# Try to load all species, with their 'mod of origin' being the name of the folder they are located in
+		species_files = self.load_indexed_files('species', '*.json')
+		def species_func(data, index):
+			index = os.path.split(index)
+			if index[0] == '':
+				tqdm.tqdm.write(f"	  The following species file should be in a folder, but is not: {index[1]}")
+			is_fake = True
+			if "Gen" in index[0]:
+				is_fake = False
+			iname, pokemon = self.extract_pokemon_data(data, index, is_fake)
+			if pokemon:
+				self.pokemon_dict[iname] = pokemon
+				return True
+			return "no Pokemon data retrieved."
+		self.process_all_files(species_files, species_func)
 		self.write_debug_json('species_debug.json', self.pokemon_dict)
 
 		tqdm.tqdm.write(f"{len(self.unused_spawns)} spawn sets are unused")

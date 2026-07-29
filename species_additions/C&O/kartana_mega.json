@@ -1,0 +1,38 @@
+{
+  "target": "cobblemon:kartana",
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "grass",
+      "secondaryType": "steel",
+      "maleRatio": -1,
+      "height": 3,
+      "weight": 1,
+      "pokedex": ["cobblemon.species.kartana-mega.desc"],
+      "abilities": ["dullingpaper", "h:dullingpaper"],
+      "labels": ["gen6", "mega"],
+      "aspects": ["mega"],
+      "baseStats": {
+        "hp": 59,
+        "attack": 233,
+        "defence": 83,
+        "special_attack": 109,
+        "special_defence": 47,
+        "speed": 157
+      },
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": true,
+          "light": "0-4",
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "baseExperienceYield": 285,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
+}

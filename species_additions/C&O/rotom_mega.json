@@ -1,0 +1,29 @@
+{
+  "target": "cobblemon:rotom",
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "electric",
+      "secondaryType": "ghost",
+      "maleRatio": -1,
+      "height": 3,
+      "weight": 3,
+      "pokedex": ["cobblemon.species.rotom-mega.desc"],
+      "abilities": ["levitate", "h:levitate"],
+      "labels": ["gen6", "mega"],
+      "aspects": ["mega"],
+      "baseStats": {
+        "hp": 50,
+        "attack": 60,
+        "defence": 97,
+        "special_attack": 125,
+        "special_defence": 97,
+        "speed": 111
+      },
+      "baseExperienceYield": 154,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "target": "cobblemon:tinkaton",
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "fairy",
+      "secondaryType": "steel",
+      "maleRatio": 0,
+      "height": 7,
+      "weight": 1128,
+      "pokedex": ["cobblemon.species.tinkaton-mega.desc"],
+      "abilities": ["mirrorarmor", "h:mirrorarmor"],
+      "labels": ["gen6", "mega"],
+      "aspects": ["mega"],
+      "baseStats": {
+        "hp": 85,
+        "attack": 75,
+        "defence": 124,
+        "special_attack": 70,
+        "special_defence": 165,
+        "speed": 87
+      },
+      "baseExperienceYield": 253,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "target": "cobblemon:typhlosion",
+  "forms": [
+    {
+      "name": "Hisui-Mega",
+      "primaryType": "fire",
+      "secondaryType": "ghost",
+      "maleRatio": 0.875,
+      "height": 16,
+      "weight": 698,
+      "pokedex": ["cobblemon.species.typhlosion-hisuian-mega.desc"],
+      "abilities": ["shadowshield", "h:shadowshield"],
+      "labels": ["gen6", "mega"],
+      "aspects": ["hisuian", "mega"],
+      "baseStats": {
+        "hp": 73,
+        "attack": 94,
+        "defence": 98,
+        "special_attack": 159,
+        "special_defence": 95,
+        "speed": 125
+      },
+      "baseExperienceYield": 267,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "target": "cobblemon:dracovish",
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "water",
+      "secondaryType": "dragon",
+      "maleRatio": -1,
+      "height": 23,
+      "weight": 2150,
+      "pokedex": ["cobblemon.species.dracovish-mega.desc"],
+      "abilities": ["viciousjaw", "h:viciousjaw"],
+      "labels": ["gen6", "mega"],
+      "aspects": ["mega"],
+      "baseStats": {
+        "hp": 90,
+        "attack": 130,
+        "defence": 120,
+        "special_attack": 90,
+        "special_defence": 120,
+        "speed": 75
+      },
+      "baseScale": 1,
+      "hitbox": {
+        "height": 4.65,
+        "width": 3.05,
+        "fixed": false
+      },
+      "behaviour": {
+        "moving": {
+          "swim": {
+            "canBreatheUnderwater": true,
+            "swimSpeed": "0.2"
+          },
+          "walk": {
+            "walkSpeed": 0.17
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        }
+      },
+      "baseExperienceYield": 177,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
+}

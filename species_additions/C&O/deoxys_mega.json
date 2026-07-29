@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:deoxys",
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "psychic",
+      "maleRatio": -1,
+      "height": 17,
+      "weight": 608,
+      "pokedex": ["cobblemon.species.deoxys-mega.desc"],
+      "abilities": ["psychicsurge", "h:psychicsurge"],
+      "labels": ["gen6", "mega"],
+      "aspects": ["mega"],
+      "baseStats": {
+        "hp": 50,
+        "attack": 100,
+        "defence": 150,
+        "special_attack": 150,
+        "special_defence": 100,
+        "speed": 60
+      },
+      "baseExperienceYield": 175,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
+}

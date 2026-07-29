@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:minior",
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "rock",
+      "secondaryType": "psychic",
+      "maleRatio": -1,
+      "height": 3,
+      "weight": 3,
+      "pokedex": ["cobblemon.species.minior-mega.desc"],
+      "abilities": ["cosmicshield", "h:cosmicshield"],
+      "labels": ["gen6", "mega"],
+      "aspects": ["mega"],
+      "baseStats": {
+        "hp": 60,
+        "attack": 70,
+        "defence": 110,
+        "special_attack": 130,
+        "special_defence": 110,
+        "speed": 60
+      },
+      "baseExperienceYield": 175,
+      "dynamaxBlocked": true,
+      "shoulderMountable": false,
+      "evolutions": [],
+      "battleOnly": true,
+      "baseScale": 1.0,
+      "hitbox": {
+        "width": 3.0,
+        "height": 3.0,
+        "fixed": false
+      }
+    }
+  ]
+}

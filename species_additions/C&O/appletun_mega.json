@@ -1,0 +1,75 @@
+{
+  "target": "cobblemon:appletun",
+  "forms": [
+    {
+      "name": "Mega-X",
+      "primaryType": "grass",
+      "secondaryType": "dragon",
+      "maleRatio": 0.5,
+      "height": 4,
+      "weight": 130,
+      "pokedex": ["cobblemon.species.appletun-megax.desc"],
+      "abilities": ["thickfat", "h:thickfat"],
+      "labels": ["gen6", "mega"],
+      "aspects": ["mega_x"],
+      "baseStats": {
+        "hp": 110,
+        "attack": 125,
+        "defence": 110,
+        "special_attack": 100,
+        "special_defence": 110,
+        "speed": 30
+      },
+      "baseScale": 1.7,
+      "hitbox": {
+        "width": 1.5,
+        "height": 1.5,
+        "fixed": false
+      },
+      "baseExperienceYield": 170,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    },
+    {
+      "name": "Mega-Y",
+      "primaryType": "grass",
+      "secondaryType": "dragon",
+      "maleRatio": 0.5,
+      "height": 4,
+      "weight": 130,
+      "pokedex": ["cobblemon.species.appletun-megay.desc"],
+      "abilities": ["ripen", "h:ripen"],
+      "labels": ["gen6", "mega"],
+      "aspects": ["mega_y"],
+      "baseStats": {
+        "hp": 110,
+        "attack": 90,
+        "defence": 90,
+        "special_attack": 155,
+        "special_defence": 110,
+        "speed": 30
+      },
+      "baseScale": 1.5,
+      "hitbox": {
+        "width": 1.5,
+        "height": 1.5,
+        "fixed": false
+      },
+      "behaviour": {
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.235
+          },
+          "swim": {
+            "avoidsWater": true
+          }
+        }
+      },
+      "baseExperienceYield": 170,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
+}

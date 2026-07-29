@@ -1,0 +1,30 @@
+{
+  "target": "cobblemon:primarina",
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "water",
+      "secondaryType": "fairy",
+      "maleRatio": 0.875,
+      "height": 18,
+      "weight": 440,
+      "pokedex": ["cobblemon.species.primarina-mega.desc"],
+      "abilities": ["sirenssong", "h:sirenssong"],
+      "labels": ["gen6", "mega"],
+      "aspects": ["mega"],
+      "baseStats": {
+        "hp": 80,
+        "attack": 79,
+        "defence": 104,
+        "special_attack": 136,
+        "special_defence": 126,
+        "speed": 105
+      },
+      "baseExperienceYield": 265,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true,
+      "baseScale": 1.2
+    }
+  ]
+}

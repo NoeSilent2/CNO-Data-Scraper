@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:orthworm",
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "steel",
+      "maleRatio": 0.5,
+      "height": 25,
+      "weight": 3100,
+      "pokedex": ["cobblemon.species.orthworm-mega.desc"],
+      "abilities": ["eartheater", "h:eartheater"],
+      "labels": ["gen6", "mega"],
+      "aspects": ["mega"],
+      "baseStats": {
+        "hp": 70,
+        "attack": 105,
+        "defence": 105,
+        "special_attack": 60,
+        "special_defence": 85,
+        "speed": 155
+      },
+      "baseExperienceYield": 240,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
+}

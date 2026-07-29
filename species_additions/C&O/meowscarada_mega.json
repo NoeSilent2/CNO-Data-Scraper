@@ -1,0 +1,29 @@
+{
+  "target": "cobblemon:meowscarada",
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "grass",
+      "secondaryType": "dark",
+      "maleRatio": 0.875,
+      "height": 15,
+      "weight": 312,
+      "pokedex": ["cobblemon.species.meowscarada-mega.desc"],
+      "abilities": ["trickster", "h:trickster"],
+      "labels": ["gen6", "mega"],
+      "aspects": ["mega"],
+      "baseStats": {
+        "hp": 76,
+        "attack": 130,
+        "defence": 95,
+        "special_attack": 111,
+        "special_defence": 95,
+        "speed": 123
+      },
+      "baseExperienceYield": 265,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
+}

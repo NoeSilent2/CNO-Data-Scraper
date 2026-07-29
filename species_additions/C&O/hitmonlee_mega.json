@@ -1,0 +1,29 @@
+{
+  "target": "cobblemon:hitmonlee",
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "fighting",
+      "secondaryType": "dark",
+      "maleRatio": 1,
+      "height": 15,
+      "weight": 498,
+      "pokedex": ["cobblemon.species.hitmonlee-mega.desc"],
+      "abilities": ["reckless", "reckless", "h:reckless"],
+      "labels": ["gen6", "mega"],
+      "aspects": ["mega"],
+      "baseStats": {
+        "hp": 50,
+        "attack": 175,
+        "defence": 109,
+        "special_attack": 65,
+        "special_defence": 110,
+        "speed": 46
+      },
+      "baseExperienceYield": 159,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
+}

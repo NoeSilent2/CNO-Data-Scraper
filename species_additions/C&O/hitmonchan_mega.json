@@ -1,0 +1,29 @@
+{
+  "target": "cobblemon:hitmonchan",
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "fighting",
+      "secondaryType": "steel",
+      "maleRatio": 1,
+      "height": 14,
+      "weight": 502,
+      "pokedex": ["cobblemon.species.hitmonchan-mega.desc"],
+      "abilities": ["ironfist", "ironfist", "h:ironfist"],
+      "labels": ["gen6", "mega"],
+      "aspects": ["mega"],
+      "baseStats": {
+        "hp": 50,
+        "attack": 175,
+        "defence": 109,
+        "special_attack": 65,
+        "special_defence": 110,
+        "speed": 46
+      },
+      "baseExperienceYield": 159,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
+}
