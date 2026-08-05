@@ -427,7 +427,7 @@ class DataScraper:
 			# A large ugly stack of replacements for alt_internal_name stuff. This should probably get organized and put into its own function
 			pokemon = spawn.get('pokemon', '').lower().replace(' ', '-').replace('_','-')
 			pokemon = pokemon.replace('gmax', 'gigantamax').replace('region-bias=alola','alolan-bias').replace('region-bias=galar','galarian-bias').replace('region-bias=hisui','hisuian-bias').replace('-cream','-cream-love').replace('-swirl','-swirl-love').replace('-goth','-midnight').replace('mrmime','mr-mime').replace('mimejr','mime-jr')
-			removals = ["flower=","dance-style=","-amethyst","-emerald","-echo","-quartz","-allay","spell-forme=","'",'\u2019',"cobblemon:","bull-breed=","-valencian","=true"]
+			removals = ["flower=","dance-style=","-amethyst","-emerald","-echo","-quartz","-allay","spell-forme=","'",'\u2019',"cobblemon:","lasers_song_forme=","song_forme=","bull-breed=","-valencian","=true"]
 			for removal in removals:
 				pokemon = pokemon.replace(removal,"")
 			

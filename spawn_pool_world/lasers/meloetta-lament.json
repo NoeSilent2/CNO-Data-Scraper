@@ -1,0 +1,50 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "meloetta-lament-1",
+            "pokemon": "meloetta lasers_song_forme=lament",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50-60",
+            "weight": 0.2,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "nullscape:void_barrens",
+                    "nullscape:shadowlands"
+                ]
+            }
+        },
+        {
+            "id": "meloetta-lament-2",
+            "pokemon": "meloetta lasers_song_forme=lament",
+            "presets": [
+                "natural",
+                "coral_blocks"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50-60",
+            "weight": 0.4,
+            "condition": {
+                "biomes": [
+                    "nullscape:void_barrens",
+                    "nullscape:shadowlands",
+                    "nullscape:crystalpeaks"
+                ]
+            }
+        }
+    ]
+}

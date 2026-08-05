@@ -5,7 +5,7 @@
     "spawns": [
         {
             "id": "meloetta-soprano-1",
-            "pokemon": "meloetta song_forme=soprano",
+            "pokemon": "meloetta lasers_song_forme=soprano",
             "presets": [
                 "ancient_city"
             ],

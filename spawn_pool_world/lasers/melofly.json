@@ -13,7 +13,7 @@
             "context": "grounded",
             "bucket": "common",
             "level": "20-34",
-            "weight": 15.0,
+            "weight": 400.0,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -34,10 +34,30 @@
             "context": "grounded",
             "bucket": "common",
             "level": "10-34",
-            "weight": 2.0,
+            "weight": 5.0,
             "condition": {
                 "biomes": [
                     "#cobblemon:nether/is_warped"
+                ]
+            }
+        },
+        {
+            "id": "melofly-3",
+            "pokemon": "melofly",
+            "presets": [
+                "natural",
+                "coral_blocks"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-34",
+            "weight": 7.5,
+            "condition": {
+                "biomes": [
+                    "nullscape:shadowlands",
+                    "nullscape:void_barrens",
+                    "nullscape:crystal_peaks"
                 ]
             }
         }
