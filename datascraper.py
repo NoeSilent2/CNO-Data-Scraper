@@ -426,8 +426,14 @@ class DataScraper:
 				return "cannot process herd files"
 			# A large ugly stack of replacements for alt_internal_name stuff. This should probably get organized and put into its own function
 			pokemon = spawn.get('pokemon', '').lower().replace(' ', '-').replace('_','-')
-			pokemon = pokemon.replace('gmax', 'gigantamax').replace('region-bias=alola','alolan-bias').replace('region-bias=galar','galarian-bias').replace('region-bias=hisui','hisuian-bias').replace('-cream','-cream-love').replace('-swirl','-swirl-love').replace('-goth','-midnight').replace('mrmime','mr-mime').replace('mimejr','mime-jr')
-			removals = ["flower=","dance-style=","-amethyst","-emerald","-echo","-quartz","-allay","spell-forme=","'",'\u2019',"cobblemon:","lasers_song_forme=","song_forme=","bull-breed=","-valencian","=true"]
+			pokemon = pokemon.replace('gmax', 'gigantamax').replace('region-bias=alola','alolan-bias').replace('region-bias=galar','galarian-bias').replace('region-bias=hisui','hisuian-bias').replace('-cream','-cream-love').replace('-swirl','-swirl-love').replace('-goth','-midnight').replace('-lush','-lush-cave').replace('-wither','-wither-rose').replace('mrmime','mr-mime').replace('mimejr','mime-jr')
+			removals = ["flower=","dance-style=",
+				"-amethyst","-emerald","-echo","-quartz","-allay","spell-forme=",
+				"-maushold-family=three","-maushold-family=","-chest","forecast=","-wooper-heart",
+				"'",'\u2019',"cobblemon:",
+				"-sea=west","sea=","-striped=red","striped=","-percent-cells=50","percent-cells=","-landsnake-form=two-segment","landsnake-form=",
+				"-tea-authenticity=phony","tea-authenticity=","-matcha-authenticity=counterfeit","-matcha-authenticity=unremarkable","matcha-authenticity=",
+				"lasers-song-forme=","song-forme=","bull-breed=","-valencian","=true"]
 			for removal in removals:
 				pokemon = pokemon.replace(removal,"")
 			
@@ -448,12 +454,22 @@ class DataScraper:
 				pokemon = 'magikarp'
 			elif 'unown-character=' in pokemon:
 				pokemon = 'unown'
+			elif 'onix' in pokemon:
+				pokemon = 'onix'
 			elif 'vivillon-wings' in pokemon:
 				pokemon = 'vivillon'
 			elif 'ekans-snake' in pokemon:
 				pokemon = 'ekans'
 			elif 'arbok-snake' in pokemon:
 				pokemon = 'arbok'
+			elif 'spinda' in pokemon:
+				pokemon = 'spinda'
+			elif pokemon == 'flabebe':
+				pokemon = 'flabebe-red'
+			elif pokemon == 'lucario-y':
+				pokemon = 'lucario'
+			elif 'basculin' in pokemon and not pokemon == 'basculin' and not 'festival' in pokemon:
+				pokemon = pokemon + '-striped'
 			
 			if not pokemon in self.unused_spawns:
 				self.unused_spawns.append(pokemon)
@@ -588,7 +604,7 @@ class DataScraper:
 			
 			step = "creating alternative internal name"
 			# For some image API's, that prefer iron-moth to ironmoth
-			alt_internal_name = display_name.lower().replace(' ', '-').replace('gmax', 'gigantamax').replace('alola', 'alolan').replace('hisui', 'hisuian').replace('galar', 'galarian').replace('paldea', 'paldean').replace("'", "").replace('\u2019', '').replace('_','-').replace('.','').replace('%','').replace('?','qm').replace('!','em').replace('-cream','-cream-love').replace('-swirl','-swirl-love').replace('-spell','')
+			alt_internal_name = display_name.lower().replace(' ', '-').replace(':','').replace('gmax', 'gigantamax').replace('alola', 'alolan').replace('hisui', 'hisuian').replace('galar', 'galarian').replace('paldea', 'paldean').replace("'", "").replace('\u2019', '').replace('_','-').replace('.','').replace('%','').replace('?','qm').replace('!','em').replace('-cream','-cream-love').replace('-swirl','-swirl-love').replace('-spell','')
 			replacements = {
 				'flabebe':'flabebe-red',
 				'floette':'floette-red',
@@ -599,8 +615,7 @@ class DataScraper:
 				'meowstic-f':'meowstic-female',
 				'meowstic-f-festival':'meowstic-female-festival',
 				'basculegion-f':'basculegion-female',
-				'oinkologne-f':'oinkologne-female',
-				':-':''
+				'oinkologne-f':'oinkologne-female'
 			}
 			for target, replacement in replacements.items():
 				if alt_internal_name == target:
