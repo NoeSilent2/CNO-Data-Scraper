@@ -611,6 +611,8 @@ class DataScraper:
 			# Types
 			primary_type = get_wbase('primaryType', '')
 			secondary_type = get_wbase('secondaryType', '')
+			if data.get('primaryType', None) and not data.get('secondaryType', None):
+				secondary_type = ''
 			
 			step = "getting base stats"
 			# Base stats
