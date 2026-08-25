@@ -874,6 +874,7 @@ class DataScraper:
 				'national_pokedex_number': get_wbase('nationalPokedexNumber', 9999),
 				'types': {"primary":primary_type.title(),"secondary":secondary_type.title()},
 				'stats':{'hp':hp,'attack':attack,'defence':defence,'special_attack':special_attack,'special_defence':special_defence,'speed':speed,'total':total,'projections':stat_projections},
+				'evs':get_wbase('evYield',{'hp':0,'attack':0,'defence':0,'special_attack':0,'special_defence':0,'speed':0}),
 				'abilities': {"primary":ability_primary,"secondary":ability_secondary,"hidden":ability_hidden},
 				'height': get_wbase('height', 0),
 				'weight': weight,
