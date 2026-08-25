@@ -880,7 +880,7 @@ class DataScraper:
 				'weight': weight,
 				'catch_rate': {'string':catch_rate_str,'number':catch_rate_raw},
 				'leveling_rate': get_wbase('experienceGroup', 'error').replace('_', ' ').title(),
-				'experience': get_wbase('baseExperienceYield'),
+				'experience': get_wbase('baseExperienceYield', 0),
 				'male_ratio': get_wbase('maleRatio', 0.5),
 				'egg_groups': [egg_primary, egg_secondary],
 				'pre_evolution': pre_evolution_processed,
